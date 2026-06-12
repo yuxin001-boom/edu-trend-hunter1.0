@@ -1,0 +1,32 @@
+name: 📚 每日自动更新教育热点数据
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+
+      - name: 🐍 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📡 运行数据采集脚本
+        run: python scripts/fetch_data.py
+
+      - name: 📤 提交更新的数据
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data.json
+          git diff --staged --quiet || git commit -m "📊 自动更新: $(date +'%Y-%m-%d %H:%M') 教育热点数据"
+          git push
