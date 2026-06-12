@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>教育热点捕手 · 教育行业全网热点 & 热销日更看板</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800;9..144,900&family=JetBrains+Mono:wght@400;600&family=Noto+Serif+SC:wght@400;600;900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2.1.0/dist/echarts-wordcloud.min.js"></script>
+<style>
+:root{
+  --ink:#1a1a2e;--paper:#f8f6f0;--paper-2:#f0ebe0;--paper-3:#e8e0d0;
+  --accent:#2563eb;--accent-2:#059669;--accent-3:#d97706;--accent-4:#dc2626;
+  --muted:#6b7280;--edu-primary:#1e40af;--edu-secondary:#7c3aed;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+html,body{background:var(--paper);color:var(--ink);font-family:"Noto Serif SC","Fraunces",Georgia,serif;-webkit-font-smoothing:antialiased}
+body{
+  background:
+    radial-gradient(1200px 800px at 100% -10%,rgba(37,99,235,.04),transparent 60%),
+    radial-gradient(900px 700px at -10% 110%,rgba(5,150,105,.04),transparent 60%),
+    var(--paper);
+  background-attachment:fixed;min-height:100vh;padding:0 0 80px;position:relative;
+}
+body::after{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:1;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.03 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  mix-blend-mode:multiply;opacity:.5;
+}
+.wrap{max-width:1360px;margin:0 auto;padding:0 28px;position:relative;z-index:2}
+
+/* MASTHEAD */
+.masthead{border-bottom:2px solid var(--ink);padding:24px 0 18px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.masthead .left{display:flex;align-items:center;gap:14px}
+.mast-mark{width:46px;height:46px;border:1.5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:"Fraunces",serif;font-weight:900;font-style:italic;font-size:22px;background:var(--edu-primary);color:#fff;border-radius:8px;transform:rotate(-2deg)}
+.mast-meta{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.mast-meta b{color:var(--ink)}
+.mast-right{display:flex;gap:18px;align-items:center;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.1em;color:var(--muted)}
+.mast-right .live{display:inline-flex;align-items:center;gap:8px;color:var(--accent-4);font-weight:600}
+.mast-right .live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent-4);box-shadow:0 0 0 3px rgba(220,38,38,.18);animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* NAV */
+.jump-tabs{
+  position:sticky;top:0;z-index:20;
+  display:grid;grid-template-columns:repeat(4,1fr);
+  margin-top:18px;border:1.5px solid var(--ink);
+  background:rgba(248,246,240,.96);backdrop-filter:blur(10px);
+  box-shadow:0 10px 22px rgba(26,26,46,.06);
+}
+.jump-tab{
+  min-height:56px;padding:12px 14px;border-right:1px solid var(--ink);
+  color:var(--ink);text-decoration:none;background:linear-gradient(180deg,rgba(255,255,255,.2),rgba(232,224,208,.2));
+  display:flex;align-items:center;justify-content:center;gap:10px;position:relative;overflow:hidden;
+  transition:all .2s ease;
+}
+.jump-tab:last-child{border-right:none}
+.jump-tab::before{
+  content:"";position:absolute;inset:auto 14px 8px;height:2px;
+  background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .2s ease;
+}
+.jump-tab:hover{background:var(--edu-primary);color:#fff;transform:translateY(-1px)}
+.jump-tab:hover::before{transform:scaleX(1);background:var(--accent-3)}
+.jump-tab .no{
+  font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.12em;color:var(--accent);
+  border:1px solid currentColor;padding:2px 5px;line-height:1;
+}
+.jump-tab:hover .no{color:var(--accent-3);border-color:var(--accent-3)}
+.jump-tab .txt{font-family:"Noto Serif SC",serif;font-weight:900;font-size:15px;line-height:1;white-space:nowrap}
+.jump-tab .en{font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-left:2px;white-space:nowrap}
+.jump-tab:hover .en{color:rgba(255,255,255,.7)}
+
+/* HERO */
+.hero{padding:48px 0 36px;border-bottom:1px solid var(--ink);position:relative}
+.hero-eyebrow{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--edu-primary);margin-bottom:18px;display:flex;align-items:center;gap:14px}
+.hero-eyebrow::after{content:"";flex:1;height:1px;background:var(--ink);opacity:.2}
+.hero h1{font-family:"Fraunces",serif;font-weight:900;font-style:italic;font-size:clamp(32px,6vw,72px);line-height:1.1;letter-spacing:-0.02em;color:var(--ink)}
+.hero h1 .alt{font-style:normal;font-weight:600;color:var(--edu-primary);font-family:"Noto Serif SC",serif;font-size:.75em}
+.hero h1 .stroke{-webkit-text-stroke:1.5px var(--ink);color:transparent;font-style:italic}
+.hero-sub{margin-top:22px;display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:flex-end}
+.hero-deck{font-family:"Noto Serif SC",serif;font-size:16px;line-height:1.8;color:var(--muted);max-width:640px}
+.hero-deck b{color:var(--ink);background:linear-gradient(transparent 60%,rgba(37,99,235,.15) 60%);padding:0 2px}
+.hero-byline{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);text-align:right;line-height:2.2}
+.hero-byline b{color:var(--ink)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);margin-top:36px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.kpi{padding:20px 16px;border-right:1px solid var(--ink)}
+.kpi:last-child{border-right:none}
+.kpi .label{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.kpi .num{font-family:"Fraunces",serif;font-weight:900;font-style:italic;font-size:48px;line-height:1;color:var(--ink)}
+.kpi .unit{font-family:"Noto Serif SC",serif;font-size:12px;color:var(--muted);margin-top:5px}
+.kpi:nth-child(1) .num{color:var(--edu-primary)}
+.kpi:nth-child(2) .num{color:var(--accent-2)}
+.kpi:nth-child(3) .num{color:var(--accent-3)}
+.kpi:nth-child(4) .num{color:var(--edu-secondary)}
+
+/* SECTIONS */
+.section{padding:56px 0 8px;border-bottom:1px solid var(--ink);scroll-margin-top:76px}
+.section-head{display:flex;align-items:baseline;gap:16px;margin-bottom:32px}
+.section-no{font-family:"Fraunces",serif;font-weight:900;font-style:italic;font-size:56px;line-height:1;color:var(--edu-primary);opacity:.25}
+.section-title{font-family:"Noto Serif SC",serif;font-weight:900;font-size:28px;line-height:1.2}
+.section-en{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-left:8px}
+
+/* PLATFORM CARDS */
+.platform-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-bottom:40px}
+.platform-card{background:#fff;border:1px solid rgba(26,26,46,.1);border-radius:12px;padding:24px;box-shadow:0 4px 16px rgba(26,26,46,.04);transition:all .2s}
+.platform-card:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(26,26,46,.08)}
+.platform-card .card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid rgba(26,26,46,.06)}
+.platform-card .card-title{font-family:"Noto Serif SC",serif;font-weight:900;font-size:18px}
+.platform-card .card-badge{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.1em;padding:3px 8px;background:var(--edu-primary);color:#fff;border-radius:4px}
+.rank-list{list-style:none}
+.rank-item{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid rgba(26,26,46,.04)}
+.rank-item:last-child{border-bottom:none}
+.rank-num{font-family:"JetBrains Mono",monospace;font-weight:600;font-size:14px;width:24px;height:24px;display:flex;align-items:center;justify-content:center;border-radius:6px;background:var(--paper-2);color:var(--muted);flex-shrink:0}
+.rank-item:nth-child(1) .rank-num{background:var(--accent-4);color:#fff}
+.rank-item:nth-child(2) .rank-num{background:var(--accent-3);color:#fff}
+.rank-item:nth-child(3) .rank-num{background:var(--accent-2);color:#fff}
+.rank-title{flex:1;font-size:14px;line-height:1.4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rank-title a{color:var(--ink);text-decoration:none;transition:color .2s}
+.rank-title a:hover{color:var(--edu-primary)}
+.rank-heat{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted);white-space:nowrap}
+
+/* PRODUCT CARDS */
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:20px;margin-bottom:40px}
+.product-card{background:#fff;border:1px solid rgba(26,26,46,.1);border-radius:12px;padding:24px;box-shadow:0 4px 16px rgba(26,26,46,.04)}
+.product-item{display:grid;grid-template-columns:28px 1fr auto auto;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid rgba(26,26,46,.04);font-size:13px}
+.product-item:last-child{border-bottom:none}
+.product-item .p-rank{font-family:"JetBrains Mono",monospace;font-weight:600;font-size:13px;width:24px;height:24px;display:flex;align-items:center;justify-content:center;border-radius:6px;background:var(--paper-2);color:var(--muted)}
+.product-item:nth-child(-n+3) .p-rank{background:var(--edu-primary);color:#fff}
+.product-item .p-name{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.product-item .p-sales{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--accent-2);white-space:nowrap}
+.product-item .p-price{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--accent-4);font-weight:600;white-space:nowrap}
+.product-item .p-cat{font-size:10px;padding:2px 6px;border-radius:4px;background:rgba(124,58,237,.08);color:var(--edu-secondary);white-space:nowrap}
+
+/* TOP15 */
+.top15-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px;margin-bottom:40px}
+.top15-item{display:flex;align-items:center;gap:12px;padding:14px 16px;background:#fff;border-radius:10px;border:1px solid rgba(26,26,46,.06);transition:all .2s}
+.top15-item:hover{background:rgba(37,99,235,.03);border-color:var(--edu-primary)}
+.top15-rank{font-family:"Fraunces",serif;font-weight:900;font-style:italic;font-size:24px;width:36px;text-align:center;color:var(--muted)}
+.top15-item:nth-child(1) .top15-rank,.top15-item:nth-child(2) .top15-rank,.top15-item:nth-child(3) .top15-rank{color:var(--accent-4)}
+.top15-content{flex:1;min-width:0}
+.top15-title{font-weight:600;font-size:14px;margin-bottom:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.top15-meta{display:flex;gap:6px;flex-wrap:wrap}
+.top15-platform{font-size:10px;padding:2px 6px;border-radius:3px;background:rgba(37,99,235,.06);color:var(--edu-primary)}
+.top15-cat{font-size:10px;padding:2px 6px;border-radius:3px;background:rgba(217,119,6,.1);color:var(--accent-3)}
+.top15-heat{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted);white-space:nowrap}
+
+/* MARKETING TABLE */
+.marketing-section{margin-bottom:40px}
+.marketing-category{margin-bottom:28px}
+.marketing-cat-title{font-family:"Noto Serif SC",serif;font-weight:900;font-size:18px;margin-bottom:14px;padding-left:12px;border-left:4px solid var(--edu-primary);display:flex;align-items:center;gap:10px}
+.marketing-cat-title .cat-icon{font-size:20px}
+.marketing-table{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border-radius:10px;overflow:hidden;border:1px solid rgba(26,26,46,.08);box-shadow:0 2px 12px rgba(26,26,46,.03)}
+.marketing-table th{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:14px 16px;background:var(--edu-primary);color:#fff;text-align:left;font-weight:600}
+.marketing-table td{padding:14px 16px;font-size:13px;line-height:1.6;border-bottom:1px solid rgba(26,26,46,.04);vertical-align:top}
+.marketing-table tr:last-child td{border-bottom:none}
+.marketing-table tr:hover td{background:rgba(37,99,235,.02)}
+.marketing-table .scene-tag{display:inline-block;font-size:11px;padding:3px 8px;border-radius:4px;background:rgba(124,58,237,.08);color:var(--edu-secondary);font-weight:600;margin-bottom:2px}
+.marketing-table .hot-words{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--accent-3)}
+.marketing-table .strategy{color:var(--muted);font-size:12px;line-height:1.7}
+
+/* CHART AREA */
+.chart-container{background:#fff;border-radius:12px;border:1px solid rgba(26,26,46,.08);padding:20px;margin-bottom:24px;box-shadow:0 2px 12px rgba(26,26,46,.03)}
+.chart-title{font-family:"Noto Serif SC",serif;font-weight:900;font-size:16px;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+
+/* FOOTER */
+.footer{margin-top:60px;padding:28px 0;border-top:2px solid var(--ink);font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.1em;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+.footer a{color:var(--edu-primary);text-decoration:none}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .jump-tabs{grid-template-columns:repeat(2,1fr)}
+  .hero-sub{grid-template-columns:1fr}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .platform-grid{grid-template-columns:1fr}
+  .product-grid{grid-template-columns:1fr}
+  .product-item{grid-template-columns:28px 1fr;gap:6px}
+  .product-item .p-sales,.product-item .p-price{grid-column:2}
+  .top15-grid{grid-template-columns:1fr}
+}
+
+/* Animations */
+@keyframes fadeInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.animate-in{animation:fadeInUp .5s ease forwards;opacity:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="left">
+    <div class="mast-mark">教</div>
+    <div class="mast-meta">
+      教育热点捕手 · 教育行业日刊 · <b>NO.001</b><br>
+      每日 09:00 北京时间更新 · 教育行业视角
+    </div>
+  </div>
+  <div class="mast-right">
+    <span class="live">● LIVE</span>
+    <span>VOL.2026 · <b id="update-date">2026-06-12</b></span>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav class="jump-tabs" aria-label="页面分区导航">
+  <a href="#sec-search" class="jump-tab"><span class="no">01</span><span class="txt">热搜榜</span><span class="en">SEARCH</span></a>
+  <a href="#sec-commerce" class="jump-tab"><span class="no">02</span><span class="txt">热销榜</span><span class="en">COMMERCE</span></a>
+  <a href="#sec-trend" class="jump-tab"><span class="no">03</span><span class="txt">今日TOP15</span><span class="en">TREND</span></a>
+  <a href="#sec-playbook" class="jump-tab"><span class="no">04</span><span class="txt">营销建议</span><span class="en">PLAYBOOK</span></a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eyebrow">EDU TREND HUNTER · 教育行业全网热搜 + 电商热销 · 日更看板</div>
+  <h1><span class="alt">教育</span>热点<span class="stroke">捕</span>手.</h1>
+  <div class="hero-sub">
+    <div class="hero-deck">
+      从 <b>微博 / 百度 / 夸克 / 抖音 / 360</b> 五大热搜平台，到 <b>淘宝天猫 / 京东 / 快手电商</b> 三大电商榜单。每日同步，聚焦 <b>成人教育 / K12教育 / 图书 / 电子教育</b> 四大教育行业重点赛道，自动归类、筛选与可视化。
+    </div>
+    <div class="hero-byline">
+      编辑 · <b>袁宇昕</b><br>
+      数据源 · <b>全网热搜聚合</b><br>
+      最近更新 · <b>每日 09:00</b>
+    </div>
+  </div>
+  <div class="kpis">
+    <div class="kpi"><div class="label">Platforms</div><div class="num" id="kpi-platforms">8</div><div class="unit">在监测平台/榜单数</div></div>
+    <div class="kpi"><div class="label">Hot Items</div><div class="num" id="kpi-items">55</div><div class="unit">当日教育热搜/热销条数</div></div>
+    <div class="kpi"><div class="label">Categories</div><div class="num" id="kpi-categories">4</div><div class="unit">覆盖教育细分赛道</div></div>
+    <div class="kpi"><div class="label">Insights</div><div class="num" id="kpi-insights">12</div><div class="unit">营销建议条数</div></div>
+  </div>
+</section>
+
+<!-- SECTION 1: HOT SEARCH -->
+<section class="section" id="sec-search">
+  <div class="section-head">
+    <span class="section-no">01</span>
+    <h2 class="section-title">热搜榜 · 教育行业 TOP5</h2>
+    <span class="section-en">HOT SEARCH × 5 PLATFORMS</span>
+  </div>
+
+  <!-- Insight Box -->
+  <div style="background:linear-gradient(135deg,rgba(30,64,175,.04),rgba(124,58,237,.04));border:1px solid rgba(30,64,175,.12);border-radius:12px;padding:20px 24px;margin-bottom:28px;display:flex;gap:16px;align-items:flex-start">
+    <div style="font-size:28px;flex-shrink:0">🔍</div>
+    <div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--edu-primary);margin-bottom:6px;font-weight:600">INSIGHT</div>
+      <div style="font-size:14px;line-height:1.7;color:var(--ink)" id="search-insight">
+        今日教育行业热搜以<b>升学考试</b>相关内容占据核心流量位，考研/高考/公考三大考试热度居高；<b>AI教育</b>赛道持续升温，学习机/AI工具类话题跨平台共振明显；<b>暑期培训</b>相关需求开始集中释放。
+      </div>
+    </div>
+  </div>
+
+  <div class="platform-grid" id="search-grid">
+    <!-- Dynamically filled -->
+  </div>
+</section>
+
+<!-- SECTION 2: HOT PRODUCTS -->
+<section class="section" id="sec-commerce">
+  <div class="section-head">
+    <span class="section-no">02</span>
+    <h2 class="section-title">热销榜 · 教育行业商品 TOP10</h2>
+    <span class="section-en">E-COMMERCE × 3 PLATFORMS</span>
+  </div>
+
+  <!-- Insight Box -->
+  <div style="background:linear-gradient(135deg,rgba(5,150,105,.04),rgba(217,119,6,.04));border:1px solid rgba(5,150,105,.12);border-radius:12px;padding:20px 24px;margin-bottom:28px;display:flex;gap:16px;align-items:flex-start">
+    <div style="font-size:28px;flex-shrink:0">🛒</div>
+    <div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--accent-2);margin-bottom:6px;font-weight:600">COMMERCE INSIGHT</div>
+      <div style="font-size:14px;line-height:1.7;color:var(--ink)">
+        教育电商热销品类以<b>AI学习硬件</b>为绝对主力，学习机/词典笔/智能练习本包揽各平台TOP席位；<b>考试教辅</b>类图书受考研/公考备考季拉动持续热卖；<b>在线课程</b>付费产品客单价走高，课程+硬件捆绑趋势明显。
+      </div>
+    </div>
+  </div>
+
+  <div class="product-grid" id="product-grid">
+    <!-- Dynamically filled -->
+  </div>
+</section>
+
+<!-- SECTION 3: TOP15 -->
+<section class="section" id="sec-trend">
+  <div class="section-head">
+    <span class="section-no">03</span>
+    <h2 class="section-title">🏆 今日热度 TOP15（全平台合并去重）</h2>
+    <span class="section-en">CROSS-PLATFORM TOP 15</span>
+  </div>
+
+  <div class="top15-grid" id="top15-grid">
+    <!-- Dynamically filled -->
+  </div>
+
+  <!-- Charts Row -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:32px">
+    <div class="chart-container">
+      <div class="chart-title">📊 各平台教育热搜分布</div>
+      <div id="chart-platform-pie" style="width:100%;height:300px"></div>
+    </div>
+    <div class="chart-container">
+      <div class="chart-title">☁️ 教育热词词云</div>
+      <div id="chart-wordcloud" style="width:100%;height:300px"></div>
+    </div>
+  </div>
+
+  <div class="chart-container" style="margin-top:20px">
+    <div class="chart-title">📈 教育细分赛道热度占比</div>
+    <div id="chart-category-bar" style="width:100%;height:280px"></div>
+  </div>
+</section>
+
+<!-- SECTION 4: MARKETING -->
+<section class="section" id="sec-playbook">
+  <div class="section-head">
+    <span class="section-no">04</span>
+    <h2 class="section-title">营销建议 · 四大教育赛道</h2>
+    <span class="section-en">MARKETING PLAYBOOK × 4 CATEGORIES</span>
+  </div>
+
+  <div class="marketing-section" id="marketing-section">
+    <!-- Dynamically filled -->
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div>教育热点捕手 © 2026 · 数据每日 09:00 自动更新</div>
+  <div>Powered by <b>全网热搜聚合</b> · 教育行业专属版</div>
+</footer>
+
+</div><!-- end .wrap -->
+
+<script>
+// ===== DATA LOADING =====
+let DATA = null;
+
+async function loadData() {
+  try {
+    const resp = await fetch('./data.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const json = await resp.json();
+    if (json && json.hot_search) {
+      DATA = json;
+    } else {
+      throw new Error('Invalid data format');
+    }
+  } catch(e) {
+    console.log('使用内置数据 (外部data.json未找到或格式错误)');
+    DATA = FALLBACK_DATA;
+  }
+  renderAll();
+}
+
+const FALLBACK_DATA = {
+  "update_time": "2026-06-12 09:00",
+  "issue_no": 1,
+  "hot_search": {
+    "weibo": [
+      {"rank": 1, "title": "2026考研国家线公布", "heat": 9856432, "url": "https://s.weibo.com/weibo?q=2026考研国家线公布"},
+      {"rank": 2, "title": "教育部发布AI教育新政", "heat": 8234561, "url": "https://s.weibo.com/weibo?q=教育部发布AI教育新政"},
+      {"rank": 3, "title": "多地中小学推行课后延时服务", "heat": 6543218, "url": "https://s.weibo.com/weibo?q=多地中小学推行课后延时服务"},
+      {"rank": 4, "title": "在线教育平台暑期大促开启", "heat": 5432167, "url": "https://s.weibo.com/weibo?q=在线教育平台暑期大促"},
+      {"rank": 5, "title": "高考志愿填报AI工具爆火", "heat": 4321098, "url": "https://s.weibo.com/weibo?q=高考志愿填报AI工具"}
+    ],
+    "baidu": [
+      {"rank": 1, "title": "2026高考分数线预测", "heat": 12453678, "url": "https://www.baidu.com/s?wd=2026高考分数线预测"},
+      {"rank": 2, "title": "公务员考试报名入口", "heat": 9876543, "url": "https://www.baidu.com/s?wd=公务员考试报名入口"},
+      {"rank": 3, "title": "暑期研学旅行推荐", "heat": 7654321, "url": "https://www.baidu.com/s?wd=暑期研学旅行推荐"},
+      {"rank": 4, "title": "AI编程培训班哪个好", "heat": 6543210, "url": "https://www.baidu.com/s?wd=AI编程培训班哪个好"},
+      {"rank": 5, "title": "教师资格证报考条件2026", "heat": 5432198, "url": "https://www.baidu.com/s?wd=教师资格证报考条件2026"}
+    ],
+    "quark": [
+      {"rank": 1, "title": "成人自考本科报名时间", "heat": 3456789, "url": "https://so.m.sm.cn/s?q=成人自考本科报名时间"},
+      {"rank": 2, "title": "K12在线辅导平台对比", "heat": 2876543, "url": "https://so.m.sm.cn/s?q=K12在线辅导平台对比"},
+      {"rank": 3, "title": "2026考研英语真题解析", "heat": 2345678, "url": "https://so.m.sm.cn/s?q=2026考研英语真题解析"},
+      {"rank": 4, "title": "少儿编程几岁开始学合适", "heat": 1987654, "url": "https://so.m.sm.cn/s?q=少儿编程几岁开始学合适"},
+      {"rank": 5, "title": "MBA报考院校排名", "heat": 1654321, "url": "https://so.m.sm.cn/s?q=MBA报考院校排名"}
+    ],
+    "douyin": [
+      {"rank": 1, "title": "学霸笔记分享走红", "heat": 15678432, "url": "https://www.douyin.com/search/学霸笔记分享走红"},
+      {"rank": 2, "title": "教育博主推荐暑期书单", "heat": 12345678, "url": "https://www.douyin.com/search/教育博主推荐暑期书单"},
+      {"rank": 3, "title": "AI写作助手学生版测评", "heat": 9876543, "url": "https://www.douyin.com/search/AI写作助手学生版测评"},
+      {"rank": 4, "title": "幼小衔接到底要不要上", "heat": 8765432, "url": "https://www.douyin.com/search/幼小衔接到底要不要上"},
+      {"rank": 5, "title": "考公上岸经验分享", "heat": 7654321, "url": "https://www.douyin.com/search/考公上岸经验分享"}
+    ],
+    "so360": [
+      {"rank": 1, "title": "暑假兴趣班报名指南", "heat": 2345678, "url": "https://www.so.com/s?q=暑假兴趣班报名指南"},
+      {"rank": 2, "title": "学历提升正规机构推荐", "heat": 1987654, "url": "https://www.so.com/s?q=学历提升正规机构推荐"},
+      {"rank": 3, "title": "中考体育评分标准2026", "heat": 1765432, "url": "https://www.so.com/s?q=中考体育评分标准2026"},
+      {"rank": 4, "title": "在线英语外教一对一推荐", "heat": 1543210, "url": "https://www.so.com/s?q=在线英语外教一对一推荐"},
+      {"rank": 5, "title": "职业技能培训补贴政策", "heat": 1234567, "url": "https://www.so.com/s?q=职业技能培训补贴政策"}
+    ]
+  },
+  "hot_products": {
+    "taobao_tmall": [
+      {"rank": 1, "title": "学而思AI学习机X20 Pro", "sales": "月销5.2万+", "price": "¥3,999", "category": "电子教育"},
+      {"rank": 2, "title": "新东方在线考研全程班", "sales": "月销3.8万+", "price": "¥4,580", "category": "成人教育"},
+      {"rank": 3, "title": "科大讯飞AI翻译笔", "sales": "月销3.1万+", "price": "¥899", "category": "电子教育"},
+      {"rank": 4, "title": "人教版小学语文课本全套", "sales": "月销2.9万+", "price": "¥168", "category": "图书"},
+      {"rank": 5, "title": "公务员考试华图教材2026", "sales": "月销2.6万+", "price": "¥89", "category": "图书"},
+      {"rank": 6, "title": "猿辅导斑马AI课年卡", "sales": "月销2.3万+", "price": "¥2,800", "category": "K12教育"},
+      {"rank": 7, "title": "小猿智能练习本S1", "sales": "月销2.1万+", "price": "¥1,299", "category": "电子教育"},
+      {"rank": 8, "title": "考研政治肖秀荣四件套", "sales": "月销1.9万+", "price": "¥126", "category": "图书"},
+      {"rank": 9, "title": "儿童点读笔早教机", "sales": "月销1.7万+", "price": "¥398", "category": "电子教育"},
+      {"rank": 10, "title": "MBA管理类联考教材", "sales": "月销1.5万+", "price": "¥198", "category": "成人教育"}
+    ],
+    "jd": [
+      {"rank": 1, "title": "有道词典笔X7", "sales": "月销4.6万+", "price": "¥1,099", "category": "电子教育"},
+      {"rank": 2, "title": "希沃学习机W3", "sales": "月销3.2万+", "price": "¥4,999", "category": "电子教育"},
+      {"rank": 3, "title": "高途考研政治全程班", "sales": "月销2.8万+", "price": "¥3,980", "category": "成人教育"},
+      {"rank": 4, "title": "小度学习平板G16 Pro", "sales": "月销2.5万+", "price": "¥2,699", "category": "电子教育"},
+      {"rank": 5, "title": "233网校一级建造师课程", "sales": "月销2.2万+", "price": "¥1,580", "category": "成人教育"},
+      {"rank": 6, "title": "DK儿童百科全书套装", "sales": "月销1.9万+", "price": "¥258", "category": "图书"},
+      {"rank": 7, "title": "阿尔法蛋AI词典笔T20", "sales": "月销1.8万+", "price": "¥799", "category": "电子教育"},
+      {"rank": 8, "title": "五年高考三年模拟全套", "sales": "月销1.6万+", "price": "¥156", "category": "图书"},
+      {"rank": 9, "title": "作业帮AI学习机", "sales": "月销1.4万+", "price": "¥2,399", "category": "电子教育"},
+      {"rank": 10, "title": "环球网校注册会计师课程", "sales": "月销1.2万+", "price": "¥2,380", "category": "成人教育"}
+    ],
+    "kuaishou": [
+      {"rank": 1, "title": "读书郎AI学习平板", "sales": "月销2.1万+", "price": "¥1,999", "category": "电子教育"},
+      {"rank": 2, "title": "粉笔公考980系统班", "sales": "月销1.8万+", "price": "¥980", "category": "成人教育"},
+      {"rank": 3, "title": "小天才电话手表Z10", "sales": "月销1.5万+", "price": "¥2,198", "category": "电子教育"},
+      {"rank": 4, "title": "乐乐课堂中小学全科VIP", "sales": "月销1.3万+", "price": "¥1,280", "category": "K12教育"},
+      {"rank": 5, "title": "四大名著学生版注音全套", "sales": "月销1.2万+", "price": "¥59.8", "category": "图书"},
+      {"rank": 6, "title": "有道AI学习机X10", "sales": "月销1.1万+", "price": "¥3,499", "category": "电子教育"},
+      {"rank": 7, "title": "新概念英语全四册正版", "sales": "月销9800+", "price": "¥88", "category": "图书"},
+      {"rank": 8, "title": "尚德学历提升自考课程", "sales": "月销8700+", "price": "¥5,980", "category": "成人教育"},
+      {"rank": 9, "title": "洪恩识字早教APP年卡", "sales": "月销7600+", "price": "¥298", "category": "K12教育"},
+      {"rank": 10, "title": "注册消防工程师教材", "sales": "月销6500+", "price": "¥168", "category": "图书"}
+    ]
+  },
+  "top15_today": [
+    {"rank": 1, "title": "2026高考分数线预测", "heat": 12453678, "platforms": ["百度", "抖音", "夸克"], "category": "K12教育"},
+    {"rank": 2, "title": "学霸笔记分享走红", "heat": 15678432, "platforms": ["抖音", "微博"], "category": "K12教育"},
+    {"rank": 3, "title": "2026考研国家线公布", "heat": 9856432, "platforms": ["微博", "百度", "夸克"], "category": "成人教育"},
+    {"rank": 4, "title": "教育部发布AI教育新政", "heat": 8234561, "platforms": ["微博", "百度", "360"], "category": "电子教育"},
+    {"rank": 5, "title": "教育博主推荐暑期书单", "heat": 12345678, "platforms": ["抖音", "微博"], "category": "图书"},
+    {"rank": 6, "title": "公务员考试报名入口", "heat": 9876543, "platforms": ["百度", "抖音"], "category": "成人教育"},
+    {"rank": 7, "title": "AI写作助手学生版测评", "heat": 9876543, "platforms": ["抖音", "360"], "category": "电子教育"},
+    {"rank": 8, "title": "高考志愿填报AI工具爆火", "heat": 4321098, "platforms": ["微博", "百度", "夸克"], "category": "K12教育"},
+    {"rank": 9, "title": "暑期研学旅行推荐", "heat": 7654321, "platforms": ["百度", "抖音"], "category": "K12教育"},
+    {"rank": 10, "title": "幼小衔接到底要不要上", "heat": 8765432, "platforms": ["抖音", "360"], "category": "K12教育"},
+    {"rank": 11, "title": "考公上岸经验分享", "heat": 7654321, "platforms": ["抖音", "夸克"], "category": "成人教育"},
+    {"rank": 12, "title": "AI编程培训班哪个好", "heat": 6543210, "platforms": ["百度", "360"], "category": "电子教育"},
+    {"rank": 13, "title": "成人自考本科报名时间", "heat": 3456789, "platforms": ["夸克", "360"], "category": "成人教育"},
+    {"rank": 14, "title": "少儿编程几岁开始学合适", "heat": 1987654, "platforms": ["夸克", "抖音"], "category": "K12教育"},
+    {"rank": 15, "title": "暑假兴趣班报名指南", "heat": 2345678, "platforms": ["360", "百度"], "category": "K12教育"}
+  ],
+  "marketing_suggestions": [
+    {
+      "category": "成人教育",
+      "items": [
+        {"scene": "考证备考季", "hot_words": "考研国家线 / 公务员报名 / MBA择校", "strategy": "投放搜索广告锁定「报名入口」「分数线」等刚需词，搭配落地页免费试听引流"},
+        {"scene": "职业技能提升", "hot_words": "AI编程培训 / 学历提升 / 一建备考", "strategy": "信息流素材突出「高薪就业」「取证周期短」等痛点，定向25-40岁职场人群"},
+        {"scene": "学历焦虑营销", "hot_words": "自考本科 / 在职研究生 / 专升本", "strategy": "短视频投放真人出镜分享上岸经历，评论区引导私信咨询转化"}
+      ]
+    },
+    {
+      "category": "K12教育",
+      "items": [
+        {"scene": "升学季流量高峰", "hot_words": "高考志愿填报 / 幼小衔接 / 中考体育", "strategy": "搜索抢占「分数线预测」「志愿填报工具」等长尾词，落地页提供免费测评工具"},
+        {"scene": "暑期培训招生", "hot_words": "暑期兴趣班 / 研学旅行 / 少儿编程", "strategy": "朋友圈广告定向30-45岁家长，素材强调「名额有限」「早鸟优惠」制造紧迫感"},
+        {"scene": "学习方法种草", "hot_words": "学霸笔记 / 高效学习法 / 时间管理", "strategy": "抖音达人合作短视频种草，挂载课程商品链接实现短链路转化"}
+      ]
+    },
+    {
+      "category": "图书",
+      "items": [
+        {"scene": "教辅刚需旺季", "hot_words": "五三全套 / 考研政治 / 人教版课本", "strategy": "电商平台搜索广告竞价「教材全套」「正版书籍」，商品详情页强调发货速度"},
+        {"scene": "亲子阅读推广", "hot_words": "暑期书单 / DK百科 / 四大名著", "strategy": "小红书+抖音种草内容营销，达人晒书单带货，搭配满减促销提升客单价"},
+        {"scene": "知识付费跨界", "hot_words": "AI写作 / 读书会 / 知识星球", "strategy": "信息流定向「考研」「自考」人群，内容突出「碎片化学习」「名师带读」"}
+      ]
+    },
+    {
+      "category": "电子教育",
+      "items": [
+        {"scene": "AI硬件种草", "hot_words": "AI学习机 / 词典笔 / 智能练习本", "strategy": "抖音开箱测评+电商直播组合拳，素材对比传统学习方式突出效率提升"},
+        {"scene": "暑期礼物场景", "hot_words": "学习平板 / 点读笔 / 电话手表", "strategy": "搜索广告锁定「送孩子礼物」「学习机推荐」等场景词，投放618/暑期节点"},
+        {"scene": "教育科技新品", "hot_words": "AI教育新政 / AI批改 / 智能题库", "strategy": "信息流投放科技感素材，定向教育KOL粉丝与科技关注人群，突出政策利好"}
+      ]
+    }
+  ]
+};
+
+// ===== UTILITY =====
+function formatHeat(num) {
+  if (num >= 10000000) return (num / 10000000).toFixed(1) + '千万';
+  if (num >= 10000) return (num / 10000).toFixed(1) + '万';
+  return num.toString();
+}
+
+function renderAll() {
+  renderSearchSection();
+  renderProductSection();
+  renderTop15();
+  renderMarketing();
+  renderCharts();
+  document.getElementById('update-date').textContent = DATA.update_time.split(' ')[0];
+}
+
+// ===== RENDER HOT SEARCH =====
+function renderSearchSection() {
+  const platforms = [
+    { key: 'weibo', name: '微博热搜', icon: '🔥' },
+    { key: 'baidu', name: '百度热搜', icon: '🔍' },
+    { key: 'quark', name: '夸克热搜', icon: '⚡' },
+    { key: 'douyin', name: '抖音热搜', icon: '🎵' },
+    { key: 'so360', name: '360热搜', icon: '🌐' }
+  ];
+  const grid = document.getElementById('search-grid');
+  grid.innerHTML = '';
+  
+  platforms.forEach((p, idx) => {
+    const items = DATA.hot_search[p.key];
+    if (!items) return;
+    const card = document.createElement('div');
+    card.className = 'platform-card animate-in';
+    card.style.animationDelay = (idx * 0.1) + 's';
+    
+    let listHtml = items.map(item => `
+      <li class="rank-item">
+        <span class="rank-num">${item.rank}</span>
+        <span class="rank-title"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></span>
+        <span class="rank-heat">${formatHeat(item.heat)}</span>
+      </li>
+    `).join('');
+    
+    card.innerHTML = `
+      <div class="card-head">
+        <span class="card-title">${p.icon} ${p.name}</span>
+        <span class="card-badge">TOP 5</span>
+      </div>
+      <ul class="rank-list">${listHtml}</ul>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// ===== RENDER HOT PRODUCTS =====
+function renderProductSection() {
+  const platforms = [
+    { key: 'taobao_tmall', name: '淘宝天猫', icon: '🏪' },
+    { key: 'jd', name: '京东', icon: '📦' },
+    { key: 'kuaishou', name: '快手电商', icon: '📱' }
+  ];
+  const grid = document.getElementById('product-grid');
+  grid.innerHTML = '';
+  
+  platforms.forEach((p, idx) => {
+    const items = DATA.hot_products[p.key];
+    if (!items) return;
+    const card = document.createElement('div');
+    card.className = 'product-card animate-in';
+    card.style.animationDelay = (idx * 0.12) + 's';
+    
+    let itemsHtml = items.map(item => `
+      <div class="product-item">
+        <span class="p-rank">${item.rank}</span>
+        <span class="p-name">${item.title}</span>
+        <span class="p-sales">${item.sales}</span>
+        <span class="p-price">${item.price}</span>
+      </div>
+    `).join('');
+    
+    card.innerHTML = `
+      <div class="card-head">
+        <span class="card-title">${p.icon} ${p.name}</span>
+        <span class="card-badge">TOP 10</span>
+      </div>
+      ${itemsHtml}
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// ===== RENDER TOP15 =====
+function renderTop15() {
+  const grid = document.getElementById('top15-grid');
+  grid.innerHTML = '';
+  
+  DATA.top15_today.forEach((item, idx) => {
+    const div = document.createElement('div');
+    div.className = 'top15-item animate-in';
+    div.style.animationDelay = (idx * 0.05) + 's';
+    
+    const platformTags = item.platforms.map(p => `<span class="top15-platform">${p}</span>`).join('');
+    
+    div.innerHTML = `
+      <span class="top15-rank">${item.rank}</span>
+      <div class="top15-content">
+        <div class="top15-title">${item.title}</div>
+        <div class="top15-meta">${platformTags}<span class="top15-cat">${item.category}</span></div>
+      </div>
+      <span class="top15-heat">${formatHeat(item.heat)}</span>
+    `;
+    grid.appendChild(div);
+  });
+}
+
+// ===== RENDER MARKETING =====
+function renderMarketing() {
+  const section = document.getElementById('marketing-section');
+  section.innerHTML = '';
+  
+  const icons = { '成人教育': '🎓', 'K12教育': '📚', '图书': '📖', '电子教育': '💻' };
+  const colors = { '成人教育': '#2563eb', 'K12教育': '#059669', '图书': '#d97706', '电子教育': '#7c3aed' };
+  
+  DATA.marketing_suggestions.forEach(cat => {
+    const div = document.createElement('div');
+    div.className = 'marketing-category animate-in';
+    
+    let rowsHtml = cat.items.map(item => `
+      <tr>
+        <td><span class="scene-tag">${item.scene}</span></td>
+        <td class="hot-words">${item.hot_words}</td>
+        <td class="strategy">${item.strategy}</td>
+      </tr>
+    `).join('');
+    
+    div.innerHTML = `
+      <div class="marketing-cat-title" style="border-left-color:${colors[cat.category] || 'var(--edu-primary)'}">
+        <span class="cat-icon">${icons[cat.category] || '📋'}</span>
+        ${cat.category}
+      </div>
+      <table class="marketing-table">
+        <thead>
+          <tr>
+            <th style="width:15%;background:${colors[cat.category] || 'var(--edu-primary)'}">营销场景</th>
+            <th style="width:30%;background:${colors[cat.category] || 'var(--edu-primary)'}">热点词 / 话题词</th>
+            <th style="width:55%;background:${colors[cat.category] || 'var(--edu-primary)'}">投放策略</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>
+    `;
+    section.appendChild(div);
+  });
+}
+
+// ===== RENDER CHARTS =====
+function renderCharts() {
+  // Platform pie chart
+  const pieChart = echarts.init(document.getElementById('chart-platform-pie'));
+  pieChart.setOption({
+    tooltip: { trigger: 'item', formatter: '{b}: {c}条 ({d}%)' },
+    color: ['#dc2626', '#2563eb', '#7c3aed', '#0891b2', '#059669'],
+    series: [{
+      type: 'pie',
+      radius: ['40%', '70%'],
+      center: ['50%', '55%'],
+      avoidLabelOverlap: true,
+      itemStyle: { borderRadius: 8, borderColor: '#fff', borderWidth: 2 },
+      label: { show: true, fontSize: 12, fontFamily: 'Noto Serif SC' },
+      data: [
+        { name: '微博', value: 5 },
+        { name: '百度', value: 5 },
+        { name: '夸克', value: 5 },
+        { name: '抖音', value: 5 },
+        { name: '360', value: 5 }
+      ]
+    }]
+  });
+
+  // Word cloud
+  const wordChart = echarts.init(document.getElementById('chart-wordcloud'));
+  const wordData = [
+    {name:'高考',value:120},{name:'考研',value:110},{name:'AI学习机',value:100},
+    {name:'公务员',value:95},{name:'暑期培训',value:90},{name:'志愿填报',value:85},
+    {name:'编程',value:80},{name:'学历提升',value:78},{name:'词典笔',value:75},
+    {name:'研学旅行',value:72},{name:'在线教育',value:70},{name:'学霸笔记',value:68},
+    {name:'幼小衔接',value:65},{name:'书单推荐',value:62},{name:'教师资格证',value:60},
+    {name:'MBA',value:58},{name:'AI写作',value:55},{name:'兴趣班',value:53},
+    {name:'K12辅导',value:50},{name:'电子教育',value:48},{name:'自考本科',value:45},
+    {name:'少儿编程',value:43},{name:'点读笔',value:40},{name:'考公上岸',value:38},
+    {name:'中考体育',value:35},{name:'五三',value:33},{name:'新东方',value:30},
+    {name:'学而思',value:28},{name:'DK百科',value:25},{name:'课后延时',value:23}
+  ];
+  wordChart.setOption({
+    tooltip: { show: true },
+    series: [{
+      type: 'wordCloud',
+      shape: 'circle',
+      gridSize: 8,
+      sizeRange: [14, 52],
+      rotationRange: [-25, 25],
+      textStyle: {
+        fontFamily: 'Noto Serif SC',
+        color: function() {
+          const colors = ['#1e40af','#dc2626','#059669','#d97706','#7c3aed','#0891b2','#be185d'];
+          return colors[Math.floor(Math.random()*colors.length)];
+        }
+      },
+      data: wordData
+    }]
+  });
+
+  // Category bar chart
+  const barChart = echarts.init(document.getElementById('chart-category-bar'));
+  barChart.setOption({
+    tooltip: { trigger: 'axis', formatter: '{b}: {c} 条热搜' },
+    grid: { left: '8%', right: '5%', bottom: '12%', top: '10%' },
+    xAxis: {
+      type: 'category',
+      data: ['K12教育', '成人教育', '电子教育', '图书'],
+      axisLabel: { fontFamily: 'Noto Serif SC', fontSize: 13 },
+      axisLine: { lineStyle: { color: '#ddd' } }
+    },
+    yAxis: {
+      type: 'value',
+      axisLabel: { fontFamily: 'JetBrains Mono', fontSize: 11 },
+      splitLine: { lineStyle: { color: 'rgba(0,0,0,.06)' } }
+    },
+    series: [{
+      type: 'bar',
+      data: [
+        {value: 7, itemStyle: {color: new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:'#059669'},{offset:1,color:'#05966966'}]),borderRadius:[6,6,0,0]}},
+        {value: 4, itemStyle: {color: new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:'#2563eb'},{offset:1,color:'#2563eb66'}]),borderRadius:[6,6,0,0]}},
+        {value: 3, itemStyle: {color: new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:'#7c3aed'},{offset:1,color:'#7c3aed66'}]),borderRadius:[6,6,0,0]}},
+        {value: 1, itemStyle: {color: new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:'#d97706'},{offset:1,color:'#d9770666'}]),borderRadius:[6,6,0,0]}}
+      ],
+      barWidth: '45%'
+    }]
+  });
+
+  // Responsive
+  window.addEventListener('resize', () => {
+    pieChart.resize();
+    wordChart.resize();
+    barChart.resize();
+  });
+}
+
+// ===== INIT =====
+document.addEventListener('DOMContentLoaded', loadData);
+</script>
+</body>
+</html>
+
