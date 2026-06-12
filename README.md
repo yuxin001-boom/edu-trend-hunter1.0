@@ -1,0 +1,1 @@
+# edu-trend-hunter1.0
