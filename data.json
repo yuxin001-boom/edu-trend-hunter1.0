@@ -1,129 +1,418 @@
 {
-  "update_time": "2026-06-12 09:00",
-  "issue_no": 1,
+  "update_time": "2026-06-13 10:17",
+  "issue_no": 2,
   "hot_search": {
     "weibo": [
-      {"rank": 1, "title": "2026考研国家线公布", "heat": 9856432, "url": "https://s.weibo.com/weibo?q=2026考研国家线公布"},
-      {"rank": 2, "title": "教育部发布AI教育新政", "heat": 8234561, "url": "https://s.weibo.com/weibo?q=教育部发布AI教育新政"},
-      {"rank": 3, "title": "多地中小学推行课后延时服务", "heat": 6543218, "url": "https://s.weibo.com/weibo?q=多地中小学推行课后延时服务"},
-      {"rank": 4, "title": "在线教育平台暑期大促开启", "heat": 5432167, "url": "https://s.weibo.com/weibo?q=在线教育平台暑期大促"},
-      {"rank": 5, "title": "高考志愿填报AI工具爆火", "heat": 4321098, "url": "https://s.weibo.com/weibo?q=高考志愿填报AI工具"}
+      {
+        "title": "四级作文",
+        "url": "https://s.weibo.com/weibo?q=%E5%9B%9B%E7%BA%A7%E4%BD%9C%E6%96%87",
+        "heat": 10000,
+        "rank": 1,
+        "source_platform": "微博"
+      },
+      {
+        "title": "API 开放平台",
+        "url": "https://www.tophubdata.com/",
+        "heat": 1000000,
+        "rank": 2,
+        "source_platform": "微博"
+      },
+      {
+        "title": "六级",
+        "url": "https://s.weibo.com/weibo?q=%E5%85%AD%E7%BA%A7",
+        "heat": 950000,
+        "rank": 3,
+        "source_platform": "微博"
+      },
+      {
+        "title": "六级翻译",
+        "url": "https://s.weibo.com/weibo?q=%E5%85%AD%E7%BA%A7%E7%BF%BB%E8%AF%91",
+        "heat": 900000,
+        "rank": 4,
+        "source_platform": "微博"
+      },
+      {
+        "title": "各地抢收小麦进度条全力冲刺",
+        "url": "https://s.weibo.com/weibo?q=%E5%90%84%E5%9C%B0%E6%8A%A2%E6%94%B6%E5%B0%8F%E9%BA%A6%E8%BF%9B%E5%BA%A6%E6%9D%A1%E5%85%A8%E5%8A%9B%E5%86%B2%E5%88%BA",
+        "heat": 850000,
+        "rank": 5,
+        "source_platform": "微博"
+      }
     ],
     "baidu": [
-      {"rank": 1, "title": "2026高考分数线预测", "heat": 12453678, "url": "https://www.baidu.com/s?wd=2026高考分数线预测"},
-      {"rank": 2, "title": "公务员考试报名入口", "heat": 9876543, "url": "https://www.baidu.com/s?wd=公务员考试报名入口"},
-      {"rank": 3, "title": "暑期研学旅行推荐", "heat": 7654321, "url": "https://www.baidu.com/s?wd=暑期研学旅行推荐"},
-      {"rank": 4, "title": "AI编程培训班哪个好", "heat": 6543210, "url": "https://www.baidu.com/s?wd=AI编程培训班哪个好"},
-      {"rank": 5, "title": "教师资格证报考条件2026", "heat": 5432198, "url": "https://www.baidu.com/s?wd=教师资格证报考条件2026"}
+      {
+        "title": "29岁硕士带娃读研三年顺利毕业",
+        "url": "https://www.baidu.com/s?wd=29%E5%B2%81%E7%A1%95%E5%A3%AB%E5%B8%A6%E5%A8%83%E8%AF%BB%E7%A0%94%E4%B8%89%E5%B9%B4%E9%A1%BA%E5%88%A9%E6%AF%95%E4%B8%9A",
+        "heat": 10000,
+        "rank": 1,
+        "source_platform": "百度"
+      },
+      {
+        "title": "重庆通报失联女友被送素质教育基地",
+        "url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E9%80%9A%E6%8A%A5%E5%A4%B1%E8%81%94%E5%A5%B3%E5%8F%8B%E8%A2%AB%E9%80%81%E7%B4%A0%E8%B4%A8%E6%95%99%E8%82%B2%E5%9F%BA%E5%9C%B0",
+        "heat": 10000,
+        "rank": 2,
+        "source_platform": "百度"
+      },
+      {
+        "title": "高考结束少年“一人一桶”踏上归家路",
+        "url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83%E7%BB%93%E6%9D%9F%E5%B0%91%E5%B9%B4%E2%80%9C%E4%B8%80%E4%BA%BA%E4%B8%80%E6%A1%B6%E2%80%9D%E8%B8%8F%E4%B8%8A%E5%BD%92%E5%AE%B6%E8%B7%AF",
+        "heat": 10000,
+        "rank": 3,
+        "source_platform": "百度"
+      },
+      {
+        "title": "API 开放平台",
+        "url": "https://www.tophubdata.com/",
+        "heat": 1000000,
+        "rank": 4,
+        "source_platform": "百度"
+      },
+      {
+        "title": "跟着总书记“打卡”世界遗产",
+        "url": "https://www.baidu.com/s?wd=%E8%B7%9F%E7%9D%80%E6%80%BB%E4%B9%A6%E8%AE%B0%E2%80%9C%E6%89%93%E5%8D%A1%E2%80%9D%E4%B8%96%E7%95%8C%E9%81%97%E4%BA%A7",
+        "heat": 950000,
+        "rank": 5,
+        "source_platform": "百度"
+      }
     ],
     "quark": [
-      {"rank": 1, "title": "成人自考本科报名时间", "heat": 3456789, "url": "https://so.m.sm.cn/s?q=成人自考本科报名时间"},
-      {"rank": 2, "title": "K12在线辅导平台对比", "heat": 2876543, "url": "https://so.m.sm.cn/s?q=K12在线辅导平台对比"},
-      {"rank": 3, "title": "2026考研英语真题解析", "heat": 2345678, "url": "https://so.m.sm.cn/s?q=2026考研英语真题解析"},
-      {"rank": 4, "title": "少儿编程几岁开始学合适", "heat": 1987654, "url": "https://so.m.sm.cn/s?q=少儿编程几岁开始学合适"},
-      {"rank": 5, "title": "MBA报考院校排名", "heat": 1654321, "url": "https://so.m.sm.cn/s?q=MBA报考院校排名"}
+      {
+        "title": "女友失联最终发现被送素质教育基地",
+        "url": "https://so.m.sm.cn/s?q=%E5%A5%B3%E5%8F%8B%E5%A4%B1%E8%81%94%E6%9C%80%E7%BB%88%E5%8F%91%E7%8E%B0%E8%A2%AB%E9%80%81%E7%B4%A0%E8%B4%A8%E6%95%99%E8%82%B2%E5%9F%BA%E5%9C%B0",
+        "heat": 10000,
+        "rank": 1,
+        "source_platform": "夸克"
+      },
+      {
+        "title": "26岁女孩研究生入学前查出肺癌晚期",
+        "url": "https://so.m.sm.cn/s?q=26%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%A0%94%E7%A9%B6%E7%94%9F%E5%85%A5%E5%AD%A6%E5%89%8D%E6%9F%A5%E5%87%BA%E8%82%BA%E7%99%8C%E6%99%9A%E6%9C%9F",
+        "heat": 10000,
+        "rank": 2,
+        "source_platform": "夸克"
+      },
+      {
+        "title": "API 开放平台",
+        "url": "https://www.tophubdata.com/",
+        "heat": 1000000,
+        "rank": 3,
+        "source_platform": "夸克"
+      },
+      {
+        "title": "英格兰队训练装备被偷 只剩1个足球",
+        "url": "https://so.m.sm.cn/s?q=%E8%8B%B1%E6%A0%BC%E5%85%B0%E9%98%9F%E8%AE%AD%E7%BB%83%E8%A3%85%E5%A4%87%E8%A2%AB%E5%81%B7+%E5%8F%AA%E5%89%A91%E4%B8%AA%E8%B6%B3%E7%90%83",
+        "heat": 950000,
+        "rank": 4,
+        "source_platform": "夸克"
+      },
+      {
+        "title": "“中国不需要也不可能复制SpaceX”",
+        "url": "https://so.m.sm.cn/s?q=%E2%80%9C%E4%B8%AD%E5%9B%BD%E4%B8%8D%E9%9C%80%E8%A6%81%E4%B9%9F%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%A4%8D%E5%88%B6SpaceX%E2%80%9D",
+        "heat": 900000,
+        "rank": 5,
+        "source_platform": "夸克"
+      }
     ],
     "douyin": [
-      {"rank": 1, "title": "学霸笔记分享走红", "heat": 15678432, "url": "https://www.douyin.com/search/学霸笔记分享走红"},
-      {"rank": 2, "title": "教育博主推荐暑期书单", "heat": 12345678, "url": "https://www.douyin.com/search/教育博主推荐暑期书单"},
-      {"rank": 3, "title": "AI写作助手学生版测评", "heat": 9876543, "url": "https://www.douyin.com/search/AI写作助手学生版测评"},
-      {"rank": 4, "title": "幼小衔接到底要不要上", "heat": 8765432, "url": "https://www.douyin.com/search/幼小衔接到底要不要上"},
-      {"rank": 5, "title": "考公上岸经验分享", "heat": 7654321, "url": "https://www.douyin.com/search/考公上岸经验分享"}
+      {
+        "title": "留学生回国之后就这样大吃特吃",
+        "url": "https://www.douyin.com/search/%E7%95%99%E5%AD%A6%E7%94%9F%E5%9B%9E%E5%9B%BD%E4%B9%8B%E5%90%8E%E5%B0%B1%E8%BF%99%E6%A0%B7%E5%A4%A7%E5%90%83%E7%89%B9%E5%90%83",
+        "heat": 600000,
+        "rank": 1,
+        "source_platform": "抖音"
+      },
+      {
+        "title": "API 开放平台",
+        "url": "https://www.tophubdata.com/",
+        "heat": 1000000,
+        "rank": 2,
+        "source_platform": "抖音"
+      },
+      {
+        "title": "原来成语缝在汉服里",
+        "url": "https://www.douyin.com/search/%E5%8E%9F%E6%9D%A5%E6%88%90%E8%AF%AD%E7%BC%9D%E5%9C%A8%E6%B1%89%E6%9C%8D%E9%87%8C",
+        "heat": 950000,
+        "rank": 3,
+        "source_platform": "抖音"
+      },
+      {
+        "title": "巴西队将迎美加墨世界杯首秀",
+        "url": "https://www.douyin.com/search/%E5%B7%B4%E8%A5%BF%E9%98%9F%E5%B0%86%E8%BF%8E%E7%BE%8E%E5%8A%A0%E5%A2%A8%E4%B8%96%E7%95%8C%E6%9D%AF%E9%A6%96%E7%A7%80",
+        "heat": 900000,
+        "rank": 4,
+        "source_platform": "抖音"
+      },
+      {
+        "title": "今天是文化和自然遗产日",
+        "url": "https://www.douyin.com/search/%E4%BB%8A%E5%A4%A9%E6%98%AF%E6%96%87%E5%8C%96%E5%92%8C%E8%87%AA%E7%84%B6%E9%81%97%E4%BA%A7%E6%97%A5",
+        "heat": 850000,
+        "rank": 5,
+        "source_platform": "抖音"
+      }
     ],
     "so360": [
-      {"rank": 1, "title": "暑假兴趣班报名指南", "heat": 2345678, "url": "https://www.so.com/s?q=暑假兴趣班报名指南"},
-      {"rank": 2, "title": "学历提升正规机构推荐", "heat": 1987654, "url": "https://www.so.com/s?q=学历提升正规机构推荐"},
-      {"rank": 3, "title": "中考体育评分标准2026", "heat": 1765432, "url": "https://www.so.com/s?q=中考体育评分标准2026"},
-      {"rank": 4, "title": "在线英语外教一对一推荐", "heat": 1543210, "url": "https://www.so.com/s?q=在线英语外教一对一推荐"},
-      {"rank": 5, "title": "职业技能培训补贴政策", "heat": 1234567, "url": "https://www.so.com/s?q=职业技能培训补贴政策"}
+      {
+        "title": "带娃读研顺利毕业",
+        "url": "https://www.so.com/s?q=%E5%B8%A6%E5%A8%83%E8%AF%BB%E7%A0%94%E9%A1%BA%E5%88%A9%E6%AF%95%E4%B8%9A",
+        "heat": 10000,
+        "rank": 1,
+        "source_platform": "360"
+      },
+      {
+        "title": "一高考生路上遭雷击",
+        "url": "https://www.so.com/s?q=%E4%B8%80%E9%AB%98%E8%80%83%E7%94%9F%E8%B7%AF%E4%B8%8A%E9%81%AD%E9%9B%B7%E5%87%BB",
+        "heat": 10000,
+        "rank": 2,
+        "source_platform": "360"
+      },
+      {
+        "title": "小学生为啥爱玩梗",
+        "url": "https://www.so.com/s?q=%E5%B0%8F%E5%AD%A6%E7%94%9F%E4%B8%BA%E5%95%A5%E7%88%B1%E7%8E%A9%E6%A2%97",
+        "heat": 10000,
+        "rank": 3,
+        "source_platform": "360"
+      },
+      {
+        "title": "API 开放平台",
+        "url": "https://www.tophubdata.com/",
+        "heat": 1000000,
+        "rank": 4,
+        "source_platform": "360"
+      },
+      {
+        "title": "台湾看不到世界杯",
+        "url": "https://www.so.com/s?q=%E5%8F%B0%E6%B9%BE%E7%9C%8B%E4%B8%8D%E5%88%B0%E4%B8%96%E7%95%8C%E6%9D%AF",
+        "heat": 950000,
+        "rank": 5,
+        "source_platform": "360"
+      }
     ]
   },
   "hot_products": {
-    "taobao_tmall": [
-      {"rank": 1, "title": "学而思AI学习机X20 Pro", "sales": "月销5.2万+", "price": "¥3,999", "category": "电子教育"},
-      {"rank": 2, "title": "新东方在线考研全程班", "sales": "月销3.8万+", "price": "¥4,580", "category": "成人教育"},
-      {"rank": 3, "title": "科大讯飞AI翻译笔", "sales": "月销3.1万+", "price": "¥899", "category": "电子教育"},
-      {"rank": 4, "title": "人教版小学语文课本全套", "sales": "月销2.9万+", "price": "¥168", "category": "图书"},
-      {"rank": 5, "title": "公务员考试华图教材2026", "sales": "月销2.6万+", "price": "¥89", "category": "图书"},
-      {"rank": 6, "title": "猿辅导斑马AI课年卡", "sales": "月销2.3万+", "price": "¥2,800", "category": "K12教育"},
-      {"rank": 7, "title": "小猿智能练习本S1", "sales": "月销2.1万+", "price": "¥1,299", "category": "电子教育"},
-      {"rank": 8, "title": "考研政治肖秀荣四件套", "sales": "月销1.9万+", "price": "¥126", "category": "图书"},
-      {"rank": 9, "title": "儿童点读笔早教机", "sales": "月销1.7万+", "price": "¥398", "category": "电子教育"},
-      {"rank": 10, "title": "MBA管理类联考教材", "sales": "月销1.5万+", "price": "¥198", "category": "成人教育"}
-    ],
-    "jd": [
-      {"rank": 1, "title": "有道词典笔X7", "sales": "月销4.6万+", "price": "¥1,099", "category": "电子教育"},
-      {"rank": 2, "title": "希沃学习机W3", "sales": "月销3.2万+", "price": "¥4,999", "category": "电子教育"},
-      {"rank": 3, "title": "高途考研政治全程班", "sales": "月销2.8万+", "price": "¥3,980", "category": "成人教育"},
-      {"rank": 4, "title": "小度学习平板G16 Pro", "sales": "月销2.5万+", "price": "¥2,699", "category": "电子教育"},
-      {"rank": 5, "title": "233网校一级建造师课程", "sales": "月销2.2万+", "price": "¥1,580", "category": "成人教育"},
-      {"rank": 6, "title": "DK儿童百科全书套装", "sales": "月销1.9万+", "price": "¥258", "category": "图书"},
-      {"rank": 7, "title": "阿尔法蛋AI词典笔T20", "sales": "月销1.8万+", "price": "¥799", "category": "电子教育"},
-      {"rank": 8, "title": "五年高考三年模拟全套", "sales": "月销1.6万+", "price": "¥156", "category": "图书"},
-      {"rank": 9, "title": "作业帮AI学习机", "sales": "月销1.4万+", "price": "¥2,399", "category": "电子教育"},
-      {"rank": 10, "title": "环球网校注册会计师课程", "sales": "月销1.2万+", "price": "¥2,380", "category": "成人教育"}
-    ],
-    "kuaishou": [
-      {"rank": 1, "title": "读书郎AI学习平板", "sales": "月销2.1万+", "price": "¥1,999", "category": "电子教育"},
-      {"rank": 2, "title": "粉笔公考980系统班", "sales": "月销1.8万+", "price": "¥980", "category": "成人教育"},
-      {"rank": 3, "title": "小天才电话手表Z10", "sales": "月销1.5万+", "price": "¥2,198", "category": "电子教育"},
-      {"rank": 4, "title": "乐乐课堂中小学全科VIP", "sales": "月销1.3万+", "price": "¥1,280", "category": "K12教育"},
-      {"rank": 5, "title": "四大名著学生版注音全套", "sales": "月销1.2万+", "price": "¥59.8", "category": "图书"},
-      {"rank": 6, "title": "有道AI学习机X10", "sales": "月销1.1万+", "price": "¥3,499", "category": "电子教育"},
-      {"rank": 7, "title": "新概念英语全四册正版", "sales": "月销9800+", "price": "¥88", "category": "图书"},
-      {"rank": 8, "title": "尚德学历提升自考课程", "sales": "月销8700+", "price": "¥5,980", "category": "成人教育"},
-      {"rank": 9, "title": "洪恩识字早教APP年卡", "sales": "月销7600+", "price": "¥298", "category": "K12教育"},
-      {"rank": 10, "title": "注册消防工程师教材", "sales": "月销6500+", "price": "¥168", "category": "图书"}
-    ]
+    "taobao_tmall": [],
+    "jd": [],
+    "kuaishou": []
   },
   "top15_today": [
-    {"rank": 1, "title": "2026高考分数线预测", "heat": 12453678, "platforms": ["百度", "抖音", "夸克"], "category": "K12教育"},
-    {"rank": 2, "title": "学霸笔记分享走红", "heat": 15678432, "platforms": ["抖音", "微博"], "category": "K12教育"},
-    {"rank": 3, "title": "2026考研国家线公布", "heat": 9856432, "platforms": ["微博", "百度", "夸克"], "category": "成人教育"},
-    {"rank": 4, "title": "教育部发布AI教育新政", "heat": 8234561, "platforms": ["微博", "百度", "360"], "category": "电子教育"},
-    {"rank": 5, "title": "教育博主推荐暑期书单", "heat": 12345678, "platforms": ["抖音", "微博"], "category": "图书"},
-    {"rank": 6, "title": "公务员考试报名入口", "heat": 9876543, "platforms": ["百度", "抖音"], "category": "成人教育"},
-    {"rank": 7, "title": "AI写作助手学生版测评", "heat": 9876543, "platforms": ["抖音", "360"], "category": "电子教育"},
-    {"rank": 8, "title": "高考志愿填报AI工具爆火", "heat": 4321098, "platforms": ["微博", "百度", "夸克"], "category": "K12教育"},
-    {"rank": 9, "title": "暑期研学旅行推荐", "heat": 7654321, "platforms": ["百度", "抖音"], "category": "K12教育"},
-    {"rank": 10, "title": "幼小衔接到底要不要上", "heat": 8765432, "platforms": ["抖音", "360"], "category": "K12教育"},
-    {"rank": 11, "title": "考公上岸经验分享", "heat": 7654321, "platforms": ["抖音", "夸克"], "category": "成人教育"},
-    {"rank": 12, "title": "AI编程培训班哪个好", "heat": 6543210, "platforms": ["百度", "360"], "category": "电子教育"},
-    {"rank": 13, "title": "成人自考本科报名时间", "heat": 3456789, "platforms": ["夸克", "360"], "category": "成人教育"},
-    {"rank": 14, "title": "少儿编程几岁开始学合适", "heat": 1987654, "platforms": ["夸克", "抖音"], "category": "K12教育"},
-    {"rank": 15, "title": "暑假兴趣班报名指南", "heat": 2345678, "platforms": ["360", "百度"], "category": "K12教育"}
+    {
+      "rank": 1,
+      "title": "API 开放平台",
+      "heat": 1000000,
+      "platforms": [
+        "微博",
+        "百度",
+        "夸克",
+        "抖音",
+        "360"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 2,
+      "title": "六级",
+      "heat": 950000,
+      "platforms": [
+        "微博"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 3,
+      "title": "跟着总书记“打卡”世界遗产",
+      "heat": 950000,
+      "platforms": [
+        "百度"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 4,
+      "title": "英格兰队训练装备被偷 只剩1个足球",
+      "heat": 950000,
+      "platforms": [
+        "夸克"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 5,
+      "title": "原来成语缝在汉服里",
+      "heat": 950000,
+      "platforms": [
+        "抖音"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 6,
+      "title": "台湾看不到世界杯",
+      "heat": 950000,
+      "platforms": [
+        "360"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 7,
+      "title": "六级翻译",
+      "heat": 900000,
+      "platforms": [
+        "微博"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 8,
+      "title": "“中国不需要也不可能复制SpaceX”",
+      "heat": 900000,
+      "platforms": [
+        "夸克"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 9,
+      "title": "巴西队将迎美加墨世界杯首秀",
+      "heat": 900000,
+      "platforms": [
+        "抖音"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 10,
+      "title": "各地抢收小麦进度条全力冲刺",
+      "heat": 850000,
+      "platforms": [
+        "微博"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 11,
+      "title": "今天是文化和自然遗产日",
+      "heat": 850000,
+      "platforms": [
+        "抖音"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 12,
+      "title": "留学生回国之后就这样大吃特吃",
+      "heat": 600000,
+      "platforms": [
+        "抖音"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 13,
+      "title": "四级作文",
+      "heat": 10000,
+      "platforms": [
+        "微博"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 14,
+      "title": "29岁硕士带娃读研三年顺利毕业",
+      "heat": 10000,
+      "platforms": [
+        "百度"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 15,
+      "title": "重庆通报失联女友被送素质教育基地",
+      "heat": 10000,
+      "platforms": [
+        "百度"
+      ],
+      "category": "K12教育"
+    }
   ],
   "marketing_suggestions": [
     {
       "category": "成人教育",
       "items": [
-        {"scene": "考证备考季", "hot_words": "考研国家线 / 公务员报名 / MBA择校", "strategy": "投放搜索广告锁定「报名入口」「分数线」等刚需词，搭配落地页免费试听引流"},
-        {"scene": "职业技能提升", "hot_words": "AI编程培训 / 学历提升 / 一建备考", "strategy": "信息流素材突出「高薪就业」「取证周期短」等痛点，定向25-40岁职场人群"},
-        {"scene": "学历焦虑营销", "hot_words": "自考本科 / 在职研究生 / 专升本", "strategy": "短视频投放真人出镜分享上岸经历，评论区引导私信咨询转化"}
+        {
+          "scene": "考证备考季",
+          "hot_words": "考研 / 公务员 / MBA",
+          "strategy": "投放搜索广告锁定「报名入口」「分数线」等刚需词，搭配落地页免费试听引流，利用考试时间节点制造紧迫感"
+        },
+        {
+          "scene": "职业技能提升",
+          "hot_words": "AI编程培训 / 学历提升 / 职业认证",
+          "strategy": "信息流素材突出「高薪就业」「取证周期短」等痛点，定向25-40岁职场人群，配合限时优惠促转化"
+        },
+        {
+          "scene": "学历焦虑营销",
+          "hot_words": "自考本科 / 在职研究生 / 专升本",
+          "strategy": "短视频投放真人出镜分享上岸经历，评论区引导私信咨询转化，抖音/快手双平台覆盖"
+        }
       ]
     },
     {
       "category": "K12教育",
       "items": [
-        {"scene": "升学季流量高峰", "hot_words": "高考志愿填报 / 幼小衔接 / 中考体育", "strategy": "搜索抢占「分数线预测」「志愿填报工具」等长尾词，落地页提供免费测评工具"},
-        {"scene": "暑期培训招生", "hot_words": "暑期兴趣班 / 研学旅行 / 少儿编程", "strategy": "朋友圈广告定向30-45岁家长，素材强调「名额有限」「早鸟优惠」制造紧迫感"},
-        {"scene": "学习方法种草", "hot_words": "学霸笔记 / 高效学习法 / 时间管理", "strategy": "抖音达人合作短视频种草，挂载课程商品链接实现短链路转化"}
+        {
+          "scene": "升学季流量高峰",
+          "hot_words": "四级作文 / API 开放平台 / 六级",
+          "strategy": "搜索抢占「分数线预测」「志愿填报工具」等长尾词，落地页提供免费测评工具提升留资率"
+        },
+        {
+          "scene": "暑期培训招生",
+          "hot_words": "六级翻译 / 各地抢收小麦进度条全力冲刺 / 29岁硕士带娃读研三年顺利毕业",
+          "strategy": "朋友圈广告定向30-45岁家长群体，素材强调「名额有限」「早鸟优惠」制造紧迫感"
+        },
+        {
+          "scene": "学习方法种草",
+          "hot_words": "重庆通报失联女友被送素质教育基地 / 高考结束少年“一人一桶”踏上归家路 / API 开放平台",
+          "strategy": "抖音达人合作短视频种草，挂载课程商品链接实现短链路转化，配合开学季节点"
+        }
       ]
     },
     {
       "category": "图书",
       "items": [
-        {"scene": "教辅刚需旺季", "hot_words": "五三全套 / 考研政治 / 人教版课本", "strategy": "电商平台搜索广告竞价「教材全套」「正版书籍」，商品详情页强调发货速度"},
-        {"scene": "亲子阅读推广", "hot_words": "暑期书单 / DK百科 / 四大名著", "strategy": "小红书+抖音种草内容营销，达人晒书单带货，搭配满减促销提升客单价"},
-        {"scene": "知识付费跨界", "hot_words": "AI写作 / 读书会 / 知识星球", "strategy": "信息流定向「考研」「自考」人群，内容突出「碎片化学习」「名师带读」"}
+        {
+          "scene": "教辅刚需旺季",
+          "hot_words": "五三全套 / 考研政治 / 人教版课本",
+          "strategy": "电商平台搜索广告竞价「教材全套」「正版书籍」，商品详情页强调发货速度与正品保障"
+        },
+        {
+          "scene": "亲子阅读推广",
+          "hot_words": "暑期书单 / DK百科 / 四大名著",
+          "strategy": "小红书+抖音种草内容营销，达人晒书单带货，搭配满减促销提升客单价"
+        },
+        {
+          "scene": "知识付费跨界",
+          "hot_words": "AI写作 / 读书会 / 知识星球",
+          "strategy": "信息流定向考研/自考人群，内容突出「碎片化学习」「名师带读」，引导下单"
+        }
       ]
     },
     {
       "category": "电子教育",
       "items": [
-        {"scene": "AI硬件种草", "hot_words": "AI学习机 / 词典笔 / 智能练习本", "strategy": "抖音开箱测评+电商直播组合拳，素材对比传统学习方式突出效率提升"},
-        {"scene": "暑期礼物场景", "hot_words": "学习平板 / 点读笔 / 电话手表", "strategy": "搜索广告锁定「送孩子礼物」「学习机推荐」等场景词，投放618/暑期节点"},
-        {"scene": "教育科技新品", "hot_words": "AI教育新政 / AI批改 / 智能题库", "strategy": "信息流投放科技感素材，定向教育KOL粉丝与科技关注人群，突出政策利好"}
+        {
+          "scene": "AI硬件种草",
+          "hot_words": "AI学习机 / 词典笔 / 智能练习本",
+          "strategy": "抖音开箱测评+电商直播组合拳，素材对比传统学习方式突出效率提升200%"
+        },
+        {
+          "scene": "暑期礼物场景",
+          "hot_words": "学习平板 / 点读笔 / 电话手表",
+          "strategy": "搜索广告锁定「送孩子礼物」「学习机推荐」等场景词，投放618/暑期节点"
+        },
+        {
+          "scene": "教育科技新品",
+          "hot_words": "AI教育新政 / AI批改 / 智能题库",
+          "strategy": "信息流投放科技感素材，定向教育KOL粉丝与科技关注人群，突出政策利好"
+        }
       ]
     }
   ]
