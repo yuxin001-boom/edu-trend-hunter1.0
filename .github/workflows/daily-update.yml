@@ -2,7 +2,7 @@ name: 📚 每日自动更新教育热点数据
 
 on:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 1,3,5 * * *'
   workflow_dispatch:
 
 permissions:
