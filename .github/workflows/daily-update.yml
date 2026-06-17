@@ -1,4 +1,4 @@
-name: 📚 每日自动更新教育热点数据
+name: "📚 每日自动更新教育热点数据"
 
 on:
   schedule:
@@ -8,22 +8,25 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
     steps:
-      - name: 📥 检出代码
+      - name: "📥 检出代码"
         uses: actions/checkout@v4
 
-      - name: 🐍 安装 Python
+      - name: "🐍 安装 Python"
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
-      - name: 📡 运行数据采集脚本
+      - name: "📡 运行数据采集脚本"
         run: python scripts/fetch_data.py
 
-      - name: 📤 提交更新的数据
+      - name: "📤 提交更新的数据"
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
