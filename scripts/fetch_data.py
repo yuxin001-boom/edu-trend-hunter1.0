@@ -13,6 +13,7 @@ import os
 from datetime import datetime
 from urllib.request import urlopen, Request
 from urllib.error import URLError
+from urllib.parse import quote_plus
 
 # ============================================================
 # 配置
@@ -74,6 +75,125 @@ VALID_DOMAINS = {
     'quark': ['sm.cn', 'so.m.sm.cn', 'quark.sm.cn'],
     'douyin': ['douyin.com', 'www.douyin.com'],
     'so360': ['so.com', 'www.so.com'],
+}
+
+# 平台展示名称
+PLATFORM_DISPLAY_NAMES = {
+    'weibo': '微博',
+    'baidu': '百度',
+    'quark': '夸克',
+    'douyin': '抖音',
+    'so360': '360',
+}
+
+# 平台搜索URL模板（用于用户画像看板跳转）
+PLATFORM_SEARCH_URL_TEMPLATES = {
+    'weibo': 'https://s.weibo.com/weibo?q={query}',
+    'baidu': 'https://www.baidu.com/s?wd={query}',
+    'douyin': 'https://www.douyin.com/search/{query}',
+    'quark': 'https://quark.sm.cn/s?q={query}',
+    'so360': 'https://www.so.com/s?q={query}',
+}
+
+# 敏感词过滤（政治等高风险内容，直接剔除）
+SENSITIVE_KEYWORDS = [
+    '政治', '军事', '台湾', '习近平', '领导人', '外交部', '国防', '军队', '统一', '主权', '南海', '钓鱼岛',
+]
+
+# 用户画像与面板配置
+USER_PERSONAS = [
+    '资深中产',
+    '小镇中老年',
+    '小镇青年',
+    '精致妈妈',
+    '都市银发',
+    '新锐白领',
+]
+
+PANEL_PERSONAS = {
+    # 非成教(K12) 看板：资深中产, 小镇中老年, 小镇青年, 精致妈妈
+    "k12": ['资深中产', '小镇中老年', '小镇青年', '精致妈妈'],
+    # 成人教育 看板：小镇青年, 都市银发, 新锐白领
+    "adult_edu": ['小镇青年', '都市银发', '新锐白领'],
+    # 电子教育 看板：资深中产, 小镇中老年, 小镇青年, 精致妈妈
+    "e_edu": ['资深中产', '小镇中老年', '小镇青年', '精致妈妈'],
+    # 图书 看板：精致妈妈, 小镇青年, 新锐白领
+    "books": ['精致妈妈', '小镇青年', '新锐白领'],
+}
+
+# 画像关键词规则：每个规则命中时，会把条目分配给对应人群
+PERSONA_KEYWORD_RULES = [
+    # Sports / 赛事
+    (
+        ['世界杯', 'NBA', '足球', '篮球', '奥运', '比赛', '冠军', '决赛', '联赛', '体育'],
+        ['资深中产', '小镇青年', '新锐白领'],
+    ),
+    # Entertainment / 综艺 / 追剧
+    (
+        ['歌手', '乘风', '明星', '演员', '综艺', '电视剧', '热播', '追剧', '演唱会', '电影', '票房'],
+        ['精致妈妈', '小镇青年'],
+    ),
+    # Finance / 政策
+    (
+        ['股市', '基金', '新政', '经济', '金融', '房价', '利率', '央行', 'A股', '美联储', '降息'],
+        ['新锐白领', '都市银发', '资深中产'],
+    ),
+    # Parenting / 家庭
+    (
+        ['孩子', '家长', '暑假', '高考', '中考', '亲子', '育儿', '幼儿', '宝宝', '防溺水', '儿童', '婴幼儿'],
+        ['精致妈妈', '小镇中老年'],
+    ),
+    # Internet trends / 梗
+    (
+        ['AI短剧', '热梗', '洗脑', '火了', '出圈', '全网', '刷屏', '网红', '直播'],
+        ['小镇青年'],
+    ),
+    # Health / 养生
+    (
+        ['防暑', '养老', '退休', '广场舞', '保健', '健康', '中老年', '养生', '中医'],
+        ['都市银发', '小镇中老年'],
+    ),
+    # Consumer / 购物
+    (
+        ['618', '双十一', '优惠', '打折', '手机', '家电', '测评', '推荐', '好物', '种草'],
+        ['资深中产', '小镇青年'],
+    ),
+    # Reading / 文化
+    (
+        ['书单', '畅销', '豆瓣', '小说', '绘本', '文案', '情感', '文化', '阅读', '综艺', '知识'],
+        ['精致妈妈', '新锐白领'],
+    ),
+    # Career / 职场
+    (
+        ['考公', '考证', '面试', '简历', '跳槽', '薪资', '裁员', 'AI替代', '就业', '创业'],
+        ['新锐白领', '小镇青年'],
+    ),
+    # Tech / 科技
+    (
+        ['AI', '科技', '芯片', '机器人', '数码', '新能源', '电动车', '智能', '5G', '互联网'],
+        ['资深中产', '新锐白领'],
+    ),
+    # Weather / 安全
+    (
+        ['暴雨', '高温', '台风', '地震', '防汛', '预警', '洪水'],
+        USER_PERSONAS,
+    ),
+]
+
+# 面板亲和关键词：用于差异化分配（决定一条热搜更适合哪个面板）
+PANEL_AFFINITY_KEYWORDS = {
+    "k12": ['孩子', '家长', '暑假', '亲子', '育儿', '幼儿', '宝宝', '防溺水', '儿童',
+            '学校', '玩具', '游乐', '动画', '暴雨', '高温', '预警', '安全', '防汛',
+            '婴幼儿', '中考', '高考', '小学', '中学'],
+    "adult_edu": ['职场', '考公', '面试', '薪资', '裁员', '跳槽', '基金', '股市',
+                  '金融', '房价', '养老', '退休', '创业', '就业', '经济', '利率',
+                  '央行', '美联储', '降息', '新政', 'A股', '社保'],
+    "e_edu": ['AI', '科技', '手机', '数码', '测评', '电子', '充电', '机器人', '芯片',
+              '互联网', '5G', '智能', '新能源', '电动车', '618', '打折', '优惠',
+              '好物', '种草', '家电', '推荐', '双十一'],
+    "books": ['书单', '豆瓣', '文案', '情感', '小说', '文化', '艺术', '阅读', '知识',
+              '综艺', '电影', '影视', '追剧', '明星', '演唱会', '歌手', '票房',
+              '热播', '网红', '直播', '火了', '出圈'],
 }
 
 # 教育类电商热销关键词（用于从电商榜单中筛选）
@@ -485,6 +605,342 @@ def generate_marketing_suggestions(hot_search):
 
 
 # ============================================================
+# 用户画像热搜 & 看板分发
+# ============================================================
+
+
+def parse_heat_value(extra_text, rank):
+    """解析或估算热度数值与展示文案"""
+    heat_raw = None
+    if extra_text:
+        text = extra_text.replace(',', '').replace(' ', '')
+        # 形如 "123万" 或 "1.2万"
+        m = re.search(r'(\d+(?:\.\d+)?)万', text)
+        if m:
+            try:
+                heat_raw = int(float(m.group(1)) * 10000)
+            except ValueError:
+                heat_raw = None
+        if heat_raw is None:
+            # 兜底提取纯数字
+            m2 = re.search(r'(\d+)', text)
+            if m2:
+                try:
+                    heat_raw = int(m2.group(1))
+                except ValueError:
+                    heat_raw = None
+    # 没拿到明确数字，用排名估算一个降序数值，但展示文案为"热"
+    if heat_raw is None:
+        heat_raw = max(1000000 - (rank - 1) * 20000, 50000)
+        heat_str = "热"
+    else:
+        if heat_raw >= 10000:
+            heat_str = f"{heat_raw // 10000}万🔥"
+        else:
+            heat_str = f"{heat_raw}🔥"
+    return heat_raw, heat_str
+
+
+def is_sensitive_title(title):
+    """是否命中政治等敏感词，命中则直接过滤掉"""
+    for kw in SENSITIVE_KEYWORDS:
+        if kw in title:
+            return True
+    return False
+
+
+def classify_user_personas(title):
+    """基于关键词规则为一条内容打上用户画像标签"""
+    personas = set()
+    if not title:
+        return personas
+    for keywords, persona_list in PERSONA_KEYWORD_RULES:
+        if any(kw in title for kw in keywords):
+            personas.update(persona_list)
+    return personas
+
+
+def parse_tophub_items_with_heat(html, platform=None, limit=50):
+    """从TopHub页面解析带有热度信息的条目（用户画像用）"""
+    items = []
+    if not html:
+        return items
+
+    # 逐行解析 <tr>，更稳健地同时拿到 rank / title / url / extra
+    rows = re.findall(r'<tr[^>]*>(.*?)</tr>', html, flags=re.S)
+    seen_titles = set()
+
+    for row in rows:
+        # 标题与链接
+        m_link = re.search(
+            r'<a[^>]*href="([^\"]*)"[^>]*target="_blank"[^>]*>\s*([^<]+?)\s*</a>',
+            row,
+        )
+        if not m_link:
+            continue
+        url, title = m_link.groups()
+        title = title.strip()
+
+        # 基础过滤
+        if not title or len(title) < 4:
+            continue
+        if title in seen_titles:
+            continue
+
+        # 黑名单过滤
+        if is_blacklisted(title, url):
+            continue
+
+        # 平台URL合法性检查
+        if platform and not is_valid_platform_url(url, platform):
+            continue
+
+        # 排名
+        m_rank = re.search(r'<td[^>]*>\s*(\d+)\.\s*</td>', row)
+        if m_rank:
+            try:
+                rank = int(m_rank.group(1))
+            except ValueError:
+                rank = len(items) + 1
+        else:
+            rank = len(items) + 1
+
+        # 热度额外信息（通常在 class="ws" 的单元格中）
+        m_extra = re.search(r'<td[^>]*class="ws"[^>]*>\s*([^<]*)\s*</td>', row)
+        extra_text = m_extra.group(1).strip() if m_extra else ''
+
+        heat_raw, heat_str = parse_heat_value(extra_text, rank)
+
+        seen_titles.add(title)
+        items.append({
+            "title": title,
+            "url": url,
+            "rank": rank,
+            "heat_raw": heat_raw,
+            "heat_str": heat_str,
+        })
+
+        if len(items) >= limit:
+            break
+
+    # 如果没解析到任何条目，退回到旧解析逻辑
+    if not items:
+        base_items = parse_tophub_items(html, platform)
+        for idx, item in enumerate(base_items[:limit], start=1):
+            heat_raw, heat_str = parse_heat_value('', idx)
+            items.append({
+                "title": item['title'],
+                "url": item['url'],
+                "rank": idx,
+                "heat_raw": heat_raw,
+                "heat_str": heat_str,
+            })
+
+    return items
+
+
+def build_search_url(platform, title):
+    """构造平台搜索URL"""
+    template = PLATFORM_SEARCH_URL_TEMPLATES.get(platform)
+    if not template:
+        return ""
+    return template.format(query=quote_plus(title))
+
+
+def compute_panel_affinity(title, panel):
+    """计算一条热搜对某个面板的亲和度得分"""
+    score = 0
+    keywords = PANEL_AFFINITY_KEYWORDS.get(panel, [])
+    for kw in keywords:
+        if kw in title:
+            score += 1
+    return score
+
+
+def fetch_user_hotsearch():
+    """抓取全平台 TOP50 热搜（不做教育过滤），按亲和度独占分配到 4 个看板（重复率≤10%）"""
+    user_hotsearch = {
+        "k12": [],
+        "adult_edu": [],
+        "e_edu": [],
+        "books": [],
+    }
+
+    all_items = []
+    platform_order = {
+        'weibo': 0,
+        'baidu': 1,
+        'douyin': 2,
+        'quark': 3,
+        'so360': 4,
+    }
+
+    for platform, node_id in TOPHUB_NODES.items():
+        if platform not in platform_order:
+            continue
+
+        print(f"  → 用户画像源：{PLATFORM_DISPLAY_NAMES.get(platform, platform)} TOP50...")
+        url = f"https://tophub.today/n/{node_id}"
+        html = fetch_url(url)
+
+        items = parse_tophub_items_with_heat(html, platform=platform, limit=50)
+
+        for item in items:
+            title = item['title']
+            if is_sensitive_title(title):
+                continue
+
+            personas = classify_user_personas(title)
+            if not personas:
+                continue
+
+            all_items.append({
+                "platform_key": platform,
+                "platform": PLATFORM_DISPLAY_NAMES.get(platform, platform),
+                "platform_rank": item.get("rank", 0) or 0,
+                "title": title,
+                "heat_raw": item.get("heat_raw", 0),
+                "heat": item.get("heat_str", "热"),
+                "personas": personas,
+            })
+
+    if not all_items:
+        return user_hotsearch
+
+    # 统一排序：先按各个平台内部排名，其次按平台优先级
+    all_items.sort(key=lambda x: (x["platform_rank"], platform_order.get(x["platform_key"], 99)))
+
+    # 去重
+    seen_titles = set()
+    unique_items = []
+    for item in all_items:
+        if item["title"] not in seen_titles:
+            seen_titles.add(item["title"])
+            unique_items.append(item)
+
+    panel_order = ["k12", "adult_edu", "e_edu", "books"]
+    MAX_PER_PANEL = 15
+
+    # ====== 第一阶段：计算每条热搜对各面板的资格和亲和度 ======
+    item_eligible = []  # [(item, {panel: affinity_score})]
+    for item in unique_items:
+        title = item["title"]
+        personas = item["personas"]
+        eligible_panels = {}
+
+        for panel in panel_order:
+            target_personas = set(PANEL_PERSONAS.get(panel, []))
+            if personas & target_personas:
+                # 有画像交集 → 该面板有资格
+                affinity = compute_panel_affinity(title, panel)
+                eligible_panels[panel] = affinity
+
+        if eligible_panels:
+            item_eligible.append((item, eligible_panels))
+
+    # ====== 第二阶段：独占分配（每条只进一个面板） ======
+    global_used = set()
+
+    # 2a. 先分配"只适合一个面板"的（最精准的条目）
+    for item, eligible_panels in item_eligible:
+        if len(eligible_panels) == 1:
+            panel = list(eligible_panels.keys())[0]
+            if len(user_hotsearch[panel]) >= MAX_PER_PANEL:
+                continue
+            if item["title"] in global_used:
+                continue
+            global_used.add(item["title"])
+            panel_list = user_hotsearch[panel]
+            panel_list.append({
+                "rank": len(panel_list) + 1,
+                "title": item["title"],
+                "heat": item["heat"],
+                "heat_raw": item["heat_raw"],
+                "platform": item["platform"],
+                "url": build_search_url(item["platform_key"], item["title"]),
+            })
+
+    # 2b. 再分配"适合多个面板"的 → 按亲和度优先，缺口多的面板优先
+    multi_eligible = [(item, ep) for item, ep in item_eligible
+                      if len(ep) > 1 and item["title"] not in global_used]
+
+    # 按热度排序（热的优先分配）
+    multi_eligible.sort(key=lambda x: x[0].get("heat_raw", 0), reverse=True)
+
+    for item, eligible_panels in multi_eligible:
+        if item["title"] in global_used:
+            continue
+
+        # 选最佳面板：亲和度最高 > 当前条数最少 > panel_order 顺序
+        best_panel = None
+        best_score = (-1, 999, 999)  # (affinity, current_count, order_idx)
+
+        for panel in panel_order:
+            if panel not in eligible_panels:
+                continue
+            if len(user_hotsearch[panel]) >= MAX_PER_PANEL:
+                continue
+            affinity = eligible_panels[panel]
+            current_count = len(user_hotsearch[panel])
+            order_idx = panel_order.index(panel)
+            score = (affinity, -current_count, -order_idx)  # 高亲和 + 少条数优先
+            if score > best_score:
+                best_score = score
+                best_panel = panel
+
+        if best_panel:
+            global_used.add(item["title"])
+            panel_list = user_hotsearch[best_panel]
+            panel_list.append({
+                "rank": len(panel_list) + 1,
+                "title": item["title"],
+                "heat": item["heat"],
+                "heat_raw": item["heat_raw"],
+                "platform": item["platform"],
+                "url": build_search_url(item["platform_key"], item["title"]),
+            })
+
+    # ====== 第三阶段：补量（面板不足时，允许极少量借用，全局限制重复率≤10%） ======
+    # 统计总分配量，确保跨面板重复不超过10%
+    # 只有在面板严重不足（<5条）时才启动补量
+    MIN_ITEMS_FOR_BORROW = 5
+    MAX_BORROW_PER_PANEL = 1  # 每面板最多借1条
+
+    borrow_used = set()  # 已被借出的标题（一条最多被借到1个面板）
+    for panel in panel_order:
+        if len(user_hotsearch[panel]) >= MIN_ITEMS_FOR_BORROW:
+            continue
+
+        borrowed = 0
+        for item, eligible_panels in item_eligible:
+            if borrowed >= MAX_BORROW_PER_PANEL:
+                break
+            if panel not in eligible_panels:
+                continue
+            title = item["title"]
+            # 已经在本面板
+            if any(x["title"] == title for x in user_hotsearch[panel]):
+                continue
+            # 同一条已被其他面板借过，不再借
+            if title in borrow_used:
+                continue
+            # 借入
+            borrow_used.add(title)
+            panel_list = user_hotsearch[panel]
+            panel_list.append({
+                "rank": len(panel_list) + 1,
+                "title": title,
+                "heat": item["heat"],
+                "heat_raw": item["heat_raw"],
+                "platform": item["platform"],
+                "url": build_search_url(item["platform_key"], title),
+            })
+            borrowed += 1
+
+    return user_hotsearch
+
+
+# ============================================================
 # 主流程
 # ============================================================
 
@@ -495,15 +951,15 @@ def main():
     print("=" * 60)
     
     # 1. 抓取热搜
-    print("\n📡 [1/4] 抓取各平台热搜（仅保留教育相关）...")
+    print("\n📡 [1/5] 抓取各平台热搜（仅保留教育相关）...")
     hot_search = fetch_hot_search()
     
     # 2. 抓取电商
-    print("\n🛒 [2/4] 抓取电商热销教育商品...")
+    print("\n🛒 [2/5] 抓取电商热销教育商品...")
     hot_products = fetch_hot_products()
     
     # 3. 生成TOP15
-    print("\n🏆 [3/4] 生成全平台教育热搜 TOP15...")
+    print("\n🏆 [3/5] 生成全平台教育热搜 TOP15...")
     platform_names = {'weibo': '微博', 'baidu': '百度', 'quark': '夸克', 'douyin': '抖音', 'so360': '360'}
     
     all_edu_items = []
@@ -538,9 +994,20 @@ def main():
     print(f"  ✓ 生成 {len(top15)} 条跨平台教育热点")
     
     # 4. 营销建议
-    print("\n💡 [4/4] 生成营销建议...")
+    print("\n💡 [4/5] 生成营销建议...")
     marketing = generate_marketing_suggestions(hot_search)
     print(f"  ✓ 为 {len(marketing)} 个赛道生成营销建议")
+    
+    # 5. 用户画像热搜看板
+    print("\n👥 [5/5] 生成用户画像热搜看板...")
+    user_hotsearch = fetch_user_hotsearch()
+    print(
+        "  ✓ 用户画像看板条数："
+        f"非成教(K12) {len(user_hotsearch['k12'])} 条，"
+        f"成人教育 {len(user_hotsearch['adult_edu'])} 条，"
+        f"电子教育 {len(user_hotsearch['e_edu'])} 条，"
+        f"图书 {len(user_hotsearch['books'])} 条"
+    )
     
     # 输出
     now = datetime.now()
@@ -550,7 +1017,8 @@ def main():
         "hot_search": hot_search,
         "hot_products": hot_products,
         "top15_today": top15,
-        "marketing_suggestions": marketing
+        "marketing_suggestions": marketing,
+        "user_hotsearch": user_hotsearch,
     }
     
     output_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data.json')
@@ -559,10 +1027,14 @@ def main():
     
     total_search = sum(len(v) for v in hot_search.values())
     total_products = sum(len(v) for v in hot_products.values())
+    total_user_hot = sum(len(v) for v in user_hotsearch.values())
     
     print(f"\n{'='*60}")
     print(f"✅ 完成! 数据已写入: {output_path}")
-    print(f"📊 统计: 教育热搜 {total_search} 条 | 热销商品 {total_products} 条 | TOP15 {len(top15)} 条")
+    print(
+        f"📊 统计: 教育热搜 {total_search} 条 | 热销商品 {total_products} 条 | "
+        f"TOP15 {len(top15)} 条 | 用户画像热搜 {total_user_hot} 条"
+    )
     print(f"{'='*60}")
 
 
