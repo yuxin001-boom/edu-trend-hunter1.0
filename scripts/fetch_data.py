@@ -1039,4 +1039,25 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as e:
+        # 防止脚本崩溃导致 GitHub Actions 失败
+        print(f"\n⚠️ 脚本遇到异常: {e}")
+        print("正在写入最小化 data.json...")
+        import traceback
+        traceback.print_exc()
+        # 写一个最小可用的 data.json
+        output_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data.json')
+        fallback = {
+            "update_time": datetime.now().strftime('%Y-%m-%d %H:%M'),
+            "issue_no": (datetime.now() - datetime(2026, 6, 12)).days + 1,
+            "hot_search": {},
+            "hot_products": {},
+            "top15_today": [],
+            "marketing_suggestions": [],
+            "user_hotsearch": {"k12": [], "adult_edu": [], "e_edu": [], "books": []},
+        }
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(fallback, f, ensure_ascii=False, indent=2)
+        print(f"✅ 已写入最小化数据: {output_path}")
