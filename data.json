@@ -1,188 +1,188 @@
 {
-  "update_time": "2026-06-25 08:16",
-  "issue_no": 14,
+  "update_time": "2026-06-26 05:00",
+  "issue_no": 15,
   "hot_search": {
     "weibo": [
       {
-        "title": "山东高考分数线",
-        "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E4%B8%9C%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF",
+        "title": "691分广州学霸忍痛拒绝清北",
+        "url": "https://s.weibo.com/weibo?q=691%E5%88%86%E5%B9%BF%E5%B7%9E%E5%AD%A6%E9%9C%B8%E5%BF%8D%E7%97%9B%E6%8B%92%E7%BB%9D%E6%B8%85%E5%8C%97",
         "heat": 1000000,
         "rank": 1,
         "_platform": "微博"
       },
       {
-        "title": "浙江高考分数线",
-        "url": "https://s.weibo.com/weibo?q=%E6%B5%99%E6%B1%9F%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF",
-        "heat": 970000,
+        "title": "李思潼毕业发言",
+        "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E6%80%9D%E6%BD%BC%E6%AF%95%E4%B8%9A%E5%8F%91%E8%A8%80",
+        "heat": 220000,
         "rank": 2,
         "_platform": "微博"
       },
       {
-        "title": "山东高考成绩",
-        "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E4%B8%9C%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9",
-        "heat": 610000,
+        "title": "女生考第一就奖励高考完已有30万",
+        "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E7%94%9F%E8%80%83%E7%AC%AC%E4%B8%80%E5%B0%B1%E5%A5%96%E5%8A%B1%E9%AB%98%E8%80%83%E5%AE%8C%E5%B7%B2%E6%9C%8930%E4%B8%87",
+        "heat": 50000,
         "rank": 3,
         "_platform": "微博"
       },
       {
-        "title": "高考493分放弃本科读专科女生现状",
-        "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83493%E5%88%86%E6%94%BE%E5%BC%83%E6%9C%AC%E7%A7%91%E8%AF%BB%E4%B8%93%E7%A7%91%E5%A5%B3%E7%94%9F%E7%8E%B0%E7%8A%B6",
-        "heat": 580000,
+        "title": "这就是教育的意义",
+        "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E5%B0%B1%E6%98%AF%E6%95%99%E8%82%B2%E7%9A%84%E6%84%8F%E4%B9%89",
+        "heat": 50000,
         "rank": 4,
         "_platform": "微博"
       },
       {
-        "title": "广西分数线",
-        "url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E8%A5%BF%E5%88%86%E6%95%B0%E7%BA%BF",
-        "heat": 70000,
+        "title": "李登科说杨幂热巴是内娱高考模版",
+        "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E7%99%BB%E7%A7%91%E8%AF%B4%E6%9D%A8%E5%B9%82%E7%83%AD%E5%B7%B4%E6%98%AF%E5%86%85%E5%A8%B1%E9%AB%98%E8%80%83%E6%A8%A1%E7%89%88",
+        "heat": 50000,
         "rank": 5,
         "_platform": "微博"
       }
     ],
     "baidu": [
       {
-        "title": "各地高考分数线汇总",
-        "url": "https://www.baidu.com/s?wd=%E5%90%84%E5%9C%B0%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E6%B1%87%E6%80%BB",
-        "heat": 970000,
+        "title": "毕业生邀老板合照：本科到博士吃7年",
+        "url": "https://www.baidu.com/s?wd=%E6%AF%95%E4%B8%9A%E7%94%9F%E9%82%80%E8%80%81%E6%9D%BF%E5%90%88%E7%85%A7%EF%BC%9A%E6%9C%AC%E7%A7%91%E5%88%B0%E5%8D%9A%E5%A3%AB%E5%90%837%E5%B9%B4",
+        "heat": 940000,
         "rank": 1,
         "_platform": "百度"
       },
       {
-        "title": "山东2026高考分数线公布",
-        "url": "https://www.baidu.com/s?wd=%E5%B1%B1%E4%B8%9C2026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83",
-        "heat": 940000,
+        "title": "先高考再中考的初三女生高考614分",
+        "url": "https://www.baidu.com/s?wd=%E5%85%88%E9%AB%98%E8%80%83%E5%86%8D%E4%B8%AD%E8%80%83%E7%9A%84%E5%88%9D%E4%B8%89%E5%A5%B3%E7%94%9F%E9%AB%98%E8%80%83614%E5%88%86",
+        "heat": 880000,
         "rank": 2,
         "_platform": "百度"
       },
       {
-        "title": "如何更好填报高考志愿",
-        "url": "https://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E6%9B%B4%E5%A5%BD%E5%A1%AB%E6%8A%A5%E9%AB%98%E8%80%83%E5%BF%97%E6%84%BF",
-        "heat": 910000,
+        "title": "又一高校录取通知书制作被叫停",
+        "url": "https://www.baidu.com/s?wd=%E5%8F%88%E4%B8%80%E9%AB%98%E6%A0%A1%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E5%88%B6%E4%BD%9C%E8%A2%AB%E5%8F%AB%E5%81%9C",
+        "heat": 760000,
         "rank": 3,
         "_platform": "百度"
       },
       {
-        "title": "高考查分",
-        "url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86",
-        "heat": 700000,
+        "title": "考生拿下全国唯一数学满分被清华录取",
+        "url": "https://www.baidu.com/s?wd=%E8%80%83%E7%94%9F%E6%8B%BF%E4%B8%8B%E5%85%A8%E5%9B%BD%E5%94%AF%E4%B8%80%E6%95%B0%E5%AD%A6%E6%BB%A1%E5%88%86%E8%A2%AB%E6%B8%85%E5%8D%8E%E5%BD%95%E5%8F%96",
+        "heat": 640000,
         "rank": 4,
         "_platform": "百度"
       },
       {
-        "title": "泥水爸爸女儿高考成绩542分",
-        "url": "https://www.baidu.com/s?wd=%E6%B3%A5%E6%B0%B4%E7%88%B8%E7%88%B8%E5%A5%B3%E5%84%BF%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9542%E5%88%86",
-        "heat": 580000,
+        "title": "“吃住行全管、免学费、月发1200元”",
+        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%90%83%E4%BD%8F%E8%A1%8C%E5%85%A8%E7%AE%A1%E3%80%81%E5%85%8D%E5%AD%A6%E8%B4%B9%E3%80%81%E6%9C%88%E5%8F%911200%E5%85%83%E2%80%9D",
+        "heat": 610000,
         "rank": 5,
         "_platform": "百度"
       }
     ],
     "quark": [
       {
-        "title": "女孩高考查分查出隐藏款 已获奖30万",
-        "url": "https://so.m.sm.cn/s?q=%E5%A5%B3%E5%AD%A9%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86%E6%9F%A5%E5%87%BA%E9%9A%90%E8%97%8F%E6%AC%BE+%E5%B7%B2%E8%8E%B7%E5%A5%9630%E4%B8%87",
-        "heat": 970000,
+        "title": "又一高校录取通知书制作被叫停",
+        "url": "https://so.m.sm.cn/s?q=%E5%8F%88%E4%B8%80%E9%AB%98%E6%A0%A1%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E5%88%B6%E4%BD%9C%E8%A2%AB%E5%8F%AB%E5%81%9C",
+        "heat": 460000,
         "rank": 1,
         "_platform": "夸克"
       },
       {
-        "title": "山东高考分数线",
-        "url": "https://so.m.sm.cn/s?q=%E5%B1%B1%E4%B8%9C%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF",
-        "heat": 940000,
+        "title": "清华毕业生四战高考称今年有机会",
+        "url": "https://so.m.sm.cn/s?q=%E6%B8%85%E5%8D%8E%E6%AF%95%E4%B8%9A%E7%94%9F%E5%9B%9B%E6%88%98%E9%AB%98%E8%80%83%E7%A7%B0%E4%BB%8A%E5%B9%B4%E6%9C%89%E6%9C%BA%E4%BC%9A",
+        "heat": 430000,
         "rank": 2,
         "_platform": "夸克"
       },
       {
-        "title": "湖北分数线",
-        "url": "https://so.m.sm.cn/s?q=%E6%B9%96%E5%8C%97%E5%88%86%E6%95%B0%E7%BA%BF",
-        "heat": 880000,
+        "title": "家长骑电驴接送娃 连吃15张罚单",
+        "url": "https://so.m.sm.cn/s?q=%E5%AE%B6%E9%95%BF%E9%AA%91%E7%94%B5%E9%A9%B4%E6%8E%A5%E9%80%81%E5%A8%83+%E8%BF%9E%E5%90%8315%E5%BC%A0%E7%BD%9A%E5%8D%95",
+        "heat": 340000,
         "rank": 3,
         "_platform": "夸克"
       },
       {
-        "title": "跪谢养母的襄阳少年高考467分",
-        "url": "https://so.m.sm.cn/s?q=%E8%B7%AA%E8%B0%A2%E5%85%BB%E6%AF%8D%E7%9A%84%E8%A5%84%E9%98%B3%E5%B0%91%E5%B9%B4%E9%AB%98%E8%80%83467%E5%88%86",
-        "heat": 820000,
+        "title": "高考分数线全部公布!汇总来了",
+        "url": "https://so.m.sm.cn/s?q=%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%A8%E9%83%A8%E5%85%AC%E5%B8%83%21%E6%B1%87%E6%80%BB%E6%9D%A5%E4%BA%86",
+        "heat": 310000,
         "rank": 4,
         "_platform": "夸克"
       },
       {
-        "title": "北京高考分数线公布:本科线429分",
-        "url": "https://so.m.sm.cn/s?q=%E5%8C%97%E4%BA%AC%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83%3A%E6%9C%AC%E7%A7%91%E7%BA%BF429%E5%88%86",
-        "heat": 490000,
+        "title": "哈工大录取通知书回归薄薄一页纸",
+        "url": "https://so.m.sm.cn/s?q=%E5%93%88%E5%B7%A5%E5%A4%A7%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E5%9B%9E%E5%BD%92%E8%96%84%E8%96%84%E4%B8%80%E9%A1%B5%E7%BA%B8",
+        "heat": 50000,
         "rank": 5,
         "_platform": "夸克"
       }
     ],
     "douyin": [
       {
-        "title": "浙江2026高考分数线公布",
-        "url": "https://www.douyin.com/search/%E6%B5%99%E6%B1%9F2026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83",
-        "heat": 910000,
+        "title": "第一视角体验毕业典礼",
+        "url": "https://www.douyin.com/search/%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92%E4%BD%93%E9%AA%8C%E6%AF%95%E4%B8%9A%E5%85%B8%E7%A4%BC",
+        "heat": 1000000,
         "rank": 1,
         "_platform": "抖音"
       },
       {
-        "title": "高考出分名场面",
-        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86%E5%90%8D%E5%9C%BA%E9%9D%A2",
-        "heat": 880000,
+        "title": "高考志愿填报有哪些误区",
+        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%BF%97%E6%84%BF%E5%A1%AB%E6%8A%A5%E6%9C%89%E5%93%AA%E4%BA%9B%E8%AF%AF%E5%8C%BA",
+        "heat": 910000,
         "rank": 2,
         "_platform": "抖音"
       },
       {
-        "title": "高考后的独白",
-        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%90%8E%E7%9A%84%E7%8B%AC%E7%99%BD",
-        "heat": 820000,
+        "title": "高考第七课走出考场走进热爱",
+        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E7%AC%AC%E4%B8%83%E8%AF%BE%E8%B5%B0%E5%87%BA%E8%80%83%E5%9C%BA%E8%B5%B0%E8%BF%9B%E7%83%AD%E7%88%B1",
+        "heat": 880000,
         "rank": 3,
         "_platform": "抖音"
       },
       {
-        "title": "晒晒我的高考成绩",
-        "url": "https://www.douyin.com/search/%E6%99%92%E6%99%92%E6%88%91%E7%9A%84%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9",
-        "heat": 730000,
+        "title": "大学生期末周哪有不疯的",
+        "url": "https://www.douyin.com/search/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9C%9F%E6%9C%AB%E5%91%A8%E5%93%AA%E6%9C%89%E4%B8%8D%E7%96%AF%E7%9A%84",
+        "heat": 850000,
         "rank": 4,
         "_platform": "抖音"
       },
       {
-        "title": "我的高考出分时刻",
-        "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86%E6%97%B6%E5%88%BB",
-        "heat": 700000,
+        "title": "周五来一杯暑假已就位",
+        "url": "https://www.douyin.com/search/%E5%91%A8%E4%BA%94%E6%9D%A5%E4%B8%80%E6%9D%AF%E6%9A%91%E5%81%87%E5%B7%B2%E5%B0%B1%E4%BD%8D",
+        "heat": 730000,
         "rank": 5,
         "_platform": "抖音"
       }
     ],
     "so360": [
       {
-        "title": "山东高考分数线公布",
-        "url": "https://www.so.com/s?q=%E5%B1%B1%E4%B8%9C%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83",
-        "heat": 940000,
+        "title": "高考794分称发挥失常",
+        "url": "https://www.so.com/s?q=%E9%AB%98%E8%80%83794%E5%88%86%E7%A7%B0%E5%8F%91%E6%8C%A5%E5%A4%B1%E5%B8%B8",
+        "heat": 970000,
         "rank": 1,
         "_platform": "360"
       },
       {
-        "title": "毕业生扛着奖牌拨穗",
-        "url": "https://www.so.com/s?q=%E6%AF%95%E4%B8%9A%E7%94%9F%E6%89%9B%E7%9D%80%E5%A5%96%E7%89%8C%E6%8B%A8%E7%A9%97",
-        "heat": 520000,
+        "title": "高校通知书制作叫停",
+        "url": "https://www.so.com/s?q=%E9%AB%98%E6%A0%A1%E9%80%9A%E7%9F%A5%E4%B9%A6%E5%88%B6%E4%BD%9C%E5%8F%AB%E5%81%9C",
+        "heat": 940000,
         "rank": 2,
         "_platform": "360"
       },
       {
-        "title": "板凳男孩高考586分",
-        "url": "https://www.so.com/s?q=%E6%9D%BF%E5%87%B3%E7%94%B7%E5%AD%A9%E9%AB%98%E8%80%83586%E5%88%86",
-        "heat": 430000,
+        "title": "免学费月发1200元",
+        "url": "https://www.so.com/s?q=%E5%85%8D%E5%AD%A6%E8%B4%B9%E6%9C%88%E5%8F%911200%E5%85%83",
+        "heat": 790000,
         "rank": 3,
         "_platform": "360"
       },
       {
-        "title": "考生成绩全省前20",
-        "url": "https://www.so.com/s?q=%E8%80%83%E7%94%9F%E6%88%90%E7%BB%A9%E5%85%A8%E7%9C%81%E5%89%8D20",
-        "heat": 310000,
+        "title": "数学满分被清华录取",
+        "url": "https://www.so.com/s?q=%E6%95%B0%E5%AD%A6%E6%BB%A1%E5%88%86%E8%A2%AB%E6%B8%85%E5%8D%8E%E5%BD%95%E5%8F%96",
+        "heat": 760000,
         "rank": 4,
         "_platform": "360"
       },
       {
-        "title": "曝高考志愿咨询陷阱",
-        "url": "https://www.so.com/s?q=%E6%9B%9D%E9%AB%98%E8%80%83%E5%BF%97%E6%84%BF%E5%92%A8%E8%AF%A2%E9%99%B7%E9%98%B1",
-        "heat": 280000,
+        "title": "8次\"失利\"高考652分",
+        "url": "https://www.so.com/s?q=8%E6%AC%A1%22%E5%A4%B1%E5%88%A9%22%E9%AB%98%E8%80%83652%E5%88%86",
+        "heat": 700000,
         "rank": 5,
         "_platform": "360"
       }
@@ -409,44 +409,34 @@
   "top15_today": [
     {
       "rank": 1,
-      "title": "山东高考分数线",
+      "title": "691分广州学霸忍痛拒绝清北",
       "heat": 1000000,
-      "platforms": [
-        "微博",
-        "夸克"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 2,
-      "title": "浙江高考分数线",
-      "heat": 970000,
       "platforms": [
         "微博"
       ],
       "category": "K12教育"
     },
     {
+      "rank": 2,
+      "title": "第一视角体验毕业典礼",
+      "heat": 1000000,
+      "platforms": [
+        "抖音"
+      ],
+      "category": "K12教育"
+    },
+    {
       "rank": 3,
-      "title": "各地高考分数线汇总",
+      "title": "高考794分称发挥失常",
       "heat": 970000,
       "platforms": [
-        "百度"
+        "360"
       ],
       "category": "K12教育"
     },
     {
       "rank": 4,
-      "title": "女孩高考查分查出隐藏款 已获奖30万",
-      "heat": 970000,
-      "platforms": [
-        "夸克"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 5,
-      "title": "山东2026高考分数线公布",
+      "title": "毕业生邀老板合照：本科到博士吃7年",
       "heat": 940000,
       "platforms": [
         "百度"
@@ -454,8 +444,8 @@
       "category": "K12教育"
     },
     {
-      "rank": 6,
-      "title": "山东高考分数线公布",
+      "rank": 5,
+      "title": "高校通知书制作叫停",
       "heat": 940000,
       "platforms": [
         "360"
@@ -463,9 +453,18 @@
       "category": "K12教育"
     },
     {
-      "rank": 7,
-      "title": "如何更好填报高考志愿",
+      "rank": 6,
+      "title": "高考志愿填报有哪些误区",
       "heat": 910000,
+      "platforms": [
+        "抖音"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 7,
+      "title": "先高考再中考的初三女生高考614分",
+      "heat": 880000,
       "platforms": [
         "百度"
       ],
@@ -473,8 +472,8 @@
     },
     {
       "rank": 8,
-      "title": "浙江2026高考分数线公布",
-      "heat": 910000,
+      "title": "高考第七课走出考场走进热爱",
+      "heat": 880000,
       "platforms": [
         "抖音"
       ],
@@ -482,43 +481,44 @@
     },
     {
       "rank": 9,
-      "title": "湖北分数线",
-      "heat": 880000,
-      "platforms": [
-        "夸克"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 10,
-      "title": "高考出分名场面",
-      "heat": 880000,
+      "title": "大学生期末周哪有不疯的",
+      "heat": 850000,
       "platforms": [
         "抖音"
       ],
       "category": "K12教育"
     },
     {
-      "rank": 11,
-      "title": "跪谢养母的襄阳少年高考467分",
-      "heat": 820000,
+      "rank": 10,
+      "title": "免学费月发1200元",
+      "heat": 790000,
       "platforms": [
+        "360"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 11,
+      "title": "又一高校录取通知书制作被叫停",
+      "heat": 760000,
+      "platforms": [
+        "百度",
         "夸克"
       ],
       "category": "K12教育"
     },
     {
       "rank": 12,
-      "title": "高考后的独白",
-      "heat": 820000,
+      "title": "数学满分被清华录取",
+      "heat": 760000,
       "platforms": [
-        "抖音"
+        "360"
       ],
       "category": "K12教育"
     },
     {
       "rank": 13,
-      "title": "晒晒我的高考成绩",
+      "title": "周五来一杯暑假已就位",
       "heat": 730000,
       "platforms": [
         "抖音"
@@ -527,19 +527,19 @@
     },
     {
       "rank": 14,
-      "title": "高考查分",
+      "title": "8次\"失利\"高考652分",
       "heat": 700000,
       "platforms": [
-        "百度"
+        "360"
       ],
       "category": "K12教育"
     },
     {
       "rank": 15,
-      "title": "我的高考出分时刻",
-      "heat": 700000,
+      "title": "考生拿下全国唯一数学满分被清华录取",
+      "heat": 640000,
       "platforms": [
-        "抖音"
+        "百度"
       ],
       "category": "K12教育"
     }
@@ -570,17 +570,17 @@
       "items": [
         {
           "scene": "升学季流量高峰",
-          "hot_words": "山东高考分数线 / 浙江高考分数线 / 山东高考成绩",
+          "hot_words": "691分广州学霸忍痛拒绝清北 / 李思潼毕业发言 / 高考",
           "strategy": "搜索抢占「分数线预测」「志愿填报工具」等长尾词，落地页提供免费测评工具提升留资率"
         },
         {
           "scene": "暑期培训招生",
-          "hot_words": "高考 / 广西分数线 / 各地高考分数线汇总",
+          "hot_words": "这就是教育的意义 / 李登科说杨幂热巴是内娱高考模版 / 毕业",
           "strategy": "朋友圈广告定向30-45岁家长群体，素材强调「名额有限」「早鸟优惠」制造紧迫感"
         },
         {
           "scene": "学习方法种草",
-          "hot_words": "山东2026高考分数线公布 / 如何更好填报高考志愿 / 高考查分",
+          "hot_words": "又一高校录取通知书制作被叫停 / 录取 / 学费",
           "strategy": "抖音达人合作短视频种草，挂载课程商品链接实现短链路转化，配合开学季节点"
         }
       ]
@@ -630,489 +630,321 @@
     "k12": [
       {
         "rank": 1,
-        "title": "浙江2026高考分数线公布",
-        "heat": "1166万🔥",
-        "heat_raw": 11665000,
+        "title": "高考志愿填报有哪些误区",
+        "heat": "1158万🔥",
+        "heat_raw": 11582000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%B5%99%E6%B1%9F2026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83"
+        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%BF%97%E6%84%BF%E5%A1%AB%E6%8A%A5%E6%9C%89%E5%93%AA%E4%BA%9B%E8%AF%AF%E5%8C%BA"
       },
       {
         "rank": 2,
-        "title": "高考出分名场面",
-        "heat": "1083万🔥",
-        "heat_raw": 10835000,
+        "title": "高考第七课走出考场走进热爱",
+        "heat": "1070万🔥",
+        "heat_raw": 10702000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86%E5%90%8D%E5%9C%BA%E9%9D%A2"
+        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E7%AC%AC%E4%B8%83%E8%AF%BE%E8%B5%B0%E5%87%BA%E8%80%83%E5%9C%BA%E8%B5%B0%E8%BF%9B%E7%83%AD%E7%88%B1"
       },
       {
         "rank": 3,
-        "title": "高考后的独白",
-        "heat": "942万🔥",
-        "heat_raw": 9422000,
+        "title": "周五来一杯暑假已就位",
+        "heat": "904万🔥",
+        "heat_raw": 9043000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%90%8E%E7%9A%84%E7%8B%AC%E7%99%BD"
+        "url": "https://www.douyin.com/search/%E5%91%A8%E4%BA%94%E6%9D%A5%E4%B8%80%E6%9D%AF%E6%9A%91%E5%81%87%E5%B7%B2%E5%B0%B1%E4%BD%8D"
       },
       {
         "rank": 4,
-        "title": "晒晒我的高考成绩",
-        "heat": "932万🔥",
-        "heat_raw": 9327000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%99%92%E6%99%92%E6%88%91%E7%9A%84%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9"
-      },
-      {
-        "rank": 5,
-        "title": "我的高考出分时刻",
-        "heat": "926万🔥",
-        "heat_raw": 9268000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86%E6%97%B6%E5%88%BB"
-      },
-      {
-        "rank": 6,
-        "title": "湖南2026高考分数线出炉",
-        "heat": "924万🔥",
-        "heat_raw": 9246000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%B9%96%E5%8D%972026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%87%BA%E7%82%89"
-      },
-      {
-        "rank": 7,
-        "title": "山西2026高考分数线出炉",
-        "heat": "915万🔥",
-        "heat_raw": 9157000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%B1%B1%E8%A5%BF2026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%87%BA%E7%82%89"
-      },
-      {
-        "rank": 8,
-        "title": "中考后的第一条抖音",
-        "heat": "814万🔥",
-        "heat_raw": 8140000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%AD%E8%80%83%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%A1%E6%8A%96%E9%9F%B3"
-      },
-      {
-        "rank": 9,
-        "title": "甘肃2026高考分数线公布",
-        "heat": "783万🔥",
-        "heat_raw": 7833000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%94%98%E8%82%832026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83"
-      },
-      {
-        "rank": 10,
         "title": "晗少高考查分",
-        "heat": "782万🔥",
-        "heat_raw": 7829000,
+        "heat": "771万🔥",
+        "heat_raw": 7711000,
         "platform": "抖音",
         "url": "https://www.douyin.com/search/%E6%99%97%E5%B0%91%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86"
       },
       {
-        "rank": 11,
-        "title": "各地高考分数线汇总",
-        "heat": "780万🔥",
-        "heat_raw": 7808000,
+        "rank": 5,
+        "title": "高考出分名场面",
+        "heat": "764万🔥",
+        "heat_raw": 7641000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86%E5%90%8D%E5%9C%BA%E9%9D%A2"
+      },
+      {
+        "rank": 6,
+        "title": "先高考再中考的初三女生高考614分",
+        "heat": "752万🔥",
+        "heat_raw": 7522000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%90%84%E5%9C%B0%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E6%B1%87%E6%80%BB"
+        "url": "https://www.baidu.com/s?wd=%E5%85%88%E9%AB%98%E8%80%83%E5%86%8D%E4%B8%AD%E8%80%83%E7%9A%84%E5%88%9D%E4%B8%89%E5%A5%B3%E7%94%9F%E9%AB%98%E8%80%83614%E5%88%86"
+      },
+      {
+        "rank": 7,
+        "title": "三胞胎兄弟高考成绩均超640分",
+        "heat": "589万🔥",
+        "heat_raw": 5896000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%89%E8%83%9E%E8%83%8E%E5%85%84%E5%BC%9F%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9%E5%9D%87%E8%B6%85640%E5%88%86"
+      },
+      {
+        "rank": 8,
+        "title": "托关系上大学 家长两年被骗80多万",
+        "heat": "436万🔥",
+        "heat_raw": 4365000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E6%89%98%E5%85%B3%E7%B3%BB%E4%B8%8A%E5%A4%A7%E5%AD%A6+%E5%AE%B6%E9%95%BF%E4%B8%A4%E5%B9%B4%E8%A2%AB%E9%AA%9780%E5%A4%9A%E4%B8%87"
+      },
+      {
+        "rank": 9,
+        "title": "高考673分男生分享提分心得",
+        "heat": "397万🔥",
+        "heat_raw": 3977000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83673%E5%88%86%E7%94%B7%E7%94%9F%E5%88%86%E4%BA%AB%E6%8F%90%E5%88%86%E5%BF%83%E5%BE%97"
+      },
+      {
+        "rank": 10,
+        "title": "考生8次模考“失利” 高考逆袭652分",
+        "heat": "381万🔥",
+        "heat_raw": 3813000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E8%80%83%E7%94%9F8%E6%AC%A1%E6%A8%A1%E8%80%83%E2%80%9C%E5%A4%B1%E5%88%A9%E2%80%9D+%E9%AB%98%E8%80%83%E9%80%86%E8%A2%AD652%E5%88%86"
+      },
+      {
+        "rank": 11,
+        "title": "清华毕业生四战高考称今年有机会",
+        "heat": "204万🔥",
+        "heat_raw": 2041000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E6%B8%85%E5%8D%8E%E6%AF%95%E4%B8%9A%E7%94%9F%E5%9B%9B%E6%88%98%E9%AB%98%E8%80%83%E7%A7%B0%E4%BB%8A%E5%B9%B4%E6%9C%89%E6%9C%BA%E4%BC%9A"
       },
       {
         "rank": 12,
-        "title": "江西2026高考分数线公布",
-        "heat": "779万🔥",
-        "heat_raw": 7793000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%B1%9F%E8%A5%BF2026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83"
+        "title": "家长骑电驴接送娃 连吃15张罚单",
+        "heat": "201万🔥",
+        "heat_raw": 2016000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%AE%B6%E9%95%BF%E9%AA%91%E7%94%B5%E9%A9%B4%E6%8E%A5%E9%80%81%E5%A8%83+%E8%BF%9E%E5%90%8315%E5%BC%A0%E7%BD%9A%E5%8D%95"
       },
       {
         "rank": 13,
-        "title": "高考后该如何重新出发",
-        "heat": "779万🔥",
-        "heat_raw": 7792000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%90%8E%E8%AF%A5%E5%A6%82%E4%BD%95%E9%87%8D%E6%96%B0%E5%87%BA%E5%8F%91"
+        "title": "高考分数线全部公布!汇总来了",
+        "heat": "198万🔥",
+        "heat_raw": 1980000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%A8%E9%83%A8%E5%85%AC%E5%B8%83%21%E6%B1%87%E6%80%BB%E6%9D%A5%E4%BA%86"
       },
       {
         "rank": 14,
-        "title": "贵州2026高考分数线公布",
-        "heat": "778万🔥",
-        "heat_raw": 7789000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E8%B4%B5%E5%B7%9E2026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83"
+        "title": "钓友暴雨夜钓到118斤巨型青鱼",
+        "heat": "186万🔥",
+        "heat_raw": 1865000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E9%92%93%E5%8F%8B%E6%9A%B4%E9%9B%A8%E5%A4%9C%E9%92%93%E5%88%B0118%E6%96%A4%E5%B7%A8%E5%9E%8B%E9%9D%92%E9%B1%BC"
       },
       {
         "rank": 15,
-        "title": "高考查分时的全家人belike",
-        "heat": "772万🔥",
-        "heat_raw": 7724000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86%E6%97%B6%E7%9A%84%E5%85%A8%E5%AE%B6%E4%BA%BAbelike"
+        "title": "九图了解防汛安全科普知识",
+        "heat": "106万🔥",
+        "heat_raw": 1060000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E4%B9%9D%E5%9B%BE%E4%BA%86%E8%A7%A3%E9%98%B2%E6%B1%9B%E5%AE%89%E5%85%A8%E7%A7%91%E6%99%AE%E7%9F%A5%E8%AF%86"
       }
     ],
     "adult_edu": [
       {
         "rank": 1,
-        "title": "三体2官宣演员阵容",
-        "heat": "770万🔥",
-        "heat_raw": 7708000,
+        "title": "委内瑞拉地震2名中国公民遇难",
+        "heat": "913万🔥",
+        "heat_raw": 9136000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%89%E4%BD%932%E5%AE%98%E5%AE%A3%E6%BC%94%E5%91%98%E9%98%B5%E5%AE%B9"
+        "url": "https://www.douyin.com/search/%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89%E5%9C%B0%E9%9C%872%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E9%81%87%E9%9A%BE"
       },
       {
         "rank": 2,
-        "title": "A股收盘：创业板指放量反弹涨2.84%",
-        "heat": "628万🔥",
-        "heat_raw": 6282000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%8C%87%E6%94%BE%E9%87%8F%E5%8F%8D%E5%BC%B9%E6%B6%A82.84%25"
+        "title": "楚秉杰战胜柯秉逸晋级半决赛",
+        "heat": "775万🔥",
+        "heat_raw": 7756000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%A5%9A%E7%A7%89%E6%9D%B0%E6%88%98%E8%83%9C%E6%9F%AF%E7%A7%89%E9%80%B8%E6%99%8B%E7%BA%A7%E5%8D%8A%E5%86%B3%E8%B5%9B"
       },
       {
         "rank": 3,
-        "title": "感动全网的“板凳男孩”高考586分",
-        "heat": "533万🔥",
-        "heat_raw": 5332000,
+        "title": "亲历日本7.2级地震的中国游客住14楼",
+        "heat": "628万🔥",
+        "heat_raw": 6287000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%84%9F%E5%8A%A8%E5%85%A8%E7%BD%91%E7%9A%84%E2%80%9C%E6%9D%BF%E5%87%B3%E7%94%B7%E5%AD%A9%E2%80%9D%E9%AB%98%E8%80%83586%E5%88%86"
+        "url": "https://www.baidu.com/s?wd=%E4%BA%B2%E5%8E%86%E6%97%A5%E6%9C%AC7.2%E7%BA%A7%E5%9C%B0%E9%9C%87%E7%9A%84%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%E4%BD%8F14%E6%A5%BC"
       },
       {
         "rank": 4,
-        "title": "世界杯套餐3块薯饼500元人民币",
-        "heat": "438万🔥",
-        "heat_raw": 4383000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%A5%97%E9%A4%903%E5%9D%97%E8%96%AF%E9%A5%BC500%E5%85%83%E4%BA%BA%E6%B0%91%E5%B8%81"
+        "title": "本届世界杯最糟的是VAR",
+        "heat": "181万🔥",
+        "heat_raw": 1813000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E6%9C%AC%E5%B1%8A%E4%B8%96%E7%95%8C%E6%9D%AF%E6%9C%80%E7%B3%9F%E7%9A%84%E6%98%AFVAR"
       },
       {
         "rank": 5,
-        "title": "委内瑞拉地震 居民楼被连“根”拔起",
-        "heat": "396万🔥",
-        "heat_raw": 3968000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89%E5%9C%B0%E9%9C%87+%E5%B1%85%E6%B0%91%E6%A5%BC%E8%A2%AB%E8%BF%9E%E2%80%9C%E6%A0%B9%E2%80%9D%E6%8B%94%E8%B5%B7"
+        "title": "54岁女生退休倒计时火了",
+        "heat": "43万🔥",
+        "heat_raw": 430000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=54%E5%B2%81%E5%A5%B3%E7%94%9F%E9%80%80%E4%BC%91%E5%80%92%E8%AE%A1%E6%97%B6%E7%81%AB%E4%BA%86"
       },
       {
         "rank": 6,
-        "title": "孙兴慜世界杯连续7场0进球",
-        "heat": "194万🔥",
-        "heat_raw": 1940000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%AD%99%E5%85%B4%E6%85%9C%E4%B8%96%E7%95%8C%E6%9D%AF%E8%BF%9E%E7%BB%AD7%E5%9C%BA0%E8%BF%9B%E7%90%83"
+        "title": "花少8集齐了四位大奖女演员",
+        "heat": "39万🔥",
+        "heat_raw": 390000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%B0%918%E9%9B%86%E9%BD%90%E4%BA%86%E5%9B%9B%E4%BD%8D%E5%A4%A7%E5%A5%96%E5%A5%B3%E6%BC%94%E5%91%98"
       },
       {
         "rank": 7,
-        "title": "“神秘的东方力量”再现世界杯赛场",
-        "heat": "178万🔥",
-        "heat_raw": 1785000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E2%80%9C%E7%A5%9E%E7%A7%98%E7%9A%84%E4%B8%9C%E6%96%B9%E5%8A%9B%E9%87%8F%E2%80%9D%E5%86%8D%E7%8E%B0%E4%B8%96%E7%95%8C%E6%9D%AF%E8%B5%9B%E5%9C%BA"
-      },
-      {
-        "rank": 8,
-        "title": "日本近海6.9级地震 东京震感明显",
-        "heat": "171万🔥",
-        "heat_raw": 1718000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E6%97%A5%E6%9C%AC%E8%BF%91%E6%B5%B76.9%E7%BA%A7%E5%9C%B0%E9%9C%87+%E4%B8%9C%E4%BA%AC%E9%9C%87%E6%84%9F%E6%98%8E%E6%98%BE"
-      },
-      {
-        "rank": 9,
-        "title": "北京“棉花糖”云朵刷屏",
-        "heat": "167万🔥",
-        "heat_raw": 1670000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%8C%97%E4%BA%AC%E2%80%9C%E6%A3%89%E8%8A%B1%E7%B3%96%E2%80%9D%E4%BA%91%E6%9C%B5%E5%88%B7%E5%B1%8F"
-      },
-      {
-        "rank": 10,
-        "title": "麻醉学就业率几乎100%",
-        "heat": "91万🔥",
-        "heat_raw": 910000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E9%BA%BB%E9%86%89%E5%AD%A6%E5%B0%B1%E4%B8%9A%E7%8E%87%E5%87%A0%E4%B9%8E100%25"
-      },
-      {
-        "rank": 11,
-        "title": "日本韩国世界杯死亡前景",
-        "heat": "48万🔥",
-        "heat_raw": 480000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E9%9F%A9%E5%9B%BD%E4%B8%96%E7%95%8C%E6%9D%AF%E6%AD%BB%E4%BA%A1%E5%89%8D%E6%99%AF"
-      },
-      {
-        "rank": 12,
-        "title": "曾沛慈张月陈瑶已解锁总决赛个人直拍",
-        "heat": "44万🔥",
-        "heat_raw": 440000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E6%9B%BE%E6%B2%9B%E6%85%88%E5%BC%A0%E6%9C%88%E9%99%88%E7%91%B6%E5%B7%B2%E8%A7%A3%E9%94%81%E6%80%BB%E5%86%B3%E8%B5%9B%E4%B8%AA%E4%BA%BA%E7%9B%B4%E6%8B%8D"
-      },
-      {
-        "rank": 13,
-        "title": "13岁华人女孩在委内瑞拉地震中遇难",
-        "heat": "26万🔥",
-        "heat_raw": 260000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=13%E5%B2%81%E5%8D%8E%E4%BA%BA%E5%A5%B3%E5%AD%A9%E5%9C%A8%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89%E5%9C%B0%E9%9C%87%E4%B8%AD%E9%81%87%E9%9A%BE"
-      },
-      {
-        "rank": 14,
-        "title": "日本本州7.1级地震",
-        "heat": "13万🔥",
-        "heat_raw": 130000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E6%9C%AC%E5%B7%9E7.1%E7%BA%A7%E5%9C%B0%E9%9C%87"
-      },
-      {
-        "rank": 15,
-        "title": "麻醉学就业率100%",
-        "heat": "6万🔥",
-        "heat_raw": 62816,
+        "title": "香港演员苗金凤去世",
+        "heat": "5万🔥",
+        "heat_raw": 50168,
         "platform": "360",
-        "url": "https://www.so.com/s?q=%E9%BA%BB%E9%86%89%E5%AD%A6%E5%B0%B1%E4%B8%9A%E7%8E%87100%25"
+        "url": "https://www.so.com/s?q=%E9%A6%99%E6%B8%AF%E6%BC%94%E5%91%98%E8%8B%97%E9%87%91%E5%87%A4%E5%8E%BB%E4%B8%96"
       }
     ],
     "e_edu": [
       {
         "rank": 1,
-        "title": "山东2026高考分数线公布",
-        "heat": "771万🔥",
-        "heat_raw": 7714000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%B1%B1%E4%B8%9C2026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83"
+        "title": "香港资深演员苗金凤离世",
+        "heat": "895万🔥",
+        "heat_raw": 8950000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%A6%99%E6%B8%AF%E8%B5%84%E6%B7%B1%E6%BC%94%E5%91%98%E8%8B%97%E9%87%91%E5%87%A4%E7%A6%BB%E4%B8%96"
       },
       {
         "rank": 2,
-        "title": "高考出分后必做的事",
-        "heat": "770万🔥",
-        "heat_raw": 7700000,
+        "title": "黄健翔孙继海预测世界杯出线局势",
+        "heat": "773万🔥",
+        "heat_raw": 7739000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86%E5%90%8E%E5%BF%85%E5%81%9A%E7%9A%84%E4%BA%8B"
+        "url": "https://www.douyin.com/search/%E9%BB%84%E5%81%A5%E7%BF%94%E5%AD%99%E7%BB%A7%E6%B5%B7%E9%A2%84%E6%B5%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E5%87%BA%E7%BA%BF%E5%B1%80%E5%8A%BF"
       },
       {
         "rank": 3,
-        "title": "用AI制作一部玄幻短片",
-        "heat": "769万🔥",
-        "heat_raw": 7693000,
+        "title": "佟大为新剧手机被陌生人监控",
+        "heat": "766万🔥",
+        "heat_raw": 7669000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%94%A8AI%E5%88%B6%E4%BD%9C%E4%B8%80%E9%83%A8%E7%8E%84%E5%B9%BB%E7%9F%AD%E7%89%87"
+        "url": "https://www.douyin.com/search/%E4%BD%9F%E5%A4%A7%E4%B8%BA%E6%96%B0%E5%89%A7%E6%89%8B%E6%9C%BA%E8%A2%AB%E9%99%8C%E7%94%9F%E4%BA%BA%E7%9B%91%E6%8E%A7"
       },
       {
         "rank": 4,
-        "title": "高考查分",
-        "heat": "694万🔥",
-        "heat_raw": 6944000,
+        "title": "短剧霸总刚当上男主就被AI抢角色",
+        "heat": "493万🔥",
+        "heat_raw": 4936000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86"
+        "url": "https://www.baidu.com/s?wd=%E7%9F%AD%E5%89%A7%E9%9C%B8%E6%80%BB%E5%88%9A%E5%BD%93%E4%B8%8A%E7%94%B7%E4%B8%BB%E5%B0%B1%E8%A2%ABAI%E6%8A%A2%E8%A7%92%E8%89%B2"
       },
       {
         "rank": 5,
-        "title": "居民吐槽高考放榜后有人凌晨放烟花",
-        "heat": "637万🔥",
-        "heat_raw": 6371000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%B1%85%E6%B0%91%E5%90%90%E6%A7%BD%E9%AB%98%E8%80%83%E6%94%BE%E6%A6%9C%E5%90%8E%E6%9C%89%E4%BA%BA%E5%87%8C%E6%99%A8%E6%94%BE%E7%83%9F%E8%8A%B1"
+        "title": "IBM发布全球首款亚纳米芯片技术",
+        "heat": "173万🔥",
+        "heat_raw": 1733000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=IBM%E5%8F%91%E5%B8%83%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%E4%BA%9A%E7%BA%B3%E7%B1%B3%E8%8A%AF%E7%89%87%E6%8A%80%E6%9C%AF"
       },
       {
         "rank": 6,
-        "title": "甘肃2026年高考分数线公布",
-        "heat": "589万🔥",
-        "heat_raw": 5898000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%94%98%E8%82%832026%E5%B9%B4%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83"
+        "title": "李登科说杨幂热巴是内娱高考模版",
+        "heat": "40万🔥",
+        "heat_raw": 400000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E7%99%BB%E7%A7%91%E8%AF%B4%E6%9D%A8%E5%B9%82%E7%83%AD%E5%B7%B4%E6%98%AF%E5%86%85%E5%A8%B1%E9%AB%98%E8%80%83%E6%A8%A1%E7%89%88"
       },
       {
         "rank": 7,
-        "title": "湖南高考600分以上21015人",
-        "heat": "483万🔥",
-        "heat_raw": 4830000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%B9%96%E5%8D%97%E9%AB%98%E8%80%83600%E5%88%86%E4%BB%A5%E4%B8%8A21015%E4%BA%BA"
+        "title": "高考794分称发挥失常",
+        "heat": "7万🔥",
+        "heat_raw": 74001,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E9%AB%98%E8%80%83794%E5%88%86%E7%A7%B0%E5%8F%91%E6%8C%A5%E5%A4%B1%E5%B8%B8"
       },
       {
         "rank": 8,
-        "title": "跪谢养母的襄阳少年高考467分",
-        "heat": "225万🔥",
-        "heat_raw": 2257000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E8%B7%AA%E8%B0%A2%E5%85%BB%E6%AF%8D%E7%9A%84%E8%A5%84%E9%98%B3%E5%B0%91%E5%B9%B4%E9%AB%98%E8%80%83467%E5%88%86"
+        "title": "高一生高考620分",
+        "heat": "6万🔥",
+        "heat_raw": 63033,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E9%AB%98%E4%B8%80%E7%94%9F%E9%AB%98%E8%80%83620%E5%88%86"
       },
       {
         "rank": 9,
-        "title": "北京高考分数线公布:本科线429分",
-        "heat": "201万🔥",
-        "heat_raw": 2011000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%8C%97%E4%BA%AC%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83%3A%E6%9C%AC%E7%A7%91%E7%BA%BF429%E5%88%86"
-      },
-      {
-        "rank": 10,
-        "title": "2026河南高考分数线发布",
-        "heat": "166万🔥",
-        "heat_raw": 1668000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=2026%E6%B2%B3%E5%8D%97%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%8F%91%E5%B8%83"
-      },
-      {
-        "rank": 11,
-        "title": "江苏高考分数线：本科物理类456分",
-        "heat": "163万🔥",
-        "heat_raw": 1633000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E6%B1%9F%E8%8B%8F%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%EF%BC%9A%E6%9C%AC%E7%A7%91%E7%89%A9%E7%90%86%E7%B1%BB456%E5%88%86"
-      },
-      {
-        "rank": 12,
-        "title": "山东高考成绩",
-        "heat": "43万🔥",
-        "heat_raw": 430000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E4%B8%9C%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9"
-      },
-      {
-        "rank": 13,
-        "title": "谷歌前CEO批中国AI开源",
-        "heat": "30万🔥",
-        "heat_raw": 300000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E8%B0%B7%E6%AD%8C%E5%89%8DCEO%E6%89%B9%E4%B8%AD%E5%9B%BDAI%E5%BC%80%E6%BA%90"
-      },
-      {
-        "rank": 14,
-        "title": "黄仁勋称物理AI是下一波增长浪潮",
-        "heat": "25万🔥",
-        "heat_raw": 250000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E7%A7%B0%E7%89%A9%E7%90%86AI%E6%98%AF%E4%B8%8B%E4%B8%80%E6%B3%A2%E5%A2%9E%E9%95%BF%E6%B5%AA%E6%BD%AE"
-      },
-      {
-        "rank": 15,
-        "title": "山东高考分数线公布",
-        "heat": "7万🔥",
-        "heat_raw": 74008,
+        "title": "双胞胎高考都是660分",
+        "heat": "3万🔥",
+        "heat_raw": 36605,
         "platform": "360",
-        "url": "https://www.so.com/s?q=%E5%B1%B1%E4%B8%9C%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83"
+        "url": "https://www.so.com/s?q=%E5%8F%8C%E8%83%9E%E8%83%8E%E9%AB%98%E8%80%83%E9%83%BD%E6%98%AF660%E5%88%86"
       }
     ],
     "books": [
       {
         "rank": 1,
-        "title": "广东白切鸡上综艺又被淘汰",
-        "heat": "774万🔥",
-        "heat_raw": 7742000,
+        "title": "用诗意解说打开美加墨世界杯",
+        "heat": "784万🔥",
+        "heat_raw": 7842000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%B9%BF%E4%B8%9C%E7%99%BD%E5%88%87%E9%B8%A1%E4%B8%8A%E7%BB%BC%E8%89%BA%E5%8F%88%E8%A2%AB%E6%B7%98%E6%B1%B0"
+        "url": "https://www.douyin.com/search/%E7%94%A8%E8%AF%97%E6%84%8F%E8%A7%A3%E8%AF%B4%E6%89%93%E5%BC%80%E7%BE%8E%E5%8A%A0%E5%A2%A8%E4%B8%96%E7%95%8C%E6%9D%AF"
       },
       {
         "rank": 2,
         "title": "电影抓特务女儿为妈妈发声",
-        "heat": "768万🔥",
-        "heat_raw": 7681000,
+        "heat": "769万🔥",
+        "heat_raw": 7695000,
         "platform": "抖音",
         "url": "https://www.douyin.com/search/%E7%94%B5%E5%BD%B1%E6%8A%93%E7%89%B9%E5%8A%A1%E5%A5%B3%E5%84%BF%E4%B8%BA%E5%A6%88%E5%A6%88%E5%8F%91%E5%A3%B0"
       },
       {
         "rank": 3,
-        "title": "如何更好填报高考志愿",
-        "heat": "761万🔥",
-        "heat_raw": 7618000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E6%9B%B4%E5%A5%BD%E5%A1%AB%E6%8A%A5%E9%AB%98%E8%80%83%E5%BF%97%E6%84%BF"
+        "title": "巴西日本首次在世界杯淘汰赛对决",
+        "heat": "208万🔥",
+        "heat_raw": 2089000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%B7%B4%E8%A5%BF%E6%97%A5%E6%9C%AC%E9%A6%96%E6%AC%A1%E5%9C%A8%E4%B8%96%E7%95%8C%E6%9D%AF%E6%B7%98%E6%B1%B0%E8%B5%9B%E5%AF%B9%E5%86%B3"
       },
       {
         "rank": 4,
-        "title": "泥水爸爸女儿高考成绩542分",
-        "heat": "656万🔥",
-        "heat_raw": 6564000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%B3%A5%E6%B0%B4%E7%88%B8%E7%88%B8%E5%A5%B3%E5%84%BF%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9542%E5%88%86"
+        "title": "世界杯32强已确定18席",
+        "heat": "59万🔥",
+        "heat_raw": 590000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF32%E5%BC%BA%E5%B7%B2%E7%A1%AE%E5%AE%9A18%E5%B8%AD"
       },
       {
         "rank": 5,
-        "title": "贵州女孩高考710分淡定与母亲拥抱",
-        "heat": "599万🔥",
-        "heat_raw": 5991000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%B4%B5%E5%B7%9E%E5%A5%B3%E5%AD%A9%E9%AB%98%E8%80%83710%E5%88%86%E6%B7%A1%E5%AE%9A%E4%B8%8E%E6%AF%8D%E4%BA%B2%E6%8B%A5%E6%8A%B1"
+        "title": "女生考第一就奖励高考完已有30万",
+        "heat": "41万🔥",
+        "heat_raw": 410000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E7%94%9F%E8%80%83%E7%AC%AC%E4%B8%80%E5%B0%B1%E5%A5%96%E5%8A%B1%E9%AB%98%E8%80%83%E5%AE%8C%E5%B7%B2%E6%9C%8930%E4%B8%87"
       },
       {
         "rank": 6,
-        "title": "衡水二中有学子高考710分",
-        "heat": "560万🔥",
-        "heat_raw": 5605000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%A1%A1%E6%B0%B4%E4%BA%8C%E4%B8%AD%E6%9C%89%E5%AD%A6%E5%AD%90%E9%AB%98%E8%80%83710%E5%88%86"
+        "title": "女生平时数学50高考超常发挥602",
+        "heat": "39万🔥",
+        "heat_raw": 390000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E7%94%9F%E5%B9%B3%E6%97%B6%E6%95%B0%E5%AD%A650%E9%AB%98%E8%80%83%E8%B6%85%E5%B8%B8%E5%8F%91%E6%8C%A5602"
       },
       {
         "rank": 7,
-        "title": "女孩高考查分查出隐藏款 已获奖30万",
-        "heat": "275万🔥",
-        "heat_raw": 2751000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%A5%B3%E5%AD%A9%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86%E6%9F%A5%E5%87%BA%E9%9A%90%E8%97%8F%E6%AC%BE+%E5%B7%B2%E8%8E%B7%E5%A5%9630%E4%B8%87"
+        "title": "8次\"失利\"高考652分",
+        "heat": "6万🔥",
+        "heat_raw": 66242,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=8%E6%AC%A1%22%E5%A4%B1%E5%88%A9%22%E9%AB%98%E8%80%83652%E5%88%86"
       },
       {
         "rank": 8,
-        "title": "山东高考分数线",
-        "heat": "208万🔥",
-        "heat_raw": 2080000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E4%B8%9C%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF"
-      },
-      {
-        "rank": 9,
-        "title": "2026年各地高考分数线汇总",
-        "heat": "171万🔥",
-        "heat_raw": 1712000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=2026%E5%B9%B4%E5%90%84%E5%9C%B0%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E6%B1%87%E6%80%BB"
-      },
-      {
-        "rank": 10,
-        "title": "辽宁高考分数线公布",
-        "heat": "163万🔥",
-        "heat_raw": 1637000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E8%BE%BD%E5%AE%81%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83"
-      },
-      {
-        "rank": 11,
-        "title": "浙江高考分数线",
-        "heat": "135万🔥",
-        "heat_raw": 1350000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E6%B5%99%E6%B1%9F%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF"
-      },
-      {
-        "rank": 12,
-        "title": "高考493分放弃本科读专科女生现状",
-        "heat": "42万🔥",
-        "heat_raw": 420000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83493%E5%88%86%E6%94%BE%E5%BC%83%E6%9C%AC%E7%A7%91%E8%AF%BB%E4%B8%93%E7%A7%91%E5%A5%B3%E7%94%9F%E7%8E%B0%E7%8A%B6"
-      },
-      {
-        "rank": 13,
-        "title": "网红陈慧敏引产",
-        "heat": "26万🔥",
-        "heat_raw": 260000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E7%BA%A2%E9%99%88%E6%85%A7%E6%95%8F%E5%BC%95%E4%BA%A7"
-      },
-      {
-        "rank": 14,
-        "title": "浙江高考成绩",
-        "heat": "21万🔥",
-        "heat_raw": 210000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E6%B5%99%E6%B1%9F%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9"
-      },
-      {
-        "rank": 15,
-        "title": "谷歌前CEO批中国AI",
-        "heat": "4万🔥",
-        "heat_raw": 49367,
+        "title": "高考分数线全部汇总",
+        "heat": "5万🔥",
+        "heat_raw": 56429,
         "platform": "360",
-        "url": "https://www.so.com/s?q=%E8%B0%B7%E6%AD%8C%E5%89%8DCEO%E6%89%B9%E4%B8%AD%E5%9B%BDAI"
+        "url": "https://www.so.com/s?q=%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%A8%E9%83%A8%E6%B1%87%E6%80%BB"
       }
     ]
   }
