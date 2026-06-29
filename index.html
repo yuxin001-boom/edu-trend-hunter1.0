@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>教育热点捕手 · 教育行业全网热点 & 热销日更看板</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800;9..144,900&family=JetBrains+Mono:wght@400;600&family=Noto+Serif+SC:wght@400;600;900&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2.1.0/dist/echarts-wordcloud.min.js"></script>
-<style>
+<!DOCTYPE html><html lang="zh-CN" data-aime-line="2" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="html"><head data-aime-line="3" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="head">
+<meta charset="UTF-8" data-aime-line="4" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="meta">
+<meta name="viewport" content="width=device-width,initial-scale=1.0" data-aime-line="5" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="meta">
+<title data-aime-line="6" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="title">教育热点捕手 · 教育行业全网热点 &amp; 热销日更看板</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" data-aime-line="7" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="link">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" data-aime-line="8" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="link">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800;9..144,900&amp;family=JetBrains+Mono:wght@400;600&amp;family=Noto+Serif+SC:wght@400;600;900&amp;display=swap" rel="stylesheet" data-aime-line="9" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="link">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js" data-aime-line="10" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="script"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2.1.0/dist/echarts-wordcloud.min.js" data-aime-line="11" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="script"></script>
+<style data-aime-line="12" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="style">
 :root{
   --ink:#1a1a2e;--paper:#f8f6f0;--paper-2:#f0ebe0;--paper-3:#e8e0d0;
   --accent:#2563eb;--accent-2:#059669;--accent-3:#d97706;--accent-4:#dc2626;
@@ -46,7 +44,7 @@ body::after{
 /* NAV */
 .jump-tabs{
   position:sticky;top:0;z-index:20;
-  display:grid;grid-template-columns:repeat(5,1fr);
+  display:grid;grid-template-columns:repeat(6,1fr);
   margin-top:18px;border:1.5px solid var(--ink);
   background:rgba(248,246,240,.96);backdrop-filter:blur(10px);
   box-shadow:0 10px 22px rgba(26,26,46,.06);
@@ -185,6 +183,54 @@ body::after{
 .marketing-table .hot-words{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--accent-3)}
 .marketing-table .strategy{color:var(--muted);font-size:12px;line-height:1.7}
 
+/* CASE STUDY / 素材榜 */
+.section-intro{font-size:14px;line-height:1.8;color:var(--muted);max-width:720px;margin-bottom:20px}
+.section-intro b{color:var(--ink);background:linear-gradient(transparent 60%,rgba(37,99,235,.15) 60%);padding:0 2px}
+.case-list{display:flex;flex-direction:column;gap:16px}
+.case-card{background:#fff;border:1px solid rgba(26,26,46,.1);border-radius:12px;padding:20px 24px;box-shadow:0 4px 16px rgba(26,26,46,.04);transition:all .25s ease;cursor:pointer;position:relative;overflow:hidden}
+.case-card:hover{box-shadow:0 8px 28px rgba(26,26,46,.08);transform:translateY(-1px)}
+.case-card.expanded{cursor:default;box-shadow:0 8px 28px rgba(26,26,46,.08)}
+.case-card.expanded:hover{transform:none}
+.card-collapsed{display:flex;align-items:center;gap:20px}
+.card-collapsed .card-thumb{flex:0 0 80px;width:80px;height:142px;border-radius:10px;overflow:hidden;background:#1a1a2e}
+.card-collapsed .card-thumb img{width:100%;height:100%;object-fit:cover}
+.card-collapsed .card-info{flex:1;display:flex;flex-direction:column;gap:8px}
+.card-collapsed .card-info .card-title-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.card-collapsed .card-info .card-title-row h3{font-size:16px;font-weight:700;color:var(--ink)}
+.card-collapsed .card-info .card-title-row .tag{font-size:11px;padding:3px 8px;border-radius:999px;background:rgba(5,150,105,.08);border:1px solid rgba(5,150,105,.3);color:var(--accent-2);font-weight:500}
+.card-collapsed .card-info .card-desc{font-size:13px;color:var(--muted);line-height:1.6}
+.card-collapsed .expand-hint{flex:0 0 auto;font-size:11px;color:var(--muted);writing-mode:vertical-rl;letter-spacing:.1em;opacity:.6}
+.card-expanded{display:none;padding-top:20px;border-top:1px solid rgba(26,26,46,.08)}
+.case-card.expanded .card-collapsed{padding-bottom:16px}
+.case-card.expanded .card-expanded{display:block}
+.case-card.expanded .card-collapsed .expand-hint{display:none}
+.expanded-content{display:flex;gap:24px;align-items:flex-start}
+.expanded-img{flex:0 0 200px;width:200px;border-radius:14px;overflow:hidden;box-shadow:0 8px 24px rgba(26,26,46,.12)}
+.expanded-img img{width:100%;display:block;border-radius:14px}
+.expanded-img .img-caption{font-size:10px;color:var(--muted);text-align:center;margin-top:6px;font-style:italic}
+.expanded-detail{flex:1;display:flex;flex-direction:column;gap:16px}
+.highlight-block{border-radius:12px;padding:16px;background:linear-gradient(135deg,rgba(37,99,235,.04),rgba(5,150,105,.06));border:1px solid rgba(37,99,235,.12)}
+.highlight-title{font-size:13px;font-weight:700;color:var(--edu-primary);margin-bottom:8px}
+.highlight-list{margin:0;padding-left:1.2em;font-size:13px;color:var(--ink);line-height:1.8}
+.highlight-list li{margin-bottom:4px}
+.highlight-list b{color:var(--edu-primary)}
+.logic-block{border-radius:12px;padding:16px;background:linear-gradient(135deg,rgba(5,150,105,.04),rgba(37,99,235,.04));border:1px solid rgba(5,150,105,.12)}
+.logic-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.logic-title{font-size:13px;font-weight:700;color:var(--accent-2);margin:0}
+.logic-tag{font-size:11px;padding:3px 8px;border-radius:999px;background:rgba(5,150,105,.08);color:var(--accent-2)}
+.logic-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:12px}
+.logic-item{padding:10px 12px;border-radius:10px;background:var(--paper);border:1px solid rgba(26,26,46,.06)}
+.logic-label{font-size:11px;font-weight:700;color:var(--accent-2);margin-bottom:4px}
+.logic-item p{margin:0;font-size:12px;color:var(--ink);line-height:1.6}
+.logic-item p b{color:var(--edu-primary)}
+.logic-extra-title{font-size:12px;font-weight:700;color:var(--ink);margin:4px 0 6px}
+.logic-extra-list{margin:0;padding-left:1.2em;font-size:12px;color:#374151;line-height:1.8}
+.logic-extra-list li{margin-bottom:2px}
+.collapse-btn{display:inline-flex;align-items:center;gap:6px;margin-top:12px;padding:6px 14px;border-radius:999px;background:var(--paper-2);border:1px solid rgba(26,26,46,.1);font-size:12px;color:var(--muted);cursor:pointer;transition:all .2s}
+.collapse-btn:hover{background:var(--paper-3);color:var(--ink)}
+@media(max-width:1024px){.logic-grid{grid-template-columns:1fr}}
+@media(max-width:768px){.expanded-content{flex-direction:column}.expanded-img{width:100%;flex:none;max-width:240px}.card-collapsed .card-thumb{flex:0 0 60px;width:60px;height:106px}}
+
 /* CHART AREA */
 .chart-container{background:#fff;border-radius:12px;border:1px solid rgba(26,26,46,.08);padding:20px;margin-bottom:24px;box-shadow:0 2px 12px rgba(26,26,46,.03)}
 .chart-title{font-family:"Noto Serif SC",serif;font-weight:900;font-size:16px;margin-bottom:16px;display:flex;align-items:center;gap:8px}
@@ -210,183 +256,2215 @@ body::after{
 @keyframes fadeInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 .animate-in{animation:fadeInUp .5s ease forwards;opacity:0}
 </style>
-</head>
-<body>
-<div class="wrap">
+<script type="module">
+
+          !function(e,t){if("object"==typeof exports&&"object"==typeof module)module.exports=t();else if("function"==typeof define&&define.amd)define([],t);else{var r=t();for(var o in r)("object"==typeof exports?exports:e)[o]=r[o]}}(globalThis,()=>(()=>{"use strict";let e,t,r=`*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+/*
+! tailwindcss v3.4.18 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured \`sans\` font-family by default.
+5. Use the user's configured \`sans\` font-feature-settings by default.
+6. Use the user's configured \`sans\` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from \`html\` so users can set them as a class directly on the \`html\` element.
+*/
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured \`mono\` font-family by default.
+2. Use the user's configured \`mono\` font-feature-settings by default.
+3. Use the user's configured \`mono\` font-variation-settings by default.
+4. Correct the odd \`em\` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent \`sub\` and \`sup\` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional \`:invalid\` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to \`inherit\` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements \`display: block\` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add \`vertical-align: middle\` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+::-webkit-datetime-edit-fields-wrapper {
+  padding: 0;
+}
+
+::-webkit-date-and-time-value {
+  min-height: 1.5em;
+}
+
+::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+  background-size: 1.5em 1.5em;
+  padding-right: 2.5rem;
+  -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+}
+
+[multiple],[size]:where(select:not([size="1"])) {
+  background-image: initial;
+  background-position: initial;
+  background-repeat: unset;
+  background-size: initial;
+  padding-right: 0.75rem;
+  -webkit-print-color-adjust: unset;
+          print-color-adjust: unset;
+}
+
+[type='checkbox'],[type='radio'] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0;
+  -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+  display: inline-block;
+  vertical-align: middle;
+  background-origin: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  flex-shrink: 0;
+  height: 1rem;
+  width: 1rem;
+  color: #2563eb;
+  background-color: #fff;
+  border-color: #6b7280;
+  border-width: 1px;
+  --tw-shadow: 0 0 #0000;
+}
+
+[type='checkbox'] {
+  border-radius: 0px;
+}
+
+[type='radio'] {
+  border-radius: 100%;
+}
+
+[type='checkbox']:focus,[type='radio']:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+  --tw-ring-offset-width: 2px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: #2563eb;
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+}
+
+[type='checkbox']:checked,[type='radio']:checked {
+  border-color: transparent;
+  background-color: currentColor;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+[type='checkbox']:checked {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+}
+
+[type='radio']:checked {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e");
+}
+
+[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus {
+  border-color: transparent;
+  background-color: currentColor;
+}
+
+[type='checkbox']:indeterminate {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e");
+  border-color: transparent;
+  background-color: currentColor;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus {
+  border-color: transparent;
+  background-color: currentColor;
+}
+
+[type='file'] {
+  background: unset;
+  border-color: inherit;
+  border-width: 0;
+  border-radius: 0;
+  padding: 0;
+  font-size: unset;
+  line-height: inherit;
+}
+
+[type='file']:focus {
+  outline: 1px solid ButtonText;
+  outline: 1px auto -webkit-focus-ring-color;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events-auto {
+  pointer-events: auto;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.-bottom-7 {
+  bottom: -1.75rem;
+}
+
+.-left-1 {
+  left: -0.25rem;
+}
+
+.-left-2 {
+  left: -0.5rem;
+}
+
+.-left-4 {
+  left: -1rem;
+}
+
+.-right-2 {
+  right: -0.5rem;
+}
+
+.-top-1 {
+  top: -0.25rem;
+}
+
+.-top-2 {
+  top: -0.5rem;
+}
+
+.-top-4 {
+  top: -1rem;
+}
+
+.-top-7 {
+  top: -1.75rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.left-1\\/2 {
+  left: 50%;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-1\\/2 {
+  top: 50%;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.-mx-4 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.table {
+  display: table;
+}
+
+.contents {
+  display: contents;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.max-h-full {
+  max-height: 100%;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-\\[560px\\] {
+  width: 560px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.-translate-x-1 {
+  --tw-translate-x: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-x-1\\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-x-full {
+  --tw-translate-x: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-1 {
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-1\\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-full {
+  --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-auto {
+  cursor: auto;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.resize {
+  resize: both;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-blue-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(75 85 99 / var(--tw-border-opacity, 1));
+}
+
+.border-green-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(34 197 94 / var(--tw-border-opacity, 1));
+}
+
+.border-purple-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(168 85 247 / var(--tw-border-opacity, 1));
+}
+
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity, 1));
+}
+
+.border-sky-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity, 1));
+}
+
+.border-slate-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(226 232 240 / var(--tw-border-opacity, 1));
+}
+
+.border-slate-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity, 1));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-black\\/60 {
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.bg-black\\/70 {
+  background-color: rgb(0 0 0 / 0.7);
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blue-500\\/30 {
+  background-color: rgb(59 130 246 / 0.3);
+}
+
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 253 244 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-500\\/30 {
+  background-color: rgb(34 197 94 / 0.3);
+}
+
+.bg-orange-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+
+.bg-orange-500\\/30 {
+  background-color: rgb(249 115 22 / 0.3);
+}
+
+.bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 242 242 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-yellow-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 249 195 / var(--tw-bg-opacity, 1));
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-0\\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pb-0\\.5 {
+  padding-bottom: 0.125rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
+}
+
+.text-green-500 {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity, 1));
+}
+
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity, 1));
+}
+
+.text-green-700 {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity, 1));
+}
+
+.text-green-800 {
+  --tw-text-opacity: 1;
+  color: rgb(22 101 52 / var(--tw-text-opacity, 1));
+}
+
+.text-indigo-600 {
+  --tw-text-opacity: 1;
+  color: rgb(79 70 229 / var(--tw-text-opacity, 1));
+}
+
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+
+.text-purple-500 {
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity, 1));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+}
+
+.text-red-800 {
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity, 1));
+}
+
+.text-sky-500 {
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity, 1));
+}
+
+.text-sky-700 {
+  --tw-text-opacity: 1;
+  color: rgb(3 105 161 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-700 {
+  --tw-text-opacity: 1;
+  color: rgb(51 65 85 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-800 {
+  --tw-text-opacity: 1;
+  color: rgb(30 41 59 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.outline {
+  outline-style: solid;
+}
+
+.ring-4 {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.ring-blue-300 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(147 197 253 / var(--tw-ring-opacity, 1));
+}
+
+.ring-blue-800 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(30 64 175 / var(--tw-ring-opacity, 1));
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.hover\\:border-slate-400:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(148 163 184 / var(--tw-border-opacity, 1));
+}
+
+.hover\\:bg-blue-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
+}
+
+.hover\\:bg-gray-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+
+.hover\\:bg-gray-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
+.hover\\:bg-green-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity, 1));
+}
+
+.hover\\:bg-purple-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 51 234 / var(--tw-bg-opacity, 1));
+}
+
+.hover\\:bg-red-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity, 1));
+}
+
+.hover\\:bg-sky-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 242 254 / var(--tw-bg-opacity, 1));
+}
+
+.hover\\:bg-slate-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
+}
+
+.hover\\:bg-slate-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity, 1));
+}
+
+.hover\\:bg-slate-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity, 1));
+}
+
+.hover\\:bg-white\\/30:hover {
+  background-color: rgb(255 255 255 / 0.3);
+}
+
+.hover\\:text-gray-100:hover {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity, 1));
+}
+
+.hover\\:text-sky-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(12 74 110 / var(--tw-text-opacity, 1));
+}
+
+.hover\\:text-slate-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity, 1));
+}
+
+.hover\\:text-slate-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(30 41 59 / var(--tw-text-opacity, 1));
+}
+
+.hover\\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.focus\\:border-indigo-500:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(99 102 241 / var(--tw-border-opacity, 1));
+}
+
+.focus\\:ring-indigo-200:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(199 210 254 / var(--tw-ring-opacity, 1));
+}
+
+.focus\\:ring-indigo-500:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity, 1));
+}
+
+.active\\:bg-red-100:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity, 1));
+}
+
+.active\\:bg-slate-200:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity, 1));
+}
+
+.group\\/tooltip:hover .group-hover\\/tooltip\\:visible {
+  visibility: visible;
+}
+
+.group\\/tooltip:hover .group-hover\\/tooltip\\:opacity-100 {
+  opacity: 1;
+}
+
+@media (min-width: 640px) {
+  .sm\\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}`,o=1,n=!1,i=!1,a=null,l=null,s=0,d=0,c=null,u=null;function p(e){n=!1,i=!0;try{var t=e;let r=t;for(a=null[0]||null;null!==a&&!(a.expirationTime>r&&l());){let e=a.fn;null!==e?(a.fn=null,e(a.expirationTime<=r),r=performance.now(),a===null[0]&&null.shift()):null.shift(),a=null[0]||null}return null!==a}finally{a=null,i=!1}}let g={context:void 0,registry:void 0,effects:void 0,done:!1,getContextId(){return f(this.context.count)},getNextContextId(){return f(this.context.count++)}};function f(e){let t=String(e),r=t.length-1;return g.context.id+(r?String.fromCharCode(96+r):"")+t}function w(e){g.context=e}Symbol("solid-proxy"),Symbol("solid-track"),Symbol("solid-dev-component");let b={equals:(e,t)=>e===t},h=P,m={owned:null,cleanups:null,context:null,owner:null};var y=null;let v=null,x=null,k=null,E=null,S=0;function C(e,t){let r={value:e,observers:null,observerSlots:null,comparator:(t=t?Object.assign({},b,t):b).equals||void 0};return[N.bind(r),e=>("function"==typeof e&&(e=e(v&&v.running&&v.sources.has(r)?r.tValue:r.value)),T(r,e))]}function _(e,t,r){let o=I(e,t,!1,1);O(o)}function A(t,r,o){h=U;let n=I(t,r,!1,1),i=e&&function(e){let t;return y&&y.context&&void 0!==(t=y.context[e.id])?t:e.defaultValue}(e);i&&(n.suspense=i),o&&o.render||(n.user=!0),E?E.push(n):O(n)}function z(e,t,r){r=r?Object.assign({},b,r):b;let o=I(e,t,!0,0);return o.observers=null,o.observerSlots=null,o.comparator=r.equals||void 0,O(o),N.bind(o)}function $(e){if(null===x)return e();let t=x;x=null;try{!1;return e()}finally{x=t}}function L(e){return null===y||(null===y.cleanups?y.cleanups=[e]:y.cleanups.push(e)),e}let[,M]=C(!1);function N(){let e=v&&v.running;if(this.sources&&(e?this.tState:this.state))if((e?this.tState:this.state)===1)O(this);else{let e=k;k=null,B(()=>F(this),!1),k=e}if(x){let e=this.observers?this.observers.length:0;x.sources?(x.sources.push(this),x.sourceSlots.push(e)):(x.sources=[this],x.sourceSlots=[e]),this.observers?(this.observers.push(x),this.observerSlots.push(x.sources.length-1)):(this.observers=[x],this.observerSlots=[x.sources.length-1])}return e&&v.sources.has(this)?this.tValue:this.value}function T(e,t,r){let o=v&&v.running&&v.sources.has(e)?e.tValue:e.value;if(!e.comparator||!e.comparator(o,t)){if(v){let o=v.running;(o||!r&&v.sources.has(e))&&(v.sources.add(e),e.tValue=t),o||(e.value=t)}else e.value=t;e.observers&&e.observers.length&&B(()=>{for(let t=0;t<e.observers.length;t+=1){let r=e.observers[t],o=v&&v.running;o&&v.disposed.has(r)||((o?r.tState:r.state)||(r.pure?k.push(r):E.push(r),r.observers&&function e(t){let r=v&&v.running;for(let o=0;o<t.observers.length;o+=1){let n=t.observers[o];(r?n.tState:n.state)||(r?n.tState=2:n.state=2,n.pure?k.push(n):E.push(n),n.observers&&e(n))}}(r)),o?r.tState=1:r.state=1)}if(k.length>1e6)throw k=[],Error()},!1)}return t}function O(e){if(!e.fn)return;V(e);let t=S;R(e,v&&v.running&&v.sources.has(e)?e.tValue:e.value,t),v&&!v.running&&v.sources.has(e)&&queueMicrotask(()=>{B(()=>{v&&(v.running=!0),x=y=e,R(e,e.tValue,t),x=y=null},!1)})}function R(e,t,r){let o,n=y,i=x;x=y=e;try{o=e.fn(t)}catch(t){return e.pure&&(v&&v.running?(e.tState=1,e.tOwned&&e.tOwned.forEach(V),e.tOwned=void 0):(e.state=1,e.owned&&e.owned.forEach(V),e.owned=null)),e.updatedAt=r+1,H(t)}finally{x=i,y=n}(!e.updatedAt||e.updatedAt<=r)&&(null!=e.updatedAt&&"observers"in e?T(e,o,!0):v&&v.running&&e.pure?(v.sources.add(e),e.tValue=o):e.value=o,e.updatedAt=r)}function I(e,t,r,o=1,n){let i={fn:e,state:o,updatedAt:null,owned:null,sources:null,sourceSlots:null,cleanups:null,value:t,owner:y,context:y?y.context:null,pure:r};v&&v.running&&(i.state=0,i.tState=o),null===y||y!==m&&(v&&v.running&&y.pure?y.tOwned?y.tOwned.push(i):y.tOwned=[i]:y.owned?y.owned.push(i):y.owned=[i]),!1;return i}function j(e){let t=v&&v.running;if((t?e.tState:e.state)===0)return;if((t?e.tState:e.state)===2)return F(e);if(e.suspense&&$(e.suspense.inFallback))return e.suspense.effects.push(e);let r=[e];for(;(e=e.owner)&&(!e.updatedAt||e.updatedAt<S);){if(t&&v.disposed.has(e))return;(t?e.tState:e.state)&&r.push(e)}for(let o=r.length-1;o>=0;o--){if(e=r[o],t){let t=e,n=r[o+1];for(;(t=t.owner)&&t!==n;)if(v.disposed.has(t))return}if((t?e.tState:e.state)===1)O(e);else if((t?e.tState:e.state)===2){let t=k;k=null,B(()=>F(e,r[0]),!1),k=t}}}function B(e,t){if(k)return e();let r=!1;t||(k=[]),E?r=!0:E=[],S++;try{let t=e();return function(e){let t;if(k&&(P(k),k=null),e)return;if(v)if(v.promises.size||v.queue.size){if(v.running){v.running=!1,v.effects.push.apply(v.effects,E),E=null,M(!0);return}}else{let e=v.sources,r=v.disposed;for(let e of(E.push.apply(E,v.effects),t=v.resolve,E))"tState"in e&&(e.state=e.tState),delete e.tState;v=null,B(()=>{for(let e of r)V(e);for(let t of e){if(t.value=t.tValue,t.owned)for(let e=0,r=t.owned.length;e<r;e++)V(t.owned[e]);t.tOwned&&(t.owned=t.tOwned),delete t.tValue,delete t.tOwned,t.tState=0}M(!1)},!1)}let r=E;E=null,r.length&&B(()=>h(r),!1),t&&t()}(r),t}catch(e){r||(E=null),k=null,H(e)}}function P(e){for(let t=0;t<e.length;t++)j(e[t])}function U(e){let t,r=0;for(t=0;t<e.length;t++){let o=e[t];o.user?e[r++]=o:j(o)}if(g.context){if(g.count){g.effects||(g.effects=[]),g.effects.push(...e.slice(0,r));return}w()}for(g.effects&&(g.done||!g.count)&&(e=[...g.effects,...e],r+=g.effects.length,delete g.effects),t=0;t<r;t++)j(e[t])}function F(e,t){let r=v&&v.running;r?e.tState=0:e.state=0;for(let o=0;o<e.sources.length;o+=1){let n=e.sources[o];if(n.sources){let e=r?n.tState:n.state;1===e?n!==t&&(!n.updatedAt||n.updatedAt<S)&&j(n):2===e&&F(n,t)}}}function V(e){let t;if(e.sources)for(;e.sources.length;){let t=e.sources.pop(),r=e.sourceSlots.pop(),o=t.observers;if(o&&o.length){let e=o.pop(),n=t.observerSlots.pop();r<o.length&&(e.sourceSlots[n]=r,o[r]=e,t.observerSlots[r]=n)}}if(e.tOwned){for(t=e.tOwned.length-1;t>=0;t--)V(e.tOwned[t]);delete e.tOwned}if(v&&v.running&&e.pure)!function e(t,r){if(r||(t.tState=0,v.disposed.add(t)),t.owned)for(let r=0;r<t.owned.length;r++)e(t.owned[r])}(e,!0);else if(e.owned){for(t=e.owned.length-1;t>=0;t--)V(e.owned[t]);e.owned=null}if(e.cleanups){for(t=e.cleanups.length-1;t>=0;t--)e.cleanups[t]();e.cleanups=null}v&&v.running?e.tState=0:e.state=0}function D(e,t,r){try{for(let r of t)r(e)}catch(e){H(e,r&&r.owner||null)}}function H(e,t=y){var r;let o=null,n=(r=e)instanceof Error?r:Error("string"==typeof r?r:"Unknown error",{cause:r});if(!o)throw n;E?E.push({fn(){D(n,o,t)},state:1}):D(n,o,t)}Symbol("fallback");function X(e,t){0;return $(()=>e(t||{}))}let Y=e=>`Stale read from <${e}>.`;function q(e){let t=e.keyed,r=z(()=>e.when,void 0,void 0),o=t?r:z(r,void 0,{equals:(e,t)=>!e==!t});return z(()=>{let n=o();if(n){let i=e.children;return"function"==typeof i&&i.length>0?$(()=>i(t?n:()=>{if(!$(o))throw Y("Show");return r()})):i}return e.fallback},void 0,void 0)}let W=new Set(["className","value","readOnly","noValidate","formNoValidate","isMap","noModule","playsInline","adAuctionHeaders","allowFullscreen","browsingTopics","defaultChecked","defaultMuted","defaultSelected","disablePictureInPicture","disableRemotePlayback","preservesPitch","shadowRootClonable","shadowRootCustomElementRegistry","shadowRootDelegatesFocus","shadowRootSerializable","sharedStorageWritable","allowfullscreen","async","alpha","autofocus","autoplay","checked","controls","default","disabled","formnovalidate","hidden","indeterminate","inert","ismap","loop","multiple","muted","nomodule","novalidate","open","playsinline","readonly","required","reversed","seamless","selected","adauctionheaders","browsingtopics","credentialless","defaultchecked","defaultmuted","defaultselected","defer","disablepictureinpicture","disableremoteplayback","preservespitch","shadowrootclonable","shadowrootcustomelementregistry","shadowrootdelegatesfocus","shadowrootserializable","sharedstoragewritable"]),G=new Set(["innerHTML","textContent","innerText","children"]),J=Object.assign(Object.create(null),{className:"class",htmlFor:"for"}),K=Object.assign(Object.create(null),{class:"className",novalidate:{$:"noValidate",FORM:1},formnovalidate:{$:"formNoValidate",BUTTON:1,INPUT:1},ismap:{$:"isMap",IMG:1},nomodule:{$:"noModule",SCRIPT:1},playsinline:{$:"playsInline",VIDEO:1},readonly:{$:"readOnly",INPUT:1,TEXTAREA:1},adauctionheaders:{$:"adAuctionHeaders",IFRAME:1},allowfullscreen:{$:"allowFullscreen",IFRAME:1},browsingtopics:{$:"browsingTopics",IMG:1},defaultchecked:{$:"defaultChecked",INPUT:1},defaultmuted:{$:"defaultMuted",AUDIO:1,VIDEO:1},defaultselected:{$:"defaultSelected",OPTION:1},disablepictureinpicture:{$:"disablePictureInPicture",VIDEO:1},disableremoteplayback:{$:"disableRemotePlayback",AUDIO:1,VIDEO:1},preservespitch:{$:"preservesPitch",AUDIO:1,VIDEO:1},shadowrootclonable:{$:"shadowRootClonable",TEMPLATE:1},shadowrootdelegatesfocus:{$:"shadowRootDelegatesFocus",TEMPLATE:1},shadowrootserializable:{$:"shadowRootSerializable",TEMPLATE:1},sharedstoragewritable:{$:"sharedStorageWritable",IFRAME:1,IMG:1}}),Q=new Set(["beforeinput","click","dblclick","contextmenu","focusin","focusout","input","keydown","keyup","mousedown","mousemove","mouseout","mouseover","mouseup","pointerdown","pointermove","pointerout","pointerover","pointerup","touchend","touchmove","touchstart"]),Z={xlink:"http://www.w3.org/1999/xlink",xml:"http://www.w3.org/XML/1998/namespace"},ee=e=>z(()=>e()),et="_$DX_DELEGATE";function er(e,t,r,o){let n,i=()=>{let t=o?document.createElementNS("http://www.w3.org/1998/Math/MathML","template"):document.createElement("template");return t.innerHTML=e,r?t.content.firstChild.firstChild:o?t.firstChild:t.content.firstChild},a=t?()=>$(()=>document.importNode(n||(n=i()),!0)):()=>(n||(n=i())).cloneNode(!0);return a.cloneNode=a,a}function eo(e,t=window.document){let r=t[et]||(t[et]=new Set);for(let o=0,n=e.length;o<n;o++){let n=e[o];r.has(n)||(r.add(n),t.addEventListener(n,eg))}}function en(e,t,r){ec(e)||(null==r?e.removeAttribute(t):e.setAttribute(t,r))}function ei(e,t,r){let o,n;if(!t)return r?en(e,"style"):t;let i=e.style;if("string"==typeof t)return i.cssText=t;for(n in"string"==typeof r&&(i.cssText=r=void 0),r||(r={}),t||(t={}),r)null==t[n]&&i.removeProperty(n),delete r[n];for(n in t)(o=t[n])!==r[n]&&(i.setProperty(n,o),r[n]=o);return r}function ea(e,t,r){null!=r?e.style.setProperty(t,r):e.style.removeProperty(t)}function el(e,t={},r,o){let n={};return o||_(()=>n.children=ef(e,t.children,n.children)),_(()=>"function"==typeof t.ref&&es(t.ref,e)),_(()=>(function(e,t,r,o,n={},i=!1){for(let o in t||(t={}),n)if(!(o in t)){if("children"===o)continue;n[o]=ep(e,o,null,n[o],r,i,t)}for(let a in t){if("children"===a){o||ef(e,t.children);continue}let l=t[a];n[a]=ep(e,a,l,n[a],r,i,t)}})(e,t,r,!0,n,!0)),n}function es(e,t,r){return $(()=>e(t,r))}function ed(e,t,r,o){if(void 0===r||o||(o=[]),"function"!=typeof t)return ef(e,t,o,r);_(o=>ef(e,t(),o,r),o)}function ec(e){return!!g.context&&!g.done&&(!e||e.isConnected)}function eu(e,t,r){let o=t.trim().split(/\s+/);for(let t=0,n=o.length;t<n;t++)e.classList.toggle(o[t],r)}function ep(e,t,r,o,n,i,a){let l,s,d,c,u;if("style"===t)return ei(e,r,o);if("classList"===t)return function(e,t,r={}){let o,n,i=Object.keys(t||{}),a=Object.keys(r);for(o=0,n=a.length;o<n;o++){let n=a[o];n&&"undefined"!==n&&!t[n]&&(eu(e,n,!1),delete r[n])}for(o=0,n=i.length;o<n;o++){let n=i[o],a=!!t[n];n&&"undefined"!==n&&r[n]!==a&&a&&(eu(e,n,!0),r[n]=a)}return r}(e,r,o);if(r===o)return o;if("ref"===t)i||r(e);else if("on:"===t.slice(0,3)){let n=t.slice(3);o&&e.removeEventListener(n,o,"function"!=typeof o&&o),r&&e.addEventListener(n,r,"function"!=typeof r&&r)}else if("oncapture:"===t.slice(0,10)){let n=t.slice(10);o&&e.removeEventListener(n,o,!0),r&&e.addEventListener(n,r,!0)}else if("on"===t.slice(0,2)){let n=t.slice(2).toLowerCase(),i=Q.has(n);if(!i&&o){let t=Array.isArray(o)?o[0]:o;e.removeEventListener(n,t)}if(i||r){var p,g;if(i)Array.isArray(r)?(e[`$${n}`]=r[0],e[`$${n}Data`]=r[1]):e[`$${n}`]=r;else if(Array.isArray(r)){let t=r[0];e.addEventListener(n,r[0]=o=>t.call(e,r[1],o))}else e.addEventListener(n,r,"function"!=typeof r&&r);i&&eo([n])}}else if("attr:"===t.slice(0,5))en(e,t.slice(5),r);else if("bool:"===t.slice(0,5))p=t.slice(5),ec(e)||(r?e.setAttribute(p,""):e.removeAttribute(p));else if((u="prop:"===t.slice(0,5))||(d=G.has(t))||!n&&((c=function(e,t){let r=K[e];return"object"==typeof r?r[t]?r.$:void 0:r}(t,e.tagName))||(s=W.has(t)))||(l=e.nodeName.includes("-")||"is"in a)){if(u)t=t.slice(5),s=!0;else if(ec(e))return r;"class"===t||"className"===t?ec(e)||(null==r?e.removeAttribute("class"):e.className=r):!l||s||d?e[c||t]=r:e[t.toLowerCase().replace(/-([a-z])/g,(e,t)=>t.toUpperCase())]=r}else{let o=n&&t.indexOf(":")>-1&&Z[t.split(":")[0]];o?(g=t,ec(e)||(null==r?e.removeAttributeNS(o,g):e.setAttributeNS(o,g,r))):en(e,J[t]||t,r)}return r}function eg(e){if(g.registry&&g.events&&g.events.find(([t,r])=>r===e))return;let t=e.target,r=`$${e.type}`,o=e.target,n=e.currentTarget,i=t=>Object.defineProperty(e,"target",{configurable:!0,value:t}),a=()=>{let o=t[r];if(o&&!t.disabled){let n=t[`${r}Data`];if(void 0!==n?o.call(t,n,e):o.call(t,e),e.cancelBubble)return}return t.host&&"string"!=typeof t.host&&!t.host._$host&&t.contains(e.target)&&i(t.host),!0},l=()=>{for(;a()&&(t=t._$host||t.parentNode||t.host););};if(Object.defineProperty(e,"currentTarget",{configurable:!0,get:()=>t||document}),g.registry&&!g.done&&(g.done=_$HY.done=!0),e.composedPath){let r=e.composedPath();i(r[0]);for(let e=0;e<r.length-2&&(t=r[e],a());e++){if(t._$host){t=t._$host,l();break}if(t.parentNode===n)break}}else l();i(o)}function ef(e,t,r,o,n){let i=ec(e);if(i){r||(r=[...e.childNodes]);let t=[];for(let e=0;e<r.length;e++){let o=r[e];8===o.nodeType&&"!$"===o.data.slice(0,2)?o.remove():t.push(o)}r=t}for(;"function"==typeof r;)r=r();if(t===r)return r;let a=typeof t,l=void 0!==o;if(e=l&&r[0]&&r[0].parentNode||e,"string"===a||"number"===a){if(i||"number"===a&&(t=t.toString())===r)return r;if(l){let n=r[0];n&&3===n.nodeType?n.data!==t&&(n.data=t):n=document.createTextNode(t),r=eb(e,r,o,n)}else r=""!==r&&"string"==typeof r?e.firstChild.data=t:e.textContent=t}else if(null==t||"boolean"===a){if(i)return r;r=eb(e,r,o)}else if("function"===a)return _(()=>{let n=t();for(;"function"==typeof n;)n=n();r=ef(e,n,r,o)}),()=>r;else if(Array.isArray(t)){let a=[],s=r&&Array.isArray(r);if(function e(t,r,o,n){let i=!1;for(let a=0,l=r.length;a<l;a++){let l=r[a],s=o&&o[t.length],d;if(null==l||!0===l||!1===l);else if("object"==(d=typeof l)&&l.nodeType)t.push(l);else if(Array.isArray(l))i=e(t,l,s)||i;else if("function"===d)if(n){for(;"function"==typeof l;)l=l();i=e(t,Array.isArray(l)?l:[l],Array.isArray(s)?s:[s])||i}else t.push(l),i=!0;else{let e=String(l);s&&3===s.nodeType&&s.data===e?t.push(s):t.push(document.createTextNode(e))}}return i}(a,t,r,n))return _(()=>r=ef(e,a,r,o,!0)),()=>r;if(i){if(!a.length)return r;if(void 0===o)return r=[...e.childNodes];let t=a[0];if(t.parentNode!==e)return r;let n=[t];for(;(t=t.nextSibling)!==o;)n.push(t);return r=n}if(0===a.length){if(r=eb(e,r,o),l)return r}else s?0===r.length?ew(e,a,o):function(e,t,r){let o=r.length,n=t.length,i=o,a=0,l=0,s=t[n-1].nextSibling,d=null;for(;a<n||l<i;){if(t[a]===r[l]){a++,l++;continue}for(;t[n-1]===r[i-1];)n--,i--;if(n===a){let t=i<o?l?r[l-1].nextSibling:r[i-l]:s;for(;l<i;)e.insertBefore(r[l++],t)}else if(i===l)for(;a<n;)d&&d.has(t[a])||t[a].remove(),a++;else if(t[a]===r[i-1]&&r[l]===t[n-1]){let o=t[--n].nextSibling;e.insertBefore(r[l++],t[a++].nextSibling),e.insertBefore(r[--i],o),t[n]=r[i]}else{if(!d){d=new Map;let e=l;for(;e<i;)d.set(r[e],e++)}let o=d.get(t[a]);if(null!=o)if(l<o&&o<i){let s=a,c=1,u;for(;++s<n&&s<i&&null!=(u=d.get(t[s]))&&u===o+c;)c++;if(c>o-l){let n=t[a];for(;l<o;)e.insertBefore(r[l++],n)}else e.replaceChild(r[l++],t[a++])}else a++;else t[a++].remove()}}}(e,r,a):(r&&eb(e),ew(e,a));r=a}else if(t.nodeType){if(i&&t.parentNode)return r=l?[t]:t;if(Array.isArray(r)){if(l)return r=eb(e,r,o,t);eb(e,r,null,t)}else null!=r&&""!==r&&e.firstChild?e.replaceChild(t,e.firstChild):e.appendChild(t);r=t}return r}function ew(e,t,r=null){for(let o=0,n=t.length;o<n;o++)e.insertBefore(t[o],r)}function eb(e,t,r,o){if(void 0===r)return e.textContent="";let n=o||document.createTextNode("");if(t.length){let o=!1;for(let i=t.length-1;i>=0;i--){let a=t[i];if(n!==a){let t=a.parentNode===e;o||i?t&&a.remove():t?e.replaceChild(n,a):e.insertBefore(n,r)}else o=!0}}else e.insertBefore(n,r);return[n]}function eh(e){console.error(Error(`${e.name} is not supported in the browser, returning undefined`))}function em(e,t){eh(em)}function ey(e,t){eh(ey)}function ev(e,t){eh(ev)}Symbol();let ex={getElementInfo:function e(t){let r=t.getAttribute("data-aime-path-name");if(r){let e=t.getBoundingClientRect(),o=t.getAttribute("data-aime-component-name")??"";return{thisElement:{box:e,label:o,link:{filePath:r,line:Number(t.getAttribute("data-aime-line")),column:Number(t.getAttribute("data-aime-column"))}},htmlElement:t,componentBox:e}}return t.parentElement?e(t.parentElement):null}};function ek(e,t){return{label:function(e){if(!e)return"Not found";for(;e;){let t="";if(e.type&&"function"==typeof e.type)e.type.name&&(t=e.type.name),e.type.displayName&&(t=e.type.displayName);else if(e.type&&"string"==typeof e.type){e=e.return;continue}else e.elementType&&"function"==typeof e.elementType&&(e.elementType.name&&(t=e.elementType.name),e.elementType.displayName&&(t=e.elementType.displayName));if(t&&e._debugSource)return t;e=e.return}return"Anonymous"}(e),link:t?{filePath:t.fileName,line:t.lineNumber,column:t.columnNumber||0}:null}}function eE(e){return!!e._debugOwner?.elementType?.styledComponentId}function eS(e){let t=e;for(;t;){if(t._debugSource)return{fiber:t,source:t._debugSource};t=t._debugOwner||null}return null}function eC(e){return e.stateNode&&e.stateNode.getBoundingClientRect?e.stateNode.getBoundingClientRect():null}function e_(e,t){let r=Math.min(e.x,t.x),o=Math.min(e.y,t.y);return{x:r,y:o,width:Math.max(e.x+e.width,t.x+t.width)-r,height:Math.max(e.y+e.height,t.y+t.height)-o}}let eA={getElementInfo:function(e){let t=function e(t,r){let o=window.__REACT_DEVTOOLS_GLOBAL_HOOK__?.renderers,n=o?.values();if(o?.size&&n){for(let e of Array.from(n))if(e.findFiberByHostInstance){let o=e.findFiberByHostInstance(t);if(o)if(r)return eS(o)?.fiber||null;else return o}}else{let e=Object.keys(t).find(e=>e.startsWith("__reactFiber")||e.startsWith("__reactInternalInstance"));if(e){let o=t[e];if(o)if(r)return eS(o)?.fiber||null;else return o}}return t.parentElement?e(t.parentElement,r):null}(e,!1);if(t){let{componentBox:r}=function(e){let t=e.stateNode;if(!t)throw Error("This functions works only for Fibres with HTMLElement stateNode");let r=t.getBoundingClientRect(),o=eE(e)&&e._debugOwner?e._debugOwner:e;for(;o._debugOwner||o.return;){let e=o._debugOwner||o.return;if(!e)break;let t=(o=e).stateNode;if(!t||!(t instanceof HTMLElement))return{component:o,componentBox:function e(t,r=0){let o;return(function(e){let t=[],{child:r}=e;for(;r;)t.push(r),r=r.sibling;return t})(t).forEach(t=>{let n=eC(t);!n&&r<6&&(n=e(t,r+1)||null),n&&(n.width<=0||n.height<=0||(o=o?e_(o,n):n))}),o}(o)||r};r=e_(r,t.getBoundingClientRect())}throw Error("Could not find root component")}(t),o=ek(t,eS(t)?.source);return["Not found","Anonymous"].includes(o.label)?null:(eE(t)&&(o.label=`${o.label}(styled)`),o.label=`${o.label} - ${e.tagName.toLocaleLowerCase()}`,{thisElement:{box:eC(t)||e.getBoundingClientRect(),...o},htmlElement:e,componentBox:r})}return null}};new WeakMap;let ez={getElementInfo:function(e){if(e.__svelte_meta){let{loc:t}=e.__svelte_meta;return{thisElement:{box:e.getBoundingClientRect(),label:e.nodeName.toLowerCase(),link:{column:t.column+1,line:t.line+1,filePath:t.file}},htmlElement:e,componentBox:e.getBoundingClientRect()}}return null}},e$={getElementInfo:function(e){let t=e.__vueParentComponent;if(t){if(!t.type)return null;let r=function e(t){let r=null;return t?.subTree?.children&&t?.subTree?.children instanceof Array&&t?.subTree?.children.forEach(t=>{var o;let n=(o=t).el instanceof HTMLElement?o.el.getBoundingClientRect():o.component?e(o.component):null;n&&(n.width<=0||n.height<=0||(r=r?e_(r,n):n))}),r}(t),o=t.type.file||t.type.__file,n=t.type.name||t.type.__name;if(o&&n)return{thisElement:{box:e.getBoundingClientRect(),label:`${n} - ${e.tagName.toLocaleLowerCase()}`,link:{column:0,line:0,filePath:o}},htmlElement:e,componentBox:r||e.getBoundingClientRect()}}return null}};function eL(e){return ex.getElementInfo(e)||eA.getElementInfo(e)||e$.getElementInfo(e)||ez.getElementInfo(e)}let eM={randomUUID:"undefined"!=typeof crypto&&crypto.randomUUID&&crypto.randomUUID.bind(crypto)},eN=new Uint8Array(16),eT=[];for(let e=0;e<256;++e)eT.push((e+256).toString(16).slice(1));let eO=function(e,r,o){if(eM.randomUUID&&!r&&!e)return eM.randomUUID();let n=(e=e||{}).random??e.rng?.()??function(){if(!t){if("undefined"==typeof crypto||!crypto.getRandomValues)throw Error("crypto.getRandomValues() not supported. See https://github.com/uuidjs/uuid#getrandomvalues-not-supported");t=crypto.getRandomValues.bind(crypto)}return t(eN)}();if(n.length<16)throw Error("Random bytes length must be >= 16");if(n[6]=15&n[6]|64,n[8]=63&n[8]|128,r){if((o=o||0)<0||o+16>r.length)throw RangeError(`UUID byte range ${o}:${o+15} is out of buffer bounds`);for(let e=0;e<16;++e)r[o+e]=n[e];return r}return function(e,t=0){return(eT[e[t+0]]+eT[e[t+1]]+eT[e[t+2]]+eT[e[t+3]]+"-"+eT[e[t+4]]+eT[e[t+5]]+"-"+eT[e[t+6]]+eT[e[t+7]]+"-"+eT[e[t+8]]+eT[e[t+9]]+"-"+eT[e[t+10]]+eT[e[t+11]]+eT[e[t+12]]+eT[e[t+13]]+eT[e[t+14]]+eT[e[t+15]]).toLowerCase()}(n)};var eR=er('<svg width=1em height=1em viewBox="0 0 24 24"fill=currentColor><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2h6z">'),eI=er('<svg width=1em height=1em viewBox="0 0 24 24"fill=currentColor><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z">'),ej=er('<div style="position:absolute;width:max-content;background:#33A033;color:#fff;font-size:12px;font-weight:500;border-radius:8px;display:flex;align-items:center;padding:3px 6px;gap:4px;border:1px solid rgba(29, 78, 216, 0.1);font-family:GeistMono, ui-monospace, SFMono-Regular, Roboto Mono, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace">'),eB=er('<div style="background:rgb(209, 213, 219);width:1px;height:20px">'),eP=er("<div style=cursor:pointer;pointer-events:auto>"),eU=er('<div><div style="display:flex;align-items:center;border:1px solid rgba(77, 101, 148, 0.32);background:#fff;height:40px;border-radius:8px;padding:0 10px;pointer-events:auto;user-select:auto;gap:10px;box-shadow:0 16px 36px 0 rgba(0, 0, 0, 0.08), 0 8px 16px 0 rgba(0, 0, 0, 0.06)"><input style=border:none;width:300px;font-size:13px;outline:none;pointer-events:auto><div style=display:flex;align-items:center;gap:16px><div style=font-size:12px;border-radius:4px;display:inline-flex;align-items:center;padding:2px;pointer-events:auto>'),eF=er("<div>");let eV=e=>(()=>{var t=eR();return el(t,e,!0,!0),t})(),eD=e=>(()=>{var t=eI();return el(t,e,!0,!0),t})();function eH(e){var t;let r,o,[n,i]=C(),[a,l]=C(""),s=document.querySelector("#aime-wrapper"),[d,c]=C(),[u,p]=C(null),[g,f]=C(),w=z(()=>n()?.getBoundingClientRect()),b=e=>{let t=e.target;if(o?.contains(t)||n()&&!n()?.isConnected)return void i(void 0);t instanceof HTMLElement&&i(t)},h=e=>{let t=e.target,r=n();!r||o?.contains(t)||s?.contains(t)||(e.preventDefault(),e.stopPropagation(),l(""),c(r),f(r.getBoundingClientRect()),p(eL(r)))},m=e=>{"Escape"===e.key&&c(void 0)},y=z(()=>{let e=w();return{position:"fixed",top:`${e?.y}px`,left:`${e?.x}px`,width:`${e?.width}px`,height:`${e?.height}px`,"border-color":"#33A033","border-width":"2px","z-index":0xe8d4a50fff,"pointer-events":"none"}}),v=z(()=>{let e=d(),t=g();if(e&&t)return{position:"fixed",top:`${t.y}px`,left:`${t.x}px`,width:`${t.width}px`,height:`${t.height}px`,"border-color":"#33A033","border-width":"1px","z-index":0xe8d4a50ffe,"pointer-events":"none"}}),x=z(()=>{let e=d(),t=g();if(!e||!t)return;let r=window.innerWidth-t.left>391?0:void 0,o=window.innerWidth-t.left>391?void 0:0,n="0px",i=t.top<27,a=window.innerHeight-t.bottom<46;return{top:i&&a?"6px":i?"calc(100% + 52px)":a?"-73px":"-27px",left:r,right:o}}),k=z(()=>{let e=d(),t=g();if(!e||!t)return;let r=window.innerWidth-t.left>391?0:void 0,o=window.innerWidth-t.left>391?void 0:0,n=window.innerHeight-t.bottom<46,i=t.top<73,a="0px";return{position:"absolute",top:n&&i?"33px":n||i?i?"calc(100% + 6px)":"-46px":"calc(100% + 6px)",left:r,right:o}}),E=()=>{n()&&i(void 0)},S=()=>{let e=d();if(e?.isConnected)return void c(void 0);e&&f(e.getBoundingClientRect())},M=()=>{E(),S()},N=()=>{if(!a())return;let e=u();window.parent.postMessage({type:"__aime_add_ui_query",payload:{file_name:e?.thisElement.link?.filePath,component_name:e?.thisElement.label,line:e?.thisElement.link?.line,column:e?.thisElement.link?.column,tag_name:d()?.tagName.toLowerCase(),query:a(),id:eO()}},"*"),c(void 0)},T=()=>{let e=u();window.parent.postMessage({type:"__aime_jump_code",payload:{file_name:e?.thisElement.link?.filePath,line:e?.thisElement.link?.line,column:e?.thisElement.link?.column}},"*")},O=e=>{"Enter"===e.key&&a()&&N()};return t=()=>{let e=[document];for(let t of(document.querySelectorAll("*").forEach(t=>{"aime-wrapper"!==t.id&&t.shadowRoot&&e.push(t.shadowRoot)}),e))t.addEventListener("mouseover",b,{capture:!0}),t.addEventListener("click",h,{capture:!0});window.addEventListener("keydown",m),window.addEventListener("resize",M),L(()=>{for(let t of e)t.removeEventListener("mouseover",b,{capture:!0}),t.removeEventListener("click",h,{capture:!0});window.removeEventListener("keydown",m),window.removeEventListener("resize",M)})},A(()=>$(t)),A(()=>{let e=[],t=n()?.parentElement;for(;t;)t.addEventListener("scroll",E),e.push(t),t=t.parentElement;L(()=>{e.forEach(e=>e.removeEventListener("scroll",E))})}),A(()=>{let e=[],t=d()?.parentElement;for(;t;)t.addEventListener("scroll",S),e.push(t),t=t.parentElement;L(()=>{e.forEach(e=>e.removeEventListener("scroll",S))})}),A(()=>{let e=[];document.addEventListener("focusin",t=>{u()&&t.target?.id!=="aime-wrapper"&&(t.target.setAttribute("disabled","true"),e.push(t.target),r?.focus())},!0),L(()=>{e.forEach(e=>e.removeAttribute("disabled"))})}),X(q,{get when(){return n()||d()},get children(){var R=eF(),I=o;return"function"==typeof I?es(I,R):o=R,ed(R,X(q,{get when(){return d()},get children(){var j=eU(),B=j.firstChild,P=B.firstChild,U=P.nextSibling,F=U.firstChild;ed(j,X(q,{get when(){return!!u()},get children(){var V=ej();return ed(V,()=>u()?.thisElement?.label),_(e=>ei(V,{...x()},e)),V}}),B),P.$input=e=>{l(e.currentTarget.value)},P.$keydown=O;var D=r;return"function"==typeof D?es(D,P):r=P,F.$click=N,ed(F,X(eV,{})),ed(U,X(q,{get when(){return!!(e.canJumpCode&&u())},get children(){var H;return[eB(),((H=eP()).$click=T,ed(H,X(eD,{})),H)]}}),null),_(e=>{var t=v(),r={...k(),"z-index":eY},o=u()?"输入描述，让 Aime 帮你修改":"该元素暂不支持圈选，请联系 oncall",n=!u(),i=a()?"pointer":"not-allowed",l=a()?"#060e1f":"#444c5c",s=a()?"#fff":"#c7cdd9";return e.e=ei(j,t,e.e),e.t=ei(B,r,e.t),o!==e.a&&en(P,"placeholder",e.a=o),n!==e.o&&(P.disabled=e.o=n),i!==e.i&&ea(F,"cursor",e.i=i),l!==e.n&&ea(F,"background",e.n=l),s!==e.s&&ea(F,"color",e.s=s),e},{e:void 0,t:void 0,a:void 0,o:void 0,i:void 0,n:void 0,s:void 0}),_(()=>P.value=a()),j}}),null),ed(R,X(q,{get when(){return ee(()=>!!n())()&&d()!==n()},get children(){var Y=eF();return _(e=>ei(Y,y(),e)),Y}}),null),R}})}function eX(){var e;let[t,r]=C(!1),[o,n]=C(!1),i=e=>{"__aime_show_ui_select"===e.data.type&&r(e.data?.payload?.showUISelect),"__aime_can_jump_code"===e.data.type&&n(e.data?.payload?.canJumpCode),"aime-reload-preview"===e.data.type&&window.location.reload()};return e=()=>(window.addEventListener("message",i),()=>{window.removeEventListener("message",i)}),A(()=>$(e)),X(q,{get when(){return t()},get children(){return X(eH,{get canJumpCode(){return o()}})}})}eo(["keydown","input","click"]);let eY=0x7fffffff;return window.___aime_get_element_info_by_pos=e=>{let{x:t=0,y:r=0}=e??{},o=document.elementFromPoint(t,r),n=o?eL(o):null;return{x:t,y:r,elementInfo:n?{thisElement:n.thisElement,componentBox:o?.getBoundingClientRect()?.toJSON(),htmlElement:{tagName:n.htmlElement.tagName.toLowerCase(),id:n.htmlElement.id,className:n.htmlElement.className}}:null}},!function(){if("undefined"==typeof window||"undefined"==typeof document||document.getElementById("aime-wrapper"))return;let e=document.createElement("style");e.id="aime-style",e.innerHTML=`
+      #aime-layer {
+        all: initial;
+        pointer-events: none;
+        font-family: Helvetica, sans-serif, Arial;
+      }
+      #aime-layer * {
+        box-sizing: border-box;
+      }
+      #aime-labels-wrapper {
+        display: flex;
+        gap: 8px;
+      }
+      .aime-tree-node:hover {
+        background-color: #eee;
+      }
+      ${r}
+    `;let t=document.createElement("style");t.id="aime-global-style",t.innerHTML=`
+      #aime-wrapper {
+        z-index: ${eY};
+        // pointer-events: none;
+        position: fixed;
+      }
+      .aime-active-pointer * {
+        cursor: pointer !important;
+      }
+    `;let o=document.createElement("div");o.setAttribute("id","aime-wrapper"),o.setAttribute("tabindex","-1");let n=o.attachShadow({mode:"open"}),i=document.createElement("div");i.setAttribute("id","aime-layer"),n.appendChild(e),n.appendChild(i),document.body.appendChild(o),document.head.appendChild(t);window.parent.postMessage({type:"__aime_can_select_ui",payload:{canSelectUI:!0}},"*");let a=window.location.href,l=()=>{let e=window.location.href;e!==a&&(a=e,window.parent.postMessage({type:"__aime_url_change",payload:e},"*"))};window.addEventListener("hashchange",l);let s=history.pushState,d=history.replaceState;history.pushState=function(...e){let t=s.apply(this,e);return l(),t},history.replaceState=function(...e){let t=d.apply(this,e);return l(),t},window.addEventListener("popstate",l),setInterval(l,3e3),function(e,t,r,o={}){let n;(function(e,t){let r=x,o=y,n=0===e.length,i=void 0===t?o:t,a=n?m:{owned:null,cleanups:null,context:i?i.context:null,owner:i},l=n?e:()=>e(()=>$(()=>V(a)));y=a,x=null;try{return B(l,!0)}finally{x=r,y=o}})(r=>{n=r,t===document?e():ed(t,e(),t.firstChild?null:void 0,void 0)},o.owner),()=>{n(),t.textContent=""}}(()=>X(eX,{}),i)}(),{}})());;;
+           
+</script></head>
+<body data-aime-line="262" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="body">
+<div class="wrap" data-aime-line="263" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
 
 <!-- MASTHEAD -->
-<header class="masthead">
-  <div class="left">
-    <div class="mast-mark">教</div>
-    <div class="mast-meta">
-      教育热点捕手 · 教育行业日刊 · <b>NO.001</b><br>
+<header class="masthead" data-aime-line="266" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="header">
+  <div class="left" data-aime-line="267" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <div class="mast-mark" data-aime-line="268" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">教</div>
+    <div class="mast-meta" data-aime-line="269" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+      教育热点捕手 · 教育行业日刊 · <b data-aime-line="270" data-aime-column="25" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">NO.001</b><br data-aime-line="270" data-aime-column="38" data-aime-path-name="upload-package/index.html" data-aime-component-name="br">
       每日 09:00 北京时间更新 · 教育行业视角
     </div>
   </div>
-  <div class="mast-right">
-    <span class="live">● LIVE</span>
-    <span>VOL.2026 · <b id="update-date">2026-06-12</b></span>
+  <div class="mast-right" data-aime-line="274" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <span class="live" data-aime-line="275" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">● LIVE</span>
+    <span data-aime-line="276" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">VOL.2026 · <b id="update-date" data-aime-line="276" data-aime-column="22" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">2026-06-12</b></span>
   </div>
 </header>
 
 <!-- NAV -->
-<nav class="jump-tabs" aria-label="页面分区导航">
-  <a href="#sec-search" class="jump-tab"><span class="no">01</span><span class="txt">热搜榜</span><span class="en">SEARCH</span></a>
-  <a href="#sec-commerce" class="jump-tab"><span class="no">02</span><span class="txt">热销榜</span><span class="en">COMMERCE</span></a>
-  <a href="#sec-trend" class="jump-tab"><span class="no">03</span><span class="txt">今日TOP15</span><span class="en">TREND</span></a>
-  <a href="#sec-user-search" class="jump-tab"><span class="no">04</span><span class="txt">用户热搜</span><span class="en">USER</span></a>
-  <a href="#sec-playbook" class="jump-tab"><span class="no">05</span><span class="txt">营销建议</span><span class="en">PLAYBOOK</span></a>
+<nav class="jump-tabs" aria-label="页面分区导航" data-aime-line="281" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="nav">
+  <a href="#sec-search" class="jump-tab" data-aime-line="282" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="a"><span class="no" data-aime-line="282" data-aime-column="42" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">01</span><span class="txt" data-aime-line="282" data-aime-column="68" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">热搜榜</span><span class="en" data-aime-line="282" data-aime-column="96" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">SEARCH</span></a>
+  <a href="#sec-commerce" class="jump-tab" data-aime-line="283" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="a"><span class="no" data-aime-line="283" data-aime-column="44" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">02</span><span class="txt" data-aime-line="283" data-aime-column="70" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">热销榜</span><span class="en" data-aime-line="283" data-aime-column="98" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">COMMERCE</span></a>
+  <a href="#sec-trend" class="jump-tab" data-aime-line="284" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="a"><span class="no" data-aime-line="284" data-aime-column="41" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">03</span><span class="txt" data-aime-line="284" data-aime-column="67" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">今日TOP15</span><span class="en" data-aime-line="284" data-aime-column="99" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">TREND</span></a>
+  <a href="#sec-user-search" class="jump-tab" data-aime-line="285" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="a"><span class="no" data-aime-line="285" data-aime-column="47" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">04</span><span class="txt" data-aime-line="285" data-aime-column="73" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">用户热搜</span><span class="en" data-aime-line="285" data-aime-column="102" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">USER</span></a>
+  <a href="#sec-playbook" class="jump-tab" data-aime-line="286" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="a"><span class="no" data-aime-line="286" data-aime-column="44" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">05</span><span class="txt" data-aime-line="286" data-aime-column="70" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">营销建议</span><span class="en" data-aime-line="286" data-aime-column="99" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">PLAYBOOK</span></a>
+  <a href="#sec-material" class="jump-tab" data-aime-line="287" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="a"><span class="no" data-aime-line="287" data-aime-column="44" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">06</span><span class="txt" data-aime-line="287" data-aime-column="70" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">素材榜</span><span class="en" data-aime-line="287" data-aime-column="98" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">MATERIAL</span></a>
 </nav>
 
 <!-- HERO -->
-<section class="hero">
-  <div class="hero-eyebrow">EDU TREND HUNTER · 教育行业全网热搜 + 电商热销 · 日更看板</div>
-  <h1><span class="alt">教育</span>热点<span class="stroke">捕</span>手.</h1>
-  <div class="hero-sub">
-    <div class="hero-deck">
-      从 <b>微博 / 百度 / 夸克 / 抖音 / 360</b> 五大热搜平台，到 <b>淘宝天猫 / 京东 / 快手电商</b> 三大电商榜单。每日同步，聚焦 <b>成人教育 / K12教育 / 图书 / 电子教育</b> 四大教育行业重点赛道，自动归类、筛选与可视化。
+<section class="hero" data-aime-line="291" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="section">
+  <div class="hero-eyebrow" data-aime-line="292" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">EDU TREND HUNTER · 教育行业全网热搜 + 电商热销 · 日更看板</div>
+  <h1 data-aime-line="293" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="h1"><span class="alt" data-aime-line="293" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">教育</span>热点<span class="stroke" data-aime-line="293" data-aime-column="36" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">捕</span>手.</h1>
+  <div class="hero-sub" data-aime-line="294" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <div class="hero-deck" data-aime-line="295" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+      从 <b data-aime-line="296" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">微博 / 百度 / 夸克 / 抖音 / 360</b> 五大热搜平台，到 <b data-aime-line="296" data-aime-column="49" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">淘宝天猫 / 京东 / 快手电商</b> 三大电商榜单。每日同步，聚焦 <b data-aime-line="296" data-aime-column="88" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">成人教育 / K12教育 / 图书 / 电子教育</b> 四大教育行业重点赛道，自动归类、筛选与可视化。
     </div>
-    <div class="hero-byline">
-      编辑 · <b>袁宇昕</b><br>
-      数据源 · <b>全网热搜聚合</b><br>
-      最近更新 · <b>每日 09:00</b>
+    <div class="hero-byline" data-aime-line="298" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+      编辑 · <b data-aime-line="299" data-aime-column="12" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">袁宇昕</b><br data-aime-line="299" data-aime-column="22" data-aime-path-name="upload-package/index.html" data-aime-component-name="br">
+      数据源 · <b data-aime-line="300" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">全网热搜聚合</b><br data-aime-line="300" data-aime-column="26" data-aime-path-name="upload-package/index.html" data-aime-component-name="br">
+      最近更新 · <b data-aime-line="301" data-aime-column="14" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">每日 09:00</b>
     </div>
   </div>
-  <div class="kpis">
-    <div class="kpi"><div class="label">Platforms</div><div class="num" id="kpi-platforms">12</div><div class="unit">在监测平台/榜单 + 用户群视角数</div></div>
-    <div class="kpi"><div class="label">Hot Items</div><div class="num" id="kpi-items">115</div><div class="unit">当日教育/用户热搜 + 电商热销条数</div></div>
-    <div class="kpi"><div class="label">Categories</div><div class="num" id="kpi-categories">4</div><div class="unit">覆盖教育细分赛道</div></div>
-    <div class="kpi"><div class="label">Insights</div><div class="num" id="kpi-insights">12</div><div class="unit">营销建议条数</div></div>
+  <div class="kpis" data-aime-line="304" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <div class="kpi" data-aime-line="305" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="label" data-aime-line="305" data-aime-column="22" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">Platforms</div><div class="num" id="kpi-platforms" data-aime-line="305" data-aime-column="56" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">12</div><div class="unit" data-aime-line="305" data-aime-column="100" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">在监测平台/榜单 + 用户群视角数</div></div>
+    <div class="kpi" data-aime-line="306" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="label" data-aime-line="306" data-aime-column="22" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">Hot Items</div><div class="num" id="kpi-items" data-aime-line="306" data-aime-column="56" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">115</div><div class="unit" data-aime-line="306" data-aime-column="97" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">当日教育/用户热搜 + 电商热销条数</div></div>
+    <div class="kpi" data-aime-line="307" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="label" data-aime-line="307" data-aime-column="22" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">Sections</div><div class="num" id="kpi-sections" data-aime-line="307" data-aime-column="55" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">6</div><div class="unit" data-aime-line="307" data-aime-column="97" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">看板板块数</div></div>
+    <div class="kpi" data-aime-line="308" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="label" data-aime-line="308" data-aime-column="22" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">Insights</div><div class="num" id="kpi-insights" data-aime-line="308" data-aime-column="55" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">12</div><div class="unit" data-aime-line="308" data-aime-column="98" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">营销建议条数</div></div>
   </div>
 </section>
 
 <!-- SECTION 1: HOT SEARCH -->
-<section class="section" id="sec-search">
-  <div class="section-head">
-    <span class="section-no">01</span>
-    <h2 class="section-title">热搜榜 · 教育行业 TOP5</h2>
-    <span class="section-en">HOT SEARCH × 5 PLATFORMS</span>
+<section class="section" id="sec-search" data-aime-line="313" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="section">
+  <div class="section-head" data-aime-line="314" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <span class="section-no" data-aime-line="315" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">01</span>
+    <h2 class="section-title" data-aime-line="316" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="h2">热搜榜 · 教育行业 TOP5</h2>
+    <span class="section-en" data-aime-line="317" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">HOT SEARCH × 5 PLATFORMS</span>
   </div>
 
   <!-- Insight Box -->
-  <div style="background:linear-gradient(135deg,rgba(30,64,175,.04),rgba(124,58,237,.04));border:1px solid rgba(30,64,175,.12);border-radius:12px;padding:20px 24px;margin-bottom:28px;display:flex;gap:16px;align-items:flex-start">
-    <div style="font-size:28px;flex-shrink:0">🔍</div>
-    <div>
-      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--edu-primary);margin-bottom:6px;font-weight:600">INSIGHT</div>
-      <div style="font-size:14px;line-height:1.7;color:var(--ink)" id="search-insight">
-        今日教育行业热搜以<b>升学考试</b>相关内容占据核心流量位，考研/高考/公考三大考试热度居高；<b>AI教育</b>赛道持续升温，学习机/AI工具类话题跨平台共振明显；<b>暑期培训</b>相关需求开始集中释放。
+  <div style="background:linear-gradient(135deg,rgba(30,64,175,.04),rgba(124,58,237,.04));border:1px solid rgba(30,64,175,.12);border-radius:12px;padding:20px 24px;margin-bottom:28px;display:flex;gap:16px;align-items:flex-start" data-aime-line="321" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <div style="font-size:28px;flex-shrink:0" data-aime-line="322" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🔍</div>
+    <div data-aime-line="323" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--edu-primary);margin-bottom:6px;font-weight:600" data-aime-line="324" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">INSIGHT</div>
+      <div style="font-size:14px;line-height:1.7;color:var(--ink)" id="search-insight" data-aime-line="325" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        今日教育行业热搜以<b data-aime-line="326" data-aime-column="18" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">升学考试</b>相关内容占据核心流量位，考研/高考/公考三大考试热度居高；<b data-aime-line="326" data-aime-column="58" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">AI教育</b>赛道持续升温，学习机/AI工具类话题跨平台共振明显；<b data-aime-line="326" data-aime-column="95" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">暑期培训</b>相关需求开始集中释放。
       </div>
     </div>
   </div>
 
-  <div class="platform-grid" id="search-grid">
+  <div class="platform-grid" id="search-grid" data-aime-line="331" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
     <!-- Dynamically filled -->
   </div>
 </section>
 
 <!-- SECTION 2: HOT PRODUCTS -->
-<section class="section" id="sec-commerce">
-  <div class="section-head">
-    <span class="section-no">02</span>
-    <h2 class="section-title">热销榜 · 教育行业商品 TOP10</h2>
-    <span class="section-en">E-COMMERCE × 3 PLATFORMS</span>
+<section class="section" id="sec-commerce" data-aime-line="337" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="section">
+  <div class="section-head" data-aime-line="338" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <span class="section-no" data-aime-line="339" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">02</span>
+    <h2 class="section-title" data-aime-line="340" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="h2">热销榜 · 教育行业商品 TOP10</h2>
+    <span class="section-en" data-aime-line="341" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">E-COMMERCE × 3 PLATFORMS</span>
   </div>
 
   <!-- Insight Box -->
-  <div style="background:linear-gradient(135deg,rgba(5,150,105,.04),rgba(217,119,6,.04));border:1px solid rgba(5,150,105,.12);border-radius:12px;padding:20px 24px;margin-bottom:28px;display:flex;gap:16px;align-items:flex-start">
-    <div style="font-size:28px;flex-shrink:0">🛒</div>
-    <div>
-      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--accent-2);margin-bottom:6px;font-weight:600">COMMERCE INSIGHT</div>
-      <div style="font-size:14px;line-height:1.7;color:var(--ink)">
-        教育电商热销品类以<b>AI学习硬件</b>为绝对主力，学习机/词典笔/智能练习本包揽各平台TOP席位；<b>考试教辅</b>类图书受考研/公考备考季拉动持续热卖；<b>在线课程</b>付费产品客单价走高，课程+硬件捆绑趋势明显。
+  <div style="background:linear-gradient(135deg,rgba(5,150,105,.04),rgba(217,119,6,.04));border:1px solid rgba(5,150,105,.12);border-radius:12px;padding:20px 24px;margin-bottom:28px;display:flex;gap:16px;align-items:flex-start" data-aime-line="345" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <div style="font-size:28px;flex-shrink:0" data-aime-line="346" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🛒</div>
+    <div data-aime-line="347" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--accent-2);margin-bottom:6px;font-weight:600" data-aime-line="348" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">COMMERCE INSIGHT</div>
+      <div style="font-size:14px;line-height:1.7;color:var(--ink)" data-aime-line="349" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        教育电商热销品类以<b data-aime-line="350" data-aime-column="18" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">AI学习硬件</b>为绝对主力，学习机/词典笔/智能练习本包揽各平台TOP席位；<b data-aime-line="350" data-aime-column="61" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">考试教辅</b>类图书受考研/公考备考季拉动持续热卖；<b data-aime-line="350" data-aime-column="91" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">在线课程</b>付费产品客单价走高，课程+硬件捆绑趋势明显。
       </div>
     </div>
   </div>
 
-  <div class="product-grid" id="product-grid">
+  <div class="product-grid" id="product-grid" data-aime-line="355" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
     <!-- Dynamically filled -->
   </div>
 </section>
 
 <!-- SECTION 3: TOP15 -->
-<section class="section" id="sec-trend">
-  <div class="section-head">
-    <span class="section-no">03</span>
-    <h2 class="section-title">🏆 今日热度 TOP15（全平台合并去重）</h2>
-    <span class="section-en">CROSS-PLATFORM TOP 15</span>
+<section class="section" id="sec-trend" data-aime-line="361" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="section">
+  <div class="section-head" data-aime-line="362" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <span class="section-no" data-aime-line="363" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">03</span>
+    <h2 class="section-title" data-aime-line="364" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="h2">🏆 今日热度 TOP15（全平台合并去重）</h2>
+    <span class="section-en" data-aime-line="365" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">CROSS-PLATFORM TOP 15</span>
   </div>
 
-  <div class="top15-grid" id="top15-grid">
+  <div class="top15-grid" id="top15-grid" data-aime-line="368" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
     <!-- Dynamically filled -->
   </div>
 
   <!-- Charts Row -->
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:32px">
-    <div class="chart-container">
-      <div class="chart-title">📊 各平台教育热搜分布</div>
-      <div id="chart-platform-pie" style="width:100%;height:300px"></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:32px" data-aime-line="373" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <div class="chart-container" data-aime-line="374" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+      <div class="chart-title" data-aime-line="375" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">📊 各平台教育热搜分布</div>
+      <div id="chart-platform-pie" style="width:100%;height:300px" data-aime-line="376" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"></div>
     </div>
-    <div class="chart-container">
-      <div class="chart-title">☁️ 教育热词词云</div>
-      <div id="chart-wordcloud" style="width:100%;height:300px"></div>
+    <div class="chart-container" data-aime-line="378" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+      <div class="chart-title" data-aime-line="379" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">☁️ 教育热词词云</div>
+      <div id="chart-wordcloud" style="width:100%;height:300px" data-aime-line="380" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"></div>
     </div>
   </div>
 
-  <div class="chart-container" style="margin-top:20px">
-    <div class="chart-title">📈 教育细分赛道热度占比</div>
-    <div id="chart-category-bar" style="width:100%;height:280px"></div>
+  <div class="chart-container" style="margin-top:20px" data-aime-line="384" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <div class="chart-title" data-aime-line="385" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">📈 教育细分赛道热度占比</div>
+    <div id="chart-category-bar" style="width:100%;height:280px" data-aime-line="386" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"></div>
   </div>
 </section>
 
 <!-- SECTION 4: USER HOT SEARCH -->
-<section class="section" id="sec-user-search">
-  <div class="section-head">
-    <span class="section-no">04</span>
-    <h2 class="section-title">用户热搜榜 · 全行业 TOP15</h2>
-    <span class="section-en">USER INTEREST × 4 PANELS</span>
+<section class="section" id="sec-user-search" data-aime-line="391" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="section">
+  <div class="section-head" data-aime-line="392" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <span class="section-no" data-aime-line="393" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">04</span>
+    <h2 class="section-title" data-aime-line="394" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="h2">用户热搜榜 · 全行业 TOP15</h2>
+    <span class="section-en" data-aime-line="395" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">USER INTEREST × 4 PANELS</span>
   </div>
 
   <!-- Insight Box -->
-  <div style="background:linear-gradient(135deg,rgba(30,64,175,.04),rgba(220,38,38,.04));border:1px solid rgba(30,64,175,.12);border-radius:12px;padding:20px 24px;margin-bottom:28px;display:flex;gap:16px;align-items:flex-start">
-    <div style="font-size:28px;flex-shrink:0">🧭</div>
-    <div>
-      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--edu-primary);margin-bottom:6px;font-weight:600">USER INSIGHT</div>
-      <div style="font-size:14px;line-height:1.7;color:var(--ink)">
+  <div style="background:linear-gradient(135deg,rgba(30,64,175,.04),rgba(220,38,38,.04));border:1px solid rgba(30,64,175,.12);border-radius:12px;padding:20px 24px;margin-bottom:28px;display:flex;gap:16px;align-items:flex-start" data-aime-line="399" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <div style="font-size:28px;flex-shrink:0" data-aime-line="400" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🧭</div>
+    <div data-aime-line="401" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--edu-primary);margin-bottom:6px;font-weight:600" data-aime-line="402" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">USER INSIGHT</div>
+      <div style="font-size:14px;line-height:1.7;color:var(--ink)" data-aime-line="403" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
         展示你的目标用户群体当下在关注的泛兴趣热点，帮助理解用户注意力方向，便于内容营销借势。
       </div>
     </div>
   </div>
 
   <!-- 2x2 grid of 4 panels -->
-  <div class="user-search-grid" id="user-search-grid">
+  <div class="user-search-grid" id="user-search-grid" data-aime-line="410" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
     <!-- Dynamically filled by JS -->
   </div>
 </section>
 
 <!-- SECTION 5: MARKETING -->
-<section class="section" id="sec-playbook">
-  <div class="section-head">
-    <span class="section-no">05</span>
-    <h2 class="section-title">营销建议 · 四大教育赛道</h2>
-    <span class="section-en">MARKETING PLAYBOOK × 4 CATEGORIES</span>
+<section class="section" id="sec-playbook" data-aime-line="416" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="section">
+  <div class="section-head" data-aime-line="417" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <span class="section-no" data-aime-line="418" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">05</span>
+    <h2 class="section-title" data-aime-line="419" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="h2">营销建议 · 四大教育赛道</h2>
+    <span class="section-en" data-aime-line="420" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">MARKETING PLAYBOOK × 4 CATEGORIES</span>
   </div>
 
-  <div class="marketing-section" id="marketing-section">
+  <div class="marketing-section" id="marketing-section" data-aime-line="423" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
     <!-- Dynamically filled -->
   </div>
 </section>
 
+<!-- SECTION 6: MATERIAL / 素材榜 -->
+<section class="section" id="sec-material" data-aime-line="429" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="section">
+  <div class="section-head" data-aime-line="430" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+    <span class="section-no" data-aime-line="431" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">06</span>
+    <h2 class="section-title" data-aime-line="432" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="h2">素材榜 · 高热内容拆解</h2>
+    <span class="section-en" data-aime-line="433" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">EDU MATERIAL · HIGH-HEAT CASE STUDY</span>
+  </div>
+  <p class="section-intro" data-aime-line="435" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">聚焦 <b data-aime-line="435" data-aime-column="31" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">教育 / 校园生活</b> 赛道的高互动竖屏视频，将爆款内容拆解为可落地的创意结构和营销策略。点击卡片查看完整分析。</p>
+
+  <div class="case-list" data-aime-line="437" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+
+    <!-- 案例1 -->
+    <article class="case-card" data-aime-line="440" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="article">
+      <div class="card-collapsed" data-aime-line="441" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        <div class="card-thumb" data-aime-line="442" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><img src="img1.png" alt="参考图" data-aime-line="442" data-aime-column="33" data-aime-path-name="upload-package/index.html" data-aime-component-name="img"></div>
+        <div class="card-info" data-aime-line="443" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+          <div class="card-title-row" data-aime-line="444" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h3 data-aime-line="444" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="h3">有权威名师团队是什么体验</h3><span class="tag" data-aime-line="444" data-aime-column="60" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">名师IP · 卡点转场</span></div>
+          <div class="card-desc" data-aime-line="445" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">师生组合卡点转身+手上变出教材的转场结构，真实教室场景，节奏紧凑完播率高</div>
+        </div>
+        <span class="expand-hint" data-aime-line="447" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">点击展开 ▼</span>
+      </div>
+      <div class="card-expanded" data-aime-line="449" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="expanded-content" data-aime-line="449" data-aime-column="34" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        <div class="expanded-img" data-aime-line="450" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><img src="img1.png" alt="AI参考图" data-aime-line="450" data-aime-column="35" data-aime-path-name="upload-package/index.html" data-aime-component-name="img"><div class="img-caption" data-aime-line="450" data-aime-column="67" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">AI生成参考图 · 教育客户可参考拍摄</div></div>
+        <div class="expanded-detail" data-aime-line="451" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+          <div class="highlight-block" data-aime-line="452" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h4 class="highlight-title" data-aime-line="452" data-aime-column="40" data-aime-path-name="upload-package/index.html" data-aime-component-name="h4">🔥 核心亮点拆解</h4>
+            <ul class="highlight-list" data-aime-line="453" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="ul">
+              <li data-aime-line="454" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="454" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">【核心爆点】卡点手上变出教材</b> — 人物转身瞬间手里凭空出现教材，转场丝滑无痕，强迫症极度友好。</li>
+              <li data-aime-line="455" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="455" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">卡点动作设计精准</b> — 转身+手部变化在同一拍点完成，节奏感极强，完播率高。</li>
+              <li data-aime-line="456" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="456" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">真实教室场景+教材自然入镜</b> — 真实课堂环境，品牌植入不突兀。</li>
+              <li data-aime-line="457" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">12秒完整信息闭环，信息密度高、完播率友好。</li>
+            </ul>
+          </div>
+          <div class="logic-block" data-aime-line="460" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-header" data-aime-line="460" data-aime-column="36" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h4 class="logic-title" data-aime-line="460" data-aime-column="62" data-aime-path-name="upload-package/index.html" data-aime-component-name="h4">📋 教育行业如何做？</h4><span class="logic-tag" data-aime-line="460" data-aime-column="102" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">名师IP · 卡点转场</span></div>
+            <div class="logic-grid" data-aime-line="461" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+              <div class="logic-item" data-aime-line="462" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="462" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎯 标题</div><p data-aime-line="462" data-aime-column="75" data-aime-path-name="upload-package/index.html" data-aime-component-name="p"><b data-aime-line="462" data-aime-column="78" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">「有权威名师团队是什么体验」</b></p></div>
+              <div class="logic-item" data-aime-line="463" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="463" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">👤 出镜人物</div><p data-aime-line="463" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">机构名师，1位主讲 + 2~3位学科名师轮番亮相</p></div>
+              <div class="logic-item" data-aime-line="464" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="464" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎬 必拍动作</div><p data-aime-line="464" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">名师<b data-aime-line="464" data-aime-column="82" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">转身/卡点动作</b> + 手上变出<b data-aime-line="464" data-aime-column="103" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">教材/课程封面</b>作为转场</p></div>
+              <div class="logic-item" data-aime-line="465" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="465" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">📍 拍摄场景</div><p data-aime-line="465" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">真实教室/直播间，教材自然入镜即品牌露出</p></div>
+            </div>
+            <h5 class="logic-extra-title" data-aime-line="467" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="h5">⏱️ 具体节奏（12s内）</h5>
+            <ul class="logic-extra-list" data-aime-line="468" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="ul">
+              <li data-aime-line="469" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="469" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">第1s：</b>主讲设悬念口播「有权威名师团队是什么体验」</li>
+              <li data-aime-line="470" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="470" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">第2~9s：</b>名师逐个卡点转身亮相，每人手上变出教材/课程封面</li>
+              <li data-aime-line="471" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="471" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">第10~12s：</b>全员同框 + CTA「你想跟哪位老师学？」</li>
+            </ul>
+          </div>
+          <button class="collapse-btn" onclick="event.stopPropagation();this.closest('.case-card').classList.remove('expanded')" data-aime-line="474" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="button">▲ 收起详情</button>
+        </div>
+      </div></div>
+    </article>
+
+    <!-- 案例2 -->
+    <article class="case-card" data-aime-line="480" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="article">
+      <div class="card-collapsed" data-aime-line="481" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        <div class="card-thumb" data-aime-line="482" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><img src="img2.png" alt="参考图" data-aime-line="482" data-aime-column="33" data-aime-path-name="upload-package/index.html" data-aime-component-name="img"></div>
+        <div class="card-info" data-aime-line="483" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+          <div class="card-title-row" data-aime-line="484" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h3 data-aime-line="484" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="h3">名师改到的离谱答案</h3><span class="tag" data-aime-line="484" data-aime-column="57" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">教学趣味化 · 系列IP</span></div>
+          <div class="card-desc" data-aime-line="485" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">老师批改卷子遇到学生离谱答案的真实崩溃反应，系列化IP可持续运营，评论区UGC互动极高</div>
+        </div>
+        <span class="expand-hint" data-aime-line="487" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">点击展开 ▼</span>
+      </div>
+      <div class="card-expanded" data-aime-line="489" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="expanded-content" data-aime-line="489" data-aime-column="34" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        <div class="expanded-img" data-aime-line="490" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><img src="img2.png" alt="AI参考图" data-aime-line="490" data-aime-column="35" data-aime-path-name="upload-package/index.html" data-aime-component-name="img"><div class="img-caption" data-aime-line="490" data-aime-column="67" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">AI生成参考图 · 教育客户可参考拍摄</div></div>
+        <div class="expanded-detail" data-aime-line="491" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+          <div class="highlight-block" data-aime-line="492" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h4 class="highlight-title" data-aime-line="492" data-aime-column="40" data-aime-path-name="upload-package/index.html" data-aime-component-name="h4">🔥 核心亮点拆解</h4>
+            <ul class="highlight-list" data-aime-line="493" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="ul">
+              <li data-aime-line="494" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="494" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">【核心爆点】学生离谱答案的真实呈现</b> — 荒诞感极强的错误答案引发全网共鸣和二次传播。</li>
+              <li data-aime-line="495" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="495" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">老师崩溃反应真实有代入感</b> — 批改卷子时的表情和肢体语言，所有当过学生/老师的人都能共情。</li>
+              <li data-aime-line="496" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="496" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">系列化IP运营模式</b> — 可持续产出、粉丝追更黏性强，每期结构固定但内容常新。</li>
+              <li data-aime-line="497" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">评论区用户自发分享离谱答案，形成UGC生态，进一步拉高互动率。</li>
+            </ul>
+          </div>
+          <div class="logic-block" data-aime-line="500" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-header" data-aime-line="500" data-aime-column="36" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h4 class="logic-title" data-aime-line="500" data-aime-column="62" data-aime-path-name="upload-package/index.html" data-aime-component-name="h4">📋 教育行业如何做？</h4><span class="logic-tag" data-aime-line="500" data-aime-column="102" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">名师改到的离谱答案</span></div>
+            <div class="logic-grid" data-aime-line="501" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+              <div class="logic-item" data-aime-line="502" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="502" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎯 标题</div><p data-aime-line="502" data-aime-column="75" data-aime-path-name="upload-package/index.html" data-aime-component-name="p"><b data-aime-line="502" data-aime-column="78" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">「名师改到的离谱答案」</b>— 机构名师出镜批改真实学员试卷</p></div>
+              <div class="logic-item" data-aime-line="503" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="503" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">👤 出镜人物</div><p data-aime-line="503" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">机构老师真实出镜批改卷子，展示真实教学日常</p></div>
+              <div class="logic-item" data-aime-line="504" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="504" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎬 内容结构</div><p data-aime-line="504" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">展示离谱答案（引发笑点）→ 老师崩溃反应 → 给出正确答案+记忆口诀</p></div>
+              <div class="logic-item" data-aime-line="505" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="505" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">📍 系列运营</div><p data-aime-line="505" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">按学科做系列：语文/数学/英语/历史，每周更新一期</p></div>
+            </div>
+            <h5 class="logic-extra-title" data-aime-line="507" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="h5">💡 关键成功要素</h5>
+            <ul class="logic-extra-list" data-aime-line="508" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="ul">
+              <li data-aime-line="509" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">离谱答案一定要真实！不要编造——真实的才够荒诞够有传播力</li>
+              <li data-aime-line="510" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">老师反应要自然，过度演绎反而假——真崩溃比假崩溃有效10倍</li>
+              <li data-aime-line="511" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">每期最后可以带一句「关注我看下期更离谱的」形成追更心理</li>
+            </ul>
+          </div>
+          <button class="collapse-btn" onclick="event.stopPropagation();this.closest('.case-card').classList.remove('expanded')" data-aime-line="514" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="button">▲ 收起详情</button>
+        </div>
+      </div></div>
+    </article>
+
+    <!-- 案例3 -->
+    <article class="case-card" data-aime-line="520" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="article">
+      <div class="card-collapsed" data-aime-line="521" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        <div class="card-thumb" data-aime-line="522" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><img src="img3.png" alt="参考图" data-aime-line="522" data-aime-column="33" data-aime-path-name="upload-package/index.html" data-aime-component-name="img"></div>
+        <div class="card-info" data-aime-line="523" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+          <div class="card-title-row" data-aime-line="524" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h3 data-aime-line="524" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="h3">在中国我们不说good luck，我们说…</h3><span class="tag" data-aime-line="524" data-aime-column="69" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">国风祝福 · 节点内容</span></div>
+          <div class="card-desc" data-aime-line="525" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">「在中国我们不说…我们说…」国风文案+传统美学视觉，精准命中考试节点情绪</div>
+        </div>
+        <span class="expand-hint" data-aime-line="527" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">点击展开 ▼</span>
+      </div>
+      <div class="card-expanded" data-aime-line="529" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="expanded-content" data-aime-line="529" data-aime-column="34" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        <div class="expanded-img" data-aime-line="530" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><img src="img3.png" alt="AI参考图" data-aime-line="530" data-aime-column="35" data-aime-path-name="upload-package/index.html" data-aime-component-name="img"><div class="img-caption" data-aime-line="530" data-aime-column="67" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">AI生成参考图 · 教育客户可参考拍摄</div></div>
+        <div class="expanded-detail" data-aime-line="531" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+          <div class="highlight-block" data-aime-line="532" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h4 class="highlight-title" data-aime-line="532" data-aime-column="40" data-aime-path-name="upload-package/index.html" data-aime-component-name="h4">🔥 核心亮点拆解</h4>
+            <ul class="highlight-list" data-aime-line="533" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="ul">
+              <li data-aime-line="534" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="534" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">【核心爆点】「在中国我们不说…我们说…」的文案结构</b> — 用中国传统祝福语替代外文表达，文化自信+仪式感拉满，触发强烈民族情感共鸣。</li>
+              <li data-aime-line="535" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="535" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">国风视觉极致精美</b> — 书法字体+印章+水墨元素+红金配色，每一帧都是壁纸级画面。</li>
+              <li data-aime-line="536" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="536" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">节点情绪精准触达</b> — 考试前发布，同时触动学生和家长群体焦虑&amp;期待情绪，转发动机极强。</li>
+              <li data-aime-line="537" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">证明「传统文化+考试节点」赛道有超级流量空间，天花板极高。</li>
+            </ul>
+          </div>
+          <div class="logic-block" data-aime-line="540" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-header" data-aime-line="540" data-aime-column="36" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h4 class="logic-title" data-aime-line="540" data-aime-column="62" data-aime-path-name="upload-package/index.html" data-aime-component-name="h4">📋 教育行业如何做？</h4><span class="logic-tag" data-aime-line="540" data-aime-column="102" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">国风祝福 · 节点内容</span></div>
+            <div class="logic-grid" data-aime-line="541" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+              <div class="logic-item" data-aime-line="542" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="542" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎯 方向</div><p data-aime-line="542" data-aime-column="75" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">用「在中国我们不说…我们说…」句式，<b data-aime-line="542" data-aime-column="96" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">替换为自己学科/机构相关的祝福语</b></p></div>
+              <div class="logic-item" data-aime-line="543" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="543" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎨 视觉风格</div><p data-aime-line="543" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">国风美学：书法字体+印章+水墨背景，每帧一句祝福，逐帧切换</p></div>
+              <div class="logic-item" data-aime-line="544" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="544" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">📝 文案示例</div><p data-aime-line="544" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">「在中国我们不说加油，我们说<b data-aime-line="544" data-aime-column="94" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">金榜题名</b>」「我们不说别紧张，我们说<b data-aime-line="544" data-aime-column="118" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">旗开得胜</b>」</p></div>
+              <div class="logic-item" data-aime-line="545" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="545" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">📅 节点覆盖</div><p data-aime-line="545" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">中考/高考/考研/四六级/期末——每个考试节点做一版</p></div>
+            </div>
+            <h5 class="logic-extra-title" data-aime-line="547" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="h5">💡 关键成功要素</h5>
+            <ul class="logic-extra-list" data-aime-line="548" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="ul">
+              <li data-aime-line="549" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">视觉一定要精美有质感——剪映国风模板即可实现</li>
+              <li data-aime-line="550" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">文案有温度、有文化感，不要有任何广告痕迹——纯祝福自然会被转发</li>
+              <li data-aime-line="551" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">发布时间：考前3~5天，情绪峰值期转发动机最强</li>
+              <li data-aime-line="552" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">结尾可加一句「转发给你身边要考试的人」促进社交裂变</li>
+            </ul>
+          </div>
+          <button class="collapse-btn" onclick="event.stopPropagation();this.closest('.case-card').classList.remove('expanded')" data-aime-line="555" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="button">▲ 收起详情</button>
+        </div>
+      </div></div>
+    </article>
+
+    <!-- 案例4 -->
+    <article class="case-card" data-aime-line="561" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="article">
+      <div class="card-collapsed" data-aime-line="562" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        <div class="card-thumb" data-aime-line="563" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><img src="img4.png" alt="参考图" data-aime-line="563" data-aime-column="33" data-aime-path-name="upload-package/index.html" data-aime-component-name="img"></div>
+        <div class="card-info" data-aime-line="564" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+          <div class="card-title-row" data-aime-line="565" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h3 data-aime-line="565" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="h3">考的全会 蒙的全对</h3><span class="tag" data-aime-line="565" data-aime-column="57" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">AI动画 · 考试祝福</span></div>
+          <div class="card-desc" data-aime-line="566" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">AI动画人物想象考试场景：考的全会蒙的全对，人物夸张翻跟头庆祝，用动画形式给考生送祝福</div>
+        </div>
+        <span class="expand-hint" data-aime-line="568" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">点击展开 ▼</span>
+      </div>
+      <div class="card-expanded" data-aime-line="570" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="expanded-content" data-aime-line="570" data-aime-column="34" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        <div class="expanded-img" data-aime-line="571" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><img src="img4.png" alt="AI参考图" data-aime-line="571" data-aime-column="35" data-aime-path-name="upload-package/index.html" data-aime-component-name="img"><div class="img-caption" data-aime-line="571" data-aime-column="67" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">AI生成参考图 · 教育客户可参考拍摄</div></div>
+        <div class="expanded-detail" data-aime-line="572" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+          <div class="highlight-block" data-aime-line="573" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h4 class="highlight-title" data-aime-line="573" data-aime-column="40" data-aime-path-name="upload-package/index.html" data-aime-component-name="h4">🔥 核心亮点拆解</h4>
+            <ul class="highlight-list" data-aime-line="574" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="ul">
+              <li data-aime-line="575" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="575" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">【核心爆点】想象考试时「考的都会、蒙的都对」的爽感画面</b> — AI动画人物在考场上奋笔疾书，每道题都对，满分试卷飞舞。</li>
+              <li data-aime-line="576" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="576" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">AI人物做夸张翻跟头</b> — 考完后角色兴奋地做出物理上不可能的翻跟头动作，夸张肢体制造强烈视觉冲击和喜感。</li>
+              <li data-aime-line="577" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="577" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">本质是「送祝福」</b> — 用AI动画的方式表达"祝你考试顺利"，比文字祝福更生动、更有传播力。</li>
+              <li data-aime-line="578" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">AI创作+考试祝福 = 低成本高传播的最优解，适合批量复制。</li>
+            </ul>
+          </div>
+          <div class="logic-block" data-aime-line="581" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-header" data-aime-line="581" data-aime-column="36" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h4 class="logic-title" data-aime-line="581" data-aime-column="62" data-aime-path-name="upload-package/index.html" data-aime-component-name="h4">📋 教育行业如何做？</h4><span class="logic-tag" data-aime-line="581" data-aime-column="102" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">AI动画 · 考试祝福</span></div>
+            <div class="logic-grid" data-aime-line="582" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+              <div class="logic-item" data-aime-line="583" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="583" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎯 方向</div><p data-aime-line="583" data-aime-column="75" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">用AI生成「学员考试全对→夸张庆祝」的动画，<b data-aime-line="583" data-aime-column="100" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">融入机构元素</b>（校服/教室/Logo）</p></div>
+              <div class="logic-item" data-aime-line="584" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="584" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎬 画面设计</div><p data-aime-line="584" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">场景1:考场奋笔疾书 → 场景2:每题打勾100分 → 场景3:人物翻跟头/飞天等夸张庆祝</p></div>
+              <div class="logic-item" data-aime-line="585" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="585" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🛠️ 制作方式</div><p data-aime-line="585" data-aime-column="78" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">剪映AI/可灵视频，输入关键词即可生成，无需真人出镜</p></div>
+              <div class="logic-item" data-aime-line="586" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="586" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎵 配乐</div><p data-aime-line="586" data-aime-column="75" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">搭配燃向/励志BGM，节奏跟随翻跟头动作卡点</p></div>
+            </div>
+            <h5 class="logic-extra-title" data-aime-line="588" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="h5">💡 执行要点</h5>
+            <ul class="logic-extra-list" data-aime-line="589" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="ul">
+              <li data-aime-line="590" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">AI动画的核心魅力在于「夸张」——翻跟头、飞天、分身等现实做不到的动作才有看点</li>
+              <li data-aime-line="591" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">文案配合画面：「考的都会，蒙的都对，笔下生花，逢考必过」</li>
+              <li data-aime-line="592" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">成本极低产出极快，每个考试节点都可以做一条</li>
+            </ul>
+          </div>
+          <button class="collapse-btn" onclick="event.stopPropagation();this.closest('.case-card').classList.remove('expanded')" data-aime-line="595" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="button">▲ 收起详情</button>
+        </div>
+      </div></div>
+    </article>
+
+    <!-- 案例5 -->
+    <article class="case-card" data-aime-line="601" data-aime-column="5" data-aime-path-name="upload-package/index.html" data-aime-component-name="article">
+      <div class="card-collapsed" data-aime-line="602" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        <div class="card-thumb" data-aime-line="603" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><img src="img5.png" alt="参考图" data-aime-line="603" data-aime-column="33" data-aime-path-name="upload-package/index.html" data-aime-component-name="img"></div>
+        <div class="card-info" data-aime-line="604" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+          <div class="card-title-row" data-aime-line="605" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h3 data-aime-line="605" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="h3">接住了免作业，没接住……</h3><span class="tag" data-aime-line="605" data-aime-column="60" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">师生互动 · 反转剧情</span></div>
+          <div class="card-desc" data-aime-line="606" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">师生互动反转剧：扔纸巾挑战免作业→没接住→卷子扔向镜头，反转+卡点+视觉冲击力三连爆</div>
+        </div>
+        <span class="expand-hint" data-aime-line="608" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">点击展开 ▼</span>
+      </div>
+      <div class="card-expanded" data-aime-line="610" data-aime-column="7" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="expanded-content" data-aime-line="610" data-aime-column="34" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+        <div class="expanded-img" data-aime-line="611" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><img src="img5.png" alt="AI参考图" data-aime-line="611" data-aime-column="35" data-aime-path-name="upload-package/index.html" data-aime-component-name="img"><div class="img-caption" data-aime-line="611" data-aime-column="67" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">AI生成参考图 · 教育客户可参考拍摄</div></div>
+        <div class="expanded-detail" data-aime-line="612" data-aime-column="9" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+          <div class="highlight-block" data-aime-line="613" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h4 class="highlight-title" data-aime-line="613" data-aime-column="40" data-aime-path-name="upload-package/index.html" data-aime-component-name="h4">🔥 核心亮点拆解</h4>
+            <ul class="highlight-list" data-aime-line="614" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="ul">
+              <li data-aime-line="615" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="615" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">【核心爆点】反转 + 卷子扔向镜头</b> — 老师承诺"接住免作业"→没接住→一叠卷子甩向镜头，从希望到绝望的极速反转。</li>
+              <li data-aime-line="616" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="616" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">视觉冲击力极强</b> — 卷子在空中散开扑面而来，配合快剪产生动态压迫感，用户本能反复观看。</li>
+              <li data-aime-line="617" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="617" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">真实教室+真实师生关系</b> — 职业装老师+学生第一视角，场景可信度极高。</li>
+              <li data-aime-line="618" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li">"师生日常+反转剧情"模式天花板极高，可持续产出系列内容。</li>
+            </ul>
+          </div>
+          <div class="logic-block" data-aime-line="621" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-header" data-aime-line="621" data-aime-column="36" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><h4 class="logic-title" data-aime-line="621" data-aime-column="62" data-aime-path-name="upload-package/index.html" data-aime-component-name="h4">📋 教育行业如何做？</h4><span class="logic-tag" data-aime-line="621" data-aime-column="102" data-aime-path-name="upload-package/index.html" data-aime-component-name="span">师生互动 · 反转剧情</span></div>
+            <div class="logic-grid" data-aime-line="622" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">
+              <div class="logic-item" data-aime-line="623" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="623" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎯 方向</div><p data-aime-line="623" data-aime-column="75" data-aime-path-name="upload-package/index.html" data-aime-component-name="p"><b data-aime-line="623" data-aime-column="78" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">「接住了免作业，没接住……这本提分秘籍就归你了！」</b></p></div>
+              <div class="logic-item" data-aime-line="624" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="624" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">👤 出镜人物</div><p data-aime-line="624" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">机构老师出镜（年轻、有亲和力），学生为第一视角</p></div>
+              <div class="logic-item" data-aime-line="625" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="625" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">🎬 反转设计</div><p data-aime-line="625" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">负面反馈→正面惊喜：扔出的不是卷子而是<b data-aime-line="625" data-aime-column="99" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">提分笔记/学习礼包</b></p></div>
+              <div class="logic-item" data-aime-line="626" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="div"><div class="logic-label" data-aime-line="626" data-aime-column="39" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">📍 视觉强化</div><p data-aime-line="626" data-aime-column="77" data-aime-path-name="upload-package/index.html" data-aime-component-name="p">扔出瞬间添加文字特效「提分/必刷/核心考点」随物品飞出</p></div>
+            </div>
+            <h5 class="logic-extra-title" data-aime-line="628" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="h5">⏱️ 拍摄节奏（12s内）</h5>
+            <ul class="logic-extra-list" data-aime-line="629" data-aime-column="13" data-aime-path-name="upload-package/index.html" data-aime-component-name="ul">
+              <li data-aime-line="630" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="630" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">第1~2s：</b>学生提问"老师今天作业是啥"，建立日常场景</li>
+              <li data-aime-line="631" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="631" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">第3~5s：</b>老师提出挑战"接住这个就免作业"，调动期待</li>
+              <li data-aime-line="632" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="632" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">第6~7s：</b>投掷→没接住，气氛反转</li>
+              <li data-aime-line="633" data-aime-column="15" data-aime-path-name="upload-package/index.html" data-aime-component-name="li"><b data-aime-line="633" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">第8~12s：</b>老师扔出"惊喜物"，配合音乐卡点收尾</li>
+            </ul>
+          </div>
+          <button class="collapse-btn" onclick="event.stopPropagation();this.closest('.case-card').classList.remove('expanded')" data-aime-line="636" data-aime-column="11" data-aime-path-name="upload-package/index.html" data-aime-component-name="button">▲ 收起详情</button>
+        </div>
+      </div></div>
+    </article>
+
+  </div>
+</section>
+
 <!-- FOOTER -->
-<footer class="footer">
-  <div>教育热点捕手 © 2026 · 数据每日 09:00 自动更新</div>
-  <div>Powered by <b>全网热搜聚合</b> · 教育行业专属版</div>
+<footer class="footer" data-aime-line="645" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="footer">
+  <div data-aime-line="646" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">教育热点捕手 © 2026 · 数据每日 09:00 自动更新</div>
+  <div data-aime-line="647" data-aime-column="3" data-aime-path-name="upload-package/index.html" data-aime-component-name="div">Powered by <b data-aime-line="647" data-aime-column="19" data-aime-path-name="upload-package/index.html" data-aime-component-name="b">全网热搜聚合</b> · 教育行业专属版</div>
 </footer>
 
 </div><!-- end .wrap -->
 
-<script>
+<script data-aime-line="652" data-aime-column="1" data-aime-path-name="upload-package/index.html" data-aime-component-name="script">
 // ===== DATA LOADING =====
 let DATA = null;
+let VIDEO_DATA = null;
 
 async function loadData() {
   try {
@@ -403,6 +2481,7 @@ async function loadData() {
     DATA = FALLBACK_DATA;
   }
   renderAll();
+  loadVideos();
 }
 
 const FALLBACK_DATA = {
@@ -606,6 +2685,67 @@ const FALLBACK_DATA = {
   ]
 };
 
+const FALLBACK_VIDEOS = {
+  videos: [
+    {
+      title: '3分钟看懂今日教育热点',
+      type: 'mp4',
+      url: 'videos/daily-edu-trends.mp4',
+      poster: '',
+      desc: '快速梳理当日教育热搜与电商热销的核心变化。'
+    },
+    {
+      title: 'K12 家长如何用好暑期档',
+      type: 'bilibili',
+      bvid: 'BV1xx411x7xx',
+      poster: '',
+      desc: '从家长视角拆解暑期培训与兴趣班投放窗口。'
+    },
+    {
+      title: 'AI 学习机选购避坑指南',
+      type: 'mp4',
+      url: 'videos/ai-learning-device-guide.mp4',
+      poster: '',
+      desc: '结合热销榜数据，讲解不同价位段学习机的选购思路。'
+    },
+    {
+      title: '成人教育投放案例复盘',
+      type: 'bilibili',
+      bvid: 'BV1xx4y1c7xx',
+      poster: '',
+      desc: '拆解一个从冷启动到稳定获客的成人教育投放闭环。'
+    },
+    {
+      title: '图书赛道内容种草模板',
+      type: 'mp4',
+      url: 'videos/book-marketing-playbook.mp4',
+      poster: '',
+      desc: '如何用短视频与图文笔记联动卖出更多教辅和图书。'
+    },
+    {
+      title: '电子教育产品直播话术',
+      type: 'bilibili',
+      bvid: 'BV1xx4y1d7xx',
+      poster: '',
+      desc: '整理直播带货电子教育产品时常用的讲解节奏与话术。'
+    },
+    {
+      title: '用户热搜洞察小课堂',
+      type: 'mp4',
+      url: 'videos/user-search-insight.mp4',
+      poster: '',
+      desc: '教你从用户热搜榜里挖出选题和投放灵感。'
+    },
+    {
+      title: '教育品牌内容规划实战',
+      type: 'bilibili',
+      bvid: 'BV1xx421c7xx',
+      poster: '',
+      desc: '演示如何基于一周热点规划教育品牌的内容矩阵。'
+    }
+  ]
+};
+
 // ===== UTILITY =====
 function formatHeat(num) {
   if (num >= 10000000) return (num / 10000000).toFixed(1) + '千万';
@@ -635,7 +2775,7 @@ function updateKpis() {
   if (!DATA) return;
   const platformsEl = document.getElementById('kpi-platforms');
   const itemsEl = document.getElementById('kpi-items');
-  const catEl = document.getElementById('kpi-categories');
+  const sectionsEl = document.getElementById('kpi-sections');
   const insightsEl = document.getElementById('kpi-insights');
 
   const hotSearch = DATA.hot_search || {};
@@ -655,15 +2795,17 @@ function updateKpis() {
   if (platformsEl) platformsEl.textContent = platformCount;
   if (itemsEl) itemsEl.textContent = itemsCount;
 
-  if (Array.isArray(DATA.marketing_suggestions)) {
-    if (catEl) catEl.textContent = DATA.marketing_suggestions.length;
-    if (insightsEl) {
-      const insightsCount = DATA.marketing_suggestions.reduce(
-        (sum, cat) => sum + (Array.isArray(cat.items) ? cat.items.length : 0),
-        0
-      );
-      insightsEl.textContent = insightsCount;
-    }
+  if (sectionsEl) {
+    const sectionsCount = document.querySelectorAll('.section').length;
+    sectionsEl.textContent = sectionsCount;
+  }
+
+  if (insightsEl && Array.isArray(DATA.marketing_suggestions)) {
+    const insightsCount = DATA.marketing_suggestions.reduce(
+      (sum, cat) => sum + (Array.isArray(cat.items) ? cat.items.length : 0),
+      0
+    );
+    insightsEl.textContent = insightsCount;
   }
 }
 
@@ -678,6 +2820,161 @@ function renderAll() {
     document.getElementById('update-date').textContent = DATA.update_time.split(' ')[0];
   }
   updateKpis();
+}
+
+// ===== VIDEO SECTION =====
+async function loadVideos() {
+  try {
+    const resp = await fetch('./videos.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const json = await resp.json();
+    if (json && Array.isArray(json.videos) && json.videos.length) {
+      VIDEO_DATA = json.videos;
+    } else {
+      throw new Error('Invalid video data format');
+    }
+  } catch (e) {
+    console.log('使用内置视频数据 (videos.json 未找到或格式错误)', e);
+    VIDEO_DATA = FALLBACK_VIDEOS.videos;
+  }
+  renderVideos();
+}
+
+function getVideoList() {
+  if (Array.isArray(VIDEO_DATA) && VIDEO_DATA.length) return VIDEO_DATA;
+  if (Array.isArray(FALLBACK_VIDEOS.videos)) return FALLBACK_VIDEOS.videos;
+  return [];
+}
+
+function renderVideos() {
+  const grid = document.getElementById('video-grid');
+  if (!grid) return;
+  grid.innerHTML = '';
+
+  const list = getVideoList();
+  if (!list.length) {
+    grid.innerHTML = '<div style="grid-column:1/-1;font-size:13px;color:var(--muted);padding:16px 18px;background:rgba(248,246,240,.8);border-radius:10px;border:1px dashed rgba(26,26,46,.18)">视频数据暂未加载，请检查 videos.json 或稍后重试。</div>';
+    return;
+  }
+
+  list.forEach((item, idx) => {
+    if (!item) return;
+    const card = document.createElement('div');
+    card.className = 'video-card animate-in';
+    card.style.animationDelay = (idx * 0.06) + 's';
+    card.setAttribute('role', 'button');
+    card.setAttribute('tabindex', '0');
+
+    const isBilibili = item.type === 'bilibili';
+    const tagLabel = isBilibili ? 'B站视频' : 'MP4视频';
+
+    const thumbImg = item.poster
+      ? `<img src="${item.poster}" alt="${item.title || ''}">`
+      : '';
+
+    card.innerHTML = `
+      <div class="video-thumb">
+        ${thumbImg}
+        <div class="video-play-icon"></div>
+      </div>
+      <div class="video-card-body">
+        <div class="video-card-title">${item.title || ''}</div>
+        ${item.desc ? `<div class="video-card-desc">${item.desc}</div>` : ''}
+        <div class="video-card-meta">
+          <span class="video-card-tag">${tagLabel}</span>
+        </div>
+      </div>
+    `;
+
+    const open = () => openVideoModal(item);
+    card.addEventListener('click', open);
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        open();
+      }
+    });
+
+    grid.appendChild(card);
+  });
+}
+
+function openVideoModal(video) {
+  const modal = document.getElementById('video-modal');
+  const titleEl = document.getElementById('video-modal-title');
+  const descEl = document.getElementById('video-modal-desc');
+  const playerEl = document.getElementById('video-modal-player');
+  if (!modal || !playerEl) return;
+
+  playerEl.innerHTML = '';
+
+  if (titleEl) titleEl.textContent = video.title || '';
+  if (descEl) descEl.textContent = video.desc || '';
+
+  if (video.type === 'bilibili' && video.bvid) {
+    const iframe = document.createElement('iframe');
+    iframe.src = `//player.bilibili.com/player.html?bvid=${encodeURIComponent(video.bvid)}&high_quality=1&autoplay=1`;
+    iframe.setAttribute('allowfullscreen', 'allowfullscreen');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+    playerEl.appendChild(iframe);
+  } else if (video.type === 'mp4' && video.url) {
+    const videoEl = document.createElement('video');
+    videoEl.src = video.url;
+    videoEl.controls = true;
+    videoEl.setAttribute('controls', 'controls');
+    videoEl.setAttribute('playsinline', '');
+    videoEl.setAttribute('webkit-playsinline', '');
+    if (video.poster) {
+      videoEl.poster = video.poster;
+    }
+    playerEl.appendChild(videoEl);
+    try {
+      videoEl.play();
+    } catch (e) {}
+  }
+
+  modal.classList.add('active');
+  modal.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeVideoModal() {
+  const modal = document.getElementById('video-modal');
+  const playerEl = document.getElementById('video-modal-player');
+  if (!modal) return;
+
+  if (playerEl) {
+    const videoEl = playerEl.querySelector('video');
+    if (videoEl) {
+      try {
+        videoEl.pause();
+      } catch (e) {}
+    }
+    playerEl.innerHTML = '';
+  }
+
+  modal.classList.remove('active');
+  modal.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+}
+
+function setupVideoModalEvents() {
+  const modal = document.getElementById('video-modal');
+  if (!modal) return;
+  const closeBtn = modal.querySelector('.video-modal-close');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', closeVideoModal);
+  }
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      closeVideoModal();
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('active')) {
+      closeVideoModal();
+    }
+  });
 }
 
 // ===== RENDER HOT SEARCH =====
@@ -974,8 +3271,18 @@ function renderCharts() {
 }
 
 // ===== INIT =====
-document.addEventListener('DOMContentLoaded', loadData);
+document.addEventListener('DOMContentLoaded', () => {
+  setupVideoModalEvents();
+  loadData();
+  // 素材榜卡片展开/收起
+  document.querySelectorAll('.case-card').forEach(function(card){
+    card.querySelector('.card-collapsed').addEventListener('click',function(){
+      if(!card.classList.contains('expanded')) card.classList.add('expanded');
+    });
+  });
+});
 </script>
-</body>
-</html>
 
+
+
+</body></html>
