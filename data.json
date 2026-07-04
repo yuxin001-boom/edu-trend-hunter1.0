@@ -1,38 +1,44 @@
 {
-  "update_time": "2026-07-03 07:53",
-  "issue_no": 22,
+  "update_time": "2026-07-04 04:26",
+  "issue_no": 23,
   "hot_search": {
-    "weibo": [
-      {
-        "title": "清华教授举报蒋方舟论文造假",
-        "url": "https://s.weibo.com/weibo?q=%E6%B8%85%E5%8D%8E%E6%95%99%E6%8E%88%E4%B8%BE%E6%8A%A5%E8%92%8B%E6%96%B9%E8%88%9F%E8%AE%BA%E6%96%87%E9%80%A0%E5%81%87",
-        "heat": 700000,
-        "rank": 1,
-        "_platform": "微博"
-      },
-      {
-        "title": "中介挪用百万学费致学生取消入学资格",
-        "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E4%BB%8B%E6%8C%AA%E7%94%A8%E7%99%BE%E4%B8%87%E5%AD%A6%E8%B4%B9%E8%87%B4%E5%AD%A6%E7%94%9F%E5%8F%96%E6%B6%88%E5%85%A5%E5%AD%A6%E8%B5%84%E6%A0%BC",
-        "heat": 370000,
-        "rank": 2,
-        "_platform": "微博"
-      }
-    ],
+    "weibo": [],
     "baidu": [
       {
-        "title": "板凳男孩已报湖北大学 学校回应",
-        "url": "https://www.baidu.com/s?wd=%E6%9D%BF%E5%87%B3%E7%94%B7%E5%AD%A9%E5%B7%B2%E6%8A%A5%E6%B9%96%E5%8C%97%E5%A4%A7%E5%AD%A6+%E5%AD%A6%E6%A0%A1%E5%9B%9E%E5%BA%94",
-        "heat": 50000,
+        "title": "某学院毕业后可直接进胖东来系谣言",
+        "url": "https://www.baidu.com/s?wd=%E6%9F%90%E5%AD%A6%E9%99%A2%E6%AF%95%E4%B8%9A%E5%90%8E%E5%8F%AF%E7%9B%B4%E6%8E%A5%E8%BF%9B%E8%83%96%E4%B8%9C%E6%9D%A5%E7%B3%BB%E8%B0%A3%E8%A8%80",
+        "heat": 670000,
         "rank": 1,
+        "_platform": "百度"
+      },
+      {
+        "title": "同学被嘲“穿假鞋” 班主任严肃教育",
+        "url": "https://www.baidu.com/s?wd=%E5%90%8C%E5%AD%A6%E8%A2%AB%E5%98%B2%E2%80%9C%E7%A9%BF%E5%81%87%E9%9E%8B%E2%80%9D+%E7%8F%AD%E4%B8%BB%E4%BB%BB%E4%B8%A5%E8%82%83%E6%95%99%E8%82%B2",
+        "heat": 370000,
+        "rank": 2,
+        "_platform": "百度"
+      },
+      {
+        "title": "法拉利被4名儿童划损 家长均道歉",
+        "url": "https://www.baidu.com/s?wd=%E6%B3%95%E6%8B%89%E5%88%A9%E8%A2%AB4%E5%90%8D%E5%84%BF%E7%AB%A5%E5%88%92%E6%8D%9F+%E5%AE%B6%E9%95%BF%E5%9D%87%E9%81%93%E6%AD%89",
+        "heat": 130000,
+        "rank": 3,
         "_platform": "百度"
       }
     ],
     "quark": [
       {
-        "title": "清华学霸夫妻毕业携手献身国防事业",
-        "url": "https://so.m.sm.cn/s?q=%E6%B8%85%E5%8D%8E%E5%AD%A6%E9%9C%B8%E5%A4%AB%E5%A6%BB%E6%AF%95%E4%B8%9A%E6%90%BA%E6%89%8B%E7%8C%AE%E8%BA%AB%E5%9B%BD%E9%98%B2%E4%BA%8B%E4%B8%9A",
-        "heat": 730000,
+        "title": "教育部：坚决杜绝用手机布置作业",
+        "url": "https://so.m.sm.cn/s?q=%E6%95%99%E8%82%B2%E9%83%A8%EF%BC%9A%E5%9D%9A%E5%86%B3%E6%9D%9C%E7%BB%9D%E7%94%A8%E6%89%8B%E6%9C%BA%E5%B8%83%E7%BD%AE%E4%BD%9C%E4%B8%9A",
+        "heat": 340000,
         "rank": 1,
+        "_platform": "夸克"
+      },
+      {
+        "title": "清华教授举报蒋方舟论文造假",
+        "url": "https://so.m.sm.cn/s?q=%E6%B8%85%E5%8D%8E%E6%95%99%E6%8E%88%E4%B8%BE%E6%8A%A5%E8%92%8B%E6%96%B9%E8%88%9F%E8%AE%BA%E6%96%87%E9%80%A0%E5%81%87",
+        "heat": 250000,
+        "rank": 2,
         "_platform": "夸克"
       }
     ],
@@ -40,15 +46,8 @@
       {
         "title": "入学第一天vs最后一天",
         "url": "https://www.douyin.com/search/%E5%85%A5%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%A4%A9vs%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9",
-        "heat": 400000,
+        "heat": 160000,
         "rank": 1,
-        "_platform": "抖音"
-      },
-      {
-        "title": "在毕业致辞中感受语言的力量",
-        "url": "https://www.douyin.com/search/%E5%9C%A8%E6%AF%95%E4%B8%9A%E8%87%B4%E8%BE%9E%E4%B8%AD%E6%84%9F%E5%8F%97%E8%AF%AD%E8%A8%80%E7%9A%84%E5%8A%9B%E9%87%8F",
-        "heat": 50000,
-        "rank": 2,
         "_platform": "抖音"
       }
     ],
@@ -275,55 +274,55 @@
   "top15_today": [
     {
       "rank": 1,
-      "title": "清华学霸夫妻毕业携手献身国防事业",
-      "heat": 730000,
-      "platforms": [
-        "夸克"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 2,
-      "title": "清华教授举报蒋方舟论文造假",
-      "heat": 700000,
-      "platforms": [
-        "微博"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 3,
-      "title": "入学第一天vs最后一天",
-      "heat": 400000,
-      "platforms": [
-        "抖音"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 4,
-      "title": "中介挪用百万学费致学生取消入学资格",
-      "heat": 370000,
-      "platforms": [
-        "微博"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 5,
-      "title": "板凳男孩已报湖北大学 学校回应",
-      "heat": 50000,
+      "title": "某学院毕业后可直接进胖东来系谣言",
+      "heat": 670000,
       "platforms": [
         "百度"
       ],
       "category": "K12教育"
     },
     {
-      "rank": 6,
-      "title": "在毕业致辞中感受语言的力量",
-      "heat": 50000,
+      "rank": 2,
+      "title": "同学被嘲“穿假鞋” 班主任严肃教育",
+      "heat": 370000,
+      "platforms": [
+        "百度"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 3,
+      "title": "教育部：坚决杜绝用手机布置作业",
+      "heat": 340000,
+      "platforms": [
+        "夸克"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 4,
+      "title": "清华教授举报蒋方舟论文造假",
+      "heat": 250000,
+      "platforms": [
+        "夸克"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 5,
+      "title": "入学第一天vs最后一天",
+      "heat": 160000,
       "platforms": [
         "抖音"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 6,
+      "title": "法拉利被4名儿童划损 家长均道歉",
+      "heat": 130000,
+      "platforms": [
+        "百度"
       ],
       "category": "K12教育"
     }
@@ -354,12 +353,12 @@
       "items": [
         {
           "scene": "升学季流量高峰",
-          "hot_words": "清华教授举报蒋方舟论文造假 / 入学 / 板凳男孩已报湖北大学 学校回应",
+          "hot_words": "毕业 / 教育 / 家长",
           "strategy": "搜索抢占「分数线预测」「志愿填报工具」等长尾词，落地页提供免费测评工具提升留资率"
         },
         {
           "scene": "暑期培训招生",
-          "hot_words": "毕业 / 入学第一天vs最后一天 / 在毕业致辞中感受语言的力量",
+          "hot_words": "教育部：坚决杜绝用手机布置作业 / 清华教授举报蒋方舟论文造假 / 入学第一天vs最后一天",
           "strategy": "朋友圈广告定向30-45岁家长群体，素材强调「名额有限」「早鸟优惠」制造紧迫感"
         },
         {
@@ -414,65 +413,89 @@
     "k12": [
       {
         "rank": 1,
-        "title": "台风美莎克生成将登陆海南沿海",
-        "heat": "929万🔥",
-        "heat_raw": 9290000,
+        "title": "世界杯绝杀时刻太燃了",
+        "heat": "770万🔥",
+        "heat_raw": 7700000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E7%BE%8E%E8%8E%8E%E5%85%8B%E7%94%9F%E6%88%90%E5%B0%86%E7%99%BB%E9%99%86%E6%B5%B7%E5%8D%97%E6%B2%BF%E6%B5%B7"
+        "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E6%9D%AF%E7%BB%9D%E6%9D%80%E6%97%B6%E5%88%BB%E5%A4%AA%E7%87%83%E4%BA%86"
       },
       {
         "rank": 2,
-        "title": "我看葡萄牙比赛的心路历程",
-        "heat": "769万🔥",
-        "heat_raw": 7699000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%88%91%E7%9C%8B%E8%91%A1%E8%90%84%E7%89%99%E6%AF%94%E8%B5%9B%E7%9A%84%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B"
+        "title": "各地多举措防御台风",
+        "heat": "761万🔥",
+        "heat_raw": 7617000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E5%90%84%E5%9C%B0%E5%A4%9A%E4%B8%BE%E6%8E%AA%E9%98%B2%E5%BE%A1%E5%8F%B0%E9%A3%8E"
       },
       {
         "rank": 3,
-        "title": "C罗和莫德里奇创世界杯历史",
+        "title": "法拉利被4名儿童划损 家长均道歉",
         "heat": "512万🔥",
-        "heat_raw": 5122000,
+        "heat_raw": 5124000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=C%E7%BD%97%E5%92%8C%E8%8E%AB%E5%BE%B7%E9%87%8C%E5%A5%87%E5%88%9B%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8E%86%E5%8F%B2"
+        "url": "https://www.baidu.com/s?wd=%E6%B3%95%E6%8B%89%E5%88%A9%E8%A2%AB4%E5%90%8D%E5%84%BF%E7%AB%A5%E5%88%92%E6%8D%9F+%E5%AE%B6%E9%95%BF%E5%9D%87%E9%81%93%E6%AD%89"
       },
       {
         "rank": 4,
-        "title": "孩子打碎妈妈水晶球愧疚不已",
-        "heat": "378万🔥",
-        "heat_raw": 3782000,
+        "title": "卫冕冠军淘汰最大黑马",
+        "heat": "447万🔥",
+        "heat_raw": 4470000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E6%89%93%E7%A2%8E%E5%A6%88%E5%A6%88%E6%B0%B4%E6%99%B6%E7%90%83%E6%84%A7%E7%96%9A%E4%B8%8D%E5%B7%B2"
+        "url": "https://www.baidu.com/s?wd=%E5%8D%AB%E5%86%95%E5%86%A0%E5%86%9B%E6%B7%98%E6%B1%B0%E6%9C%80%E5%A4%A7%E9%BB%91%E9%A9%AC"
       },
       {
         "rank": 5,
-        "title": "今年首个登陆我国的台风来了",
-        "heat": "181万🔥",
-        "heat_raw": 1816000,
+        "title": "佛得角对阵三个世界冠军90分钟不败",
+        "heat": "276万🔥",
+        "heat_raw": 2765000,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E4%BB%8A%E5%B9%B4%E9%A6%96%E4%B8%AA%E7%99%BB%E9%99%86%E6%88%91%E5%9B%BD%E7%9A%84%E5%8F%B0%E9%A3%8E%E6%9D%A5%E4%BA%86"
+        "url": "https://quark.sm.cn/s?q=%E4%BD%9B%E5%BE%97%E8%A7%92%E5%AF%B9%E9%98%B5%E4%B8%89%E4%B8%AA%E4%B8%96%E7%95%8C%E5%86%A0%E5%86%9B90%E5%88%86%E9%92%9F%E4%B8%8D%E8%B4%A5"
       },
       {
         "rank": 6,
-        "title": "法拉利被熊孩子当滑梯玩 3家上门道歉",
-        "heat": "164万🔥",
-        "heat_raw": 1649000,
+        "title": "本届世界杯最大倒霉蛋诞生了",
+        "heat": "212万🔥",
+        "heat_raw": 2123000,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E6%B3%95%E6%8B%89%E5%88%A9%E8%A2%AB%E7%86%8A%E5%AD%A9%E5%AD%90%E5%BD%93%E6%BB%91%E6%A2%AF%E7%8E%A9+3%E5%AE%B6%E4%B8%8A%E9%97%A8%E9%81%93%E6%AD%89"
+        "url": "https://quark.sm.cn/s?q=%E6%9C%AC%E5%B1%8A%E4%B8%96%E7%95%8C%E6%9D%AF%E6%9C%80%E5%A4%A7%E5%80%92%E9%9C%89%E8%9B%8B%E8%AF%9E%E7%94%9F%E4%BA%86"
       },
       {
         "rank": 7,
-        "title": "C罗回应将在世界杯后退出国家队",
-        "heat": "32万🔥",
-        "heat_raw": 320000,
+        "title": "佛得角战平3个世界杯冠军",
+        "heat": "65万🔥",
+        "heat_raw": 650000,
         "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=C%E7%BD%97%E5%9B%9E%E5%BA%94%E5%B0%86%E5%9C%A8%E4%B8%96%E7%95%8C%E6%9D%AF%E5%90%8E%E9%80%80%E5%87%BA%E5%9B%BD%E5%AE%B6%E9%98%9F"
+        "url": "https://s.weibo.com/weibo?q=%E4%BD%9B%E5%BE%97%E8%A7%92%E6%88%98%E5%B9%B33%E4%B8%AA%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%A0%E5%86%9B"
       },
       {
         "rank": 8,
+        "title": "倒霉蛋最多的一届世界杯",
+        "heat": "28万🔥",
+        "heat_raw": 280000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E5%80%92%E9%9C%89%E8%9B%8B%E6%9C%80%E5%A4%9A%E7%9A%84%E4%B8%80%E5%B1%8A%E4%B8%96%E7%95%8C%E6%9D%AF"
+      },
+      {
+        "rank": 9,
+        "title": "世界杯最大倒霉蛋",
+        "heat": "5万🔥",
+        "heat_raw": 51714,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E6%9C%80%E5%A4%A7%E5%80%92%E9%9C%89%E8%9B%8B"
+      },
+      {
+        "rank": 10,
+        "title": "世界杯“美国化”疑云",
+        "heat": "3万🔥",
+        "heat_raw": 36356,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E2%80%9C%E7%BE%8E%E5%9B%BD%E5%8C%96%E2%80%9D%E7%96%91%E4%BA%91"
+      },
+      {
+        "rank": 11,
         "title": "世界杯2天3队内讧",
-        "heat": "6万🔥",
-        "heat_raw": 66660,
+        "heat": "3万🔥",
+        "heat_raw": 34249,
         "platform": "360",
         "url": "https://www.so.com/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF2%E5%A4%A93%E9%98%9F%E5%86%85%E8%AE%A7"
       }
@@ -480,199 +503,247 @@
     "adult_edu": [
       {
         "rank": 1,
-        "title": "王楚钦孙颖莎晋级混双决赛",
-        "heat": "919万🔥",
-        "heat_raw": 9194000,
+        "title": "循环经济发展十五五规划来了",
+        "heat": "1082万🔥",
+        "heat_raw": 10829000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%AD%99%E9%A2%96%E8%8E%8E%E6%99%8B%E7%BA%A7%E6%B7%B7%E5%8F%8C%E5%86%B3%E8%B5%9B"
+        "url": "https://www.douyin.com/search/%E5%BE%AA%E7%8E%AF%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95%E5%8D%81%E4%BA%94%E4%BA%94%E8%A7%84%E5%88%92%E6%9D%A5%E4%BA%86"
       },
       {
         "rank": 2,
-        "title": "先岛诸岛6.2级地震 上海杭州有震感",
+        "title": "世界杯16强全部决出",
         "heat": "723万🔥",
-        "heat_raw": 7234000,
+        "heat_raw": 7237000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%85%88%E5%B2%9B%E8%AF%B8%E5%B2%9B6.2%E7%BA%A7%E5%9C%B0%E9%9C%87+%E4%B8%8A%E6%B5%B7%E6%9D%AD%E5%B7%9E%E6%9C%89%E9%9C%87%E6%84%9F"
+        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF16%E5%BC%BA%E5%85%A8%E9%83%A8%E5%86%B3%E5%87%BA"
       },
       {
         "rank": 3,
-        "title": "台风即将登陆 多地停课停运停航",
-        "heat": "494万🔥",
-        "heat_raw": 4947000,
+        "title": "69家A股公司集体提示风险",
+        "heat": "475万🔥",
+        "heat_raw": 4757000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E5%8D%B3%E5%B0%86%E7%99%BB%E9%99%86+%E5%A4%9A%E5%9C%B0%E5%81%9C%E8%AF%BE%E5%81%9C%E8%BF%90%E5%81%9C%E8%88%AA"
+        "url": "https://www.baidu.com/s?wd=69%E5%AE%B6A%E8%82%A1%E5%85%AC%E5%8F%B8%E9%9B%86%E4%BD%93%E6%8F%90%E7%A4%BA%E9%A3%8E%E9%99%A9"
       },
       {
         "rank": 4,
-        "title": "突发地震 杭州震感明显",
-        "heat": "249万🔥",
-        "heat_raw": 2499000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E7%AA%81%E5%8F%91%E5%9C%B0%E9%9C%87+%E6%9D%AD%E5%B7%9E%E9%9C%87%E6%84%9F%E6%98%8E%E6%98%BE"
+        "title": "看出了世界杯决赛的感觉",
+        "heat": "426万🔥",
+        "heat_raw": 4265000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E7%9C%8B%E5%87%BA%E4%BA%86%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E7%9A%84%E6%84%9F%E8%A7%89"
       },
       {
         "rank": 5,
-        "title": "韩红基金会发布情况说明",
-        "heat": "168万🔥",
-        "heat_raw": 1687000,
+        "title": "世界杯还没结束 主帅排队下课",
+        "heat": "228万🔥",
+        "heat_raw": 2280000,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E9%9F%A9%E7%BA%A2%E5%9F%BA%E9%87%91%E4%BC%9A%E5%8F%91%E5%B8%83%E6%83%85%E5%86%B5%E8%AF%B4%E6%98%8E"
+        "url": "https://quark.sm.cn/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E8%BF%98%E6%B2%A1%E7%BB%93%E6%9D%9F+%E4%B8%BB%E5%B8%85%E6%8E%92%E9%98%9F%E4%B8%8B%E8%AF%BE"
       },
       {
         "rank": 6,
-        "title": "华为乾崑智驾ADS5奕境全网实测",
-        "heat": "53万🔥",
-        "heat_raw": 530000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E4%B9%BE%E5%B4%91%E6%99%BA%E9%A9%BEADS5%E5%A5%95%E5%A2%83%E5%85%A8%E7%BD%91%E5%AE%9E%E6%B5%8B"
+        "title": "世界杯16强仅剩3席",
+        "heat": "169万🔥",
+        "heat_raw": 1691000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF16%E5%BC%BA%E4%BB%85%E5%89%A93%E5%B8%AD"
       },
       {
         "rank": 7,
-        "title": "先岛诸岛6.2级地震",
-        "heat": "6万🔥",
-        "heat_raw": 68151,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E5%85%88%E5%B2%9B%E8%AF%B8%E5%B2%9B6.2%E7%BA%A7%E5%9C%B0%E9%9C%87"
+        "title": "曝买超与短剧女演员乔仙童恋情",
+        "heat": "32万🔥",
+        "heat_raw": 320000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E4%B9%B0%E8%B6%85%E4%B8%8E%E7%9F%AD%E5%89%A7%E5%A5%B3%E6%BC%94%E5%91%98%E4%B9%94%E4%BB%99%E7%AB%A5%E6%81%8B%E6%83%85"
       },
       {
         "rank": 8,
-        "title": "C罗世界杯淘汰赛首球",
-        "heat": "4万🔥",
-        "heat_raw": 40821,
+        "title": "佛得角战平3个冠军",
+        "heat": "6万🔥",
+        "heat_raw": 69089,
         "platform": "360",
-        "url": "https://www.so.com/s?q=C%E7%BD%97%E4%B8%96%E7%95%8C%E6%9D%AF%E6%B7%98%E6%B1%B0%E8%B5%9B%E9%A6%96%E7%90%83"
+        "url": "https://www.so.com/s?q=%E4%BD%9B%E5%BE%97%E8%A7%92%E6%88%98%E5%B9%B33%E4%B8%AA%E5%86%A0%E5%86%9B"
+      },
+      {
+        "rank": 9,
+        "title": "台风防御指南请收好",
+        "heat": "4万🔥",
+        "heat_raw": 49686,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E5%8F%B0%E9%A3%8E%E9%98%B2%E5%BE%A1%E6%8C%87%E5%8D%97%E8%AF%B7%E6%94%B6%E5%A5%BD"
+      },
+      {
+        "rank": 10,
+        "title": "先岛诸岛6.2级地震",
+        "heat": "3万🔥",
+        "heat_raw": 35227,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E5%85%88%E5%B2%9B%E8%AF%B8%E5%B2%9B6.2%E7%BA%A7%E5%9C%B0%E9%9C%87"
       }
     ],
     "e_edu": [
       {
         "rank": 1,
         "title": "全网恭喜C罗世界杯淘汰赛首球",
-        "heat": "832万🔥",
-        "heat_raw": 8321000,
+        "heat": "763万🔥",
+        "heat_raw": 7639000,
         "platform": "抖音",
         "url": "https://www.douyin.com/search/%E5%85%A8%E7%BD%91%E6%81%AD%E5%96%9CC%E7%BD%97%E4%B8%96%E7%95%8C%E6%9D%AF%E6%B7%98%E6%B1%B0%E8%B5%9B%E9%A6%96%E7%90%83"
       },
       {
         "rank": 2,
-        "title": "足球内置芯片救了葡萄牙",
-        "heat": "780万🔥",
-        "heat_raw": 7809000,
+        "title": "佛得角告别世界杯",
+        "heat": "647万🔥",
+        "heat_raw": 6474000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%B6%B3%E7%90%83%E5%86%85%E7%BD%AE%E8%8A%AF%E7%89%87%E6%95%91%E4%BA%86%E8%91%A1%E8%90%84%E7%89%99"
+        "url": "https://www.baidu.com/s?wd=%E4%BD%9B%E5%BE%97%E8%A7%92%E5%91%8A%E5%88%AB%E4%B8%96%E7%95%8C%E6%9D%AF"
       },
       {
         "rank": 3,
-        "title": "苹果折叠屏手机备货至1000万台",
-        "heat": "503万🔥",
-        "heat_raw": 5038000,
+        "title": "一天3款新车上市 造手机的都沉默了",
+        "heat": "454万🔥",
+        "heat_raw": 4547000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E6%8A%98%E5%8F%A0%E5%B1%8F%E6%89%8B%E6%9C%BA%E5%A4%87%E8%B4%A7%E8%87%B31000%E4%B8%87%E5%8F%B0"
+        "url": "https://www.baidu.com/s?wd=%E4%B8%80%E5%A4%A93%E6%AC%BE%E6%96%B0%E8%BD%A6%E4%B8%8A%E5%B8%82+%E9%80%A0%E6%89%8B%E6%9C%BA%E7%9A%84%E9%83%BD%E6%B2%89%E9%BB%98%E4%BA%86"
       },
       {
         "rank": 4,
-        "title": "点射破门！C罗世界杯淘汰赛首球",
-        "heat": "209万🔥",
-        "heat_raw": 2096000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E7%82%B9%E5%B0%84%E7%A0%B4%E9%97%A8%EF%BC%81C%E7%BD%97%E4%B8%96%E7%95%8C%E6%9D%AF%E6%B7%98%E6%B1%B0%E8%B5%9B%E9%A6%96%E7%90%83"
+        "title": "佛得角这趟世界杯值了",
+        "heat": "321万🔥",
+        "heat_raw": 3211000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%BD%9B%E5%BE%97%E8%A7%92%E8%BF%99%E8%B6%9F%E4%B8%96%E7%95%8C%E6%9D%AF%E5%80%BC%E4%BA%86"
       },
       {
         "rank": 5,
-        "title": "机器人伴侣订单火爆 被吐槽货不对板",
-        "heat": "171万🔥",
-        "heat_raw": 1718000,
+        "title": "一天3款新车上市造手机的都沉默了",
+        "heat": "291万🔥",
+        "heat_raw": 2914000,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BC%B4%E4%BE%A3%E8%AE%A2%E5%8D%95%E7%81%AB%E7%88%86+%E8%A2%AB%E5%90%90%E6%A7%BD%E8%B4%A7%E4%B8%8D%E5%AF%B9%E6%9D%BF"
+        "url": "https://quark.sm.cn/s?q=%E4%B8%80%E5%A4%A93%E6%AC%BE%E6%96%B0%E8%BD%A6%E4%B8%8A%E5%B8%82%E9%80%A0%E6%89%8B%E6%9C%BA%E7%9A%84%E9%83%BD%E6%B2%89%E9%BB%98%E4%BA%86"
       },
       {
         "rank": 6,
-        "title": "AI已出现欺骗行为 联合国发出警告",
-        "heat": "163万🔥",
-        "heat_raw": 1637000,
+        "title": "教育部：坚决杜绝用手机布置作业",
+        "heat": "201万🔥",
+        "heat_raw": 2011000,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=AI%E5%B7%B2%E5%87%BA%E7%8E%B0%E6%AC%BA%E9%AA%97%E8%A1%8C%E4%B8%BA+%E8%81%94%E5%90%88%E5%9B%BD%E5%8F%91%E5%87%BA%E8%AD%A6%E5%91%8A"
+        "url": "https://quark.sm.cn/s?q=%E6%95%99%E8%82%B2%E9%83%A8%EF%BC%9A%E5%9D%9A%E5%86%B3%E6%9D%9C%E7%BB%9D%E7%94%A8%E6%89%8B%E6%9C%BA%E5%B8%83%E7%BD%AE%E4%BD%9C%E4%B8%9A"
       },
       {
         "rank": 7,
-        "title": "全球AI疯狂重创千元机市场",
-        "heat": "38万🔥",
-        "heat_raw": 380000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%85%A8%E7%90%83AI%E7%96%AF%E7%8B%82%E9%87%8D%E5%88%9B%E5%8D%83%E5%85%83%E6%9C%BA%E5%B8%82%E5%9C%BA"
+        "title": "2027年起新能源车船税优惠调整",
+        "heat": "195万🔥",
+        "heat_raw": 1956000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=2027%E5%B9%B4%E8%B5%B7%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E8%88%B9%E7%A8%8E%E4%BC%98%E6%83%A0%E8%B0%83%E6%95%B4"
       },
       {
         "rank": 8,
-        "title": "霉霉婚礼全员禁手机",
-        "heat": "36万🔥",
-        "heat_raw": 360000,
+        "title": "迪丽热巴一出现全场的手机就醒了",
+        "heat": "41万🔥",
+        "heat_raw": 410000,
         "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E9%9C%89%E9%9C%89%E5%A9%9A%E7%A4%BC%E5%85%A8%E5%91%98%E7%A6%81%E6%89%8B%E6%9C%BA"
+        "url": "https://s.weibo.com/weibo?q=%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E4%B8%80%E5%87%BA%E7%8E%B0%E5%85%A8%E5%9C%BA%E7%9A%84%E6%89%8B%E6%9C%BA%E5%B0%B1%E9%86%92%E4%BA%86"
+      },
+      {
+        "rank": 9,
+        "title": "存储芯片涨价",
+        "heat": "37万🔥",
+        "heat_raw": 370000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87%E6%B6%A8%E4%BB%B7"
+      },
+      {
+        "rank": 10,
+        "title": "杜绝用手机布置作业",
+        "heat": "3万🔥",
+        "heat_raw": 38346,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E6%9D%9C%E7%BB%9D%E7%94%A8%E6%89%8B%E6%9C%BA%E5%B8%83%E7%BD%AE%E4%BD%9C%E4%B8%9A"
       }
     ],
     "books": [
       {
         "rank": 1,
-        "title": "电影特立独行今日上映",
-        "heat": "891万🔥",
-        "heat_raw": 8911000,
+        "title": "歌手2026第七期舞台",
+        "heat": "770万🔥",
+        "heat_raw": 7701000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%94%B5%E5%BD%B1%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E4%BB%8A%E6%97%A5%E4%B8%8A%E6%98%A0"
+        "url": "https://www.douyin.com/search/%E6%AD%8C%E6%89%8B2026%E7%AC%AC%E4%B8%83%E6%9C%9F%E8%88%9E%E5%8F%B0"
       },
       {
         "rank": 2,
-        "title": "电影抓特务老辈子的纯爱",
-        "heat": "767万🔥",
-        "heat_raw": 7672000,
+        "title": "李荣浩苏州演唱会",
+        "heat": "768万🔥",
+        "heat_raw": 7686000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%94%B5%E5%BD%B1%E6%8A%93%E7%89%B9%E5%8A%A1%E8%80%81%E8%BE%88%E5%AD%90%E7%9A%84%E7%BA%AF%E7%88%B1"
+        "url": "https://www.douyin.com/search/%E6%9D%8E%E8%8D%A3%E6%B5%A9%E8%8B%8F%E5%B7%9E%E6%BC%94%E5%94%B1%E4%BC%9A"
       },
       {
         "rank": 3,
-        "title": "LV曾陷“文化挪用”争议",
-        "heat": "628万🔥",
-        "heat_raw": 6283000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=LV%E6%9B%BE%E9%99%B7%E2%80%9C%E6%96%87%E5%8C%96%E6%8C%AA%E7%94%A8%E2%80%9D%E4%BA%89%E8%AE%AE"
+        "title": "张远歌手淘汰",
+        "heat": "768万🔥",
+        "heat_raw": 7680000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%BC%A0%E8%BF%9C%E6%AD%8C%E6%89%8B%E6%B7%98%E6%B1%B0"
       },
       {
         "rank": 4,
-        "title": "699分女孩家变\"景点\" 博主堵门直播",
-        "heat": "306万🔥",
-        "heat_raw": 3066000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=699%E5%88%86%E5%A5%B3%E5%AD%A9%E5%AE%B6%E5%8F%98%22%E6%99%AF%E7%82%B9%22+%E5%8D%9A%E4%B8%BB%E5%A0%B5%E9%97%A8%E7%9B%B4%E6%92%AD"
+        "title": "电影特立独行讽刺味太足了",
+        "heat": "763万🔥",
+        "heat_raw": 7636000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E7%94%B5%E5%BD%B1%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E8%AE%BD%E5%88%BA%E5%91%B3%E5%A4%AA%E8%B6%B3%E4%BA%86"
       },
       {
         "rank": 5,
-        "title": "香港演员梁珊离世 被称“御用恶女”",
-        "heat": "160万🔥",
-        "heat_raw": 1607000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E9%A6%99%E6%B8%AF%E6%BC%94%E5%91%98%E6%A2%81%E7%8F%8A%E7%A6%BB%E4%B8%96+%E8%A2%AB%E7%A7%B0%E2%80%9C%E5%BE%A1%E7%94%A8%E6%81%B6%E5%A5%B3%E2%80%9D"
+        "title": "用jumpstyle打开传统文化",
+        "heat": "763万🔥",
+        "heat_raw": 7634000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E7%94%A8jumpstyle%E6%89%93%E5%BC%80%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96"
       },
       {
         "rank": 6,
-        "title": "影视飓风Tim直播中险与嘉宾动手",
-        "heat": "159万🔥",
-        "heat_raw": 1590000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%BD%B1%E8%A7%86%E9%A3%93%E9%A3%8ETim%E7%9B%B4%E6%92%AD%E4%B8%AD%E9%99%A9%E4%B8%8E%E5%98%89%E5%AE%BE%E5%8A%A8%E6%89%8B"
+        "title": "佛得角门将沃齐尼亚已成超级网红",
+        "heat": "752万🔥",
+        "heat_raw": 7522000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%BD%9B%E5%BE%97%E8%A7%92%E9%97%A8%E5%B0%86%E6%B2%83%E9%BD%90%E5%B0%BC%E4%BA%9A%E5%B7%B2%E6%88%90%E8%B6%85%E7%BA%A7%E7%BD%91%E7%BA%A2"
       },
       {
         "rank": 7,
-        "title": "央视曝光演唱会黄牛外挂",
-        "heat": "34万🔥",
-        "heat_raw": 340000,
+        "title": "升级版电影院要来了",
+        "heat": "196万🔥",
+        "heat_raw": 1960000,
         "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E6%BC%94%E5%94%B1%E4%BC%9A%E9%BB%84%E7%89%9B%E5%A4%96%E6%8C%82"
+        "url": "https://s.weibo.com/weibo?q=%E5%8D%87%E7%BA%A7%E7%89%88%E7%94%B5%E5%BD%B1%E9%99%A2%E8%A6%81%E6%9D%A5%E4%BA%86"
       },
       {
         "rank": 8,
-        "title": "世界杯16强确定12队",
+        "title": "王俊凯刷新内娱演唱会想看最快纪录",
+        "heat": "57万🔥",
+        "heat_raw": 570000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%88%B7%E6%96%B0%E5%86%85%E5%A8%B1%E6%BC%94%E5%94%B1%E4%BC%9A%E6%83%B3%E7%9C%8B%E6%9C%80%E5%BF%AB%E7%BA%AA%E5%BD%95"
+      },
+      {
+        "rank": 9,
+        "title": "王俊凯演唱会万份伴手礼",
+        "heat": "33万🔥",
+        "heat_raw": 330000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E6%BC%94%E5%94%B1%E4%BC%9A%E4%B8%87%E4%BB%BD%E4%BC%B4%E6%89%8B%E7%A4%BC"
+      },
+      {
+        "rank": 10,
+        "title": "LV曾陷文化挪用争议",
         "heat": "3万🔥",
-        "heat_raw": 32416,
+        "heat_raw": 35835,
         "platform": "360",
-        "url": "https://www.so.com/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF16%E5%BC%BA%E7%A1%AE%E5%AE%9A12%E9%98%9F"
+        "url": "https://www.so.com/s?q=LV%E6%9B%BE%E9%99%B7%E6%96%87%E5%8C%96%E6%8C%AA%E7%94%A8%E4%BA%89%E8%AE%AE"
       }
     ]
   }
