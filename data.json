@@ -1,20 +1,20 @@
 {
-  "update_time": "2026-07-09 04:39",
+  "update_time": "2026-07-09 08:16",
   "issue_no": 28,
   "hot_search": {
     "weibo": [],
     "baidu": [
       {
-        "title": "新华社：国足成绩再不好 也不能造谣",
-        "url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8D%8E%E7%A4%BE%EF%BC%9A%E5%9B%BD%E8%B6%B3%E6%88%90%E7%BB%A9%E5%86%8D%E4%B8%8D%E5%A5%BD+%E4%B9%9F%E4%B8%8D%E8%83%BD%E9%80%A0%E8%B0%A3",
-        "heat": 700000,
+        "title": "食堂老板买15000斤西瓜免费送学生",
+        "url": "https://www.baidu.com/s?wd=%E9%A3%9F%E5%A0%82%E8%80%81%E6%9D%BF%E4%B9%B015000%E6%96%A4%E8%A5%BF%E7%93%9C%E5%85%8D%E8%B4%B9%E9%80%81%E5%AD%A6%E7%94%9F",
+        "heat": 100000,
         "rank": 1,
         "_platform": "百度"
       },
       {
-        "title": "机甲平台驶入洪水校园 学生瞬间沸腾",
-        "url": "https://www.baidu.com/s?wd=%E6%9C%BA%E7%94%B2%E5%B9%B3%E5%8F%B0%E9%A9%B6%E5%85%A5%E6%B4%AA%E6%B0%B4%E6%A0%A1%E5%9B%AD+%E5%AD%A6%E7%94%9F%E7%9E%AC%E9%97%B4%E6%B2%B8%E8%85%BE",
-        "heat": 310000,
+        "title": "地震时老师在摇晃中狂奔返回教室",
+        "url": "https://www.baidu.com/s?wd=%E5%9C%B0%E9%9C%87%E6%97%B6%E8%80%81%E5%B8%88%E5%9C%A8%E6%91%87%E6%99%83%E4%B8%AD%E7%8B%82%E5%A5%94%E8%BF%94%E5%9B%9E%E6%95%99%E5%AE%A4",
+        "heat": 70000,
         "rank": 2,
         "_platform": "百度"
       }
@@ -30,45 +30,24 @@
       {
         "title": "新华社：国足成绩再不好也不能造谣",
         "url": "https://so.m.sm.cn/s?q=%E6%96%B0%E5%8D%8E%E7%A4%BE%EF%BC%9A%E5%9B%BD%E8%B6%B3%E6%88%90%E7%BB%A9%E5%86%8D%E4%B8%8D%E5%A5%BD%E4%B9%9F%E4%B8%8D%E8%83%BD%E9%80%A0%E8%B0%A3",
-        "heat": 970000,
+        "heat": 670000,
         "rank": 2,
-        "_platform": "夸克"
-      },
-      {
-        "title": "免费辅导孩子的“神仙物业”撤场",
-        "url": "https://so.m.sm.cn/s?q=%E5%85%8D%E8%B4%B9%E8%BE%85%E5%AF%BC%E5%AD%A9%E5%AD%90%E7%9A%84%E2%80%9C%E7%A5%9E%E4%BB%99%E7%89%A9%E4%B8%9A%E2%80%9D%E6%92%A4%E5%9C%BA",
-        "heat": 50000,
-        "rank": 3,
         "_platform": "夸克"
       }
     ],
     "douyin": [
       {
-        "title": "当机甲平台驶入洪水校园",
-        "url": "https://www.douyin.com/search/%E5%BD%93%E6%9C%BA%E7%94%B2%E5%B9%B3%E5%8F%B0%E9%A9%B6%E5%85%A5%E6%B4%AA%E6%B0%B4%E6%A0%A1%E5%9B%AD",
-        "heat": 850000,
-        "rank": 1,
-        "_platform": "抖音"
-      },
-      {
-        "title": "登机牌是暑假的入场券",
-        "url": "https://www.douyin.com/search/%E7%99%BB%E6%9C%BA%E7%89%8C%E6%98%AF%E6%9A%91%E5%81%87%E7%9A%84%E5%85%A5%E5%9C%BA%E5%88%B8",
-        "heat": 130000,
-        "rank": 2,
-        "_platform": "抖音"
-      },
-      {
         "title": "这个暑假我先吃为敬",
         "url": "https://www.douyin.com/search/%E8%BF%99%E4%B8%AA%E6%9A%91%E5%81%87%E6%88%91%E5%85%88%E5%90%83%E4%B8%BA%E6%95%AC",
         "heat": 50000,
-        "rank": 3,
+        "rank": 1,
         "_platform": "抖音"
       },
       {
         "title": "我的大学生三下乡日记",
         "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%B8%89%E4%B8%8B%E4%B9%A1%E6%97%A5%E8%AE%B0",
         "heat": 50000,
-        "rank": 4,
+        "rank": 2,
         "_platform": "抖音"
       }
     ],
@@ -76,7 +55,7 @@
       {
         "title": "机甲平台 洪水校园",
         "url": "https://www.so.com/s?q=%E6%9C%BA%E7%94%B2%E5%B9%B3%E5%8F%B0+%E6%B4%AA%E6%B0%B4%E6%A0%A1%E5%9B%AD",
-        "heat": 730000,
+        "heat": 190000,
         "rank": 1,
         "_platform": "360"
       }
@@ -313,7 +292,7 @@
     {
       "rank": 2,
       "title": "新华社：国足成绩再不好也不能造谣",
-      "heat": 970000,
+      "heat": 670000,
       "platforms": [
         "夸克"
       ],
@@ -321,26 +300,26 @@
     },
     {
       "rank": 3,
-      "title": "当机甲平台驶入洪水校园",
-      "heat": 850000,
-      "platforms": [
-        "抖音"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 4,
       "title": "机甲平台 洪水校园",
-      "heat": 730000,
+      "heat": 190000,
       "platforms": [
         "360"
       ],
       "category": "K12教育"
     },
     {
+      "rank": 4,
+      "title": "食堂老板买15000斤西瓜免费送学生",
+      "heat": 100000,
+      "platforms": [
+        "百度"
+      ],
+      "category": "K12教育"
+    },
+    {
       "rank": 5,
-      "title": "新华社：国足成绩再不好 也不能造谣",
-      "heat": 700000,
+      "title": "地震时老师在摇晃中狂奔返回教室",
+      "heat": 70000,
       "platforms": [
         "百度"
       ],
@@ -348,33 +327,6 @@
     },
     {
       "rank": 6,
-      "title": "机甲平台驶入洪水校园 学生瞬间沸腾",
-      "heat": 310000,
-      "platforms": [
-        "百度"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 7,
-      "title": "登机牌是暑假的入场券",
-      "heat": 130000,
-      "platforms": [
-        "抖音"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 8,
-      "title": "免费辅导孩子的“神仙物业”撤场",
-      "heat": 50000,
-      "platforms": [
-        "夸克"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 9,
       "title": "这个暑假我先吃为敬",
       "heat": 50000,
       "platforms": [
@@ -383,7 +335,7 @@
       "category": "K12教育"
     },
     {
-      "rank": 10,
+      "rank": 7,
       "title": "我的大学生三下乡日记",
       "heat": 50000,
       "platforms": [
@@ -418,12 +370,12 @@
       "items": [
         {
           "scene": "升学季流量高峰",
-          "hot_words": "成绩 / 学生 / 免费辅导孩子的“神仙物业”撤场",
+          "hot_words": "学生 / 地震时老师在摇晃中狂奔返回教室 / 成绩",
           "strategy": "搜索抢占「分数线预测」「志愿填报工具」等长尾词，落地页提供免费测评工具提升留资率"
         },
         {
           "scene": "暑期培训招生",
-          "hot_words": "当机甲平台驶入洪水校园 / 登机牌是暑假的入场券 / 这个暑假我先吃为敬",
+          "hot_words": "这个暑假我先吃为敬 / 我的大学生三下乡日记 / 机甲平台 洪水校园",
           "strategy": "朋友圈广告定向30-45岁家长群体，素材强调「名额有限」「早鸟优惠」制造紧迫感"
         },
         {
@@ -479,432 +431,408 @@
       {
         "rank": 1,
         "title": "超强台风巴威实时路径",
-        "heat": "1190万🔥",
-        "heat_raw": 11909000,
+        "heat": "1118万🔥",
+        "heat_raw": 11184000,
         "platform": "抖音",
         "url": "https://www.douyin.com/search/%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%AE%9E%E6%97%B6%E8%B7%AF%E5%BE%84"
       },
       {
         "rank": 2,
-        "title": "广西部分地区今日仍有大到暴雨",
-        "heat": "781万🔥",
-        "heat_raw": 7816000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%B9%BF%E8%A5%BF%E9%83%A8%E5%88%86%E5%9C%B0%E5%8C%BA%E4%BB%8A%E6%97%A5%E4%BB%8D%E6%9C%89%E5%A4%A7%E5%88%B0%E6%9A%B4%E9%9B%A8"
+        "title": "暴雨蓝色预警：10余省区市有大到暴雨",
+        "heat": "780万🔥",
+        "heat_raw": 7809000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E6%9A%B4%E9%9B%A8%E8%93%9D%E8%89%B2%E9%A2%84%E8%AD%A6%EF%BC%9A10%E4%BD%99%E7%9C%81%E5%8C%BA%E5%B8%82%E6%9C%89%E5%A4%A7%E5%88%B0%E6%9A%B4%E9%9B%A8"
       },
       {
         "rank": 3,
-        "title": "登机牌是暑假的入场券",
-        "heat": "769万🔥",
-        "heat_raw": 7696000,
+        "title": "台风巴威为何如此强劲",
+        "heat": "770万🔥",
+        "heat_raw": 7704000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%99%BB%E6%9C%BA%E7%89%8C%E6%98%AF%E6%9A%91%E5%81%87%E7%9A%84%E5%85%A5%E5%9C%BA%E5%88%B8"
+        "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E4%B8%BA%E4%BD%95%E5%A6%82%E6%AD%A4%E5%BC%BA%E5%8A%B2"
       },
       {
         "rank": 4,
         "title": "这个暑假我先吃为敬",
-        "heat": "767万🔥",
-        "heat_raw": 7672000,
+        "heat": "765万🔥",
+        "heat_raw": 7651000,
         "platform": "抖音",
         "url": "https://www.douyin.com/search/%E8%BF%99%E4%B8%AA%E6%9A%91%E5%81%87%E6%88%91%E5%85%88%E5%90%83%E4%B8%BA%E6%95%AC"
       },
       {
         "rank": 5,
-        "title": "上海暴雨",
-        "heat": "656万🔥",
-        "heat_raw": 6565000,
+        "title": "香港演员陆叔远在波兰失联多日",
+        "heat": "514万🔥",
+        "heat_raw": 5143000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E6%9A%B4%E9%9B%A8"
+        "url": "https://www.baidu.com/s?wd=%E9%A6%99%E6%B8%AF%E6%BC%94%E5%91%98%E9%99%86%E5%8F%94%E8%BF%9C%E5%9C%A8%E6%B3%A2%E5%85%B0%E5%A4%B1%E8%81%94%E5%A4%9A%E6%97%A5"
       },
       {
         "rank": 6,
-        "title": "暴雨蓝色预警：10余省区市有大到暴雨",
-        "heat": "638万🔥",
-        "heat_raw": 6383000,
+        "title": "世界杯已淘汰队伍排名",
+        "heat": "359万🔥",
+        "heat_raw": 3599000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%9A%B4%E9%9B%A8%E8%93%9D%E8%89%B2%E9%A2%84%E8%AD%A6%EF%BC%9A10%E4%BD%99%E7%9C%81%E5%8C%BA%E5%B8%82%E6%9C%89%E5%A4%A7%E5%88%B0%E6%9A%B4%E9%9B%A8"
+        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B7%B2%E6%B7%98%E6%B1%B0%E9%98%9F%E4%BC%8D%E6%8E%92%E5%90%8D"
       },
       {
         "rank": 7,
-        "title": "高温天绿豆汤当水喝解暑？医生提醒",
-        "heat": "609万🔥",
-        "heat_raw": 6097000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%AB%98%E6%B8%A9%E5%A4%A9%E7%BB%BF%E8%B1%86%E6%B1%A4%E5%BD%93%E6%B0%B4%E5%96%9D%E8%A7%A3%E6%9A%91%EF%BC%9F%E5%8C%BB%E7%94%9F%E6%8F%90%E9%86%92"
+        "title": "男子把“人生第1台车”藏6楼避台风",
+        "heat": "271万🔥",
+        "heat_raw": 2714000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E7%94%B7%E5%AD%90%E6%8A%8A%E2%80%9C%E4%BA%BA%E7%94%9F%E7%AC%AC1%E5%8F%B0%E8%BD%A6%E2%80%9D%E8%97%8F6%E6%A5%BC%E9%81%BF%E5%8F%B0%E9%A3%8E"
       },
       {
         "rank": 8,
-        "title": "西安高温红色预警 最高温将破40℃",
-        "heat": "379万🔥",
-        "heat_raw": 3798000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E5%AE%89%E9%AB%98%E6%B8%A9%E7%BA%A2%E8%89%B2%E9%A2%84%E8%AD%A6+%E6%9C%80%E9%AB%98%E6%B8%A9%E5%B0%86%E7%A0%B440%E2%84%83"
+        "title": "暴雨蓝色预警:10余省区市有大到暴雨",
+        "heat": "259万🔥",
+        "heat_raw": 2599000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E6%9A%B4%E9%9B%A8%E8%93%9D%E8%89%B2%E9%A2%84%E8%AD%A6%3A10%E4%BD%99%E7%9C%81%E5%8C%BA%E5%B8%82%E6%9C%89%E5%A4%A7%E5%88%B0%E6%9A%B4%E9%9B%A8"
       },
       {
         "rank": 9,
-        "title": "霍启刚痛斥美政客让世界杯失去灵魂",
-        "heat": "176万🔥",
-        "heat_raw": 1769000,
+        "title": "世界杯1/4决赛门票价格暴跌近60%",
+        "heat": "185万🔥",
+        "heat_raw": 1857000,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E9%9C%8D%E5%90%AF%E5%88%9A%E7%97%9B%E6%96%A5%E7%BE%8E%E6%94%BF%E5%AE%A2%E8%AE%A9%E4%B8%96%E7%95%8C%E6%9D%AF%E5%A4%B1%E5%8E%BB%E7%81%B5%E9%AD%82"
+        "url": "https://quark.sm.cn/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF1%2F4%E5%86%B3%E8%B5%9B%E9%97%A8%E7%A5%A8%E4%BB%B7%E6%A0%BC%E6%9A%B4%E8%B7%8C%E8%BF%9160%25"
       },
       {
         "rank": 10,
-        "title": "免费辅导孩子的“神仙物业”撤场",
-        "heat": "168万🔥",
-        "heat_raw": 1687000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%85%8D%E8%B4%B9%E8%BE%85%E5%AF%BC%E5%AD%A9%E5%AD%90%E7%9A%84%E2%80%9C%E7%A5%9E%E4%BB%99%E7%89%A9%E4%B8%9A%E2%80%9D%E6%92%A4%E5%9C%BA"
+        "title": "北京今年汛期首个暴雨橙色预警",
+        "heat": "29万🔥",
+        "heat_raw": 290000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%E4%BB%8A%E5%B9%B4%E6%B1%9B%E6%9C%9F%E9%A6%96%E4%B8%AA%E6%9A%B4%E9%9B%A8%E6%A9%99%E8%89%B2%E9%A2%84%E8%AD%A6"
       },
       {
         "rank": 11,
-        "title": "地震后河水突然变红",
-        "heat": "7万🔥",
-        "heat_raw": 75891,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E5%9C%B0%E9%9C%87%E5%90%8E%E6%B2%B3%E6%B0%B4%E7%AA%81%E7%84%B6%E5%8F%98%E7%BA%A2"
+        "title": "台风逼近江苏",
+        "heat": "15万🔥",
+        "heat_raw": 150000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E9%80%BC%E8%BF%91%E6%B1%9F%E8%8B%8F"
       },
       {
         "rank": 12,
-        "title": "这是场\"三输\"的比赛",
-        "heat": "6万🔥",
-        "heat_raw": 69841,
+        "title": "10余省区市大到暴雨",
+        "heat": "7万🔥",
+        "heat_raw": 72852,
         "platform": "360",
-        "url": "https://www.so.com/s?q=%E8%BF%99%E6%98%AF%E5%9C%BA%22%E4%B8%89%E8%BE%93%22%E7%9A%84%E6%AF%94%E8%B5%9B"
+        "url": "https://www.so.com/s?q=10%E4%BD%99%E7%9C%81%E5%8C%BA%E5%B8%82%E5%A4%A7%E5%88%B0%E6%9A%B4%E9%9B%A8"
       },
       {
         "rank": 13,
-        "title": "超强台风巴威路径",
-        "heat": "6万🔥",
-        "heat_raw": 61457,
+        "title": "上海暴雨",
+        "heat": "5万🔥",
+        "heat_raw": 56440,
         "platform": "360",
-        "url": "https://www.so.com/s?q=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E8%B7%AF%E5%BE%84"
-      },
-      {
-        "rank": 14,
-        "title": "台风来袭有市民囤菜",
-        "heat": "3万🔥",
-        "heat_raw": 31083,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E5%8F%B0%E9%A3%8E%E6%9D%A5%E8%A2%AD%E6%9C%89%E5%B8%82%E6%B0%91%E5%9B%A4%E8%8F%9C"
+        "url": "https://www.so.com/s?q=%E4%B8%8A%E6%B5%B7%E6%9A%B4%E9%9B%A8"
       }
     ],
     "adult_edu": [
       {
         "rank": 1,
-        "title": "四川高县4.8级地震",
+        "title": "台风巴威或正面登陆我国东南地区",
         "heat": "1071万🔥",
-        "heat_raw": 10718000,
+        "heat_raw": 10719000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%9B%9B%E5%B7%9D%E9%AB%98%E5%8E%BF4.8%E7%BA%A7%E5%9C%B0%E9%9C%87"
-      },
-      {
-        "rank": 2,
-        "title": "台风巴威可能正面登陆",
-        "heat": "780万🔥",
-        "heat_raw": 7808000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%8F%AF%E8%83%BD%E6%AD%A3%E9%9D%A2%E7%99%BB%E9%99%86"
-      },
-      {
-        "rank": 3,
-        "title": "台风来临 请备好这份避险指南",
-        "heat": "761万🔥",
-        "heat_raw": 7617000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E6%9D%A5%E4%B8%B4+%E8%AF%B7%E5%A4%87%E5%A5%BD%E8%BF%99%E4%BB%BD%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97"
-      },
-      {
-        "rank": 4,
-        "title": "男子把“人生第1台车”藏6楼避台风",
-        "heat": "561万🔥",
-        "heat_raw": 5619000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E6%8A%8A%E2%80%9C%E4%BA%BA%E7%94%9F%E7%AC%AC1%E5%8F%B0%E8%BD%A6%E2%80%9D%E8%97%8F6%E6%A5%BC%E9%81%BF%E5%8F%B0%E9%A3%8E"
-      },
-      {
-        "rank": 5,
-        "title": "专家：台风“巴威”强度罕见",
-        "heat": "397万🔥",
-        "heat_raw": 3972000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%B8%93%E5%AE%B6%EF%BC%9A%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E5%BC%BA%E5%BA%A6%E7%BD%95%E8%A7%81"
-      },
-      {
-        "rank": 6,
-        "title": "台风“巴威”几乎可覆盖9个浙江",
-        "heat": "292万🔥",
-        "heat_raw": 2922000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E5%87%A0%E4%B9%8E%E5%8F%AF%E8%A6%86%E7%9B%969%E4%B8%AA%E6%B5%99%E6%B1%9F"
-      },
-      {
-        "rank": 7,
-        "title": "被误会多年的垃圾食品竟然很健康",
-        "heat": "211万🔥",
-        "heat_raw": 2113000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E8%A2%AB%E8%AF%AF%E4%BC%9A%E5%A4%9A%E5%B9%B4%E7%9A%84%E5%9E%83%E5%9C%BE%E9%A3%9F%E5%93%81%E7%AB%9F%E7%84%B6%E5%BE%88%E5%81%A5%E5%BA%B7"
-      },
-      {
-        "rank": 8,
-        "title": "超强台风巴威即将进入48小时警戒线",
-        "heat": "187万🔥",
-        "heat_raw": 1876000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%8D%B3%E5%B0%86%E8%BF%9B%E5%85%A548%E5%B0%8F%E6%97%B6%E8%AD%A6%E6%88%92%E7%BA%BF"
-      },
-      {
-        "rank": 9,
-        "title": "广西横州全力防范洪水蛇伤",
-        "heat": "174万🔥",
-        "heat_raw": 1746000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%B9%BF%E8%A5%BF%E6%A8%AA%E5%B7%9E%E5%85%A8%E5%8A%9B%E9%98%B2%E8%8C%83%E6%B4%AA%E6%B0%B4%E8%9B%87%E4%BC%A4"
-      },
-      {
-        "rank": 10,
-        "title": "宜宾地震后一河流异常变红",
-        "heat": "57万🔥",
-        "heat_raw": 570000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%E5%90%8E%E4%B8%80%E6%B2%B3%E6%B5%81%E5%BC%82%E5%B8%B8%E5%8F%98%E7%BA%A2"
-      },
-      {
-        "rank": 11,
-        "title": "台风巴威或正面登陆",
-        "heat": "7万🔥",
-        "heat_raw": 73132,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E6%88%96%E6%AD%A3%E9%9D%A2%E7%99%BB%E9%99%86"
-      },
-      {
-        "rank": 12,
-        "title": "黑天鹅突袭全球股市",
-        "heat": "7万🔥",
-        "heat_raw": 72306,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E9%BB%91%E5%A4%A9%E9%B9%85%E7%AA%81%E8%A2%AD%E5%85%A8%E7%90%83%E8%82%A1%E5%B8%82"
-      },
-      {
-        "rank": 13,
-        "title": "本届世界杯7队仍不败",
-        "heat": "4万🔥",
-        "heat_raw": 46254,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E6%9C%AC%E5%B1%8A%E4%B8%96%E7%95%8C%E6%9D%AF7%E9%98%9F%E4%BB%8D%E4%B8%8D%E8%B4%A5"
-      }
-    ],
-    "e_edu": [
-      {
-        "rank": 1,
-        "title": "当机甲平台驶入洪水校园",
-        "heat": "1016万🔥",
-        "heat_raw": 10162000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%BD%93%E6%9C%BA%E7%94%B2%E5%B9%B3%E5%8F%B0%E9%A9%B6%E5%85%A5%E6%B4%AA%E6%B0%B4%E6%A0%A1%E5%9B%AD"
-      },
-      {
-        "rank": 2,
-        "title": "向着建成科技强国的目标坚定迈进",
-        "heat": "790万🔥",
-        "heat_raw": 7904000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%90%91%E7%9D%80%E5%BB%BA%E6%88%90%E7%A7%91%E6%8A%80%E5%BC%BA%E5%9B%BD%E7%9A%84%E7%9B%AE%E6%A0%87%E5%9D%9A%E5%AE%9A%E8%BF%88%E8%BF%9B"
-      },
-      {
-        "rank": 3,
-        "title": "地震后河水突然变红 当地政府回应",
-        "heat": "742万🔥",
-        "heat_raw": 7424000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%9C%B0%E9%9C%87%E5%90%8E%E6%B2%B3%E6%B0%B4%E7%AA%81%E7%84%B6%E5%8F%98%E7%BA%A2+%E5%BD%93%E5%9C%B0%E6%94%BF%E5%BA%9C%E5%9B%9E%E5%BA%94"
-      },
-      {
-        "rank": 4,
-        "title": "台风“巴威”体型几乎可覆盖9个浙江",
-        "heat": "542万🔥",
-        "heat_raw": 5423000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E4%BD%93%E5%9E%8B%E5%87%A0%E4%B9%8E%E5%8F%AF%E8%A6%86%E7%9B%969%E4%B8%AA%E6%B5%99%E6%B1%9F"
-      },
-      {
-        "rank": 5,
-        "title": "超强台风“巴威”确认影响杭州",
-        "heat": "351万🔥",
-        "heat_raw": 3513000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E7%A1%AE%E8%AE%A4%E5%BD%B1%E5%93%8D%E6%9D%AD%E5%B7%9E"
-      },
-      {
-        "rank": 6,
-        "title": "台风“巴威”可能正面登陆",
-        "heat": "223万🔥",
-        "heat_raw": 2238000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E5%8F%AF%E8%83%BD%E6%AD%A3%E9%9D%A2%E7%99%BB%E9%99%86"
-      },
-      {
-        "rank": 7,
-        "title": "世界杯1/4决赛门票价格暴跌近60%",
-        "heat": "203万🔥",
-        "heat_raw": 2038000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF1%2F4%E5%86%B3%E8%B5%9B%E9%97%A8%E7%A5%A8%E4%BB%B7%E6%A0%BC%E6%9A%B4%E8%B7%8C%E8%BF%9160%25"
-      },
-      {
-        "rank": 8,
-        "title": "超强台风“巴威”来袭 如何科学防御",
-        "heat": "187万🔥",
-        "heat_raw": 1874000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E6%9D%A5%E8%A2%AD+%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E9%98%B2%E5%BE%A1"
-      },
-      {
-        "rank": 9,
-        "title": "世界杯8强仅剩2支非欧洲球队",
-        "heat": "170万🔥",
-        "heat_raw": 1704000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF8%E5%BC%BA%E4%BB%85%E5%89%A92%E6%94%AF%E9%9D%9E%E6%AC%A7%E6%B4%B2%E7%90%83%E9%98%9F"
-      },
-      {
-        "rank": 10,
-        "title": "奇瑞要开一场科技美学秀",
-        "heat": "74万🔥",
-        "heat_raw": 740000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%A5%87%E7%91%9E%E8%A6%81%E5%BC%80%E4%B8%80%E5%9C%BA%E7%A7%91%E6%8A%80%E7%BE%8E%E5%AD%A6%E7%A7%80"
-      },
-      {
-        "rank": 11,
-        "title": "AI预测八强准确率近九成",
-        "heat": "20万🔥",
-        "heat_raw": 200000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=AI%E9%A2%84%E6%B5%8B%E5%85%AB%E5%BC%BA%E5%87%86%E7%A1%AE%E7%8E%87%E8%BF%91%E4%B9%9D%E6%88%90"
-      },
-      {
-        "rank": 12,
-        "title": "世界杯8强对阵赛程",
-        "heat": "6万🔥",
-        "heat_raw": 68826,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF8%E5%BC%BA%E5%AF%B9%E9%98%B5%E8%B5%9B%E7%A8%8B"
-      },
-      {
-        "rank": 13,
-        "title": "世界杯8强出炉",
-        "heat": "4万🔥",
-        "heat_raw": 44796,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF8%E5%BC%BA%E5%87%BA%E7%82%89"
-      }
-    ],
-    "books": [
-      {
-        "rank": 1,
-        "title": "洪水过境后的广西云表镇",
-        "heat": "819万🔥",
-        "heat_raw": 8195000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%B4%AA%E6%B0%B4%E8%BF%87%E5%A2%83%E5%90%8E%E7%9A%84%E5%B9%BF%E8%A5%BF%E4%BA%91%E8%A1%A8%E9%95%87"
+        "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E6%88%96%E6%AD%A3%E9%9D%A2%E7%99%BB%E9%99%86%E6%88%91%E5%9B%BD%E4%B8%9C%E5%8D%97%E5%9C%B0%E5%8C%BA"
       },
       {
         "rank": 2,
         "title": "从空间站俯瞰台风巴威有多大",
-        "heat": "773万🔥",
-        "heat_raw": 7735000,
+        "heat": "776万🔥",
+        "heat_raw": 7763000,
         "platform": "抖音",
         "url": "https://www.douyin.com/search/%E4%BB%8E%E7%A9%BA%E9%97%B4%E7%AB%99%E4%BF%AF%E7%9E%B0%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E6%9C%89%E5%A4%9A%E5%A4%A7"
       },
       {
         "rank": 3,
-        "title": "机甲平台驶入洪水校园 学生瞬间沸腾",
-        "heat": "570万🔥",
-        "heat_raw": 5706000,
+        "title": "台风巴威到哪了",
+        "heat": "752万🔥",
+        "heat_raw": 7521000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%9C%BA%E7%94%B2%E5%B9%B3%E5%8F%B0%E9%A9%B6%E5%85%A5%E6%B4%AA%E6%B0%B4%E6%A0%A1%E5%9B%AD+%E5%AD%A6%E7%94%9F%E7%9E%AC%E9%97%B4%E6%B2%B8%E8%85%BE"
+        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%88%B0%E5%93%AA%E4%BA%86"
       },
       {
         "rank": 4,
-        "title": "邓紫棋回应因台风取消演唱会",
-        "heat": "409万🔥",
-        "heat_raw": 4093000,
+        "title": "150斤记者体验14级台风差点吓哭",
+        "heat": "608万🔥",
+        "heat_raw": 6087000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%82%93%E7%B4%AB%E6%A3%8B%E5%9B%9E%E5%BA%94%E5%9B%A0%E5%8F%B0%E9%A3%8E%E5%8F%96%E6%B6%88%E6%BC%94%E5%94%B1%E4%BC%9A"
+        "url": "https://www.baidu.com/s?wd=150%E6%96%A4%E8%AE%B0%E8%80%85%E4%BD%93%E9%AA%8C14%E7%BA%A7%E5%8F%B0%E9%A3%8E%E5%B7%AE%E7%82%B9%E5%90%93%E5%93%AD"
       },
       {
         "rank": 5,
-        "title": "机甲平台驶入洪水校园学生瞬间沸腾",
-        "heat": "329万🔥",
-        "heat_raw": 3296000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E6%9C%BA%E7%94%B2%E5%B9%B3%E5%8F%B0%E9%A9%B6%E5%85%A5%E6%B4%AA%E6%B0%B4%E6%A0%A1%E5%9B%AD%E5%AD%A6%E7%94%9F%E7%9E%AC%E9%97%B4%E6%B2%B8%E8%85%BE"
+        "title": "地震时老师在摇晃中狂奔返回教室",
+        "heat": "495万🔥",
+        "heat_raw": 4952000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E5%9C%B0%E9%9C%87%E6%97%B6%E8%80%81%E5%B8%88%E5%9C%A8%E6%91%87%E6%99%83%E4%B8%AD%E7%8B%82%E5%A5%94%E8%BF%94%E5%9B%9E%E6%95%99%E5%AE%A4"
       },
       {
         "rank": 6,
-        "title": "四川宜宾地震后一河流异常变红",
+        "title": "世界杯8强球队在《甄嬛传》是什么角色",
+        "heat": "349万🔥",
+        "heat_raw": 3491000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF8%E5%BC%BA%E7%90%83%E9%98%9F%E5%9C%A8%E3%80%8A%E7%94%84%E5%AC%9B%E4%BC%A0%E3%80%8B%E6%98%AF%E4%BB%80%E4%B9%88%E8%A7%92%E8%89%B2"
+      },
+      {
+        "rank": 7,
+        "title": "台风“巴威”可能正面登陆",
         "heat": "205万🔥",
-        "heat_raw": 2057000,
+        "heat_raw": 2050000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E5%8F%AF%E8%83%BD%E6%AD%A3%E9%9D%A2%E7%99%BB%E9%99%86"
+      },
+      {
+        "rank": 8,
+        "title": "四川宜宾地震后一河流异常变红",
+        "heat": "190万🔥",
+        "heat_raw": 1902000,
         "platform": "夸克",
         "url": "https://quark.sm.cn/s?q=%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%E5%90%8E%E4%B8%80%E6%B2%B3%E6%B5%81%E5%BC%82%E5%B8%B8%E5%8F%98%E7%BA%A2"
       },
       {
-        "rank": 7,
-        "title": "四川宜宾市高县发生4.8级地震",
-        "heat": "193万🔥",
-        "heat_raw": 1932000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E5%B8%82%E9%AB%98%E5%8E%BF%E5%8F%91%E7%94%9F4.8%E7%BA%A7%E5%9C%B0%E9%9C%87"
+        "rank": 9,
+        "title": "台风巴威最新路径来了",
+        "heat": "177万🔥",
+        "heat_raw": 1770000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E6%9C%80%E6%96%B0%E8%B7%AF%E5%BE%84%E6%9D%A5%E4%BA%86"
       },
       {
-        "rank": 8,
+        "rank": 10,
+        "title": "养蛇户说被洪水冲走的反而不容易死",
+        "heat": "22万🔥",
+        "heat_raw": 220000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E5%85%BB%E8%9B%87%E6%88%B7%E8%AF%B4%E8%A2%AB%E6%B4%AA%E6%B0%B4%E5%86%B2%E8%B5%B0%E7%9A%84%E5%8F%8D%E8%80%8C%E4%B8%8D%E5%AE%B9%E6%98%93%E6%AD%BB"
+      },
+      {
+        "rank": 11,
+        "title": "世界杯8强对阵赛程",
+        "heat": "7万🔥",
+        "heat_raw": 70127,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF8%E5%BC%BA%E5%AF%B9%E9%98%B5%E8%B5%9B%E7%A8%8B"
+      },
+      {
+        "rank": 12,
+        "title": "黑天鹅突袭全球股市",
+        "heat": "4万🔥",
+        "heat_raw": 45792,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E9%BB%91%E5%A4%A9%E9%B9%85%E7%AA%81%E8%A2%AD%E5%85%A8%E7%90%83%E8%82%A1%E5%B8%82"
+      },
+      {
+        "rank": 13,
+        "title": "四川高县4.8级地震",
+        "heat": "3万🔥",
+        "heat_raw": 35682,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E5%9B%9B%E5%B7%9D%E9%AB%98%E5%8E%BF4.8%E7%BA%A7%E5%9C%B0%E9%9C%87"
+      }
+    ],
+    "e_edu": [
+      {
+        "rank": 1,
+        "title": "上海将受台风巴威外围环流影响",
+        "heat": "1018万🔥",
+        "heat_raw": 10182000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E4%B8%8A%E6%B5%B7%E5%B0%86%E5%8F%97%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%A4%96%E5%9B%B4%E7%8E%AF%E6%B5%81%E5%BD%B1%E5%93%8D"
+      },
+      {
+        "rank": 2,
+        "title": "台风巴威或带来6到8.5米狂浪",
+        "heat": "773万🔥",
+        "heat_raw": 7733000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E6%88%96%E5%B8%A6%E6%9D%A56%E5%88%B08.5%E7%B1%B3%E7%8B%82%E6%B5%AA"
+      },
+      {
+        "rank": 3,
+        "title": "长鑫科技7月16日申购",
+        "heat": "771万🔥",
+        "heat_raw": 7715000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%807%E6%9C%8816%E6%97%A5%E7%94%B3%E8%B4%AD"
+      },
+      {
+        "rank": 4,
+        "title": "世界杯最大冷门是国际足联",
+        "heat": "598万🔥",
+        "heat_raw": 5986000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E6%9C%80%E5%A4%A7%E5%86%B7%E9%97%A8%E6%98%AF%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94"
+      },
+      {
+        "rank": 5,
+        "title": "“下个雨能多大”的认知比洪水危险",
+        "heat": "465万🔥",
+        "heat_raw": 4651000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%8B%E4%B8%AA%E9%9B%A8%E8%83%BD%E5%A4%9A%E5%A4%A7%E2%80%9D%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%AF%94%E6%B4%AA%E6%B0%B4%E5%8D%B1%E9%99%A9"
+      },
+      {
+        "rank": 6,
+        "title": "机甲平台驶入洪水校园学生瞬间沸腾",
+        "heat": "325万🔥",
+        "heat_raw": 3253000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E6%9C%BA%E7%94%B2%E5%B9%B3%E5%8F%B0%E9%A9%B6%E5%85%A5%E6%B4%AA%E6%B0%B4%E6%A0%A1%E5%9B%AD%E5%AD%A6%E7%94%9F%E7%9E%AC%E9%97%B4%E6%B2%B8%E8%85%BE"
+      },
+      {
+        "rank": 7,
         "title": "追踪超强台风“巴威”实时路径",
-        "heat": "182万🔥",
-        "heat_raw": 1824000,
+        "heat": "204万🔥",
+        "heat_raw": 2041000,
         "platform": "夸克",
         "url": "https://quark.sm.cn/s?q=%E8%BF%BD%E8%B8%AA%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E5%AE%9E%E6%97%B6%E8%B7%AF%E5%BE%84"
       },
       {
+        "rank": 8,
+        "title": "超强台风“巴威”来袭 如何科学防御",
+        "heat": "186万🔥",
+        "heat_raw": 1863000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E6%9D%A5%E8%A2%AD+%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E9%98%B2%E5%BE%A1"
+      },
+      {
         "rank": 9,
-        "title": "台风巴威到哪了",
-        "heat": "100万🔥",
-        "heat_raw": 1000000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%88%B0%E5%93%AA%E4%BA%86"
+        "title": "超强台风巴威即将进入48小时警戒线",
+        "heat": "176万🔥",
+        "heat_raw": 1768000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%8D%B3%E5%B0%86%E8%BF%9B%E5%85%A548%E5%B0%8F%E6%97%B6%E8%AD%A6%E6%88%92%E7%BA%BF"
       },
       {
         "rank": 10,
-        "title": "TOP官宣青岛演唱会",
-        "heat": "25万🔥",
-        "heat_raw": 250000,
+        "title": "奇瑞要开一场科技美学秀",
+        "heat": "68万🔥",
+        "heat_raw": 680000,
         "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=TOP%E5%AE%98%E5%AE%A3%E9%9D%92%E5%B2%9B%E6%BC%94%E5%94%B1%E4%BC%9A"
+        "url": "https://s.weibo.com/weibo?q=%E5%A5%87%E7%91%9E%E8%A6%81%E5%BC%80%E4%B8%80%E5%9C%BA%E7%A7%91%E6%8A%80%E7%BE%8E%E5%AD%A6%E7%A7%80"
       },
       {
         "rank": 11,
-        "title": "那英演唱会官宣",
-        "heat": "24万🔥",
-        "heat_raw": 240000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E9%82%A3%E8%8B%B1%E6%BC%94%E5%94%B1%E4%BC%9A%E5%AE%98%E5%AE%A3"
+        "title": "台风巴威或正面登陆",
+        "heat": "5万🔥",
+        "heat_raw": 51303,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E6%88%96%E6%AD%A3%E9%9D%A2%E7%99%BB%E9%99%86"
       },
       {
         "rank": 12,
+        "title": "这是场\"三输\"的比赛",
+        "heat": "4万🔥",
+        "heat_raw": 40203,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E8%BF%99%E6%98%AF%E5%9C%BA%22%E4%B8%89%E8%BE%93%22%E7%9A%84%E6%AF%94%E8%B5%9B"
+      }
+    ],
+    "books": [
+      {
+        "rank": 1,
+        "title": "跟踪解读超强台风“巴威”",
+        "heat": "787万🔥",
+        "heat_raw": 7873000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E8%B7%9F%E8%B8%AA%E8%A7%A3%E8%AF%BB%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D"
+      },
+      {
+        "rank": 2,
+        "title": "男子为抗台风 花1万多给窗户装挡风板",
+        "heat": "771万🔥",
+        "heat_raw": 7714000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E4%B8%BA%E6%8A%97%E5%8F%B0%E9%A3%8E+%E8%8A%B11%E4%B8%87%E5%A4%9A%E7%BB%99%E7%AA%97%E6%88%B7%E8%A3%85%E6%8C%A1%E9%A3%8E%E6%9D%BF"
+      },
+      {
+        "rank": 3,
+        "title": "TOP空降杭杭启华直播间打瓦",
+        "heat": "767万🔥",
+        "heat_raw": 7675000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/TOP%E7%A9%BA%E9%99%8D%E6%9D%AD%E6%9D%AD%E5%90%AF%E5%8D%8E%E7%9B%B4%E6%92%AD%E9%97%B4%E6%89%93%E7%93%A6"
+      },
+      {
+        "rank": 4,
+        "title": "亚当刘柏辛歌手节目后再合作新歌",
+        "heat": "762万🔥",
+        "heat_raw": 7626000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E4%BA%9A%E5%BD%93%E5%88%98%E6%9F%8F%E8%BE%9B%E6%AD%8C%E6%89%8B%E8%8A%82%E7%9B%AE%E5%90%8E%E5%86%8D%E5%90%88%E4%BD%9C%E6%96%B0%E6%AD%8C"
+      },
+      {
+        "rank": 5,
+        "title": "世界杯：法国vs摩洛哥",
+        "heat": "406万🔥",
+        "heat_raw": 4062000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%EF%BC%9A%E6%B3%95%E5%9B%BDvs%E6%91%A9%E6%B4%9B%E5%93%A5"
+      },
+      {
+        "rank": 6,
+        "title": "台风“巴威”几乎可覆盖9个浙江",
+        "heat": "281万🔥",
+        "heat_raw": 2812000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E5%87%A0%E4%B9%8E%E5%8F%AF%E8%A6%86%E7%9B%969%E4%B8%AA%E6%B5%99%E6%B1%9F"
+      },
+      {
+        "rank": 7,
+        "title": "邓紫棋杭州演唱会确认3场取消",
+        "heat": "217万🔥",
+        "heat_raw": 2177000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E9%82%93%E7%B4%AB%E6%A3%8B%E6%9D%AD%E5%B7%9E%E6%BC%94%E5%94%B1%E4%BC%9A%E7%A1%AE%E8%AE%A43%E5%9C%BA%E5%8F%96%E6%B6%88"
+      },
+      {
+        "rank": 8,
+        "title": "四川宜宾市高县发生4.8级地震",
+        "heat": "186万🔥",
+        "heat_raw": 1862000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E5%B8%82%E9%AB%98%E5%8E%BF%E5%8F%91%E7%94%9F4.8%E7%BA%A7%E5%9C%B0%E9%9C%87"
+      },
+      {
+        "rank": 9,
+        "title": "广西洪水入境广东",
+        "heat": "79万🔥",
+        "heat_raw": 790000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E8%A5%BF%E6%B4%AA%E6%B0%B4%E5%85%A5%E5%A2%83%E5%B9%BF%E4%B8%9C"
+      },
+      {
+        "rank": 10,
+        "title": "野狗骨头追剧团",
+        "heat": "17万🔥",
+        "heat_raw": 170000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E9%87%8E%E7%8B%97%E9%AA%A8%E5%A4%B4%E8%BF%BD%E5%89%A7%E5%9B%A2"
+      },
+      {
+        "rank": 11,
         "title": "机甲平台 洪水校园",
-        "heat": "6万🔥",
-        "heat_raw": 65087,
+        "heat": "4万🔥",
+        "heat_raw": 46433,
         "platform": "360",
         "url": "https://www.so.com/s?q=%E6%9C%BA%E7%94%B2%E5%B9%B3%E5%8F%B0+%E6%B4%AA%E6%B0%B4%E6%A0%A1%E5%9B%AD"
       },
       {
-        "rank": 13,
-        "title": "4小伙扮演师徒火出圈",
+        "rank": 12,
+        "title": "超强台风巴威路径",
         "heat": "3万🔥",
-        "heat_raw": 33363,
+        "heat_raw": 37637,
         "platform": "360",
-        "url": "https://www.so.com/s?q=4%E5%B0%8F%E4%BC%99%E6%89%AE%E6%BC%94%E5%B8%88%E5%BE%92%E7%81%AB%E5%87%BA%E5%9C%88"
+        "url": "https://www.so.com/s?q=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E8%B7%AF%E5%BE%84"
       }
     ]
   }
