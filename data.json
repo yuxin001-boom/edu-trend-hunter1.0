@@ -1,101 +1,58 @@
 {
-  "update_time": "2026-07-15 07:04",
-  "issue_no": 34,
+  "update_time": "2026-07-16 03:53",
+  "issue_no": 35,
   "hot_search": {
     "weibo": [
       {
-        "title": "贾浅浅西北大学辞职",
-        "url": "https://s.weibo.com/weibo?q=%E8%B4%BE%E6%B5%85%E6%B5%85%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6%E8%BE%9E%E8%81%8C",
-        "heat": 730000,
+        "title": "我也好奇冉莹颖在MBA班上都学了啥",
+        "url": "https://s.weibo.com/weibo?q=%E6%88%91%E4%B9%9F%E5%A5%BD%E5%A5%87%E5%86%89%E8%8E%B9%E9%A2%96%E5%9C%A8MBA%E7%8F%AD%E4%B8%8A%E9%83%BD%E5%AD%A6%E4%BA%86%E5%95%A5",
+        "heat": 550000,
         "rank": 1,
-        "_platform": "微博"
-      },
-      {
-        "title": "贾浅浅硕士学位被撤销",
-        "url": "https://s.weibo.com/weibo?q=%E8%B4%BE%E6%B5%85%E6%B5%85%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E8%A2%AB%E6%92%A4%E9%94%80",
-        "heat": 490000,
-        "rank": 2,
-        "_platform": "微博"
-      },
-      {
-        "title": "12306回应初中生买不了高铁学生票",
-        "url": "https://s.weibo.com/weibo?q=12306%E5%9B%9E%E5%BA%94%E5%88%9D%E4%B8%AD%E7%94%9F%E4%B9%B0%E4%B8%8D%E4%BA%86%E9%AB%98%E9%93%81%E5%AD%A6%E7%94%9F%E7%A5%A8",
-        "heat": 50000,
-        "rank": 3,
         "_platform": "微博"
       }
     ],
     "baidu": [
       {
-        "title": "西北大学通报：贾浅浅硕士学位被撤销",
-        "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6%E9%80%9A%E6%8A%A5%EF%BC%9A%E8%B4%BE%E6%B5%85%E6%B5%85%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E8%A2%AB%E6%92%A4%E9%94%80",
-        "heat": 790000,
+        "title": "教师博士毕业前去世 妻子一夜白头",
+        "url": "https://www.baidu.com/s?wd=%E6%95%99%E5%B8%88%E5%8D%9A%E5%A3%AB%E6%AF%95%E4%B8%9A%E5%89%8D%E5%8E%BB%E4%B8%96+%E5%A6%BB%E5%AD%90%E4%B8%80%E5%A4%9C%E7%99%BD%E5%A4%B4",
+        "heat": 880000,
         "rank": 1,
         "_platform": "百度"
       },
       {
-        "title": "贾浅浅向西北大学辞职",
-        "url": "https://www.baidu.com/s?wd=%E8%B4%BE%E6%B5%85%E6%B5%85%E5%90%91%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6%E8%BE%9E%E8%81%8C",
-        "heat": 640000,
-        "rank": 2,
-        "_platform": "百度"
-      },
-      {
-        "title": "西北大学撤销贾浅浅副教授职称",
-        "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6%E6%92%A4%E9%94%80%E8%B4%BE%E6%B5%85%E6%B5%85%E5%89%AF%E6%95%99%E6%8E%88%E8%81%8C%E7%A7%B0",
+        "title": "扩招博士毕业 十几万人抢几万个岗位",
+        "url": "https://www.baidu.com/s?wd=%E6%89%A9%E6%8B%9B%E5%8D%9A%E5%A3%AB%E6%AF%95%E4%B8%9A+%E5%8D%81%E5%87%A0%E4%B8%87%E4%BA%BA%E6%8A%A2%E5%87%A0%E4%B8%87%E4%B8%AA%E5%B2%97%E4%BD%8D",
         "heat": 50000,
-        "rank": 3,
+        "rank": 2,
         "_platform": "百度"
       }
     ],
     "quark": [
       {
-        "title": "贾浅浅硕士学位被撤销",
-        "url": "https://so.m.sm.cn/s?q=%E8%B4%BE%E6%B5%85%E6%B5%85%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E8%A2%AB%E6%92%A4%E9%94%80",
-        "heat": 700000,
+        "title": "家长月薪3500元请大学生暑假带娃",
+        "url": "https://so.m.sm.cn/s?q=%E5%AE%B6%E9%95%BF%E6%9C%88%E8%96%AA3500%E5%85%83%E8%AF%B7%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9A%91%E5%81%87%E5%B8%A6%E5%A8%83",
+        "heat": 310000,
         "rank": 1,
-        "_platform": "夸克"
-      },
-      {
-        "title": "3名男孩虐猫致死家长发声",
-        "url": "https://so.m.sm.cn/s?q=3%E5%90%8D%E7%94%B7%E5%AD%A9%E8%99%90%E7%8C%AB%E8%87%B4%E6%AD%BB%E5%AE%B6%E9%95%BF%E5%8F%91%E5%A3%B0",
-        "heat": 340000,
-        "rank": 2,
         "_platform": "夸克"
       }
     ],
     "douyin": [
       {
-        "title": "暑假学习做饭成果展",
-        "url": "https://www.douyin.com/search/%E6%9A%91%E5%81%87%E5%AD%A6%E4%B9%A0%E5%81%9A%E9%A5%AD%E6%88%90%E6%9E%9C%E5%B1%95",
+        "title": "动画东大高武学院开播",
+        "url": "https://www.douyin.com/search/%E5%8A%A8%E7%94%BB%E4%B8%9C%E5%A4%A7%E9%AB%98%E6%AD%A6%E5%AD%A6%E9%99%A2%E5%BC%80%E6%92%AD",
         "heat": 880000,
         "rank": 1,
         "_platform": "抖音"
       },
       {
-        "title": "贾浅浅硕士学位被撤销",
-        "url": "https://www.douyin.com/search/%E8%B4%BE%E6%B5%85%E6%B5%85%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E8%A2%AB%E6%92%A4%E9%94%80",
-        "heat": 670000,
+        "title": "暑假学习做饭成果展",
+        "url": "https://www.douyin.com/search/%E6%9A%91%E5%81%87%E5%AD%A6%E4%B9%A0%E5%81%9A%E9%A5%AD%E6%88%90%E6%9E%9C%E5%B1%95",
+        "heat": 50000,
         "rank": 2,
-        "_platform": "抖音"
-      },
-      {
-        "title": "西北大学通报贾浅浅论文抄袭",
-        "url": "https://www.douyin.com/search/%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6%E9%80%9A%E6%8A%A5%E8%B4%BE%E6%B5%85%E6%B5%85%E8%AE%BA%E6%96%87%E6%8A%84%E8%A2%AD",
-        "heat": 400000,
-        "rank": 3,
         "_platform": "抖音"
       }
     ],
-    "so360": [
-      {
-        "title": "贾浅浅硕士学位撤销",
-        "url": "https://www.so.com/s?q=%E8%B4%BE%E6%B5%85%E6%B5%85%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%92%A4%E9%94%80",
-        "heat": 460000,
-        "rank": 1,
-        "_platform": "360"
-      }
-    ]
+    "so360": []
   },
   "hot_products": {
     "taobao_tmall": [
@@ -318,7 +275,16 @@
   "top15_today": [
     {
       "rank": 1,
-      "title": "暑假学习做饭成果展",
+      "title": "教师博士毕业前去世 妻子一夜白头",
+      "heat": 880000,
+      "platforms": [
+        "百度"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 2,
+      "title": "动画东大高武学院开播",
       "heat": 880000,
       "platforms": [
         "抖音"
@@ -326,38 +292,27 @@
       "category": "K12教育"
     },
     {
-      "rank": 2,
-      "title": "西北大学通报：贾浅浅硕士学位被撤销",
-      "heat": 790000,
-      "platforms": [
-        "百度"
-      ],
-      "category": "K12教育"
-    },
-    {
       "rank": 3,
-      "title": "贾浅浅西北大学辞职",
-      "heat": 730000,
+      "title": "我也好奇冉莹颖在MBA班上都学了啥",
+      "heat": 550000,
       "platforms": [
         "微博"
       ],
-      "category": "K12教育"
+      "category": "成人教育"
     },
     {
       "rank": 4,
-      "title": "贾浅浅硕士学位被撤销",
-      "heat": 700000,
+      "title": "家长月薪3500元请大学生暑假带娃",
+      "heat": 310000,
       "platforms": [
-        "微博",
-        "夸克",
-        "抖音"
+        "夸克"
       ],
       "category": "K12教育"
     },
     {
       "rank": 5,
-      "title": "贾浅浅向西北大学辞职",
-      "heat": 640000,
+      "title": "扩招博士毕业 十几万人抢几万个岗位",
+      "heat": 50000,
       "platforms": [
         "百度"
       ],
@@ -365,46 +320,10 @@
     },
     {
       "rank": 6,
-      "title": "贾浅浅硕士学位撤销",
-      "heat": 460000,
-      "platforms": [
-        "360"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 7,
-      "title": "西北大学通报贾浅浅论文抄袭",
-      "heat": 400000,
+      "title": "暑假学习做饭成果展",
+      "heat": 50000,
       "platforms": [
         "抖音"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 8,
-      "title": "3名男孩虐猫致死家长发声",
-      "heat": 340000,
-      "platforms": [
-        "夸克"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 9,
-      "title": "12306回应初中生买不了高铁学生票",
-      "heat": 50000,
-      "platforms": [
-        "微博"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 10,
-      "title": "西北大学撤销贾浅浅副教授职称",
-      "heat": 50000,
-      "platforms": [
-        "百度"
       ],
       "category": "K12教育"
     }
@@ -435,17 +354,17 @@
       "items": [
         {
           "scene": "升学季流量高峰",
-          "hot_words": "贾浅浅西北大学辞职 / 贾浅浅硕士学位被撤销 / 初中",
+          "hot_words": "毕业 / 暑假 / 动画东大高武学院开播",
           "strategy": "搜索抢占「分数线预测」「志愿填报工具」等长尾词，落地页提供免费测评工具提升留资率"
         },
         {
           "scene": "暑期培训招生",
-          "hot_words": "大学 / 贾浅浅向西北大学辞职 / 西北大学撤销贾浅浅副教授职称",
+          "hot_words": "暑期兴趣班 / 研学旅行 / 少儿编程",
           "strategy": "朋友圈广告定向30-45岁家长群体，素材强调「名额有限」「早鸟优惠」制造紧迫感"
         },
         {
           "scene": "学习方法种草",
-          "hot_words": "3名男孩虐猫致死家长发声 / 暑假学习做饭成果展 / 西北大学通报贾浅浅论文抄袭",
+          "hot_words": "学霸笔记 / 高效学习法 / 时间管理",
           "strategy": "抖音达人合作短视频种草，挂载课程商品链接实现短链路转化，配合开学季节点"
         }
       ]
@@ -495,107 +414,163 @@
     "k12": [
       {
         "rank": 1,
+        "title": "西班牙阿根廷会师世界杯决赛",
+        "heat": "771万🔥",
+        "heat_raw": 7710000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E8%A5%BF%E7%8F%AD%E7%89%99%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%BC%9A%E5%B8%88%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B"
+      },
+      {
+        "rank": 2,
+        "title": "功夫女足炸出全网周星驰老板粉",
+        "heat": "766万🔥",
+        "heat_raw": 7666000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E7%82%B8%E5%87%BA%E5%85%A8%E7%BD%91%E5%91%A8%E6%98%9F%E9%A9%B0%E8%80%81%E6%9D%BF%E7%B2%89"
+      },
+      {
+        "rank": 3,
+        "title": "陈泽杯S2总决赛名单出炉",
+        "heat": "763万🔥",
+        "heat_raw": 7634000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%99%88%E6%B3%BD%E6%9D%AFS2%E6%80%BB%E5%86%B3%E8%B5%9B%E5%90%8D%E5%8D%95%E5%87%BA%E7%82%89"
+      },
+      {
+        "rank": 4,
         "title": "暑假学习做饭成果展",
-        "heat": "1031万🔥",
-        "heat_raw": 10316000,
+        "heat": "761万🔥",
+        "heat_raw": 7617000,
         "platform": "抖音",
         "url": "https://www.douyin.com/search/%E6%9A%91%E5%81%87%E5%AD%A6%E4%B9%A0%E5%81%9A%E9%A5%AD%E6%88%90%E6%9E%9C%E5%B1%95"
       },
       {
-        "rank": 2,
-        "title": "全国文旅把户外亲子卷起来了",
-        "heat": "909万🔥",
-        "heat_raw": 9092000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%85%A8%E5%9B%BD%E6%96%87%E6%97%85%E6%8A%8A%E6%88%B7%E5%A4%96%E4%BA%B2%E5%AD%90%E5%8D%B7%E8%B5%B7%E6%9D%A5%E4%BA%86"
-      },
-      {
-        "rank": 3,
-        "title": "暴雨、高温、强对流三预警齐发",
-        "heat": "761万🔥",
-        "heat_raw": 7617000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%9A%B4%E9%9B%A8%E3%80%81%E9%AB%98%E6%B8%A9%E3%80%81%E5%BC%BA%E5%AF%B9%E6%B5%81%E4%B8%89%E9%A2%84%E8%AD%A6%E9%BD%90%E5%8F%91"
-      },
-      {
-        "rank": 4,
-        "title": "3名男孩虐猫致死家长发声",
-        "heat": "181万🔥",
-        "heat_raw": 1816000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=3%E5%90%8D%E7%94%B7%E5%AD%A9%E8%99%90%E7%8C%AB%E8%87%B4%E6%AD%BB%E5%AE%B6%E9%95%BF%E5%8F%91%E5%A3%B0"
-      },
-      {
         "rank": 5,
-        "title": "世界杯决赛规则调整",
-        "heat": "67万🔥",
-        "heat_raw": 670000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E8%A7%84%E5%88%99%E8%B0%83%E6%95%B4"
+        "title": "阿根廷进决赛 苏醒哽咽发声",
+        "heat": "590万🔥",
+        "heat_raw": 5908000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B7%E8%BF%9B%E5%86%B3%E8%B5%9B+%E8%8B%8F%E9%86%92%E5%93%BD%E5%92%BD%E5%8F%91%E5%A3%B0"
       },
       {
         "rank": 6,
-        "title": "阿根廷半决赛或变阵",
-        "heat": "6万🔥",
-        "heat_raw": 61694,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E9%98%BF%E6%A0%B9%E5%BB%B7%E5%8D%8A%E5%86%B3%E8%B5%9B%E6%88%96%E5%8F%98%E9%98%B5"
+        "title": "决赛世界第1对世界第2",
+        "heat": "268万🔥",
+        "heat_raw": 2688000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%86%B3%E8%B5%9B%E4%B8%96%E7%95%8C%E7%AC%AC1%E5%AF%B9%E4%B8%96%E7%95%8C%E7%AC%AC2"
       },
       {
         "rank": 7,
-        "title": "暴雨洪涝赔付28.9亿",
-        "heat": "4万🔥",
-        "heat_raw": 41277,
+        "title": "丈夫私生活混乱 妻子怒要给孩子改姓",
+        "heat": "196万🔥",
+        "heat_raw": 1969000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E4%B8%88%E5%A4%AB%E7%A7%81%E7%94%9F%E6%B4%BB%E6%B7%B7%E4%B9%B1+%E5%A6%BB%E5%AD%90%E6%80%92%E8%A6%81%E7%BB%99%E5%AD%A9%E5%AD%90%E6%94%B9%E5%A7%93"
+      },
+      {
+        "rank": 8,
+        "title": "家长月薪3500元请大学生暑假带娃",
+        "heat": "189万🔥",
+        "heat_raw": 1896000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%AE%B6%E9%95%BF%E6%9C%88%E8%96%AA3500%E5%85%83%E8%AF%B7%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9A%91%E5%81%87%E5%B8%A6%E5%A8%83"
+      },
+      {
+        "rank": 9,
+        "title": "世界杯夺冠最新概率",
+        "heat": "5万🔥",
+        "heat_raw": 50131,
         "platform": "360",
-        "url": "https://www.so.com/s?q=%E6%9A%B4%E9%9B%A8%E6%B4%AA%E6%B6%9D%E8%B5%94%E4%BB%9828.9%E4%BA%BF"
+        "url": "https://www.so.com/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%A4%BA%E5%86%A0%E6%9C%80%E6%96%B0%E6%A6%82%E7%8E%87"
+      },
+      {
+        "rank": 10,
+        "title": "阿根廷半决赛或变阵",
+        "heat": "3万🔥",
+        "heat_raw": 39780,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E9%98%BF%E6%A0%B9%E5%BB%B7%E5%8D%8A%E5%86%B3%E8%B5%9B%E6%88%96%E5%8F%98%E9%98%B5"
       }
     ],
     "adult_edu": [
       {
         "rank": 1,
-        "title": "全网晒功夫女足票根",
-        "heat": "813万🔥",
-        "heat_raw": 8138000,
+        "title": "透视经济半年报的“向新”脉动",
+        "heat": "1028万🔥",
+        "heat_raw": 10288000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%85%A8%E7%BD%91%E6%99%92%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E7%A5%A8%E6%A0%B9"
+        "url": "https://www.douyin.com/search/%E9%80%8F%E8%A7%86%E7%BB%8F%E6%B5%8E%E5%8D%8A%E5%B9%B4%E6%8A%A5%E7%9A%84%E2%80%9C%E5%90%91%E6%96%B0%E2%80%9D%E8%84%89%E5%8A%A8"
       },
       {
         "rank": 2,
-        "title": "2026世界杯最强预言会成真吗",
-        "heat": "550万🔥",
-        "heat_raw": 5508000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=2026%E4%B8%96%E7%95%8C%E6%9D%AF%E6%9C%80%E5%BC%BA%E9%A2%84%E8%A8%80%E4%BC%9A%E6%88%90%E7%9C%9F%E5%90%97"
+        "title": "美丽明天创业真人秀vlog",
+        "heat": "772万🔥",
+        "heat_raw": 7725000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E7%BE%8E%E4%B8%BD%E6%98%8E%E5%A4%A9%E5%88%9B%E4%B8%9A%E7%9C%9F%E4%BA%BA%E7%A7%80vlog"
       },
       {
         "rank": 3,
-        "title": "外媒称中国一举动挽救全球经济",
-        "heat": "180万🔥",
-        "heat_raw": 1801000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%A4%96%E5%AA%92%E7%A7%B0%E4%B8%AD%E5%9B%BD%E4%B8%80%E4%B8%BE%E5%8A%A8%E6%8C%BD%E6%95%91%E5%85%A8%E7%90%83%E7%BB%8F%E6%B5%8E"
+        "title": "阿根廷2比1淘汰英格兰 决赛战西班牙",
+        "heat": "723万🔥",
+        "heat_raw": 7237000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B72%E6%AF%941%E6%B7%98%E6%B1%B0%E8%8B%B1%E6%A0%BC%E5%85%B0+%E5%86%B3%E8%B5%9B%E6%88%98%E8%A5%BF%E7%8F%AD%E7%89%99"
       },
       {
         "rank": 4,
-        "title": "姆巴佩称法国不具备决赛实力",
-        "heat": "94万🔥",
-        "heat_raw": 940000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%A7%B0%E6%B3%95%E5%9B%BD%E4%B8%8D%E5%85%B7%E5%A4%87%E5%86%B3%E8%B5%9B%E5%AE%9E%E5%8A%9B"
+        "title": "今年A股最大IPO！长鑫科技启动申购",
+        "heat": "647万🔥",
+        "heat_raw": 6470000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%BB%8A%E5%B9%B4A%E8%82%A1%E6%9C%80%E5%A4%A7IPO%EF%BC%81%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E5%90%AF%E5%8A%A8%E7%94%B3%E8%B4%AD"
       },
       {
         "rank": 5,
-        "title": "功夫女足的演员餐",
-        "heat": "62万🔥",
-        "heat_raw": 620000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E7%9A%84%E6%BC%94%E5%91%98%E9%A4%90"
+        "title": "世界杯决赛对阵图来了",
+        "heat": "533万🔥",
+        "heat_raw": 5336000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E5%AF%B9%E9%98%B5%E5%9B%BE%E6%9D%A5%E4%BA%86"
       },
       {
         "rank": 6,
-        "title": "花8万37岁提前退休",
+        "title": "世界杯冠亚军 佛得角严选",
+        "heat": "233万🔥",
+        "heat_raw": 2330000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%A0%E4%BA%9A%E5%86%9B+%E4%BD%9B%E5%BE%97%E8%A7%92%E4%B8%A5%E9%80%89"
+      },
+      {
+        "rank": 7,
+        "title": "找镇干部买身份提前退休 15年领30万",
+        "heat": "217万🔥",
+        "heat_raw": 2174000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E6%89%BE%E9%95%87%E5%B9%B2%E9%83%A8%E4%B9%B0%E8%BA%AB%E4%BB%BD%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91+15%E5%B9%B4%E9%A2%8630%E4%B8%87"
+      },
+      {
+        "rank": 8,
+        "title": "世界杯决赛对阵图",
+        "heat": "7万🔥",
+        "heat_raw": 73067,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E5%AF%B9%E9%98%B5%E5%9B%BE"
+      },
+      {
+        "rank": 9,
+        "title": "日韩股市集体大跌",
         "heat": "6万🔥",
-        "heat_raw": 63684,
+        "heat_raw": 63051,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E6%97%A5%E9%9F%A9%E8%82%A1%E5%B8%82%E9%9B%86%E4%BD%93%E5%A4%A7%E8%B7%8C"
+      },
+      {
+        "rank": 10,
+        "title": "花8万37岁提前退休",
+        "heat": "3万🔥",
+        "heat_raw": 34716,
         "platform": "360",
         "url": "https://www.so.com/s?q=%E8%8A%B18%E4%B8%8737%E5%B2%81%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91"
       }
@@ -603,133 +578,197 @@
     "e_edu": [
       {
         "rank": 1,
-        "title": "“新能源车平均车龄1.8年”系误读",
-        "heat": "832万🔥",
-        "heat_raw": 8325000,
+        "title": "长鑫科技IPO",
+        "heat": "1216万🔥",
+        "heat_raw": 12168000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E2%80%9C%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E5%B9%B3%E5%9D%87%E8%BD%A6%E9%BE%841.8%E5%B9%B4%E2%80%9D%E7%B3%BB%E8%AF%AF%E8%AF%BB"
+        "url": "https://www.douyin.com/search/%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80IPO"
       },
       {
         "rank": 2,
-        "title": "AI生成图片被评摄影一等奖 官方通报",
-        "heat": "176万🔥",
-        "heat_raw": 1769000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=AI%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87%E8%A2%AB%E8%AF%84%E6%91%84%E5%BD%B1%E4%B8%80%E7%AD%89%E5%A5%96+%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5"
+        "title": "世界人工智能大会逛展攻略来了",
+        "heat": "1022万🔥",
+        "heat_raw": 10229000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E9%80%9B%E5%B1%95%E6%94%BB%E7%95%A5%E6%9D%A5%E4%BA%86"
       },
       {
         "rank": 3,
-        "title": "西班牙2-0法国挺进决赛",
-        "heat": "173万🔥",
-        "heat_raw": 1739000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E8%A5%BF%E7%8F%AD%E7%89%992-0%E6%B3%95%E5%9B%BD%E6%8C%BA%E8%BF%9B%E5%86%B3%E8%B5%9B"
+        "title": "做好人工智能“年轻的事业”",
+        "heat": "790万🔥",
+        "heat_raw": 7904000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E5%81%9A%E5%A5%BD%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E2%80%9C%E5%B9%B4%E8%BD%BB%E7%9A%84%E4%BA%8B%E4%B8%9A%E2%80%9D"
       },
       {
         "rank": 4,
-        "title": "DeepSeek梁文锋成AI公司新首富",
-        "heat": "163万🔥",
-        "heat_raw": 1635000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=DeepSeek%E6%A2%81%E6%96%87%E9%94%8B%E6%88%90AI%E5%85%AC%E5%8F%B8%E6%96%B0%E9%A6%96%E5%AF%8C"
+        "title": "全球人工智能 进入“上海时间”",
+        "heat": "761万🔥",
+        "heat_raw": 7616000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+%E8%BF%9B%E5%85%A5%E2%80%9C%E4%B8%8A%E6%B5%B7%E6%97%B6%E9%97%B4%E2%80%9D"
       },
       {
         "rank": 5,
-        "title": "AI短剧以假乱真了",
-        "heat": "68万🔥",
-        "heat_raw": 680000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=AI%E7%9F%AD%E5%89%A7%E4%BB%A5%E5%81%87%E4%B9%B1%E7%9C%9F%E4%BA%86"
+        "title": "曝C罗考虑参加2030年世界杯",
+        "heat": "504万🔥",
+        "heat_raw": 5048000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E6%9B%9DC%E7%BD%97%E8%80%83%E8%99%91%E5%8F%82%E5%8A%A02030%E5%B9%B4%E4%B8%96%E7%95%8C%E6%9D%AF"
       },
       {
         "rank": 6,
-        "title": "小伙家有200台小米设备不满手机售后",
-        "heat": "57万🔥",
-        "heat_raw": 570000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E4%BC%99%E5%AE%B6%E6%9C%89200%E5%8F%B0%E5%B0%8F%E7%B1%B3%E8%AE%BE%E5%A4%87%E4%B8%8D%E6%BB%A1%E6%89%8B%E6%9C%BA%E5%94%AE%E5%90%8E"
+        "title": "专家：不建议边上厕所边玩手机",
+        "heat": "456万🔥",
+        "heat_raw": 4569000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%93%E5%AE%B6%EF%BC%9A%E4%B8%8D%E5%BB%BA%E8%AE%AE%E8%BE%B9%E4%B8%8A%E5%8E%95%E6%89%80%E8%BE%B9%E7%8E%A9%E6%89%8B%E6%9C%BA"
       },
       {
         "rank": 7,
-        "title": "曝华为手机也将涨价",
-        "heat": "56万🔥",
-        "heat_raw": 560000,
+        "title": "B站给未成年人新号推荐擦边视频",
+        "heat": "228万🔥",
+        "heat_raw": 2287000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=B%E7%AB%99%E7%BB%99%E6%9C%AA%E6%88%90%E5%B9%B4%E4%BA%BA%E6%96%B0%E5%8F%B7%E6%8E%A8%E8%8D%90%E6%93%A6%E8%BE%B9%E8%A7%86%E9%A2%91"
+      },
+      {
+        "rank": 8,
+        "title": "“66666666”手机号拍出20万元高价",
+        "heat": "187万🔥",
+        "heat_raw": 1870000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E2%80%9C66666666%E2%80%9D%E6%89%8B%E6%9C%BA%E5%8F%B7%E6%8B%8D%E5%87%BA20%E4%B8%87%E5%85%83%E9%AB%98%E4%BB%B7"
+      },
+      {
+        "rank": 9,
+        "title": "全球首次!宇树人形机器人为猪做手术",
+        "heat": "184万🔥",
+        "heat_raw": 1844000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%A1%21%E5%AE%87%E6%A0%91%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%BA%E7%8C%AA%E5%81%9A%E6%89%8B%E6%9C%AF"
+      },
+      {
+        "rank": 10,
+        "title": "千问将作为AI能力集成至Apple智能",
+        "heat": "175万🔥",
+        "heat_raw": 1756000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%8D%83%E9%97%AE%E5%B0%86%E4%BD%9C%E4%B8%BAAI%E8%83%BD%E5%8A%9B%E9%9B%86%E6%88%90%E8%87%B3Apple%E6%99%BA%E8%83%BD"
+      },
+      {
+        "rank": 11,
+        "title": "长鑫科技打新",
+        "heat": "36万🔥",
+        "heat_raw": 360000,
         "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E4%B9%9F%E5%B0%86%E6%B6%A8%E4%BB%B7"
+        "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E6%89%93%E6%96%B0"
+      },
+      {
+        "rank": 12,
+        "title": "演员自曝刚当上男主就被AI抢了工作",
+        "heat": "36万🔥",
+        "heat_raw": 360000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E6%BC%94%E5%91%98%E8%87%AA%E6%9B%9D%E5%88%9A%E5%BD%93%E4%B8%8A%E7%94%B7%E4%B8%BB%E5%B0%B1%E8%A2%ABAI%E6%8A%A2%E4%BA%86%E5%B7%A5%E4%BD%9C"
+      },
+      {
+        "rank": 13,
+        "title": "王俊凯忙一天打开手机天塌了",
+        "heat": "34万🔥",
+        "heat_raw": 340000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%BF%99%E4%B8%80%E5%A4%A9%E6%89%93%E5%BC%80%E6%89%8B%E6%9C%BA%E5%A4%A9%E5%A1%8C%E4%BA%86"
       }
     ],
     "books": [
       {
         "rank": 1,
-        "title": "马克龙回应法国队无缘决赛",
-        "heat": "776万🔥",
-        "heat_raw": 7760000,
+        "title": "雀骨抖音追剧团",
+        "heat": "768万🔥",
+        "heat_raw": 7686000,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%A9%AC%E5%85%8B%E9%BE%99%E5%9B%9E%E5%BA%94%E6%B3%95%E5%9B%BD%E9%98%9F%E6%97%A0%E7%BC%98%E5%86%B3%E8%B5%9B"
+        "url": "https://www.douyin.com/search/%E9%9B%80%E9%AA%A8%E6%8A%96%E9%9F%B3%E8%BF%BD%E5%89%A7%E5%9B%A2"
       },
       {
         "rank": 2,
-        "title": "《功夫女足》预测票房已超30亿元",
-        "heat": "599万🔥",
-        "heat_raw": 5993000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E3%80%8A%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E3%80%8B%E9%A2%84%E6%B5%8B%E7%A5%A8%E6%88%BF%E5%B7%B2%E8%B6%8530%E4%BA%BF%E5%85%83"
+        "title": "电影八仙制作用心程度给到满分",
+        "heat": "765万🔥",
+        "heat_raw": 7655000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E7%94%B5%E5%BD%B1%E5%85%AB%E4%BB%99%E5%88%B6%E4%BD%9C%E7%94%A8%E5%BF%83%E7%A8%8B%E5%BA%A6%E7%BB%99%E5%88%B0%E6%BB%A1%E5%88%86"
       },
       {
         "rank": 3,
-        "title": "周星驰回应“欠他一张电影票”",
-        "heat": "454万🔥",
-        "heat_raw": 4546000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%91%A8%E6%98%9F%E9%A9%B0%E5%9B%9E%E5%BA%94%E2%80%9C%E6%AC%A0%E4%BB%96%E4%B8%80%E5%BC%A0%E7%94%B5%E5%BD%B1%E7%A5%A8%E2%80%9D"
+        "title": "戴上墨镜原地开启演唱会",
+        "heat": "761万🔥",
+        "heat_raw": 7613000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%88%B4%E4%B8%8A%E5%A2%A8%E9%95%9C%E5%8E%9F%E5%9C%B0%E5%BC%80%E5%90%AF%E6%BC%94%E5%94%B1%E4%BC%9A"
       },
       {
         "rank": 4,
-        "title": "“法不拦西”后 佛得角又火了",
-        "heat": "361万🔥",
-        "heat_raw": 3611000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%B3%95%E4%B8%8D%E6%8B%A6%E8%A5%BF%E2%80%9D%E5%90%8E+%E4%BD%9B%E5%BE%97%E8%A7%92%E5%8F%88%E7%81%AB%E4%BA%86"
+        "title": "电影想你了首场看片会",
+        "heat": "760万🔥",
+        "heat_raw": 7603000,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E7%94%B5%E5%BD%B1%E6%83%B3%E4%BD%A0%E4%BA%86%E9%A6%96%E5%9C%BA%E7%9C%8B%E7%89%87%E4%BC%9A"
       },
       {
         "rank": 5,
+        "title": "周星驰《功夫女足》上映5天票房8亿",
+        "heat": "426万🔥",
+        "heat_raw": 4268000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E5%91%A8%E6%98%9F%E9%A9%B0%E3%80%8A%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E3%80%8B%E4%B8%8A%E6%98%A05%E5%A4%A9%E7%A5%A8%E6%88%BF8%E4%BA%BF"
+      },
+      {
+        "rank": 6,
+        "title": "国企投近900万拍综艺收益仅8600元",
+        "heat": "215万🔥",
+        "heat_raw": 2156000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%9B%BD%E4%BC%81%E6%8A%95%E8%BF%91900%E4%B8%87%E6%8B%8D%E7%BB%BC%E8%89%BA%E6%94%B6%E7%9B%8A%E4%BB%858600%E5%85%83"
+      },
+      {
+        "rank": 7,
+        "title": "贝克汉姆成本届世界杯最赚钱的球星",
+        "heat": "192万🔥",
+        "heat_raw": 1928000,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E8%B4%9D%E5%85%8B%E6%B1%89%E5%A7%86%E6%88%90%E6%9C%AC%E5%B1%8A%E4%B8%96%E7%95%8C%E6%9D%AF%E6%9C%80%E8%B5%9A%E9%92%B1%E7%9A%84%E7%90%83%E6%98%9F"
+      },
+      {
+        "rank": 8,
         "title": "月入上亿的“山寨明星”生意凉凉了",
-        "heat": "300万🔥",
-        "heat_raw": 3004000,
+        "heat": "180万🔥",
+        "heat_raw": 1808000,
         "platform": "夸克",
         "url": "https://quark.sm.cn/s?q=%E6%9C%88%E5%85%A5%E4%B8%8A%E4%BA%BF%E7%9A%84%E2%80%9C%E5%B1%B1%E5%AF%A8%E6%98%8E%E6%98%9F%E2%80%9D%E7%94%9F%E6%84%8F%E5%87%89%E5%87%89%E4%BA%86"
       },
       {
-        "rank": 6,
-        "title": "网红啫啫煲门店密集关停",
-        "heat": "232万🔥",
-        "heat_raw": 2325000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E7%BD%91%E7%BA%A2%E5%95%AB%E5%95%AB%E7%85%B2%E9%97%A8%E5%BA%97%E5%AF%86%E9%9B%86%E5%85%B3%E5%81%9C"
-      },
-      {
-        "rank": 7,
-        "title": "逐玉一念演唱会官宣",
-        "heat": "197万🔥",
-        "heat_raw": 1970000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E9%80%90%E7%8E%89%E4%B8%80%E5%BF%B5%E6%BC%94%E5%94%B1%E4%BC%9A%E5%AE%98%E5%AE%A3"
-      },
-      {
-        "rank": 8,
-        "title": "赵本山拒绝了所有商演和综艺",
-        "heat": "62万🔥",
-        "heat_raw": 620000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E8%B5%B5%E6%9C%AC%E5%B1%B1%E6%8B%92%E7%BB%9D%E4%BA%86%E6%89%80%E6%9C%89%E5%95%86%E6%BC%94%E5%92%8C%E7%BB%BC%E8%89%BA"
-      },
-      {
         "rank": 9,
-        "title": "孔雪儿邓凯官宣逐玉演唱会",
-        "heat": "60万🔥",
-        "heat_raw": 600000,
+        "title": "仅两千人想看逐玉演唱会",
+        "heat": "59万🔥",
+        "heat_raw": 590000,
         "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%AD%94%E9%9B%AA%E5%84%BF%E9%82%93%E5%87%AF%E5%AE%98%E5%AE%A3%E9%80%90%E7%8E%89%E6%BC%94%E5%94%B1%E4%BC%9A"
+        "url": "https://s.weibo.com/weibo?q=%E4%BB%85%E4%B8%A4%E5%8D%83%E4%BA%BA%E6%83%B3%E7%9C%8B%E9%80%90%E7%8E%89%E6%BC%94%E5%94%B1%E4%BC%9A"
+      },
+      {
+        "rank": 10,
+        "title": "功夫女足票房",
+        "heat": "39万🔥",
+        "heat_raw": 390000,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E7%A5%A8%E6%88%BF"
+      },
+      {
+        "rank": 11,
+        "title": "功夫女足5天票房8亿",
+        "heat": "4万🔥",
+        "heat_raw": 46996,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B35%E5%A4%A9%E7%A5%A8%E6%88%BF8%E4%BA%BF"
       }
     ]
   }
