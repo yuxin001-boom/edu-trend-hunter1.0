@@ -1,4 +1,4 @@
-name: "📚 每日自动更新教育热点数据"
+name: "\U0001F4DA 每日自动更新教育热点数据"
 
 on:
   schedule:
@@ -15,18 +15,21 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     steps:
-      - name: "📥 检出代码"
+      - name: "\U0001F4E5 检出代码"
         uses: actions/checkout@v4
 
-      - name: "🐍 安装 Python"
+      - name: "\U0001F40D 安装 Python"
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: "📡 运行数据采集脚本"
-        run: python scripts/fetch_data.py
+      - name: "\U0001F4E1 运行数据采集脚本"
+        env:
+          LARK_APP_ID: ${{ secrets.LARK_APP_ID }}
+          LARK_APP_SECRET: ${{ secrets.LARK_APP_SECRET }}
+        run: python 脚本/fetch_data.py
 
-      - name: "📤 提交更新的数据"
+      - name: "\U0001F4E4 提交更新的数据"
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
