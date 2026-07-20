@@ -134,6 +134,21 @@ body::after{
 .product-item .p-price{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--accent-4);font-weight:600;white-space:nowrap}
 .product-item .p-cat{font-size:10px;padding:2px 6px;border-radius:4px;background:rgba(124,58,237,.08);color:var(--edu-secondary);white-space:nowrap}
 
+/* DOUYIN HOTSPOT MOUNTING / 抖音热点挂载 */
+.hotspot-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:40px}
+.hotspot-card{display:flex;align-items:center;gap:16px;padding:18px 22px;background:#fff;border-radius:12px;border:1px solid rgba(26,26,46,.08);box-shadow:0 2px 12px rgba(26,26,46,.03);transition:all .2s}
+.hotspot-card:hover{border-color:var(--edu-primary);box-shadow:0 4px 20px rgba(37,99,235,.08)}
+.hotspot-icon{font-size:28px;flex-shrink:0}
+.hotspot-info{flex:1;min-width:0}
+.hotspot-name{font-weight:700;font-size:15px;color:var(--ink);margin-bottom:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hotspot-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.hotspot-date{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted)}
+.hotspot-industry{font-size:10px;padding:2px 8px;border-radius:4px;background:rgba(124,58,237,.08);color:var(--edu-secondary);font-weight:500}
+.hotspot-status{font-size:11px;padding:4px 12px;border-radius:20px;font-weight:700;white-space:nowrap;flex-shrink:0}
+.hotspot-status.status-online{background:rgba(5,150,105,.1);color:#059669;border:1px solid rgba(5,150,105,.2)}
+.hotspot-status.status-signup{background:rgba(217,119,6,.1);color:#d97706;border:1px solid rgba(217,119,6,.2)}
+.hotspot-empty{text-align:center;padding:32px;color:var(--muted);font-size:14px;background:rgba(248,246,240,.8);border-radius:12px;border:1px dashed rgba(26,26,46,.18)}
+
 /* TOP15 */
 .top15-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px;margin-bottom:40px}
 .top15-item{display:flex;align-items:center;gap:12px;padding:14px 16px;background:#fff;border-radius:10px;border:1px solid rgba(26,26,46,.06);transition:all .2s}
@@ -248,6 +263,7 @@ body::after{
   .kpis{grid-template-columns:repeat(2,1fr)}
   .platform-grid{grid-template-columns:1fr}
   .product-grid{grid-template-columns:1fr}
+  .hotspot-grid{grid-template-columns:1fr}
   .product-item{grid-template-columns:28px 1fr;gap:6px}
   .product-item .p-sales,.product-item .p-price{grid-column:2}
   .top15-grid{grid-template-columns:1fr}
@@ -282,6 +298,7 @@ body::after{
 
 <!-- NAV -->
 <nav class="jump-tabs" aria-label="页面分区导航">
+  <a href="#sec-hotspot" class="jump-tab"><span class="no">★</span><span class="txt">热点挂载</span><span class="en">HOTSPOT</span></a>
   <a href="#sec-search" class="jump-tab"><span class="no">01</span><span class="txt">热搜榜</span><span class="en">SEARCH</span></a>
   <a href="#sec-commerce" class="jump-tab"><span class="no">02</span><span class="txt">热销榜</span><span class="en">COMMERCE</span></a>
   <a href="#sec-trend" class="jump-tab"><span class="no">03</span><span class="txt">今日TOP15</span><span class="en">TREND</span></a>
@@ -307,8 +324,22 @@ body::after{
   <div class="kpis">
     <div class="kpi"><div class="label">Platforms</div><div class="num" id="kpi-platforms">12</div><div class="unit">在监测平台/榜单 + 用户群视角数</div></div>
     <div class="kpi"><div class="label">Hot Items</div><div class="num" id="kpi-items">115</div><div class="unit">当日教育/用户热搜 + 电商热销条数</div></div>
-    <div class="kpi"><div class="label">Sections</div><div class="num" id="kpi-sections">6</div><div class="unit">看板板块数</div></div>
+    <div class="kpi"><div class="label">Sections</div><div class="num" id="kpi-sections">7</div><div class="unit">看板板块数</div></div>
     <div class="kpi"><div class="label">Insights</div><div class="num" id="kpi-insights">12</div><div class="unit">营销建议条数</div></div>
+  </div>
+</section>
+
+<!-- SECTION ★: DOUYIN HOTSPOT MOUNTING / 抖音热点挂载 -->
+<section class="section" id="sec-hotspot">
+  <div class="section-head">
+    <span class="section-no">★</span>
+    <h2 class="section-title">抖音热点挂载 · 教育行业可参与热点</h2>
+    <span class="section-en">DOUYIN HOTSPOT MOUNTING · SIGN UP NOW</span>
+  </div>
+  <p class="section-intro">筛选条件：进展状态为 <b>报名中 / 上线中</b>，适配行业为 <b>综合 / 图书教育</b>。数据来源于抖音热点策划排期表，持续同步更新。</p>
+
+  <div class="hotspot-grid" id="hotspot-grid">
+    <!-- JS动态渲染 -->
   </div>
 </section>
 
@@ -525,7 +556,7 @@ body::after{
         <div class="card-thumb"><img src="3.png" alt="参考图"></div>
         <div class="card-info">
           <div class="card-title-row"><h3>来自内阁名师的压迫感</h3><span class="tag">师生人设 · 霸气IP</span></div>
-          <div class="card-desc">学生是"皇帝"，名师们是各学科的"内阁大臣"——全方位辅佐学生各科学习，用霸气阵容展示师资实力</div>
+          <div class="card-desc">名师们组成各学科"内阁天团"——全方位辅佐学生各科学习，用霸气阵容展示师资实力</div>
         </div>
         <span class="expand-hint">点击展开 ▼</span>
       </div>
@@ -534,7 +565,7 @@ body::after{
         <div class="expanded-detail">
           <div class="highlight-block"><h4 class="highlight-title">🔥 核心亮点拆解</h4>
             <ul class="highlight-list">
-              <li><b>【核心爆点】学生=皇帝，名师=内阁大臣的类比</b> — 把师资阵容比作"内阁"服务于学生，霸气又新颖，一下记住师资强大。</li>
+              <li><b>【核心爆点】"内阁天团"式师资阵容包装</b> — 把多科名师比作"内阁大臣"，各司其职辅佐学生，霸气又新颖，一下记住师资强大。</li>
               <li><b>多科老师组团亮相极具视觉冲击</b> — 各学科名师错落站位，阵容感拉满，家长看了安心、学生看了想报。</li>
               <li><b>系列化运营天花板高</b> — 语文大臣/数学大臣/英语大臣逐个介绍，可持续产出系列内容。</li>
               <li>仰视机位+正装+团队阵列="压迫感"视觉公式，在信息流中停留率极高。</li>
@@ -545,7 +576,7 @@ body::after{
               <div class="logic-item"><div class="logic-label">🎯 标题</div><p><b>「来自内阁名师的压迫感」</b>— 名师团是你的专属"内阁"，全方位辅佐你</p></div>
               <div class="logic-item"><div class="logic-label">👤 出镜人物</div><p>机构多科名师组团出镜，各持学科标志物（试管/课本/地球仪等），错落站位</p></div>
               <div class="logic-item"><div class="logic-label">🎬 内容结构</div><p>仰拍霸气阵列亮相 → 逐个介绍"这是你的数学大臣/英语大臣/物理大臣" → 收尾"这就是你的内阁"</p></div>
-              <div class="logic-item"><div class="logic-label">📍 核心概念</div><p>学生是"皇帝"，名师是"内阁大臣"——全科辅佐、各领域精通，展示机构师资阵容实力</p></div>
+              <div class="logic-item"><div class="logic-label">📍 核心概念</div><p>名师是专属"内阁大臣"——全科辅佐、各领域精通，团队阵容就是最大卖点</p></div>
             </div>
             <h5 class="logic-extra-title">💡 关键成功要素</h5>
             <ul class="logic-extra-list">
@@ -636,6 +667,13 @@ async function loadData() {
 const FALLBACK_DATA = {
   "update_time": "2026-06-12 09:00",
   "issue_no": 1,
+  "douyin_hotspot": [
+    {"name": "暑假卷王装备已就位", "date": "2026-07-03", "status": "上线中", "industry": "图书教育"},
+    {"name": "电影三国争洛阳值得一次热血奔赴", "date": "2026-07-13", "status": "上线中", "industry": "图书教育"},
+    {"name": "一起逛上海CBME母婴展", "date": "2026-07-16", "status": "报名中", "industry": "图书教育"},
+    {"name": "外卖诗人王计兵获鲁迅文学奖", "date": "2026-07-16", "status": "报名中", "industry": "图书教育"},
+    {"name": "我在书博会晒夏日书单", "date": "2026-07-24", "status": "报名中", "industry": "图书教育"}
+  ],
   "hot_search": {
     "weibo": [
       {"rank": 1, "title": "2026考研国家线公布", "heat": 9856432, "url": "https://s.weibo.com/weibo?q=2026考研国家线公布"},
@@ -959,6 +997,7 @@ function updateKpis() {
 }
 
 function renderAll() {
+  renderHotspotSection();
   renderSearchSection();
   renderProductSection();
   renderTop15();
@@ -1123,6 +1162,42 @@ function setupVideoModalEvents() {
     if (e.key === 'Escape' && modal.classList.contains('active')) {
       closeVideoModal();
     }
+  });
+}
+
+// ===== RENDER DOUYIN HOTSPOT MOUNTING =====
+function renderHotspotSection() {
+  const grid = document.getElementById('hotspot-grid');
+  if (!grid) return;
+  grid.innerHTML = '';
+
+  const items = DATA.douyin_hotspot;
+  if (!items || items.length === 0) {
+    grid.innerHTML = '<div class="hotspot-empty">暂无符合条件的教育行业热点（报名中/上线中 × 综合/图书教育）</div>';
+    return;
+  }
+
+  items.forEach((item, idx) => {
+    const card = document.createElement('div');
+    card.className = 'hotspot-card animate-in';
+    card.style.animationDelay = (idx * 0.08) + 's';
+
+    const statusClass = item.status === '上线中' ? 'status-online' : 'status-signup';
+    const statusIcon = item.status === '上线中' ? '🟢' : '🟡';
+    const statusText = item.status === '上线中' ? '上线中' : '即将上线';
+
+    card.innerHTML = `
+      <div class="hotspot-icon">${statusIcon}</div>
+      <div class="hotspot-info">
+        <div class="hotspot-name">${item.name}</div>
+        <div class="hotspot-meta">
+          <span class="hotspot-date">📅 ${item.date}</span>
+          <span class="hotspot-industry">${item.industry}</span>
+        </div>
+      </div>
+      <span class="hotspot-status ${statusClass}">${statusText}</span>
+    `;
+    grid.appendChild(card);
   });
 }
 

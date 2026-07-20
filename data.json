@@ -1,33 +1,10 @@
 {
-  "update_time": "2026-07-20 07:49",
-  "issue_no": 39,
+  "update_time": "2026-06-18 13:48",
+  "issue_no": 7,
   "hot_search": {
     "weibo": [],
-    "baidu": [
-      {
-        "title": "读懂2026上半年中国经济成绩单",
-        "url": "https://www.baidu.com/s?wd=%E8%AF%BB%E6%87%822026%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%88%90%E7%BB%A9%E5%8D%95",
-        "heat": 910000,
-        "rank": 1,
-        "_platform": "百度"
-      },
-      {
-        "title": "男孩暑假文了个大花腿 母亲索赔20万",
-        "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%A9%E6%9A%91%E5%81%87%E6%96%87%E4%BA%86%E4%B8%AA%E5%A4%A7%E8%8A%B1%E8%85%BF+%E6%AF%8D%E4%BA%B2%E7%B4%A2%E8%B5%9420%E4%B8%87",
-        "heat": 520000,
-        "rank": 2,
-        "_platform": "百度"
-      }
-    ],
-    "quark": [
-      {
-        "title": "14岁男孩双腿纹满纹身家长索赔20万",
-        "url": "https://so.m.sm.cn/s?q=14%E5%B2%81%E7%94%B7%E5%AD%A9%E5%8F%8C%E8%85%BF%E7%BA%B9%E6%BB%A1%E7%BA%B9%E8%BA%AB%E5%AE%B6%E9%95%BF%E7%B4%A2%E8%B5%9420%E4%B8%87",
-        "heat": 370000,
-        "rank": 1,
-        "_platform": "夸克"
-      }
-    ],
+    "baidu": [],
+    "quark": [],
     "douyin": [],
     "so360": []
   },
@@ -249,35 +226,7 @@
       }
     ]
   },
-  "top15_today": [
-    {
-      "rank": 1,
-      "title": "读懂2026上半年中国经济成绩单",
-      "heat": 910000,
-      "platforms": [
-        "百度"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 2,
-      "title": "男孩暑假文了个大花腿 母亲索赔20万",
-      "heat": 520000,
-      "platforms": [
-        "百度"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 3,
-      "title": "14岁男孩双腿纹满纹身家长索赔20万",
-      "heat": 370000,
-      "platforms": [
-        "夸克"
-      ],
-      "category": "K12教育"
-    }
-  ],
+  "top15_today": [],
   "marketing_suggestions": [
     {
       "category": "成人教育",
@@ -304,7 +253,7 @@
       "items": [
         {
           "scene": "升学季流量高峰",
-          "hot_words": "成绩 / 暑假 / 家长",
+          "hot_words": "高考志愿填报 / 幼小衔接 / 中考体育",
           "strategy": "搜索抢占「分数线预测」「志愿填报工具」等长尾词，落地页提供免费测评工具提升留资率"
         },
         {
@@ -364,490 +313,178 @@
     "k12": [
       {
         "rank": 1,
-        "title": "上海暴雨部分街道积水",
-        "heat": "1074万🔥",
-        "heat_raw": 10746000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%8A%E6%B5%B7%E6%9A%B4%E9%9B%A8%E9%83%A8%E5%88%86%E8%A1%97%E9%81%93%E7%A7%AF%E6%B0%B4"
+        "title": "世界杯小组赛第一轮最新积分榜",
+        "heat": "733万🔥",
+        "heat_raw": 7333000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B0%8F%E7%BB%84%E8%B5%9B%E7%AC%AC%E4%B8%80%E8%BD%AE%E6%9C%80%E6%96%B0%E7%A7%AF%E5%88%86%E6%A6%9C"
       },
       {
         "rank": 2,
-        "title": "乌奈西蒙获世界杯金手套奖",
-        "heat": "783万🔥",
-        "heat_raw": 7834000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B9%8C%E5%A5%88%E8%A5%BF%E8%92%99%E8%8E%B7%E4%B8%96%E7%95%8C%E6%9D%AF%E9%87%91%E6%89%8B%E5%A5%97%E5%A5%96"
+        "title": "江苏一小学要求家长提供工资流水",
+        "heat": "695万🔥",
+        "heat_raw": 6953000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E6%B1%9F%E8%8B%8F%E4%B8%80%E5%B0%8F%E5%AD%A6%E8%A6%81%E6%B1%82%E5%AE%B6%E9%95%BF%E6%8F%90%E4%BE%9B%E5%B7%A5%E8%B5%84%E6%B5%81%E6%B0%B4"
       },
       {
         "rank": 3,
-        "title": "和美加墨世界杯说再见",
-        "heat": "774万🔥",
-        "heat_raw": 7742000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%92%8C%E7%BE%8E%E5%8A%A0%E5%A2%A8%E4%B8%96%E7%95%8C%E6%9D%AF%E8%AF%B4%E5%86%8D%E8%A7%81"
+        "title": "幼儿园亲子活动变大型找“孩”现场",
+        "heat": "484万🔥",
+        "heat_raw": 4840000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E5%B9%BC%E5%84%BF%E5%9B%AD%E4%BA%B2%E5%AD%90%E6%B4%BB%E5%8A%A8%E5%8F%98%E5%A4%A7%E5%9E%8B%E6%89%BE%E2%80%9C%E5%AD%A9%E2%80%9D%E7%8E%B0%E5%9C%BA"
       },
       {
         "rank": 4,
-        "title": "上海特大暴雨致新华医院一大楼积水",
-        "heat": "647万🔥",
-        "heat_raw": 6474000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8%E8%87%B4%E6%96%B0%E5%8D%8E%E5%8C%BB%E9%99%A2%E4%B8%80%E5%A4%A7%E6%A5%BC%E7%A7%AF%E6%B0%B4"
+        "title": "小学要家长工资流水",
+        "heat": "6万🔥",
+        "heat_raw": 69391,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E5%B0%8F%E5%AD%A6%E8%A6%81%E5%AE%B6%E9%95%BF%E5%B7%A5%E8%B5%84%E6%B5%81%E6%B0%B4"
       },
       {
         "rank": 5,
-        "title": "男孩暑假文了个大花腿 母亲索赔20万",
-        "heat": "638万🔥",
-        "heat_raw": 6383000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%A9%E6%9A%91%E5%81%87%E6%96%87%E4%BA%86%E4%B8%AA%E5%A4%A7%E8%8A%B1%E8%85%BF+%E6%AF%8D%E4%BA%B2%E7%B4%A2%E8%B5%9420%E4%B8%87"
-      },
-      {
-        "rank": 6,
-        "title": "居民收到降水量达41.9米以上预警",
-        "heat": "579万🔥",
-        "heat_raw": 5792000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%B1%85%E6%B0%91%E6%94%B6%E5%88%B0%E9%99%8D%E6%B0%B4%E9%87%8F%E8%BE%BE41.9%E7%B1%B3%E4%BB%A5%E4%B8%8A%E9%A2%84%E8%AD%A6"
-      },
-      {
-        "rank": 7,
-        "title": "重庆山体崩塌现场降暴雨",
-        "heat": "560万🔥",
-        "heat_raw": 5602000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E7%8E%B0%E5%9C%BA%E9%99%8D%E6%9A%B4%E9%9B%A8"
-      },
-      {
-        "rank": 8,
-        "title": "孩子沉迷游戏精神恍惚吞下18粒退烧药",
-        "heat": "436万🔥",
-        "heat_raw": 4367000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E6%B2%89%E8%BF%B7%E6%B8%B8%E6%88%8F%E7%B2%BE%E7%A5%9E%E6%81%8D%E6%83%9A%E5%90%9E%E4%B8%8B18%E7%B2%92%E9%80%80%E7%83%A7%E8%8D%AF"
-      },
-      {
-        "rank": 9,
-        "title": "罗德里夺世界杯金球奖",
-        "heat": "210万🔥",
-        "heat_raw": 2100000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E7%BD%97%E5%BE%B7%E9%87%8C%E5%A4%BA%E4%B8%96%E7%95%8C%E6%9D%AF%E9%87%91%E7%90%83%E5%A5%96"
-      },
-      {
-        "rank": 10,
-        "title": "2030年世界杯3国举办6国办赛",
-        "heat": "204万🔥",
-        "heat_raw": 2042000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=2030%E5%B9%B4%E4%B8%96%E7%95%8C%E6%9D%AF3%E5%9B%BD%E4%B8%BE%E5%8A%9E6%E5%9B%BD%E5%8A%9E%E8%B5%9B"
-      },
-      {
-        "rank": 11,
-        "title": "14岁男孩双腿纹满纹身家长索赔20万",
-        "heat": "189万🔥",
-        "heat_raw": 1892000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=14%E5%B2%81%E7%94%B7%E5%AD%A9%E5%8F%8C%E8%85%BF%E7%BA%B9%E6%BB%A1%E7%BA%B9%E8%BA%AB%E5%AE%B6%E9%95%BF%E7%B4%A2%E8%B5%9420%E4%B8%87"
-      },
-      {
-        "rank": 12,
-        "title": "上海多地突遭极端暴雨 开车如开船",
-        "heat": "159万🔥",
-        "heat_raw": 1592000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%9C%B0%E7%AA%81%E9%81%AD%E6%9E%81%E7%AB%AF%E6%9A%B4%E9%9B%A8+%E5%BC%80%E8%BD%A6%E5%A6%82%E5%BC%80%E8%88%B9"
-      },
-      {
-        "rank": 13,
-        "title": "遗传眼病孩子问为什么要生我",
-        "heat": "120万🔥",
-        "heat_raw": 1200000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E9%81%97%E4%BC%A0%E7%9C%BC%E7%97%85%E5%AD%A9%E5%AD%90%E9%97%AE%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E7%94%9F%E6%88%91"
-      },
-      {
-        "rank": 14,
-        "title": "西班牙冠军",
-        "heat": "51万🔥",
-        "heat_raw": 510000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%86%A0%E5%86%9B"
-      },
-      {
-        "rank": 15,
-        "title": "世界杯48强最终排名",
+        "title": "幼儿园毕业照520元",
         "heat": "6万🔥",
-        "heat_raw": 64122,
+        "heat_raw": 68388,
         "platform": "360",
-        "url": "https://www.so.com/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF48%E5%BC%BA%E6%9C%80%E7%BB%88%E6%8E%92%E5%90%8D"
+        "url": "https://www.so.com/s?q=%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%AF%95%E4%B8%9A%E7%85%A7520%E5%85%83"
       }
     ],
     "adult_edu": [
       {
         "rank": 1,
-        "title": "佩德里发抖音庆祝世界杯夺冠",
-        "heat": "875万🔥",
-        "heat_raw": 8751000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%BD%A9%E5%BE%B7%E9%87%8C%E5%8F%91%E6%8A%96%E9%9F%B3%E5%BA%86%E7%A5%9D%E4%B8%96%E7%95%8C%E6%9D%AF%E5%A4%BA%E5%86%A0"
+        "title": "世界杯小组赛首轮战罢 谁最让人失望",
+        "heat": "617万🔥",
+        "heat_raw": 6179000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B0%8F%E7%BB%84%E8%B5%9B%E9%A6%96%E8%BD%AE%E6%88%98%E7%BD%A2+%E8%B0%81%E6%9C%80%E8%AE%A9%E4%BA%BA%E5%A4%B1%E6%9C%9B"
       },
       {
         "rank": 2,
-        "title": "世界杯决赛中场秀",
-        "heat": "781万🔥",
-        "heat_raw": 7814000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E4%B8%AD%E5%9C%BA%E7%A7%80"
+        "title": "盘点世界杯历史上的10大最佳射手",
+        "heat": "406万🔥",
+        "heat_raw": 4068000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E7%9B%98%E7%82%B9%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%8410%E5%A4%A7%E6%9C%80%E4%BD%B3%E5%B0%84%E6%89%8B"
       },
       {
         "rank": 3,
-        "title": "吴克群陆虎全网摇人吃瓜",
-        "heat": "770万🔥",
-        "heat_raw": 7703000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%90%B4%E5%85%8B%E7%BE%A4%E9%99%86%E8%99%8E%E5%85%A8%E7%BD%91%E6%91%87%E4%BA%BA%E5%90%83%E7%93%9C"
+        "title": "武打演员白鹰去世",
+        "heat": "2万🔥",
+        "heat_raw": 28384,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E6%AD%A6%E6%89%93%E6%BC%94%E5%91%98%E7%99%BD%E9%B9%B0%E5%8E%BB%E4%B8%96"
       },
       {
         "rank": 4,
-        "title": "读懂2026上半年中国经济成绩单",
-        "heat": "761万🔥",
-        "heat_raw": 7617000,
+        "title": "世界杯小组赛第一轮最新积分榜",
+        "heat": "733万🔥",
+        "heat_raw": 7333000,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%AF%BB%E6%87%822026%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%88%90%E7%BB%A9%E5%8D%95"
-      },
-      {
-        "rank": 5,
-        "title": "创业板指、科创50指数探底回升收红",
-        "heat": "723万🔥",
-        "heat_raw": 7233000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%8C%87%E3%80%81%E7%A7%91%E5%88%9B50%E6%8C%87%E6%95%B0%E6%8E%A2%E5%BA%95%E5%9B%9E%E5%8D%87%E6%94%B6%E7%BA%A2"
-      },
-      {
-        "rank": 6,
-        "title": "A股年内二次买点或到来",
-        "heat": "390万🔥",
-        "heat_raw": 3905000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E5%B9%B4%E5%86%85%E4%BA%8C%E6%AC%A1%E4%B9%B0%E7%82%B9%E6%88%96%E5%88%B0%E6%9D%A5"
-      },
-      {
-        "rank": 7,
-        "title": "本届世界杯从夯到拉盘点",
-        "heat": "361万🔥",
-        "heat_raw": 3618000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%9C%AC%E5%B1%8A%E4%B8%96%E7%95%8C%E6%9D%AF%E4%BB%8E%E5%A4%AF%E5%88%B0%E6%8B%89%E7%9B%98%E7%82%B9"
-      },
-      {
-        "rank": 8,
-        "title": "决赛输球后阿根廷首都发生骚乱",
-        "heat": "223万🔥",
-        "heat_raw": 2233000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%86%B3%E8%B5%9B%E8%BE%93%E7%90%83%E5%90%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E9%A6%96%E9%83%BD%E5%8F%91%E7%94%9F%E9%AA%9A%E4%B9%B1"
-      },
-      {
-        "rank": 9,
-        "title": "证监会就近期A股波动发声",
-        "heat": "210万🔥",
-        "heat_raw": 2107000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E8%AF%81%E7%9B%91%E4%BC%9A%E5%B0%B1%E8%BF%91%E6%9C%9FA%E8%82%A1%E6%B3%A2%E5%8A%A8%E5%8F%91%E5%A3%B0"
-      },
-      {
-        "rank": 10,
-        "title": "世界杯收官抽百万黄金",
-        "heat": "203万🔥",
-        "heat_raw": 2030000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E6%94%B6%E5%AE%98%E6%8A%BD%E7%99%BE%E4%B8%87%E9%BB%84%E9%87%91"
-      },
-      {
-        "rank": 11,
-        "title": "世界杯冠军榜 西班牙队再加一星",
-        "heat": "180万🔥",
-        "heat_raw": 1803000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%A0%E5%86%9B%E6%A6%9C+%E8%A5%BF%E7%8F%AD%E7%89%99%E9%98%9F%E5%86%8D%E5%8A%A0%E4%B8%80%E6%98%9F"
-      },
-      {
-        "rank": 12,
-        "title": "A股今天迎来大涨",
-        "heat": "87万🔥",
-        "heat_raw": 870000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E4%BB%8A%E5%A4%A9%E8%BF%8E%E6%9D%A5%E5%A4%A7%E6%B6%A8"
-      },
-      {
-        "rank": 13,
-        "title": "阿根廷决赛被指死守拖点球",
-        "heat": "60万🔥",
-        "heat_raw": 600000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E9%98%BF%E6%A0%B9%E5%BB%B7%E5%86%B3%E8%B5%9B%E8%A2%AB%E6%8C%87%E6%AD%BB%E5%AE%88%E6%8B%96%E7%82%B9%E7%90%83"
-      },
-      {
-        "rank": 14,
-        "title": "A股今天稳了",
-        "heat": "56万🔥",
-        "heat_raw": 560000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E4%BB%8A%E5%A4%A9%E7%A8%B3%E4%BA%86"
-      },
-      {
-        "rank": 15,
-        "title": "读懂上半年中国经济",
-        "heat": "5万🔥",
-        "heat_raw": 58284,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E8%AF%BB%E6%87%82%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E"
+        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B0%8F%E7%BB%84%E8%B5%9B%E7%AC%AC%E4%B8%80%E8%BD%AE%E6%9C%80%E6%96%B0%E7%A7%AF%E5%88%86%E6%A6%9C"
       }
     ],
     "e_edu": [
       {
         "rank": 1,
-        "title": "罗德里获世界杯金球奖",
-        "heat": "814万🔥",
-        "heat_raw": 8142000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%BD%97%E5%BE%B7%E9%87%8C%E8%8E%B7%E4%B8%96%E7%95%8C%E6%9D%AF%E9%87%91%E7%90%83%E5%A5%96"
+        "title": "00后股民全仓AI股2个月赚30万",
+        "heat": "589万🔥",
+        "heat_raw": 5891000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=00%E5%90%8E%E8%82%A1%E6%B0%91%E5%85%A8%E4%BB%93AI%E8%82%A12%E4%B8%AA%E6%9C%88%E8%B5%9A30%E4%B8%87"
       },
       {
         "rank": 2,
-        "title": "林诗栋蒯曼获全锦赛混双冠军",
-        "heat": "778万🔥",
-        "heat_raw": 7789000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%9E%97%E8%AF%97%E6%A0%8B%E8%92%AF%E6%9B%BC%E8%8E%B7%E5%85%A8%E9%94%A6%E8%B5%9B%E6%B7%B7%E5%8F%8C%E5%86%A0%E5%86%9B"
+        "title": "2名中国公民看世界杯遭持枪抢劫",
+        "heat": "360万🔥",
+        "heat_raw": 3604000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=2%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E7%9C%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E9%81%AD%E6%8C%81%E6%9E%AA%E6%8A%A2%E5%8A%AB"
       },
       {
         "rank": 3,
-        "title": "姆巴佩没去领奖原来在游艇上看决赛",
-        "heat": "675万🔥",
-        "heat_raw": 6758000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B2%A1%E5%8E%BB%E9%A2%86%E5%A5%96%E5%8E%9F%E6%9D%A5%E5%9C%A8%E6%B8%B8%E8%89%87%E4%B8%8A%E7%9C%8B%E5%86%B3%E8%B5%9B"
+        "title": "全仓AI股2个月赚30万",
+        "heat": "6万🔥",
+        "heat_raw": 67885,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E5%85%A8%E4%BB%93AI%E8%82%A12%E4%B8%AA%E6%9C%88%E8%B5%9A30%E4%B8%87"
       },
       {
         "rank": 4,
-        "title": "陈楚生3次预测世界杯冠军全中",
-        "heat": "618万🔥",
-        "heat_raw": 6181000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%99%88%E6%A5%9A%E7%94%9F3%E6%AC%A1%E9%A2%84%E6%B5%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%A0%E5%86%9B%E5%85%A8%E4%B8%AD"
+        "title": "微信支付宝AI支付战",
+        "heat": "3万🔥",
+        "heat_raw": 37131,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98%E5%AE%9DAI%E6%94%AF%E4%BB%98%E6%88%98"
       },
       {
         "rank": 5,
-        "title": "警方提醒：警惕对着手机念一串数字",
-        "heat": "513万🔥",
-        "heat_raw": 5136000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%AD%A6%E6%96%B9%E6%8F%90%E9%86%92%EF%BC%9A%E8%AD%A6%E6%83%95%E5%AF%B9%E7%9D%80%E6%89%8B%E6%9C%BA%E5%BF%B5%E4%B8%80%E4%B8%B2%E6%95%B0%E5%AD%97"
-      },
-      {
-        "rank": 6,
-        "title": "汽车上新比手机还快 咋回事",
-        "heat": "368万🔥",
-        "heat_raw": 3687000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%B1%BD%E8%BD%A6%E4%B8%8A%E6%96%B0%E6%AF%94%E6%89%8B%E6%9C%BA%E8%BF%98%E5%BF%AB+%E5%92%8B%E5%9B%9E%E4%BA%8B"
-      },
-      {
-        "rank": 7,
-        "title": "世界杯决赛主裁判罚引争议",
-        "heat": "353万🔥",
-        "heat_raw": 3530000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E4%B8%BB%E8%A3%81%E5%88%A4%E7%BD%9A%E5%BC%95%E4%BA%89%E8%AE%AE"
-      },
-      {
-        "rank": 8,
-        "title": "西班牙时隔16年再夺世界杯冠军",
-        "heat": "214万🔥",
-        "heat_raw": 2145000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E6%97%B6%E9%9A%9416%E5%B9%B4%E5%86%8D%E5%A4%BA%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%A0%E5%86%9B"
-      },
-      {
-        "rank": 9,
-        "title": "美加墨世界杯各队奖金出炉",
-        "heat": "209万🔥",
-        "heat_raw": 2098000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E7%BE%8E%E5%8A%A0%E5%A2%A8%E4%B8%96%E7%95%8C%E6%9D%AF%E5%90%84%E9%98%9F%E5%A5%96%E9%87%91%E5%87%BA%E7%82%89"
-      },
-      {
-        "rank": 10,
-        "title": "中国开辟AI发展新路径",
-        "heat": "206万🔥",
-        "heat_raw": 2060000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%BC%80%E8%BE%9FAI%E5%8F%91%E5%B1%95%E6%96%B0%E8%B7%AF%E5%BE%84"
-      },
-      {
-        "rank": 11,
-        "title": "Kimi K3让全球AI圈炸锅了",
-        "heat": "173万🔥",
-        "heat_raw": 1738000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=Kimi+K3%E8%AE%A9%E5%85%A8%E7%90%83AI%E5%9C%88%E7%82%B8%E9%94%85%E4%BA%86"
-      },
-      {
-        "rank": 12,
-        "title": "OpenAI称Kimi开源是减速主义",
-        "heat": "61万🔥",
-        "heat_raw": 610000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=OpenAI%E7%A7%B0Kimi%E5%BC%80%E6%BA%90%E6%98%AF%E5%87%8F%E9%80%9F%E4%B8%BB%E4%B9%89"
-      },
-      {
-        "rank": 13,
-        "title": "林俊杰七七挽手看世界杯决赛",
-        "heat": "59万🔥",
-        "heat_raw": 590000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E6%9E%97%E4%BF%8A%E6%9D%B0%E4%B8%83%E4%B8%83%E6%8C%BD%E6%89%8B%E7%9C%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B"
-      },
-      {
-        "rank": 14,
-        "title": "2026世界杯决赛来了",
-        "heat": "6万🔥",
-        "heat_raw": 68846,
+        "title": "丈母娘为彩礼打折",
+        "heat": "3万🔥",
+        "heat_raw": 30902,
         "platform": "360",
-        "url": "https://www.so.com/s?q=2026%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E6%9D%A5%E4%BA%86"
-      },
-      {
-        "rank": 15,
-        "title": "下届世界杯3国举办",
-        "heat": "5万🔥",
-        "heat_raw": 52186,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E4%B8%8B%E5%B1%8A%E4%B8%96%E7%95%8C%E6%9D%AF3%E5%9B%BD%E4%B8%BE%E5%8A%9E"
+        "url": "https://www.so.com/s?q=%E4%B8%88%E6%AF%8D%E5%A8%98%E4%B8%BA%E5%BD%A9%E7%A4%BC%E6%89%93%E6%8A%98"
       }
     ],
     "books": [
       {
         "rank": 1,
-        "title": "姆巴佩蝉联世界杯金靴奖",
-        "heat": "808万🔥",
-        "heat_raw": 8085000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%A7%86%E5%B7%B4%E4%BD%A9%E8%9D%89%E8%81%94%E4%B8%96%E7%95%8C%E6%9D%AF%E9%87%91%E9%9D%B4%E5%A5%96"
+        "title": "《歌手2026》第五期歌单公布",
+        "heat": "598万🔥",
+        "heat_raw": 5988000,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E3%80%8A%E6%AD%8C%E6%89%8B2026%E3%80%8B%E7%AC%AC%E4%BA%94%E6%9C%9F%E6%AD%8C%E5%8D%95%E5%85%AC%E5%B8%83"
       },
       {
         "rank": 2,
-        "title": "马龙许昕男双冠军",
-        "heat": "778万🔥",
-        "heat_raw": 7785000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%A9%AC%E9%BE%99%E8%AE%B8%E6%98%95%E7%94%B7%E5%8F%8C%E5%86%A0%E5%86%9B"
+        "title": "看世界杯遭持枪抢劫",
+        "heat": "4万🔥",
+        "heat_raw": 48768,
+        "platform": "360",
+        "url": "https://www.so.com/s?q=%E7%9C%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E9%81%AD%E6%8C%81%E6%9E%AA%E6%8A%A2%E5%8A%AB"
       },
       {
         "rank": 3,
-        "title": "电影八仙孙悟空出场救赎感拉满",
-        "heat": "774万🔥",
-        "heat_raw": 7749000,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%94%B5%E5%BD%B1%E5%85%AB%E4%BB%99%E5%AD%99%E6%82%9F%E7%A9%BA%E5%87%BA%E5%9C%BA%E6%95%91%E8%B5%8E%E6%84%9F%E6%8B%89%E6%BB%A1"
-      },
-      {
-        "rank": 4,
-        "title": "阿根廷队无法接受输掉决赛的事实",
-        "heat": "504万🔥",
-        "heat_raw": 5040000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E9%98%BF%E6%A0%B9%E5%BB%B7%E9%98%9F%E6%97%A0%E6%B3%95%E6%8E%A5%E5%8F%97%E8%BE%93%E6%8E%89%E5%86%B3%E8%B5%9B%E7%9A%84%E4%BA%8B%E5%AE%9E"
-      },
-      {
-        "rank": 5,
-        "title": "阿根廷世界杯致敬活动变骚乱",
-        "heat": "456万🔥",
-        "heat_raw": 4560000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%B8%96%E7%95%8C%E6%9D%AF%E8%87%B4%E6%95%AC%E6%B4%BB%E5%8A%A8%E5%8F%98%E9%AA%9A%E4%B9%B1"
-      },
-      {
-        "rank": 6,
-        "title": "广东1岁多男童在网红村被溪水冲走",
-        "heat": "398万🔥",
-        "heat_raw": 3987000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C1%E5%B2%81%E5%A4%9A%E7%94%B7%E7%AB%A5%E5%9C%A8%E7%BD%91%E7%BA%A2%E6%9D%91%E8%A2%AB%E6%BA%AA%E6%B0%B4%E5%86%B2%E8%B5%B0"
-      },
-      {
-        "rank": 7,
-        "title": "哈兰德世界杯涨粉3100万",
-        "heat": "331万🔥",
-        "heat_raw": 3313000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%93%88%E5%85%B0%E5%BE%B7%E4%B8%96%E7%95%8C%E6%9D%AF%E6%B6%A8%E7%B2%893100%E4%B8%87"
-      },
-      {
-        "rank": 8,
-        "title": "世界杯决赛看台明星扎堆",
-        "heat": "272万🔥",
-        "heat_raw": 2720000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E7%9C%8B%E5%8F%B0%E6%98%8E%E6%98%9F%E6%89%8E%E5%A0%86"
-      },
-      {
-        "rank": 9,
-        "title": "曝蔡依林演唱会报酬税后仅90万",
-        "heat": "236万🔥",
-        "heat_raw": 2361000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E6%9B%9D%E8%94%A1%E4%BE%9D%E6%9E%97%E6%BC%94%E5%94%B1%E4%BC%9A%E6%8A%A5%E9%85%AC%E7%A8%8E%E5%90%8E%E4%BB%8590%E4%B8%87"
-      },
-      {
-        "rank": 10,
-        "title": "导演回应《八仙》角色“撞脸”明星",
-        "heat": "230万🔥",
-        "heat_raw": 2307000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%AF%BC%E6%BC%94%E5%9B%9E%E5%BA%94%E3%80%8A%E5%85%AB%E4%BB%99%E3%80%8B%E8%A7%92%E8%89%B2%E2%80%9C%E6%92%9E%E8%84%B8%E2%80%9D%E6%98%8E%E6%98%9F"
-      },
-      {
-        "rank": 11,
-        "title": "西班牙队获5000万美元冠军奖金",
-        "heat": "170万🔥",
-        "heat_raw": 1708000,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E9%98%9F%E8%8E%B75000%E4%B8%87%E7%BE%8E%E5%85%83%E5%86%A0%E5%86%9B%E5%A5%96%E9%87%91"
-      },
-      {
-        "rank": 12,
-        "title": "庄法在乘风2026还是收敛了",
-        "heat": "60万🔥",
-        "heat_raw": 600000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%BA%84%E6%B3%95%E5%9C%A8%E4%B9%98%E9%A3%8E2026%E8%BF%98%E6%98%AF%E6%94%B6%E6%95%9B%E4%BA%86"
-      },
-      {
-        "rank": 13,
-        "title": "女明星的簪花造型",
-        "heat": "55万🔥",
-        "heat_raw": 550000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E6%98%8E%E6%98%9F%E7%9A%84%E7%B0%AA%E8%8A%B1%E9%80%A0%E5%9E%8B"
-      },
-      {
-        "rank": 14,
-        "title": "世界杯决赛现场的明星",
-        "heat": "55万🔥",
-        "heat_raw": 550000,
-        "platform": "微博",
-        "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E7%8E%B0%E5%9C%BA%E7%9A%84%E6%98%8E%E6%98%9F"
-      },
-      {
-        "rank": 15,
-        "title": "西班牙夺世界杯冠军",
-        "heat": "5万🔥",
-        "heat_raw": 50545,
+        "title": "小学要家长工资流水",
+        "heat": "6万🔥",
+        "heat_raw": 69391,
         "platform": "360",
-        "url": "https://www.so.com/s?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%A4%BA%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%A0%E5%86%9B"
+        "url": "https://www.so.com/s?q=%E5%B0%8F%E5%AD%A6%E8%A6%81%E5%AE%B6%E9%95%BF%E5%B7%A5%E8%B5%84%E6%B5%81%E6%B0%B4"
       }
     ]
-  }
+  },
+  "douyin_hotspot": [
+    {
+      "name": "暑假卷王装备已就位",
+      "date": "2026-07-03",
+      "status": "上线中",
+      "industry": "图书教育"
+    },
+    {
+      "name": "电影三国争洛阳值得一次热血奔赴",
+      "date": "2026-07-13",
+      "status": "上线中",
+      "industry": "图书教育"
+    },
+    {
+      "name": "一起逛上海CBME母婴展",
+      "date": "2026-07-16",
+      "status": "报名中",
+      "industry": "图书教育"
+    },
+    {
+      "name": "外卖诗人王计兵获鲁迅文学奖",
+      "date": "2026-07-16",
+      "status": "报名中",
+      "industry": "图书教育"
+    },
+    {
+      "name": "我在书博会晒夏日书单",
+      "date": "2026-07-24",
+      "status": "报名中",
+      "industry": "图书教育"
+    }
+  ]
 }
