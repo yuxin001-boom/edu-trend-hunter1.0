@@ -1,232 +1,436 @@
 {
-  "update_time": "2026-06-18 13:48",
-  "issue_no": 7,
+  "update_time": "2026-07-21 16:44",
+  "issue_no": 40,
   "hot_search": {
-    "weibo": [],
-    "baidu": [],
-    "quark": [],
-    "douyin": [],
-    "so360": []
+    "weibo": [
+      {
+        "title": "原创论文被判高AI率被迫修改",
+        "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E5%88%9B%E8%AE%BA%E6%96%87%E8%A2%AB%E5%88%A4%E9%AB%98AI%E7%8E%87%E8%A2%AB%E8%BF%AB%E4%BF%AE%E6%94%B9%23",
+        "heat": 281271,
+        "rank": 1
+      }
+    ],
+    "baidu": [
+      {
+        "title": "卖菜卖保险的都来干“志愿填报师”了",
+        "url": "https://www.baidu.com/s?wd=%E5%8D%96%E8%8F%9C%E5%8D%96%E4%BF%9D%E9%99%A9%E7%9A%84%E9%83%BD%E6%9D%A5%E5%B9%B2%E2%80%9C%E5%BF%97%E6%84%BF%E5%A1%AB%E6%8A%A5%E5%B8%88%E2%80%9D%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+        "heat": 3974059,
+        "rank": 1
+      },
+      {
+        "title": "23岁女大学生网恋奔现背上3万贷款",
+        "url": "https://www.baidu.com/s?wd=23%E5%B2%81%E5%A5%B3%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BD%91%E6%81%8B%E5%A5%94%E7%8E%B0%E8%83%8C%E4%B8%8A3%E4%B8%87%E8%B4%B7%E6%AC%BE&sa=fyb_news&rsv_dl=fyb_news",
+        "heat": 3495679,
+        "rank": 2
+      }
+    ],
+    "douyin": [
+      {
+        "title": "我收到高考录取通知书了",
+        "url": "https://www.douyin.com/search/%E6%88%91%E6%94%B6%E5%88%B0%E9%AB%98%E8%80%83%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E4%BA%86",
+        "heat": 10975632,
+        "rank": 1
+      },
+      {
+        "title": "你暑假在干嘛",
+        "url": "https://www.douyin.com/search/%E4%BD%A0%E6%9A%91%E5%81%87%E5%9C%A8%E5%B9%B2%E5%98%9B",
+        "heat": 7694229,
+        "rank": 2
+      }
+    ],
+    "quark": [
+      {
+        "title": "高考试题外泄印度爆发大规模抗议",
+        "url": "https://quark.sm.cn/s?q=%E9%AB%98%E8%80%83%E8%AF%95%E9%A2%98%E5%A4%96%E6%B3%84%E5%8D%B0%E5%BA%A6%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE",
+        "heat": "9435534",
+        "rank": 1
+      },
+      {
+        "title": "卖菜卖保险的都来干“志愿填报师”了",
+        "url": "https://quark.sm.cn/s?q=%E5%8D%96%E8%8F%9C%E5%8D%96%E4%BF%9D%E9%99%A9%E7%9A%84%E9%83%BD%E6%9D%A5%E5%B9%B2%E2%80%9C%E5%BF%97%E6%84%BF%E5%A1%AB%E6%8A%A5%E5%B8%88%E2%80%9D%E4%BA%86",
+        "heat": 3974059,
+        "rank": 2
+      },
+      {
+        "title": "23岁女大学生网恋奔现背上3万贷款",
+        "url": "https://quark.sm.cn/s?q=23%E5%B2%81%E5%A5%B3%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BD%91%E6%81%8B%E5%A5%94%E7%8E%B0%E8%83%8C%E4%B8%8A3%E4%B8%87%E8%B4%B7%E6%AC%BE",
+        "heat": 3495679,
+        "rank": 3
+      },
+      {
+        "title": "陕师大毛笔手写录取通知书已延续20年",
+        "url": "https://quark.sm.cn/s?q=%E9%99%95%E5%B8%88%E5%A4%A7%E6%AF%9B%E7%AC%94%E6%89%8B%E5%86%99%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E5%B7%B2%E5%BB%B6%E7%BB%AD20%E5%B9%B4",
+        "heat": "1559683",
+        "rank": 4
+      },
+      {
+        "title": "原创论文被判高AI率被迫修改",
+        "url": "https://quark.sm.cn/s?q=%E5%8E%9F%E5%88%9B%E8%AE%BA%E6%96%87%E8%A2%AB%E5%88%A4%E9%AB%98AI%E7%8E%87%E8%A2%AB%E8%BF%AB%E4%BF%AE%E6%94%B9",
+        "heat": 281271,
+        "rank": 5
+      }
+    ],
+    "so360": [
+      {
+        "title": "高考试题外泄印度爆发大规模抗议",
+        "url": "https://www.so.com/s?q=%E9%AB%98%E8%80%83%E8%AF%95%E9%A2%98%E5%A4%96%E6%B3%84%E5%8D%B0%E5%BA%A6%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE",
+        "heat": "9435534",
+        "rank": 1
+      },
+      {
+        "title": "卖菜卖保险的都来干“志愿填报师”了",
+        "url": "https://www.so.com/s?q=%E5%8D%96%E8%8F%9C%E5%8D%96%E4%BF%9D%E9%99%A9%E7%9A%84%E9%83%BD%E6%9D%A5%E5%B9%B2%E2%80%9C%E5%BF%97%E6%84%BF%E5%A1%AB%E6%8A%A5%E5%B8%88%E2%80%9D%E4%BA%86",
+        "heat": 3974059,
+        "rank": 2
+      },
+      {
+        "title": "23岁女大学生网恋奔现背上3万贷款",
+        "url": "https://www.so.com/s?q=23%E5%B2%81%E5%A5%B3%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BD%91%E6%81%8B%E5%A5%94%E7%8E%B0%E8%83%8C%E4%B8%8A3%E4%B8%87%E8%B4%B7%E6%AC%BE",
+        "heat": 3495679,
+        "rank": 3
+      },
+      {
+        "title": "陕师大毛笔手写录取通知书已延续20年",
+        "url": "https://www.so.com/s?q=%E9%99%95%E5%B8%88%E5%A4%A7%E6%AF%9B%E7%AC%94%E6%89%8B%E5%86%99%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E5%B7%B2%E5%BB%B6%E7%BB%AD20%E5%B9%B4",
+        "heat": "1559683",
+        "rank": 4
+      },
+      {
+        "title": "原创论文被判高AI率被迫修改",
+        "url": "https://www.so.com/s?q=%E5%8E%9F%E5%88%9B%E8%AE%BA%E6%96%87%E8%A2%AB%E5%88%A4%E9%AB%98AI%E7%8E%87%E8%A2%AB%E8%BF%AB%E4%BF%AE%E6%94%B9",
+        "heat": 281271,
+        "rank": 5
+      }
+    ]
   },
   "hot_products": {
     "taobao_tmall": [
       {
         "rank": 1,
         "title": "学而思AI学习机",
-        "sales": "长期热销",
+        "sales": "月销5000+",
         "price": "¥2,999起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://s.taobao.com/search?q=学而思AI学习机"
       },
       {
         "rank": 2,
         "title": "科大讯飞AI翻译笔",
-        "sales": "长期热销",
+        "sales": "月销8000+",
         "price": "¥699起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://s.taobao.com/search?q=科大讯飞翻译笔"
       },
       {
         "rank": 3,
         "title": "考研英语全程班网课",
-        "sales": "长期热销",
+        "sales": "月销1.2万+",
         "price": "¥1,980起",
-        "category": "成人教育"
+        "category": "成人教育",
+        "url": "https://s.taobao.com/search?q=考研英语全程班"
       },
       {
         "rank": 4,
         "title": "人教版中小学教材全套",
-        "sales": "长期热销",
+        "sales": "月销3万+",
         "price": "¥128起",
-        "category": "图书"
+        "category": "图书",
+        "url": "https://s.taobao.com/search?q=人教版教材全套"
       },
       {
         "rank": 5,
         "title": "公务员考试教材套装",
-        "sales": "长期热销",
+        "sales": "月销2万+",
         "price": "¥79起",
-        "category": "图书"
+        "category": "图书",
+        "url": "https://s.taobao.com/search?q=公务员考试教材"
       },
       {
         "rank": 6,
         "title": "斑马AI课儿童启蒙年卡",
-        "sales": "长期热销",
+        "sales": "月销6000+",
         "price": "¥2,800起",
-        "category": "K12教育"
+        "category": "K12教育",
+        "url": "https://s.taobao.com/search?q=斑马AI课"
       },
       {
         "rank": 7,
         "title": "小猿智能练习本",
-        "sales": "长期热销",
+        "sales": "月销4000+",
         "price": "¥1,099起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://s.taobao.com/search?q=小猿智能练习本"
       },
       {
         "rank": 8,
         "title": "考研政治核心教材",
-        "sales": "长期热销",
+        "sales": "月销1.5万+",
         "price": "¥99起",
-        "category": "图书"
+        "category": "图书",
+        "url": "https://s.taobao.com/search?q=考研政治教材"
       },
       {
         "rank": 9,
         "title": "儿童早教点读笔套装",
-        "sales": "长期热销",
+        "sales": "月销9000+",
         "price": "¥298起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://s.taobao.com/search?q=儿童点读笔"
       },
       {
         "rank": 10,
         "title": "MBA联考教材全套",
-        "sales": "长期热销",
+        "sales": "月销3000+",
         "price": "¥168起",
-        "category": "成人教育"
+        "category": "成人教育",
+        "url": "https://s.taobao.com/search?q=MBA联考教材"
       }
     ],
     "jd": [
       {
         "rank": 1,
         "title": "有道词典笔旗舰款",
-        "sales": "长期热销",
+        "sales": "好评50万+",
         "price": "¥899起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://search.jd.com/Search?keyword=有道词典笔"
       },
       {
         "rank": 2,
         "title": "希沃学习机",
-        "sales": "长期热销",
+        "sales": "好评10万+",
         "price": "¥3,999起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://search.jd.com/Search?keyword=希沃学习机"
       },
       {
         "rank": 3,
         "title": "高途考研全程班",
-        "sales": "长期热销",
+        "sales": "好评8万+",
         "price": "¥3,980起",
-        "category": "成人教育"
+        "category": "成人教育",
+        "url": "https://search.jd.com/Search?keyword=高途考研"
       },
       {
         "rank": 4,
         "title": "小度学习平板",
-        "sales": "长期热销",
+        "sales": "好评20万+",
         "price": "¥2,299起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://search.jd.com/Search?keyword=小度学习平板"
       },
       {
         "rank": 5,
         "title": "一级建造师考试教材",
-        "sales": "长期热销",
+        "sales": "好评5万+",
         "price": "¥128起",
-        "category": "成人教育"
+        "category": "成人教育",
+        "url": "https://search.jd.com/Search?keyword=一级建造师教材"
       },
       {
         "rank": 6,
         "title": "DK儿童百科全书",
-        "sales": "长期热销",
+        "sales": "好评30万+",
         "price": "¥198起",
-        "category": "图书"
+        "category": "图书",
+        "url": "https://search.jd.com/Search?keyword=DK儿童百科全书"
       },
       {
         "rank": 7,
         "title": "阿尔法蛋AI词典笔",
-        "sales": "长期热销",
+        "sales": "好评15万+",
         "price": "¥699起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://search.jd.com/Search?keyword=阿尔法蛋词典笔"
       },
       {
         "rank": 8,
         "title": "五年高考三年模拟",
-        "sales": "长期热销",
+        "sales": "好评100万+",
         "price": "¥128起",
-        "category": "图书"
+        "category": "图书",
+        "url": "https://search.jd.com/Search?keyword=五年高考三年模拟"
       },
       {
         "rank": 9,
         "title": "作业帮AI学习机",
-        "sales": "长期热销",
+        "sales": "好评8万+",
         "price": "¥2,399起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://search.jd.com/Search?keyword=作业帮学习机"
       },
       {
         "rank": 10,
         "title": "注册会计师CPA教材",
-        "sales": "长期热销",
+        "sales": "好评6万+",
         "price": "¥198起",
-        "category": "成人教育"
+        "category": "成人教育",
+        "url": "https://search.jd.com/Search?keyword=注册会计师CPA教材"
       }
     ],
     "kuaishou": [
       {
         "rank": 1,
         "title": "读书郎学习平板",
-        "sales": "长期热销",
+        "sales": "已售1万+",
         "price": "¥1,699起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://www.kuaishou.com/search/video?searchKey=读书郎学习平板"
       },
       {
         "rank": 2,
         "title": "粉笔公考系统班",
-        "sales": "长期热销",
+        "sales": "已售5万+",
         "price": "¥980起",
-        "category": "成人教育"
+        "category": "成人教育",
+        "url": "https://www.kuaishou.com/search/video?searchKey=粉笔公考"
       },
       {
         "rank": 3,
         "title": "小天才电话手表",
-        "sales": "长期热销",
+        "sales": "已售3万+",
         "price": "¥1,598起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://www.kuaishou.com/search/video?searchKey=小天才电话手表"
       },
       {
         "rank": 4,
         "title": "中小学同步课程VIP",
-        "sales": "长期热销",
+        "sales": "已售2万+",
         "price": "¥980起",
-        "category": "K12教育"
+        "category": "K12教育",
+        "url": "https://www.kuaishou.com/search/video?searchKey=中小学同步课程"
       },
       {
         "rank": 5,
         "title": "四大名著学生版全套",
-        "sales": "长期热销",
+        "sales": "已售8万+",
         "price": "¥49起",
-        "category": "图书"
+        "category": "图书",
+        "url": "https://www.kuaishou.com/search/video?searchKey=四大名著学生版"
       },
       {
         "rank": 6,
         "title": "有道AI学习机",
-        "sales": "长期热销",
+        "sales": "已售1.5万+",
         "price": "¥2,999起",
-        "category": "电子教育"
+        "category": "电子教育",
+        "url": "https://www.kuaishou.com/search/video?searchKey=有道AI学习机"
       },
       {
         "rank": 7,
         "title": "新概念英语全套",
-        "sales": "长期热销",
+        "sales": "已售6万+",
         "price": "¥78起",
-        "category": "图书"
+        "category": "图书",
+        "url": "https://www.kuaishou.com/search/video?searchKey=新概念英语"
       },
       {
         "rank": 8,
         "title": "学历提升自考课程",
-        "sales": "长期热销",
+        "sales": "已售4万+",
         "price": "¥3,980起",
-        "category": "成人教育"
+        "category": "成人教育",
+        "url": "https://www.kuaishou.com/search/video?searchKey=学历提升自考"
       },
       {
         "rank": 9,
         "title": "洪恩识字APP年卡",
-        "sales": "长期热销",
+        "sales": "已售2万+",
         "price": "¥298起",
-        "category": "K12教育"
+        "category": "K12教育",
+        "url": "https://www.kuaishou.com/search/video?searchKey=洪恩识字"
       },
       {
         "rank": 10,
         "title": "消防工程师考试教材",
-        "sales": "长期热销",
+        "sales": "已售1万+",
         "price": "¥138起",
-        "category": "成人教育"
+        "category": "成人教育",
+        "url": "https://www.kuaishou.com/search/video?searchKey=消防工程师教材"
       }
     ]
   },
-  "top15_today": [],
+  "top15_today": [
+    {
+      "rank": 1,
+      "title": "我收到高考录取通知书了",
+      "heat": 10975632,
+      "url": "https://www.douyin.com/search/%E6%88%91%E6%94%B6%E5%88%B0%E9%AB%98%E8%80%83%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E4%BA%86",
+      "platforms": [
+        "抖音"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 2,
+      "title": "高考试题外泄印度爆发大规模抗议",
+      "heat": "9435534",
+      "url": "https://quark.sm.cn/s?q=%E9%AB%98%E8%80%83%E8%AF%95%E9%A2%98%E5%A4%96%E6%B3%84%E5%8D%B0%E5%BA%A6%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE",
+      "platforms": [
+        "夸克",
+        "360"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 3,
+      "title": "你暑假在干嘛",
+      "heat": 7694229,
+      "url": "https://www.douyin.com/search/%E4%BD%A0%E6%9A%91%E5%81%87%E5%9C%A8%E5%B9%B2%E5%98%9B",
+      "platforms": [
+        "抖音"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 4,
+      "title": "卖菜卖保险的都来干“志愿填报师”了",
+      "heat": 3974059,
+      "url": "https://www.baidu.com/s?wd=%E5%8D%96%E8%8F%9C%E5%8D%96%E4%BF%9D%E9%99%A9%E7%9A%84%E9%83%BD%E6%9D%A5%E5%B9%B2%E2%80%9C%E5%BF%97%E6%84%BF%E5%A1%AB%E6%8A%A5%E5%B8%88%E2%80%9D%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+      "platforms": [
+        "百度",
+        "夸克",
+        "360"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 5,
+      "title": "23岁女大学生网恋奔现背上3万贷款",
+      "heat": 3495679,
+      "url": "https://www.baidu.com/s?wd=23%E5%B2%81%E5%A5%B3%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BD%91%E6%81%8B%E5%A5%94%E7%8E%B0%E8%83%8C%E4%B8%8A3%E4%B8%87%E8%B4%B7%E6%AC%BE&sa=fyb_news&rsv_dl=fyb_news",
+      "platforms": [
+        "百度",
+        "夸克",
+        "360"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 6,
+      "title": "陕师大毛笔手写录取通知书已延续20年",
+      "heat": "1559683",
+      "url": "https://quark.sm.cn/s?q=%E9%99%95%E5%B8%88%E5%A4%A7%E6%AF%9B%E7%AC%94%E6%89%8B%E5%86%99%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E5%B7%B2%E5%BB%B6%E7%BB%AD20%E5%B9%B4",
+      "platforms": [
+        "夸克",
+        "360"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 7,
+      "title": "原创论文被判高AI率被迫修改",
+      "heat": 281271,
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E5%88%9B%E8%AE%BA%E6%96%87%E8%A2%AB%E5%88%A4%E9%AB%98AI%E7%8E%87%E8%A2%AB%E8%BF%AB%E4%BF%AE%E6%94%B9%23",
+      "platforms": [
+        "微博",
+        "夸克",
+        "360"
+      ],
+      "category": "K12教育"
+    }
+  ],
   "marketing_suggestions": [
     {
       "category": "成人教育",
@@ -234,17 +438,17 @@
         {
           "scene": "考证备考季",
           "hot_words": "考研 / 公务员 / MBA",
-          "strategy": "投放搜索广告锁定「报名入口」「分数线」等刚需词，搭配落地页免费试听引流，利用考试时间节点制造紧迫感"
+          "strategy": "投放搜索广告锁定「报名入口」「分数线」等刚需词，搭配落地页免费试听引流"
         },
         {
           "scene": "职业技能提升",
           "hot_words": "AI编程培训 / 学历提升 / 职业认证",
-          "strategy": "信息流素材突出「高薪就业」「取证周期短」等痛点，定向25-40岁职场人群，配合限时优惠促转化"
+          "strategy": "信息流素材突出「高薪就业」「取证周期短」等痛点，定向25-40岁职场人群"
         },
         {
           "scene": "学历焦虑营销",
           "hot_words": "自考本科 / 在职研究生 / 专升本",
-          "strategy": "短视频投放真人出镜分享上岸经历，评论区引导私信咨询转化，抖音/快手双平台覆盖"
+          "strategy": "短视频投放真人出镜分享上岸经历，评论区引导私信咨询转化"
         }
       ]
     },
@@ -254,17 +458,17 @@
         {
           "scene": "升学季流量高峰",
           "hot_words": "高考志愿填报 / 幼小衔接 / 中考体育",
-          "strategy": "搜索抢占「分数线预测」「志愿填报工具」等长尾词，落地页提供免费测评工具提升留资率"
+          "strategy": "搜索抢占「分数线预测」「志愿填报工具」等长尾词，落地页提供免费测评工具"
         },
         {
           "scene": "暑期培训招生",
           "hot_words": "暑期兴趣班 / 研学旅行 / 少儿编程",
-          "strategy": "朋友圈广告定向30-45岁家长群体，素材强调「名额有限」「早鸟优惠」制造紧迫感"
+          "strategy": "朋友圈广告定向30-45岁家长群体，素材强调「名额有限」「早鸟优惠」"
         },
         {
           "scene": "学习方法种草",
           "hot_words": "学霸笔记 / 高效学习法 / 时间管理",
-          "strategy": "抖音达人合作短视频种草，挂载课程商品链接实现短链路转化，配合开学季节点"
+          "strategy": "抖音达人合作短视频种草，挂载课程商品链接实现短链路转化"
         }
       ]
     },
@@ -274,7 +478,7 @@
         {
           "scene": "教辅刚需旺季",
           "hot_words": "教材全套 / 考研政治 / 人教版课本",
-          "strategy": "电商平台搜索广告竞价「教材全套」「正版书籍」，商品详情页强调发货速度与正品保障"
+          "strategy": "电商平台搜索广告竞价「教材全套」「正版书籍」，强调发货速度与正品保障"
         },
         {
           "scene": "亲子阅读推广",
@@ -284,7 +488,7 @@
         {
           "scene": "知识付费跨界",
           "hot_words": "AI写作 / 读书会 / 知识星球",
-          "strategy": "信息流定向考研/自考人群，内容突出「碎片化学习」「名师带读」，引导下单"
+          "strategy": "信息流定向考研/自考人群，内容突出「碎片化学习」「名师带读」"
         }
       ]
     },
@@ -299,12 +503,12 @@
         {
           "scene": "暑期礼物场景",
           "hot_words": "学习平板 / 点读笔 / 电话手表",
-          "strategy": "搜索广告锁定「送孩子礼物」「学习机推荐」等场景词，投放618/暑期节点"
+          "strategy": "搜索广告锁定「送孩子礼物」「学习机推荐」等场景词"
         },
         {
           "scene": "教育科技新品",
           "hot_words": "AI教育新政 / AI批改 / 智能题库",
-          "strategy": "信息流投放科技感素材，定向教育KOL粉丝与科技关注人群，突出政策利好"
+          "strategy": "信息流投放科技感素材，定向教育KOL粉丝与科技关注人群"
         }
       ]
     }
@@ -313,178 +517,491 @@
     "k12": [
       {
         "rank": 1,
-        "title": "世界杯小组赛第一轮最新积分榜",
-        "heat": "733万🔥",
-        "heat_raw": 7333000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B0%8F%E7%BB%84%E8%B5%9B%E7%AC%AC%E4%B8%80%E8%BD%AE%E6%9C%80%E6%96%B0%E7%A7%AF%E5%88%86%E6%A6%9C"
+        "title": "中方紧急召见菲驻华大使",
+        "heat": "17148万🔥",
+        "heat_raw": 171482776,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E4%B8%AD%E6%96%B9%E7%B4%A7%E6%80%A5%E5%8F%AC%E8%A7%81%E8%8F%B2%E9%A9%BB%E5%8D%8E%E5%A4%A7%E4%BD%BF"
       },
       {
         "rank": 2,
-        "title": "江苏一小学要求家长提供工资流水",
-        "heat": "695万🔥",
-        "heat_raw": 6953000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%B1%9F%E8%8B%8F%E4%B8%80%E5%B0%8F%E5%AD%A6%E8%A6%81%E6%B1%82%E5%AE%B6%E9%95%BF%E6%8F%90%E4%BE%9B%E5%B7%A5%E8%B5%84%E6%B5%81%E6%B0%B4"
+        "title": "科创50指数大涨10.73%",
+        "heat": "11494万🔥",
+        "heat_raw": 114948342,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E7%A7%91%E5%88%9B50%E6%8C%87%E6%95%B0%E5%A4%A7%E6%B6%A810.73%25"
       },
       {
         "rank": 3,
-        "title": "幼儿园亲子活动变大型找“孩”现场",
-        "heat": "484万🔥",
-        "heat_raw": 4840000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%B9%BC%E5%84%BF%E5%9B%AD%E4%BA%B2%E5%AD%90%E6%B4%BB%E5%8A%A8%E5%8F%98%E5%A4%A7%E5%9E%8B%E6%89%BE%E2%80%9C%E5%AD%A9%E2%80%9D%E7%8E%B0%E5%9C%BA"
+        "title": "怡颗莓回应检出致癌物",
+        "heat": "7705万🔥",
+        "heat_raw": 77052178,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E6%80%A1%E9%A2%97%E8%8E%93%E5%9B%9E%E5%BA%94%E6%A3%80%E5%87%BA%E8%87%B4%E7%99%8C%E7%89%A9"
       },
       {
         "rank": 4,
-        "title": "小学要家长工资流水",
-        "heat": "6万🔥",
-        "heat_raw": 69391,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E5%B0%8F%E5%AD%A6%E8%A6%81%E5%AE%B6%E9%95%BF%E5%B7%A5%E8%B5%84%E6%B5%81%E6%B0%B4"
+        "title": "菲2艘海警船正接近仁爱礁",
+        "heat": "5164万🔥",
+        "heat_raw": 51649619,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E8%8F%B22%E8%89%98%E6%B5%B7%E8%AD%A6%E8%88%B9%E6%AD%A3%E6%8E%A5%E8%BF%91%E4%BB%81%E7%88%B1%E7%A4%81"
       },
       {
         "rank": 5,
-        "title": "幼儿园毕业照520元",
-        "heat": "6万🔥",
-        "heat_raw": 68388,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%AF%95%E4%B8%9A%E7%85%A7520%E5%85%83"
+        "title": "谢贤进ICU强撑到谢霆锋回港",
+        "heat": "3462万🔥",
+        "heat_raw": 34621775,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E8%B0%A2%E8%B4%A4%E8%BF%9BICU%E5%BC%BA%E6%92%91%E5%88%B0%E8%B0%A2%E9%9C%86%E9%94%8B%E5%9B%9E%E6%B8%AF"
+      },
+      {
+        "rank": 6,
+        "title": "评论员：稳市场不等于市场立刻反转",
+        "heat": "2320万🔥",
+        "heat_raw": 23207670,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E8%AF%84%E8%AE%BA%E5%91%98%EF%BC%9A%E7%A8%B3%E5%B8%82%E5%9C%BA%E4%B8%8D%E7%AD%89%E4%BA%8E%E5%B8%82%E5%9C%BA%E7%AB%8B%E5%88%BB%E5%8F%8D%E8%BD%AC"
+      },
+      {
+        "rank": 7,
+        "title": "游客拿假蛇防峨眉山猴子效果显著",
+        "heat": "1555万🔥",
+        "heat_raw": 15556566,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E6%B8%B8%E5%AE%A2%E6%8B%BF%E5%81%87%E8%9B%87%E9%98%B2%E5%B3%A8%E7%9C%89%E5%B1%B1%E7%8C%B4%E5%AD%90%E6%95%88%E6%9E%9C%E6%98%BE%E8%91%97"
+      },
+      {
+        "rank": 8,
+        "title": "起底贵州一公司“卖酒女”黑产",
+        "heat": "1152万🔥",
+        "heat_raw": 11524587,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E8%B5%B7%E5%BA%95%E8%B4%B5%E5%B7%9E%E4%B8%80%E5%85%AC%E5%8F%B8%E2%80%9C%E5%8D%96%E9%85%92%E5%A5%B3%E2%80%9D%E9%BB%91%E4%BA%A7"
+      },
+      {
+        "rank": 9,
+        "title": "我收到高考录取通知书了",
+        "heat": "1097万🔥",
+        "heat_raw": 10975632,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%88%91%E6%94%B6%E5%88%B0%E9%AB%98%E8%80%83%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E4%BA%86"
+      },
+      {
+        "rank": 10,
+        "title": "高考试题外泄印度爆发大规模抗议",
+        "heat": "943万🔥",
+        "heat_raw": 9435534,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E9%AB%98%E8%80%83%E8%AF%95%E9%A2%98%E5%A4%96%E6%B3%84%E5%8D%B0%E5%BA%A6%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE"
+      },
+      {
+        "rank": 11,
+        "title": "白色海莉美甲的高级感超标了",
+        "heat": "915万🔥",
+        "heat_raw": 9155970,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E7%99%BD%E8%89%B2%E6%B5%B7%E8%8E%89%E7%BE%8E%E7%94%B2%E7%9A%84%E9%AB%98%E7%BA%A7%E6%84%9F%E8%B6%85%E6%A0%87%E4%BA%86"
+      },
+      {
+        "rank": 12,
+        "title": "雪花多舍不得冬天",
+        "heat": "873万🔥",
+        "heat_raw": 8738356,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%9B%AA%E8%8A%B1%E5%A4%9A%E8%88%8D%E4%B8%8D%E5%BE%97%E5%86%AC%E5%A4%A9"
+      },
+      {
+        "rank": 13,
+        "title": "复联5毁灭之日新预告发布",
+        "heat": "780万🔥",
+        "heat_raw": 7801182,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%A4%8D%E8%81%945%E6%AF%81%E7%81%AD%E4%B9%8B%E6%97%A5%E6%96%B0%E9%A2%84%E5%91%8A%E5%8F%91%E5%B8%83"
+      },
+      {
+        "rank": 14,
+        "title": "叹气要往上叹",
+        "heat": "773万🔥",
+        "heat_raw": 7738912,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%8F%B9%E6%B0%94%E8%A6%81%E5%BE%80%E4%B8%8A%E5%8F%B9"
+      },
+      {
+        "rank": 15,
+        "title": "中国电车杀入燃油车诞生地",
+        "heat": "771万🔥",
+        "heat_raw": 7714205,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%94%B5%E8%BD%A6%E6%9D%80%E5%85%A5%E7%87%83%E6%B2%B9%E8%BD%A6%E8%AF%9E%E7%94%9F%E5%9C%B0&sa=fyb_news&rsv_dl=fyb_news"
       }
     ],
     "adult_edu": [
       {
         "rank": 1,
-        "title": "世界杯小组赛首轮战罢 谁最让人失望",
-        "heat": "617万🔥",
-        "heat_raw": 6179000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B0%8F%E7%BB%84%E8%B5%9B%E9%A6%96%E8%BD%AE%E6%88%98%E7%BD%A2+%E8%B0%81%E6%9C%80%E8%AE%A9%E4%BA%BA%E5%A4%B1%E6%9C%9B"
+        "title": "菲方恶意攻击致中方人员受伤",
+        "heat": "15516万🔥",
+        "heat_raw": 155164032,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E8%8F%B2%E6%96%B9%E6%81%B6%E6%84%8F%E6%94%BB%E5%87%BB%E8%87%B4%E4%B8%AD%E6%96%B9%E4%BA%BA%E5%91%98%E5%8F%97%E4%BC%A4"
       },
       {
         "rank": 2,
-        "title": "盘点世界杯历史上的10大最佳射手",
-        "heat": "406万🔥",
-        "heat_raw": 4068000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%9B%98%E7%82%B9%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%8410%E5%A4%A7%E6%9C%80%E4%BD%B3%E5%B0%84%E6%89%8B"
+        "title": "A股这轮调整结束了吗",
+        "heat": "9411万🔥",
+        "heat_raw": 94111743,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=A%E8%82%A1%E8%BF%99%E8%BD%AE%E8%B0%83%E6%95%B4%E7%BB%93%E6%9D%9F%E4%BA%86%E5%90%97"
       },
       {
         "rank": 3,
-        "title": "武打演员白鹰去世",
-        "heat": "2万🔥",
-        "heat_raw": 28384,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E6%AD%A6%E6%89%93%E6%BC%94%E5%91%98%E7%99%BD%E9%B9%B0%E5%8E%BB%E4%B8%96"
+        "title": "中国海警：允许菲方转运伤员",
+        "heat": "6971万🔥",
+        "heat_raw": 69719694,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E4%B8%AD%E5%9B%BD%E6%B5%B7%E8%AD%A6%EF%BC%9A%E5%85%81%E8%AE%B8%E8%8F%B2%E6%96%B9%E8%BD%AC%E8%BF%90%E4%BC%A4%E5%91%98"
       },
       {
         "rank": 4,
-        "title": "世界杯小组赛第一轮最新积分榜",
-        "heat": "733万🔥",
-        "heat_raw": 7333000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B0%8F%E7%BB%84%E8%B5%9B%E7%AC%AC%E4%B8%80%E8%BD%AE%E6%9C%80%E6%96%B0%E7%A7%AF%E5%88%86%E6%A6%9C"
+        "title": "从杨过到赌神 谢贤的传奇一生",
+        "heat": "4673万🔥",
+        "heat_raw": 46734508,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E4%BB%8E%E6%9D%A8%E8%BF%87%E5%88%B0%E8%B5%8C%E7%A5%9E%20%E8%B0%A2%E8%B4%A4%E7%9A%84%E4%BC%A0%E5%A5%87%E4%B8%80%E7%94%9F"
+      },
+      {
+        "rank": 5,
+        "title": "伊朗海军同时从3个方向猛烈打击美军",
+        "heat": "3132万🔥",
+        "heat_raw": 31327077,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E4%BC%8A%E6%9C%97%E6%B5%B7%E5%86%9B%E5%90%8C%E6%97%B6%E4%BB%8E3%E4%B8%AA%E6%96%B9%E5%90%91%E7%8C%9B%E7%83%88%E6%89%93%E5%87%BB%E7%BE%8E%E5%86%9B"
+      },
+      {
+        "rank": 6,
+        "title": "青少年篮球比赛9岁球员1米85",
+        "heat": "2099万🔥",
+        "heat_raw": 20999168,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E9%9D%92%E5%B0%91%E5%B9%B4%E7%AF%AE%E7%90%83%E6%AF%94%E8%B5%9B9%E5%B2%81%E7%90%83%E5%91%981%E7%B1%B385"
+      },
+      {
+        "rank": 7,
+        "title": "周星驰要来东莞了",
+        "heat": "1407万🔥",
+        "heat_raw": 14076163,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%91%A8%E6%98%9F%E9%A9%B0%E8%A6%81%E6%9D%A5%E4%B8%9C%E8%8E%9E%E4%BA%86"
+      },
+      {
+        "rank": 8,
+        "title": "驻日使馆提醒在日公民交通安全",
+        "heat": "1138万🔥",
+        "heat_raw": 11383203,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%A9%BB%E6%97%A5%E4%BD%BF%E9%A6%86%E6%8F%90%E9%86%92%E5%9C%A8%E6%97%A5%E5%85%AC%E6%B0%91%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8"
+      },
+      {
+        "rank": 9,
+        "title": "我在豆包养宠物",
+        "heat": "1039万🔥",
+        "heat_raw": 10395945,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%88%91%E5%9C%A8%E8%B1%86%E5%8C%85%E5%85%BB%E5%AE%A0%E7%89%A9"
+      },
+      {
+        "rank": 10,
+        "title": "谢贤17岁到85岁荧幕形象赏析",
+        "heat": "922万🔥",
+        "heat_raw": 9225178,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E8%B0%A2%E8%B4%A417%E5%B2%81%E5%88%B085%E5%B2%81%E8%8D%A7%E5%B9%95%E5%BD%A2%E8%B1%A1%E8%B5%8F%E6%9E%90"
+      },
+      {
+        "rank": 11,
+        "title": "一念江南开机",
+        "heat": "914万🔥",
+        "heat_raw": 9146031,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E4%B8%80%E5%BF%B5%E6%B1%9F%E5%8D%97%E5%BC%80%E6%9C%BA"
+      },
+      {
+        "rank": 12,
+        "title": "成吉思鸡小哥致谢中国粉丝",
+        "heat": "826万🔥",
+        "heat_raw": 8268675,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%88%90%E5%90%89%E6%80%9D%E9%B8%A1%E5%B0%8F%E5%93%A5%E8%87%B4%E8%B0%A2%E4%B8%AD%E5%9B%BD%E7%B2%89%E4%B8%9D"
+      },
+      {
+        "rank": 13,
+        "title": "我想做个神仙",
+        "heat": "779万🔥",
+        "heat_raw": 7790722,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%88%91%E6%83%B3%E5%81%9A%E4%B8%AA%E7%A5%9E%E4%BB%99"
+      },
+      {
+        "rank": 14,
+        "title": "送别四哥谢贤",
+        "heat": "773万🔥",
+        "heat_raw": 7738843,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%80%81%E5%88%AB%E5%9B%9B%E5%93%A5%E8%B0%A2%E8%B4%A4"
+      },
+      {
+        "rank": 15,
+        "title": "黄子韬泪洒演唱会",
+        "heat": "771万🔥",
+        "heat_raw": 7713772,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%BB%84%E5%AD%90%E9%9F%AC%E6%B3%AA%E6%B4%92%E6%BC%94%E5%94%B1%E4%BC%9A"
       }
     ],
     "e_edu": [
       {
         "rank": 1,
-        "title": "00后股民全仓AI股2个月赚30万",
-        "heat": "589万🔥",
-        "heat_raw": 5891000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=00%E5%90%8E%E8%82%A1%E6%B0%91%E5%85%A8%E4%BB%93AI%E8%82%A12%E4%B8%AA%E6%9C%88%E8%B5%9A30%E4%B8%87"
+        "title": "工业对经济增长贡献率超35%",
+        "heat": "14039万🔥",
+        "heat_raw": 140398222,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%B7%A5%E4%B8%9A%E5%AF%B9%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF%E8%B4%A1%E7%8C%AE%E7%8E%87%E8%B6%8535%25"
       },
       {
         "rank": 2,
-        "title": "2名中国公民看世界杯遭持枪抢劫",
-        "heat": "360万🔥",
-        "heat_raw": 3604000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=2%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E7%9C%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E9%81%AD%E6%8C%81%E6%9E%AA%E6%8A%A2%E5%8A%AB"
+        "title": "AI的猴子为什么能让菲律宾“破防”",
+        "heat": "10400万🔥",
+        "heat_raw": 104009561,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=AI%E7%9A%84%E7%8C%B4%E5%AD%90%E4%B8%BA%E4%BB%80%E4%B9%88%E8%83%BD%E8%AE%A9%E8%8F%B2%E5%BE%8B%E5%AE%BE%E2%80%9C%E7%A0%B4%E9%98%B2%E2%80%9D"
       },
       {
         "rank": 3,
-        "title": "全仓AI股2个月赚30万",
-        "heat": "6万🔥",
-        "heat_raw": 67885,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E5%85%A8%E4%BB%93AI%E8%82%A12%E4%B8%AA%E6%9C%88%E8%B5%9A30%E4%B8%87"
+        "title": "广西辟谣“女流浪汉怀孕”",
+        "heat": "6308万🔥",
+        "heat_raw": 63084988,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%B9%BF%E8%A5%BF%E8%BE%9F%E8%B0%A3%E2%80%9C%E5%A5%B3%E6%B5%81%E6%B5%AA%E6%B1%89%E6%80%80%E5%AD%95%E2%80%9D"
       },
       {
         "rank": 4,
-        "title": "微信支付宝AI支付战",
-        "heat": "3万🔥",
-        "heat_raw": 37131,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98%E5%AE%9DAI%E6%94%AF%E4%BB%98%E6%88%98"
+        "title": "33岁外卖员脑梗倒地多日才被发现",
+        "heat": "4228万🔥",
+        "heat_raw": 42287132,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=33%E5%B2%81%E5%A4%96%E5%8D%96%E5%91%98%E8%84%91%E6%A2%97%E5%80%92%E5%9C%B0%E5%A4%9A%E6%97%A5%E6%89%8D%E8%A2%AB%E5%8F%91%E7%8E%B0"
       },
       {
         "rank": 5,
-        "title": "丈母娘为彩礼打折",
-        "heat": "3万🔥",
-        "heat_raw": 30902,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E4%B8%88%E6%AF%8D%E5%A8%98%E4%B8%BA%E5%BD%A9%E7%A4%BC%E6%89%93%E6%8A%98"
+        "title": "媒体探访从小树林出圈的“26版西游记”",
+        "heat": "2834万🔥",
+        "heat_raw": 28345912,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%AA%92%E4%BD%93%E6%8E%A2%E8%AE%BF%E4%BB%8E%E5%B0%8F%E6%A0%91%E6%9E%97%E5%87%BA%E5%9C%88%E7%9A%84%E2%80%9C26%E7%89%88%E8%A5%BF%E6%B8%B8%E8%AE%B0%E2%80%9D"
+      },
+      {
+        "rank": 6,
+        "title": "专访河南漂流哥",
+        "heat": "1900万🔥",
+        "heat_raw": 19000833,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E4%B8%93%E8%AE%BF%E6%B2%B3%E5%8D%97%E6%BC%82%E6%B5%81%E5%93%A5"
+      },
+      {
+        "rank": 7,
+        "title": "美加墨世界杯的三个意难平",
+        "heat": "1273万🔥",
+        "heat_raw": 12736639,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E7%BE%8E%E5%8A%A0%E5%A2%A8%E4%B8%96%E7%95%8C%E6%9D%AF%E7%9A%84%E4%B8%89%E4%B8%AA%E6%84%8F%E9%9A%BE%E5%B9%B3"
+      },
+      {
+        "rank": 8,
+        "title": "我国将建超3000个电动重卡充换电站",
+        "heat": "1100万🔥",
+        "heat_raw": 11006516,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%88%91%E5%9B%BD%E5%B0%86%E5%BB%BA%E8%B6%853000%E4%B8%AA%E7%94%B5%E5%8A%A8%E9%87%8D%E5%8D%A1%E5%85%85%E6%8D%A2%E7%94%B5%E7%AB%99"
+      },
+      {
+        "rank": 9,
+        "title": "绑架杀害中国公民嫌犯被遣返",
+        "heat": "1038万🔥",
+        "heat_raw": 10387965,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E7%BB%91%E6%9E%B6%E6%9D%80%E5%AE%B3%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%AB%8C%E7%8A%AF%E8%A2%AB%E9%81%A3%E8%BF%94"
+      },
+      {
+        "rank": 10,
+        "title": "下周或有台风登陆广东",
+        "heat": "918万🔥",
+        "heat_raw": 9188713,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E4%B8%8B%E5%91%A8%E6%88%96%E6%9C%89%E5%8F%B0%E9%A3%8E%E7%99%BB%E9%99%86%E5%B9%BF%E4%B8%9C"
+      },
+      {
+        "rank": 11,
+        "title": "美国对加拿大产品加征50%关税",
+        "heat": "913万🔥",
+        "heat_raw": 9130121,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E7%BE%8E%E5%9B%BD%E5%AF%B9%E5%8A%A0%E6%8B%BF%E5%A4%A7%E4%BA%A7%E5%93%81%E5%8A%A0%E5%BE%8150%25%E5%85%B3%E7%A8%8E"
+      },
+      {
+        "rank": 12,
+        "title": "已严肃升为学姐学长",
+        "heat": "826万🔥",
+        "heat_raw": 8261462,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%B7%B2%E4%B8%A5%E8%82%83%E5%8D%87%E4%B8%BA%E5%AD%A6%E5%A7%90%E5%AD%A6%E9%95%BF"
+      },
+      {
+        "rank": 13,
+        "title": "哇这是你家吗",
+        "heat": "777万🔥",
+        "heat_raw": 7770489,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%93%87%E8%BF%99%E6%98%AF%E4%BD%A0%E5%AE%B6%E5%90%97"
+      },
+      {
+        "rank": 14,
+        "title": "记性不好烦恼就少",
+        "heat": "772万🔥",
+        "heat_raw": 7725013,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E8%AE%B0%E6%80%A7%E4%B8%8D%E5%A5%BD%E7%83%A6%E6%81%BC%E5%B0%B1%E5%B0%91"
+      },
+      {
+        "rank": 15,
+        "title": "雪野是东北姑娘",
+        "heat": "769万🔥",
+        "heat_raw": 7699862,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%9B%AA%E9%87%8E%E6%98%AF%E4%B8%9C%E5%8C%97%E5%A7%91%E5%A8%98"
       }
     ],
     "books": [
       {
         "rank": 1,
-        "title": "《歌手2026》第五期歌单公布",
-        "heat": "598万🔥",
-        "heat_raw": 5988000,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E3%80%8A%E6%AD%8C%E6%89%8B2026%E3%80%8B%E7%AC%AC%E4%BA%94%E6%9C%9F%E6%AD%8C%E5%8D%95%E5%85%AC%E5%B8%83"
+        "title": "儿女不愿接班 创始人套现13亿离场",
+        "heat": "12703万🔥",
+        "heat_raw": 127037565,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%84%BF%E5%A5%B3%E4%B8%8D%E6%84%BF%E6%8E%A5%E7%8F%AD%20%E5%88%9B%E5%A7%8B%E4%BA%BA%E5%A5%97%E7%8E%B013%E4%BA%BF%E7%A6%BB%E5%9C%BA"
       },
       {
         "rank": 2,
-        "title": "看世界杯遭持枪抢劫",
-        "heat": "4万🔥",
-        "heat_raw": 48768,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E7%9C%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E9%81%AD%E6%8C%81%E6%9E%AA%E6%8A%A2%E5%8A%AB"
+        "title": "伴娘重伤 新郎父亲起诉要回垫付款",
+        "heat": "8515万🔥",
+        "heat_raw": 85155826,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E4%BC%B4%E5%A8%98%E9%87%8D%E4%BC%A4%20%E6%96%B0%E9%83%8E%E7%88%B6%E4%BA%B2%E8%B5%B7%E8%AF%89%E8%A6%81%E5%9B%9E%E5%9E%AB%E4%BB%98%E6%AC%BE"
       },
       {
         "rank": 3,
-        "title": "小学要家长工资流水",
-        "heat": "6万🔥",
-        "heat_raw": 69391,
-        "platform": "360",
-        "url": "https://www.so.com/s?q=%E5%B0%8F%E5%AD%A6%E8%A6%81%E5%AE%B6%E9%95%BF%E5%B7%A5%E8%B5%84%E6%B5%81%E6%B0%B4"
+        "title": "26岁女子恋爱后体检发现自己是男性",
+        "heat": "5708万🔥",
+        "heat_raw": 57081657,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=26%E5%B2%81%E5%A5%B3%E5%AD%90%E6%81%8B%E7%88%B1%E5%90%8E%E4%BD%93%E6%A3%80%E5%8F%91%E7%8E%B0%E8%87%AA%E5%B7%B1%E6%98%AF%E7%94%B7%E6%80%A7"
+      },
+      {
+        "rank": 4,
+        "title": "菲律宾为何此时在仁爱礁制造冲突",
+        "heat": "3826万🔥",
+        "heat_raw": 38262979,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E8%8F%B2%E5%BE%8B%E5%AE%BE%E4%B8%BA%E4%BD%95%E6%AD%A4%E6%97%B6%E5%9C%A8%E4%BB%81%E7%88%B1%E7%A4%81%E5%88%B6%E9%80%A0%E5%86%B2%E7%AA%81"
+      },
+      {
+        "rank": 5,
+        "title": "92岁独居老人离世留下500万遗产",
+        "heat": "2564万🔥",
+        "heat_raw": 25648442,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=92%E5%B2%81%E7%8B%AC%E5%B1%85%E8%80%81%E4%BA%BA%E7%A6%BB%E4%B8%96%E7%95%99%E4%B8%8B500%E4%B8%87%E9%81%97%E4%BA%A7"
+      },
+      {
+        "rank": 6,
+        "title": "谢贤生前最讨厌哪种告别",
+        "heat": "1719万🔥",
+        "heat_raw": 17192664,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E8%B0%A2%E8%B4%A4%E7%94%9F%E5%89%8D%E6%9C%80%E8%AE%A8%E5%8E%8C%E5%93%AA%E7%A7%8D%E5%91%8A%E5%88%AB"
+      },
+      {
+        "rank": 7,
+        "title": "台风红霞或近期生成",
+        "heat": "1161万🔥",
+        "heat_raw": 11618696,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E6%88%96%E8%BF%91%E6%9C%9F%E7%94%9F%E6%88%90"
+      },
+      {
+        "rank": 8,
+        "title": "国产“三蹦子”在佛得角热卖",
+        "heat": "1042万🔥",
+        "heat_raw": 10427878,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%9B%BD%E4%BA%A7%E2%80%9C%E4%B8%89%E8%B9%A6%E5%AD%90%E2%80%9D%E5%9C%A8%E4%BD%9B%E5%BE%97%E8%A7%92%E7%83%AD%E5%8D%96"
+      },
+      {
+        "rank": 9,
+        "title": "科创50涨超10%",
+        "heat": "925万🔥",
+        "heat_raw": 9257446,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E7%A7%91%E5%88%9B50%E6%B6%A8%E8%B6%8510%25"
+      },
+      {
+        "rank": 10,
+        "title": "中际旭创等CPO概念股涨超10%",
+        "heat": "916万🔥",
+        "heat_raw": 9163651,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%E7%AD%89CPO%E6%A6%82%E5%BF%B5%E8%82%A1%E6%B6%A8%E8%B6%8510%25"
+      },
+      {
+        "rank": 11,
+        "title": "野狗骨头大结局",
+        "heat": "906万🔥",
+        "heat_raw": 9063639,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%87%8E%E7%8B%97%E9%AA%A8%E5%A4%B4%E5%A4%A7%E7%BB%93%E5%B1%80"
+      },
+      {
+        "rank": 12,
+        "title": "西班牙队世界杯夺冠归国游行",
+        "heat": "784万🔥",
+        "heat_raw": 7842306,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E8%A5%BF%E7%8F%AD%E7%89%99%E9%98%9F%E4%B8%96%E7%95%8C%E6%9D%AF%E5%A4%BA%E5%86%A0%E5%BD%92%E5%9B%BD%E6%B8%B8%E8%A1%8C"
+      },
+      {
+        "rank": 13,
+        "title": "阿哲回归秀老友欢聚",
+        "heat": "774万🔥",
+        "heat_raw": 7746229,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%98%BF%E5%93%B2%E5%9B%9E%E5%BD%92%E7%A7%80%E8%80%81%E5%8F%8B%E6%AC%A2%E8%81%9A"
+      },
+      {
+        "rank": 14,
+        "title": "抖火杯s3积分赛",
+        "heat": "771万🔥",
+        "heat_raw": 7718377,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%8A%96%E7%81%AB%E6%9D%AFs3%E7%A7%AF%E5%88%86%E8%B5%9B"
+      },
+      {
+        "rank": 15,
+        "title": "模糊滤镜自带高级故事感",
+        "heat": "769万🔥",
+        "heat_raw": 7698685,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%A8%A1%E7%B3%8A%E6%BB%A4%E9%95%9C%E8%87%AA%E5%B8%A6%E9%AB%98%E7%BA%A7%E6%95%85%E4%BA%8B%E6%84%9F"
       }
     ]
   },
-  "douyin_hotspot": [
-    {
-      "name": "暑假卷王装备已就位",
-      "date": "2026-07-03",
-      "status": "上线中",
-      "industry": "图书教育"
-    },
-    {
-      "name": "电影三国争洛阳值得一次热血奔赴",
-      "date": "2026-07-13",
-      "status": "上线中",
-      "industry": "图书教育"
-    },
-    {
-      "name": "一起逛上海CBME母婴展",
-      "date": "2026-07-16",
-      "status": "报名中",
-      "industry": "图书教育"
-    },
-    {
-      "name": "外卖诗人王计兵获鲁迅文学奖",
-      "date": "2026-07-16",
-      "status": "报名中",
-      "industry": "图书教育"
-    },
-    {
-      "name": "我在书博会晒夏日书单",
-      "date": "2026-07-24",
-      "status": "报名中",
-      "industry": "图书教育"
-    }
-  ]
+  "douyin_hotspot": []
 }
