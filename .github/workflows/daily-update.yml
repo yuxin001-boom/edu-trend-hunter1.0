@@ -140,45 +140,65 @@ jobs:
                       token=tr.get('tenant_access_token','')
                       print("  飞书: token获取"+ ("成功" if token else "失败"))
                       if token:
-                          api_url='https://open.feishu.cn/open-apis/bitable/v1/apps/FZkmbmCDzayi6Zs4hfWcECvnnPW/tables/tblJlMaj7IdYjgA1/records?page_size=100'
-                          req2=Request(api_url)
-                          req2.add_header('Authorization','Bearer '+token)
-                          resp2=urlopen(req2,timeout=20)
-                          raw=resp2.read().decode()
-                          resp2.close()
-                          rdata=json.loads(raw)
-                          rc=rdata.get('code',-1)
-                          ritems=rdata.get('data',{}).get('items',[])
-                          print("  飞书: API code="+str(rc)+" 记录数="+str(len(ritems)))
-                          if rc==0:
-                              for item in ritems:
-                                  try:
-                                      fields=item.get('fields',{})
-                                      hn=fields.get('热点名称','')
-                                      if isinstance(hn,list):
-                                          name=''.join(s.get('text','') for s in hn if isinstance(s,dict))
-                                      else:
-                                          name=str(hn) if hn else''
-                                      dv=fields.get('冲榜日期',0)
-                                      if isinstance(dv,(int,float)) and dv>0:
-                                          ds=datetime.fromtimestamp(dv/1000).strftime('%Y-%m-%d')
-                                      else:
-                                          ds=str(dv)[:10] if dv else''
-                                      status=fields.get('进展','')
-                                      if isinstance(status,list):status=status[0] if status else''
-                                      elif isinstance(status,dict):status=status.get('text','')
-                                      else:status=str(status) if status else''
-                                      ind_raw=fields.get('适配行业','')
-                                      if isinstance(ind_raw,list):ind_list=[str(x) for x in ind_raw]
-                                      elif ind_raw:ind_list=[str(ind_raw)]
-                                      else:ind_list=[]
-                                      if name and status in VALID_STATUS and any(x in VALID_INDUSTRY for x in ind_list):
-                                          douyin_hotspot.append({'name':name,'date':ds,'status':status,'industry':ind_list[0] if ind_list else''})
-                                  except:
-                                      continue
-                              douyin_hotspot.sort(key=lambda x:(0 if x.get('status')=='上线中' else 1, x.get('date','')))
-                          else:
-                              print("  飞书: API错误 msg="+str(rdata.get('msg','')))
+                          # 用推荐的 records/search POST 接口，替换旧的 GET /records（GET 版本在部分租户已返回 400）
+                          import urllib.error
+                          base_url='https://open.feishu.cn/open-apis/bitable/v1/apps/FZkmbmCDzayi6Zs4hfWcECvnnPW/tables/tblJlMaj7IdYjgA1/records/search?page_size=100'
+                          headers_common={'Authorization':'Bearer '+token,'Content-Type':'application/json; charset=utf-8','User-Agent':'edu-trend-hunter/1.0 (+github-actions)'}
+                          all_items=[]
+                          page_token=''
+                          for _ in range(20):  # 最多翻 20 页兜底
+                              url_now=base_url+(('&page_token='+page_token) if page_token else '')
+                              req2=Request(url_now,data=json.dumps({"automatic_fields":False}).encode(),method='POST')
+                              for k,v in headers_common.items():req2.add_header(k,v)
+                              try:
+                                  resp2=urlopen(req2,timeout=20)
+                                  raw=resp2.read().decode()
+                                  resp2.close()
+                              except urllib.error.HTTPError as he:
+                                  err_body=he.read().decode('utf-8','ignore')[:500]
+                                  print("  飞书: HTTP "+str(he.code)+" 响应="+err_body)
+                                  break
+                              except Exception as e2:
+                                  print("  飞书: 请求异常 "+str(e2))
+                                  break
+                              rdata=json.loads(raw)
+                              rc=rdata.get('code',-1)
+                              if rc!=0:
+                                  print("  飞书: API code="+str(rc)+" msg="+str(rdata.get('msg','')))
+                                  break
+                              chunk=rdata.get('data',{}).get('items',[])
+                              all_items.extend(chunk)
+                              has_more=rdata.get('data',{}).get('has_more',False)
+                              page_token=rdata.get('data',{}).get('page_token','') or ''
+                              if not has_more or not page_token:
+                                  break
+                          print("  飞书: records/search 累计拉取="+str(len(all_items))+"条")
+                          for item in all_items:
+                              try:
+                                  fields=item.get('fields',{})
+                                  hn=fields.get('热点名称','')
+                                  if isinstance(hn,list):
+                                      name=''.join(s.get('text','') for s in hn if isinstance(s,dict))
+                                  else:
+                                      name=str(hn) if hn else ''
+                                  dv=fields.get('冲榜日期',0)
+                                  if isinstance(dv,(int,float)) and dv>0:
+                                      ds=datetime.fromtimestamp(dv/1000).strftime('%Y-%m-%d')
+                                  else:
+                                      ds=str(dv)[:10] if dv else ''
+                                  status=fields.get('进展','')
+                                  if isinstance(status,list):status=status[0] if status else ''
+                                  elif isinstance(status,dict):status=status.get('text','')
+                                  else:status=str(status) if status else ''
+                                  ind_raw=fields.get('适配行业','')
+                                  if isinstance(ind_raw,list):ind_list=[str(x) for x in ind_raw]
+                                  elif ind_raw:ind_list=[str(ind_raw)]
+                                  else:ind_list=[]
+                                  if name and status in VALID_STATUS and any(x in VALID_INDUSTRY for x in ind_list):
+                                      douyin_hotspot.append({'name':name,'date':ds,'status':status,'industry':ind_list[0] if ind_list else ''})
+                              except Exception:
+                                  continue
+                          douyin_hotspot.sort(key=lambda x:(0 if x.get('status')=='上线中' else 1, x.get('date','')))
                   except Exception as e:
                       import urllib.error
                       if isinstance(e, urllib.error.HTTPError):
