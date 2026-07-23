@@ -140,9 +140,10 @@ jobs:
                       token=tr.get('tenant_access_token','')
                       print("  飞书: token获取"+ ("成功" if token else "失败"))
                       if token:
-                          body2=json.dumps({"field_names":["热点名称","冲榜日期","进展","适配行业"]}).encode()
-                          req2=Request('https://open.feishu.cn/open-apis/bitable/v1/apps/FZkmbmCDzayi6Zs4hfWcECvnnPW/tables/tblJlMaj7IdYjgA1/records/search?page_size=100',data=body2,headers={'Content-Type':'application/json','Authorization':'Bearer '+token})
-                          resp2=urlopen(req2,timeout=15)
+                          api_url='https://open.feishu.cn/open-apis/bitable/v1/apps/FZkmbmCDzayi6Zs4hfWcECvnnPW/tables/tblJlMaj7IdYjgA1/records?page_size=100'
+                          req2=Request(api_url)
+                          req2.add_header('Authorization','Bearer '+token)
+                          resp2=urlopen(req2,timeout=20)
                           raw=resp2.read().decode()
                           resp2.close()
                           rdata=json.loads(raw)
@@ -179,7 +180,12 @@ jobs:
                           else:
                               print("  飞书: API错误 msg="+str(rdata.get('msg','')))
                   except Exception as e:
-                      print("  飞书异常: "+str(e))
+                      import urllib.error
+                      if isinstance(e, urllib.error.HTTPError):
+                          err_body=e.read().decode('utf-8','ignore')[:300]
+                          print("  飞书异常: "+str(e)+" 响应:"+err_body)
+                      else:
+                          print("  飞书异常: "+str(e))
               else:
                   print("  飞书: 未配置LARK凭证,读取旧数据")
                   try:
