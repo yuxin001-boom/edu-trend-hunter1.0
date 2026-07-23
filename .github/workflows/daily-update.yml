@@ -139,8 +139,8 @@ jobs:
                       token=tr.get('tenant_access_token','')
                       print(f"  飞书: token获取{'成功' if token else '失败 code='+str(tr.get('code','?'))}")
                   if token:
-                      body=json.dumps({"sort":[{"field_name":"冲榜日期","order":"DESC"}],"field_names":["热点名称","冲榜日期","进展","适配行业"]}).encode()
-                      req2=Request('https://open.feishu.cn/open-apis/bitable/v1/apps/FZkmbmCDzayi6Zs4hfWcECvnnPW/tables/tblJlMaj7IdYjgA1/records/search?page_size=100',data=body,headers={'Content-Type':'application/json','Authorization':f'Bearer {token}'})
+                      api_url='https://open.feishu.cn/open-apis/bitable/v1/apps/FZkmbmCDzayi6Zs4hfWcECvnnPW/tables/tblJlMaj7IdYjgA1/records?page_size=100'
+                      req2=Request(api_url,headers={'Authorization':f'Bearer {token}'})
                       with urlopen(req2,timeout=15) as r:data=json.loads(r.read().decode())
                       print(f"  飞书: API返回code={data.get('code')}, 记录数={len(data.get('data',{}).get('items',[]))}")
                       if data.get('code')==0:
