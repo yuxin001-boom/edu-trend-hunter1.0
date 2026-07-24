@@ -1188,7 +1188,7 @@ function renderHotspotSection() {
 
     const statusClass = item.status === '上线中' ? 'status-online' : 'status-signup';
     const statusIcon = item.status === '上线中' ? '🟢' : '🟡';
-    const statusText = item.status === '上线中' ? '上线中' : '即将上线';
+    const statusText = item.status;
 
     card.innerHTML = `
       <div class="hotspot-icon">${statusIcon}</div>
