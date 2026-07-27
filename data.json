@@ -1,105 +1,74 @@
 {
-  "update_time": "2026-07-27 04:29",
+  "update_time": "2026-07-27 08:19",
   "issue_no": 46,
   "hot_search": {
     "weibo": [
       {
         "title": "发现好多大学生不懂邮件礼仪",
         "url": "https://s.weibo.com/weibo?q=%E5%8F%91%E7%8E%B0%E5%A5%BD%E5%A4%9A%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%B8%8D%E6%87%82%E9%82%AE%E4%BB%B6%E7%A4%BC%E4%BB%AA",
-        "heat": 861333,
+        "heat": 1371053,
         "rank": 1
-      },
-      {
-        "title": "北航副教授用小学知识讲透AI原理",
-        "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E8%88%AA%E5%89%AF%E6%95%99%E6%8E%88%E7%94%A8%E5%B0%8F%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B2%E9%80%8FAI%E5%8E%9F%E7%90%86",
-        "heat": 406551,
-        "rank": 2
       },
       {
         "title": "王虹未参加北大本科毕业合照",
         "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E8%99%B9%E6%9C%AA%E5%8F%82%E5%8A%A0%E5%8C%97%E5%A4%A7%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E5%90%88%E7%85%A7",
-        "heat": 402787,
+        "heat": 286096,
+        "rank": 2
+      },
+      {
+        "title": "邓紫棋晚晚上过一个幼儿园",
+        "url": "https://s.weibo.com/weibo?q=%E9%82%93%E7%B4%AB%E6%A3%8B%E6%99%9A%E6%99%9A%E4%B8%8A%E8%BF%87%E4%B8%80%E4%B8%AA%E5%B9%BC%E5%84%BF%E5%9B%AD",
+        "heat": 277932,
         "rank": 3
       }
     ],
-    "baidu": [
-      {
-        "title": "高考600分已难稳进985211",
-        "url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83600%E5%88%86%E5%B7%B2%E9%9A%BE%E7%A8%B3%E8%BF%9B985211&sa=fyb_news&rsv_dl=fyb_news",
-        "heat": 7042768,
-        "rank": 1
-      }
-    ],
+    "baidu": [],
     "douyin": [
       {
         "title": "课本里的天下第一泉我见到了",
         "url": "https://www.douyin.com/search/%E8%AF%BE%E6%9C%AC%E9%87%8C%E7%9A%84%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E6%B3%89%E6%88%91%E8%A7%81%E5%88%B0%E4%BA%86",
-        "heat": 11604797,
+        "heat": 10319342,
         "rank": 1
       }
     ],
     "quark": [
       {
-        "title": "高考600分已难稳进985211",
-        "url": "https://quark.sm.cn/s?q=%E9%AB%98%E8%80%83600%E5%88%86%E5%B7%B2%E9%9A%BE%E7%A8%B3%E8%BF%9B985211",
-        "heat": 7042768,
-        "rank": 1
-      },
-      {
         "title": "发现好多大学生不懂邮件礼仪",
         "url": "https://quark.sm.cn/s?q=%E5%8F%91%E7%8E%B0%E5%A5%BD%E5%A4%9A%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%B8%8D%E6%87%82%E9%82%AE%E4%BB%B6%E7%A4%BC%E4%BB%AA",
-        "heat": 861333,
-        "rank": 2
-      },
-      {
-        "title": "这些“双非”院校分数线超过985高校",
-        "url": "https://quark.sm.cn/s?q=%E8%BF%99%E4%BA%9B%E2%80%9C%E5%8F%8C%E9%9D%9E%E2%80%9D%E9%99%A2%E6%A0%A1%E5%88%86%E6%95%B0%E7%BA%BF%E8%B6%85%E8%BF%87985%E9%AB%98%E6%A0%A1",
-        "heat": 696081,
-        "rank": 3
-      },
-      {
-        "title": "北航副教授用小学知识讲透AI原理",
-        "url": "https://quark.sm.cn/s?q=%E5%8C%97%E8%88%AA%E5%89%AF%E6%95%99%E6%8E%88%E7%94%A8%E5%B0%8F%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B2%E9%80%8FAI%E5%8E%9F%E7%90%86",
-        "heat": 406551,
-        "rank": 4
+        "heat": 1371053,
+        "rank": 1
       },
       {
         "title": "王虹未参加北大本科毕业合照",
         "url": "https://quark.sm.cn/s?q=%E7%8E%8B%E8%99%B9%E6%9C%AA%E5%8F%82%E5%8A%A0%E5%8C%97%E5%A4%A7%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E5%90%88%E7%85%A7",
-        "heat": 402787,
-        "rank": 5
+        "heat": 286096,
+        "rank": 2
+      },
+      {
+        "title": "邓紫棋晚晚上过一个幼儿园",
+        "url": "https://quark.sm.cn/s?q=%E9%82%93%E7%B4%AB%E6%A3%8B%E6%99%9A%E6%99%9A%E4%B8%8A%E8%BF%87%E4%B8%80%E4%B8%AA%E5%B9%BC%E5%84%BF%E5%9B%AD",
+        "heat": 277932,
+        "rank": 3
       }
     ],
     "so360": [
       {
-        "title": "高考600分已难稳进985211",
-        "url": "https://www.so.com/s?q=%E9%AB%98%E8%80%83600%E5%88%86%E5%B7%B2%E9%9A%BE%E7%A8%B3%E8%BF%9B985211",
-        "heat": 7042768,
-        "rank": 1
-      },
-      {
         "title": "发现好多大学生不懂邮件礼仪",
         "url": "https://www.so.com/s?q=%E5%8F%91%E7%8E%B0%E5%A5%BD%E5%A4%9A%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%B8%8D%E6%87%82%E9%82%AE%E4%BB%B6%E7%A4%BC%E4%BB%AA",
-        "heat": 861333,
-        "rank": 2
-      },
-      {
-        "title": "这些“双非”院校分数线超过985高校",
-        "url": "https://www.so.com/s?q=%E8%BF%99%E4%BA%9B%E2%80%9C%E5%8F%8C%E9%9D%9E%E2%80%9D%E9%99%A2%E6%A0%A1%E5%88%86%E6%95%B0%E7%BA%BF%E8%B6%85%E8%BF%87985%E9%AB%98%E6%A0%A1",
-        "heat": 696081,
-        "rank": 3
-      },
-      {
-        "title": "北航副教授用小学知识讲透AI原理",
-        "url": "https://www.so.com/s?q=%E5%8C%97%E8%88%AA%E5%89%AF%E6%95%99%E6%8E%88%E7%94%A8%E5%B0%8F%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B2%E9%80%8FAI%E5%8E%9F%E7%90%86",
-        "heat": 406551,
-        "rank": 4
+        "heat": 1371053,
+        "rank": 1
       },
       {
         "title": "王虹未参加北大本科毕业合照",
         "url": "https://www.so.com/s?q=%E7%8E%8B%E8%99%B9%E6%9C%AA%E5%8F%82%E5%8A%A0%E5%8C%97%E5%A4%A7%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E5%90%88%E7%85%A7",
-        "heat": 402787,
-        "rank": 5
+        "heat": 286096,
+        "rank": 2
+      },
+      {
+        "title": "邓紫棋晚晚上过一个幼儿园",
+        "url": "https://www.so.com/s?q=%E9%82%93%E7%B4%AB%E6%A3%8B%E6%99%9A%E6%99%9A%E4%B8%8A%E8%BF%87%E4%B8%80%E4%B8%AA%E5%B9%BC%E5%84%BF%E5%9B%AD",
+        "heat": 277932,
+        "rank": 3
       }
     ]
   },
@@ -355,7 +324,7 @@
     {
       "rank": 1,
       "title": "课本里的天下第一泉我见到了",
-      "heat": 11604797,
+      "heat": 10319342,
       "url": "https://www.douyin.com/search/%E8%AF%BE%E6%9C%AC%E9%87%8C%E7%9A%84%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E6%B3%89%E6%88%91%E8%A7%81%E5%88%B0%E4%BA%86",
       "platforms": [
         "抖音"
@@ -364,20 +333,8 @@
     },
     {
       "rank": 2,
-      "title": "高考600分已难稳进985211",
-      "heat": 7042768,
-      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83600%E5%88%86%E5%B7%B2%E9%9A%BE%E7%A8%B3%E8%BF%9B985211&sa=fyb_news&rsv_dl=fyb_news",
-      "platforms": [
-        "百度",
-        "夸克",
-        "360"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 3,
       "title": "发现好多大学生不懂邮件礼仪",
-      "heat": 861333,
+      "heat": 1371053,
       "url": "https://s.weibo.com/weibo?q=%E5%8F%91%E7%8E%B0%E5%A5%BD%E5%A4%9A%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%B8%8D%E6%87%82%E9%82%AE%E4%BB%B6%E7%A4%BC%E4%BB%AA",
       "platforms": [
         "微博",
@@ -387,21 +344,10 @@
       "category": "K12教育"
     },
     {
-      "rank": 4,
-      "title": "这些“双非”院校分数线超过985高校",
-      "heat": 696081,
-      "url": "https://quark.sm.cn/s?q=%E8%BF%99%E4%BA%9B%E2%80%9C%E5%8F%8C%E9%9D%9E%E2%80%9D%E9%99%A2%E6%A0%A1%E5%88%86%E6%95%B0%E7%BA%BF%E8%B6%85%E8%BF%87985%E9%AB%98%E6%A0%A1",
-      "platforms": [
-        "夸克",
-        "360"
-      ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 5,
-      "title": "北航副教授用小学知识讲透AI原理",
-      "heat": 406551,
-      "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E8%88%AA%E5%89%AF%E6%95%99%E6%8E%88%E7%94%A8%E5%B0%8F%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B2%E9%80%8FAI%E5%8E%9F%E7%90%86",
+      "rank": 3,
+      "title": "王虹未参加北大本科毕业合照",
+      "heat": 286096,
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E8%99%B9%E6%9C%AA%E5%8F%82%E5%8A%A0%E5%8C%97%E5%A4%A7%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E5%90%88%E7%85%A7",
       "platforms": [
         "微博",
         "夸克",
@@ -410,10 +356,10 @@
       "category": "K12教育"
     },
     {
-      "rank": 6,
-      "title": "王虹未参加北大本科毕业合照",
-      "heat": 402787,
-      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E8%99%B9%E6%9C%AA%E5%8F%82%E5%8A%A0%E5%8C%97%E5%A4%A7%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E5%90%88%E7%85%A7",
+      "rank": 4,
+      "title": "邓紫棋晚晚上过一个幼儿园",
+      "heat": 277932,
+      "url": "https://s.weibo.com/weibo?q=%E9%82%93%E7%B4%AB%E6%A3%8B%E6%99%9A%E6%99%9A%E4%B8%8A%E8%BF%87%E4%B8%80%E4%B8%AA%E5%B9%BC%E5%84%BF%E5%9B%AD",
       "platforms": [
         "微博",
         "夸克",
@@ -508,489 +454,489 @@
     "k12": [
       {
         "rank": 1,
-        "title": "10艘万吨大驱“齐聚”亮相",
-        "heat": "2305万🔥",
-        "heat_raw": 23051067,
+        "title": "台湾为何会爆发大规模抗议",
+        "heat": "3103万🔥",
+        "heat_raw": 31032461,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=10%E8%89%98%E4%B8%87%E5%90%A8%E5%A4%A7%E9%A9%B1%E2%80%9C%E9%BD%90%E8%81%9A%E2%80%9D%E4%BA%AE%E7%9B%B8"
+        "url": "https://quark.sm.cn/s?q=%E5%8F%B0%E6%B9%BE%E4%B8%BA%E4%BD%95%E4%BC%9A%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE"
       },
       {
         "rank": 2,
-        "title": "卫健部门介入女童基因编辑死亡事件",
-        "heat": "1707万🔥",
-        "heat_raw": 17076650,
+        "title": "合肥国资赚了10000亿",
+        "heat": "2080万🔥",
+        "heat_raw": 20801681,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%8D%AB%E5%81%A5%E9%83%A8%E9%97%A8%E4%BB%8B%E5%85%A5%E5%A5%B3%E7%AB%A5%E5%9F%BA%E5%9B%A0%E7%BC%96%E8%BE%91%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6"
+        "url": "https://quark.sm.cn/s?q=%E5%90%88%E8%82%A5%E5%9B%BD%E8%B5%84%E8%B5%9A%E4%BA%8610000%E4%BA%BF"
       },
       {
         "rank": 3,
-        "title": "马斯克身价7天蒸发8803亿",
-        "heat": "1192万🔥",
-        "heat_raw": 11921011,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%A9%AC%E6%96%AF%E5%85%8B%E8%BA%AB%E4%BB%B77%E5%A4%A9%E8%92%B8%E5%8F%918803%E4%BA%BF"
+        "title": "湖北省委宣传部原常务副部长被查",
+        "heat": "1541万🔥",
+        "heat_raw": 15410264,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E6%B9%96%E5%8C%97%E7%9C%81%E5%A7%94%E5%AE%A3%E4%BC%A0%E9%83%A8%E5%8E%9F%E5%B8%B8%E5%8A%A1%E5%89%AF%E9%83%A8%E9%95%BF%E8%A2%AB%E6%9F%A5"
       },
       {
         "rank": 4,
-        "title": "重庆彭水救援现场发现失联中巴残骸",
-        "heat": "1144万🔥",
-        "heat_raw": 11446821,
+        "title": "网民编造重庆大足火灾谣言被处罚",
+        "heat": "1141万🔥",
+        "heat_raw": 11416204,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E9%87%8D%E5%BA%86%E5%BD%AD%E6%B0%B4%E6%95%91%E6%8F%B4%E7%8E%B0%E5%9C%BA%E5%8F%91%E7%8E%B0%E5%A4%B1%E8%81%94%E4%B8%AD%E5%B7%B4%E6%AE%8B%E9%AA%B8"
-      },
-      {
-        "rank": 5,
-        "title": "长鑫存储是如何诞生的",
-        "heat": "943万🔥",
-        "heat_raw": 9436637,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8%E6%98%AF%E5%A6%82%E4%BD%95%E8%AF%9E%E7%94%9F%E7%9A%84"
-      },
-      {
-        "rank": 6,
-        "title": "南部战区回应菲方所谓联合巡航",
-        "heat": "925万🔥",
-        "heat_raw": 9251351,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%8D%97%E9%83%A8%E6%88%98%E5%8C%BA%E5%9B%9E%E5%BA%94%E8%8F%B2%E6%96%B9%E6%89%80%E8%B0%93%E8%81%94%E5%90%88%E5%B7%A1%E8%88%AA"
-      },
-      {
-        "rank": 7,
-        "title": "网传西藏千年古碉遭强拆系谣言",
-        "heat": "784万🔥",
-        "heat_raw": 7844145,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%BD%91%E4%BC%A0%E8%A5%BF%E8%97%8F%E5%8D%83%E5%B9%B4%E5%8F%A4%E7%A2%89%E9%81%AD%E5%BC%BA%E6%8B%86%E7%B3%BB%E8%B0%A3%E8%A8%80"
-      },
-      {
-        "rank": 8,
-        "title": "我在草原上信号不太好",
-        "heat": "774万🔥",
-        "heat_raw": 7741971,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%88%91%E5%9C%A8%E8%8D%89%E5%8E%9F%E4%B8%8A%E4%BF%A1%E5%8F%B7%E4%B8%8D%E5%A4%AA%E5%A5%BD"
-      },
-      {
-        "rank": 9,
-        "title": "台湾爆发大规模抗议",
-        "heat": "771万🔥",
-        "heat_raw": 7711782,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E6%B9%BE%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE&sa=fyb_news&rsv_dl=fyb_news"
-      },
-      {
-        "rank": 10,
-        "title": "悲天悯人眼神杀",
-        "heat": "768万🔥",
-        "heat_raw": 7687559,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%82%B2%E5%A4%A9%E6%82%AF%E4%BA%BA%E7%9C%BC%E7%A5%9E%E6%9D%80"
-      },
-      {
-        "rank": 11,
-        "title": "歌名就是文案",
-        "heat": "767万🔥",
-        "heat_raw": 7676901,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%AD%8C%E5%90%8D%E5%B0%B1%E6%98%AF%E6%96%87%E6%A1%88"
-      },
-      {
-        "rank": 12,
-        "title": "一组数据读懂中国硬核经济满满亮点",
-        "heat": "761万🔥",
-        "heat_raw": 7616930,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%B8%80%E7%BB%84%E6%95%B0%E6%8D%AE%E8%AF%BB%E6%87%82%E4%B8%AD%E5%9B%BD%E7%A1%AC%E6%A0%B8%E7%BB%8F%E6%B5%8E%E6%BB%A1%E6%BB%A1%E4%BA%AE%E7%82%B9&sa=fyb_news&rsv_dl=fyb_news"
-      },
-      {
-        "rank": 13,
-        "title": "重庆山体崩塌现场发现人体残骸",
-        "heat": "733万🔥",
-        "heat_raw": 7330914,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E7%8E%B0%E5%9C%BA%E5%8F%91%E7%8E%B0%E4%BA%BA%E4%BD%93%E6%AE%8B%E9%AA%B8&sa=fyb_news&rsv_dl=fyb_news"
-      },
-      {
-        "rank": 14,
-        "title": "高考600分已难稳进985211",
-        "heat": "704万🔥",
-        "heat_raw": 7042768,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83600%E5%88%86%E5%B7%B2%E9%9A%BE%E7%A8%B3%E8%BF%9B985211&sa=fyb_news&rsv_dl=fyb_news"
-      },
-      {
-        "rank": 15,
-        "title": "存款过万一定要办纸质存单吗",
-        "heat": "657万🔥",
-        "heat_raw": 6570016,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%AD%98%E6%AC%BE%E8%BF%87%E4%B8%87%E4%B8%80%E5%AE%9A%E8%A6%81%E5%8A%9E%E7%BA%B8%E8%B4%A8%E5%AD%98%E5%8D%95%E5%90%97&sa=fyb_news&rsv_dl=fyb_news"
-      }
-    ],
-    "adult_edu": [
-      {
-        "rank": 1,
-        "title": "“六张网”如何赋能现代化产业体系",
-        "heat": "2085万🔥",
-        "heat_raw": 20857468,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E2%80%9C%E5%85%AD%E5%BC%A0%E7%BD%91%E2%80%9D%E5%A6%82%E4%BD%95%E8%B5%8B%E8%83%BD%E7%8E%B0%E4%BB%A3%E5%8C%96%E4%BA%A7%E4%B8%9A%E4%BD%93%E7%B3%BB"
-      },
-      {
-        "rank": 2,
-        "title": "业主拒交2年物业费被起诉 法院判了",
-        "heat": "1545万🔥",
-        "heat_raw": 15451592,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E4%B8%9A%E4%B8%BB%E6%8B%92%E4%BA%A42%E5%B9%B4%E7%89%A9%E4%B8%9A%E8%B4%B9%E8%A2%AB%E8%B5%B7%E8%AF%89%20%E6%B3%95%E9%99%A2%E5%88%A4%E4%BA%86"
-      },
-      {
-        "rank": 3,
-        "title": "中国成为外国游客消暑度假新选择",
-        "heat": "1169万🔥",
-        "heat_raw": 11696289,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E6%88%90%E4%B8%BA%E5%A4%96%E5%9B%BD%E6%B8%B8%E5%AE%A2%E6%B6%88%E6%9A%91%E5%BA%A6%E5%81%87%E6%96%B0%E9%80%89%E6%8B%A9"
-      },
-      {
-        "rank": 4,
-        "title": "夏日复古风通勤穿搭来啦",
-        "heat": "1079万🔥",
-        "heat_raw": 10798192,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%A4%8F%E6%97%A5%E5%A4%8D%E5%8F%A4%E9%A3%8E%E9%80%9A%E5%8B%A4%E7%A9%BF%E6%90%AD%E6%9D%A5%E5%95%A6"
+        "url": "https://quark.sm.cn/s?q=%E7%BD%91%E6%B0%91%E7%BC%96%E9%80%A0%E9%87%8D%E5%BA%86%E5%A4%A7%E8%B6%B3%E7%81%AB%E7%81%BE%E8%B0%A3%E8%A8%80%E8%A2%AB%E5%A4%84%E7%BD%9A"
       },
       {
         "rank": 5,
         "title": "比邱淑贞女儿还像邱淑贞的女警",
-        "heat": "937万🔥",
-        "heat_raw": 9371864,
+        "heat": "1032万🔥",
+        "heat_raw": 10329809,
         "platform": "夸克",
         "url": "https://quark.sm.cn/s?q=%E6%AF%94%E9%82%B1%E6%B7%91%E8%B4%9E%E5%A5%B3%E5%84%BF%E8%BF%98%E5%83%8F%E9%82%B1%E6%B7%91%E8%B4%9E%E7%9A%84%E5%A5%B3%E8%AD%A6"
       },
       {
         "rank": 6,
-        "title": "“上海一商业街发生命案”系谣言",
-        "heat": "848万🔥",
-        "heat_raw": 8480013,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E2%80%9C%E4%B8%8A%E6%B5%B7%E4%B8%80%E5%95%86%E4%B8%9A%E8%A1%97%E5%8F%91%E7%94%9F%E5%91%BD%E6%A1%88%E2%80%9D%E7%B3%BB%E8%B0%A3%E8%A8%80"
+        "title": "马斯克身价7天蒸发8803亿",
+        "heat": "874万🔥",
+        "heat_raw": 8742161,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%A9%AC%E6%96%AF%E5%85%8B%E8%BA%AB%E4%BB%B77%E5%A4%A9%E8%92%B8%E5%8F%918803%E4%BA%BF"
       },
       {
         "rank": 7,
-        "title": "中国女粉丝遭GMM工作人员暴力对待",
-        "heat": "781万🔥",
-        "heat_raw": 7814247,
+        "title": "佩德里也来打卡落地沪签",
+        "heat": "816万🔥",
+        "heat_raw": 8169168,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%B2%89%E4%B8%9D%E9%81%ADGMM%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E6%9A%B4%E5%8A%9B%E5%AF%B9%E5%BE%85"
+        "url": "https://www.douyin.com/search/%E4%BD%A9%E5%BE%B7%E9%87%8C%E4%B9%9F%E6%9D%A5%E6%89%93%E5%8D%A1%E8%90%BD%E5%9C%B0%E6%B2%AA%E7%AD%BE"
       },
       {
         "rank": 8,
-        "title": "长鑫科技上市 成A股市值最高公司",
-        "heat": "780万🔥",
-        "heat_raw": 7808808,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82+%E6%88%90A%E8%82%A1%E5%B8%82%E5%80%BC%E6%9C%80%E9%AB%98%E5%85%AC%E5%8F%B8&sa=fyb_news&rsv_dl=fyb_news"
+        "title": "上海一商业街发生命案系谣言",
+        "heat": "776万🔥",
+        "heat_raw": 7767013,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E4%B8%8A%E6%B5%B7%E4%B8%80%E5%95%86%E4%B8%9A%E8%A1%97%E5%8F%91%E7%94%9F%E5%91%BD%E6%A1%88%E7%B3%BB%E8%B0%A3%E8%A8%80"
       },
       {
         "rank": 9,
-        "title": "九寨沟景区发生泥石流致游客滞留",
-        "heat": "770万🔥",
-        "heat_raw": 7700745,
+        "title": "小猫吵着要拍百万运镜",
+        "heat": "775万🔥",
+        "heat_raw": 7751293,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B9%9D%E5%AF%A8%E6%B2%9F%E6%99%AF%E5%8C%BA%E5%8F%91%E7%94%9F%E6%B3%A5%E7%9F%B3%E6%B5%81%E8%87%B4%E6%B8%B8%E5%AE%A2%E6%BB%9E%E7%95%99"
+        "url": "https://www.douyin.com/search/%E5%B0%8F%E7%8C%AB%E5%90%B5%E7%9D%80%E8%A6%81%E6%8B%8D%E7%99%BE%E4%B8%87%E8%BF%90%E9%95%9C"
       },
       {
         "rank": 10,
-        "title": "蜘蛛侠崭新之日票房破5000万",
-        "heat": "767万🔥",
-        "heat_raw": 7679070,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E8%9C%98%E8%9B%9B%E4%BE%A0%E5%B4%AD%E6%96%B0%E4%B9%8B%E6%97%A5%E7%A5%A8%E6%88%BF%E7%A0%B45000%E4%B8%87"
-      },
-      {
-        "rank": 11,
-        "title": "原来昆凌是昆凌的姓",
-        "heat": "767万🔥",
-        "heat_raw": 7673033,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E5%8E%9F%E6%9D%A5%E6%98%86%E5%87%8C%E6%98%AF%E6%98%86%E5%87%8C%E7%9A%84%E5%A7%93"
-      },
-      {
-        "rank": 12,
-        "title": "重庆山体崩塌救援发现中巴车残骸",
-        "heat": "742万🔥",
-        "heat_raw": 7427584,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E6%95%91%E6%8F%B4%E5%8F%91%E7%8E%B0%E4%B8%AD%E5%B7%B4%E8%BD%A6%E6%AE%8B%E9%AA%B8&sa=fyb_news&rsv_dl=fyb_news"
-      },
-      {
-        "rank": 13,
-        "title": "人民日报：莫把群众求助当负面舆情",
-        "heat": "695万🔥",
-        "heat_raw": 6952496,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%EF%BC%9A%E8%8E%AB%E6%8A%8A%E7%BE%A4%E4%BC%97%E6%B1%82%E5%8A%A9%E5%BD%93%E8%B4%9F%E9%9D%A2%E8%88%86%E6%83%85&sa=fyb_news&rsv_dl=fyb_news"
-      },
-      {
-        "rank": 14,
-        "title": "隔夜西瓜吃1口有8400个细菌不属实",
-        "heat": "685万🔥",
-        "heat_raw": 6857705,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%9A%94%E5%A4%9C%E8%A5%BF%E7%93%9C%E5%90%831%E5%8F%A3%E6%9C%898400%E4%B8%AA%E7%BB%86%E8%8F%8C%E4%B8%8D%E5%B1%9E%E5%AE%9E&sa=fyb_news&rsv_dl=fyb_news"
-      },
-      {
-        "rank": 15,
-        "title": "胸牌暗藏摄像头公然售卖",
-        "heat": "647万🔥",
-        "heat_raw": 6474926,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%83%B8%E7%89%8C%E6%9A%97%E8%97%8F%E6%91%84%E5%83%8F%E5%A4%B4%E5%85%AC%E7%84%B6%E5%94%AE%E5%8D%96&sa=fyb_news&rsv_dl=fyb_news"
-      }
-    ],
-    "e_edu": [
-      {
-        "rank": 1,
-        "title": "长鑫科技中1签赚2万",
-        "heat": "2547万🔥",
-        "heat_raw": 25475369,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%AD1%E7%AD%BE%E8%B5%9A2%E4%B8%87"
-      },
-      {
-        "rank": 2,
-        "title": "谁是长鑫科技上市最大赢家",
-        "heat": "1398万🔥",
-        "heat_raw": 13981179,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E8%B0%81%E6%98%AF%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82%E6%9C%80%E5%A4%A7%E8%B5%A2%E5%AE%B6"
-      },
-      {
-        "rank": 3,
-        "title": "长鑫科技上市",
-        "heat": "1194万🔥",
-        "heat_raw": 11941410,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82"
-      },
-      {
-        "rank": 4,
-        "title": "皇马签下19岁边锋迪奥曼德",
-        "heat": "1067万🔥",
-        "heat_raw": 10674197,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%9A%87%E9%A9%AC%E7%AD%BE%E4%B8%8B19%E5%B2%81%E8%BE%B9%E9%94%8B%E8%BF%AA%E5%A5%A5%E6%9B%BC%E5%BE%B7"
-      },
-      {
-        "rank": 5,
-        "title": "长鑫科技市值超越腾讯",
-        "heat": "1035万🔥",
-        "heat_raw": 10357512,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E5%B8%82%E5%80%BC%E8%B6%85%E8%B6%8A%E8%85%BE%E8%AE%AF"
-      },
-      {
-        "rank": 6,
-        "title": "长鑫科技上市的背后",
-        "heat": "919万🔥",
-        "heat_raw": 9195439,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82%E7%9A%84%E8%83%8C%E5%90%8E"
-      },
-      {
-        "rank": 7,
-        "title": "日本为找稀土开始拆解废旧空调",
-        "heat": "779万🔥",
-        "heat_raw": 7794896,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%97%A5%E6%9C%AC%E4%B8%BA%E6%89%BE%E7%A8%80%E5%9C%9F%E5%BC%80%E5%A7%8B%E6%8B%86%E8%A7%A3%E5%BA%9F%E6%97%A7%E7%A9%BA%E8%B0%83"
-      },
-      {
-        "rank": 8,
-        "title": "古早森系穿搭是氛围感的神",
+        "title": "你存在我深深的脑海里",
         "heat": "772万🔥",
-        "heat_raw": 7723717,
+        "heat_raw": 7721547,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%8F%A4%E6%97%A9%E6%A3%AE%E7%B3%BB%E7%A9%BF%E6%90%AD%E6%98%AF%E6%B0%9B%E5%9B%B4%E6%84%9F%E7%9A%84%E7%A5%9E"
-      },
-      {
-        "rank": 9,
-        "title": "九门定档0730",
-        "heat": "769万🔥",
-        "heat_raw": 7699695,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B9%9D%E9%97%A8%E5%AE%9A%E6%A1%A30730"
-      },
-      {
-        "rank": 10,
-        "title": "谁还没跳ACAI拖拉机舞",
-        "heat": "769万🔥",
-        "heat_raw": 7690941,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E8%B0%81%E8%BF%98%E6%B2%A1%E8%B7%B3ACAI%E6%8B%96%E6%8B%89%E6%9C%BA%E8%88%9E"
+        "url": "https://www.douyin.com/search/%E4%BD%A0%E5%AD%98%E5%9C%A8%E6%88%91%E6%B7%B1%E6%B7%B1%E7%9A%84%E8%84%91%E6%B5%B7%E9%87%8C"
       },
       {
         "rank": 11,
         "title": "夏天怎么能少了西瓜",
-        "heat": "767万🔥",
-        "heat_raw": 7672976,
+        "heat": "771万🔥",
+        "heat_raw": 7712403,
         "platform": "抖音",
         "url": "https://www.douyin.com/search/%E5%A4%8F%E5%A4%A9%E6%80%8E%E4%B9%88%E8%83%BD%E5%B0%91%E4%BA%86%E8%A5%BF%E7%93%9C"
       },
       {
         "rank": 12,
-        "title": "长鑫科技市值超过英特尔",
-        "heat": "752万🔥",
-        "heat_raw": 7521303,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E5%B8%82%E5%80%BC%E8%B6%85%E8%BF%87%E8%8B%B1%E7%89%B9%E5%B0%94&sa=fyb_news&rsv_dl=fyb_news"
+        "title": "良子爬山看着都力竭了",
+        "heat": "769万🔥",
+        "heat_raw": 7693746,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E8%89%AF%E5%AD%90%E7%88%AC%E5%B1%B1%E7%9C%8B%E7%9D%80%E9%83%BD%E5%8A%9B%E7%AB%AD%E4%BA%86"
       },
       {
         "rank": 13,
-        "title": "长鑫科技开盘时有人成功卖出4签",
-        "heat": "723万🔥",
-        "heat_raw": 7239021,
+        "title": "列车+持续升温 拓宽服务消费新空间",
+        "heat": "761万🔥",
+        "heat_raw": 7615886,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E5%BC%80%E7%9B%98%E6%97%B6%E6%9C%89%E4%BA%BA%E6%88%90%E5%8A%9F%E5%8D%96%E5%87%BA4%E7%AD%BE&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E5%88%97%E8%BD%A6%2B%E6%8C%81%E7%BB%AD%E5%8D%87%E6%B8%A9+%E6%8B%93%E5%AE%BD%E6%9C%8D%E5%8A%A1%E6%B6%88%E8%B4%B9%E6%96%B0%E7%A9%BA%E9%97%B4&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 14,
-        "title": "“昆凌”是昆凌的姓",
-        "heat": "676万🔥",
-        "heat_raw": 6761085,
+        "title": "合肥重仓长鑫十年 广州深圳跨省押注",
+        "heat": "723万🔥",
+        "heat_raw": 7231650,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%98%86%E5%87%8C%E2%80%9D%E6%98%AF%E6%98%86%E5%87%8C%E7%9A%84%E5%A7%93&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E5%90%88%E8%82%A5%E9%87%8D%E4%BB%93%E9%95%BF%E9%91%AB%E5%8D%81%E5%B9%B4+%E5%B9%BF%E5%B7%9E%E6%B7%B1%E5%9C%B3%E8%B7%A8%E7%9C%81%E6%8A%BC%E6%B3%A8&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 15,
-        "title": "长鑫科技董事长朱一明身家多少",
-        "heat": "638万🔥",
-        "heat_raw": 6382083,
+        "title": "泥石流涌入四川泸定一高速路口",
+        "heat": "692万🔥",
+        "heat_raw": 6924278,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%B6%8C%E5%85%A5%E5%9B%9B%E5%B7%9D%E6%B3%B8%E5%AE%9A%E4%B8%80%E9%AB%98%E9%80%9F%E8%B7%AF%E5%8F%A3"
+      }
+    ],
+    "adult_edu": [
+      {
+        "rank": 1,
+        "title": "梁文锋打新长鑫浮盈8.27亿",
+        "heat": "2807万🔥",
+        "heat_raw": 28079332,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E6%A2%81%E6%96%87%E9%94%8B%E6%89%93%E6%96%B0%E9%95%BF%E9%91%AB%E6%B5%AE%E7%9B%888.27%E4%BA%BF"
+      },
+      {
+        "rank": 2,
+        "title": "甘肃渭源山洪亲历者回忆惊险瞬间",
+        "heat": "1703万🔥",
+        "heat_raw": 17030976,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E7%94%98%E8%82%83%E6%B8%AD%E6%BA%90%E5%B1%B1%E6%B4%AA%E4%BA%B2%E5%8E%86%E8%80%85%E5%9B%9E%E5%BF%86%E6%83%8A%E9%99%A9%E7%9E%AC%E9%97%B4"
+      },
+      {
+        "rank": 3,
+        "title": "长鑫背后的国资身影：超10地参与",
+        "heat": "1394万🔥",
+        "heat_raw": 13943783,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E9%95%BF%E9%91%AB%E8%83%8C%E5%90%8E%E7%9A%84%E5%9B%BD%E8%B5%84%E8%BA%AB%E5%BD%B1%EF%BC%9A%E8%B6%8510%E5%9C%B0%E5%8F%82%E4%B8%8E"
+      },
+      {
+        "rank": 4,
+        "title": "斯诺克上海大师赛开打了",
+        "heat": "1123万🔥",
+        "heat_raw": 11237767,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%96%AF%E8%AF%BA%E5%85%8B%E4%B8%8A%E6%B5%B7%E5%A4%A7%E5%B8%88%E8%B5%9B%E5%BC%80%E6%89%93%E4%BA%86"
+      },
+      {
+        "rank": 5,
+        "title": "课本里的天下第一泉我见到了",
+        "heat": "1031万🔥",
+        "heat_raw": 10319342,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E8%AF%BE%E6%9C%AC%E9%87%8C%E7%9A%84%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E6%B3%89%E6%88%91%E8%A7%81%E5%88%B0%E4%BA%86"
+      },
+      {
+        "rank": 6,
+        "title": "心理学角度分析王虹为何引共鸣",
+        "heat": "847万🔥",
+        "heat_raw": 8476144,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%BF%83%E7%90%86%E5%AD%A6%E8%A7%92%E5%BA%A6%E5%88%86%E6%9E%90%E7%8E%8B%E8%99%B9%E4%B8%BA%E4%BD%95%E5%BC%95%E5%85%B1%E9%B8%A3"
+      },
+      {
+        "rank": 7,
+        "title": "东野圭吾遗作还未发行",
+        "heat": "783万🔥",
+        "heat_raw": 7835126,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE%E9%81%97%E4%BD%9C%E8%BF%98%E6%9C%AA%E5%8F%91%E8%A1%8C"
+      },
+      {
+        "rank": 8,
+        "title": "九门定档0730",
+        "heat": "775万🔥",
+        "heat_raw": 7755423,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E4%B9%9D%E9%97%A8%E5%AE%9A%E6%A1%A30730"
+      },
+      {
+        "rank": 9,
+        "title": "青春如同奔流的江河",
+        "heat": "773万🔥",
+        "heat_raw": 7737652,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%9D%92%E6%98%A5%E5%A6%82%E5%90%8C%E5%A5%94%E6%B5%81%E7%9A%84%E6%B1%9F%E6%B2%B3"
+      },
+      {
+        "rank": 10,
+        "title": "带对象看痴迷的后果belike",
+        "heat": "771万🔥",
+        "heat_raw": 7719945,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%B8%A6%E5%AF%B9%E8%B1%A1%E7%9C%8B%E7%97%B4%E8%BF%B7%E7%9A%84%E5%90%8E%E6%9E%9Cbelike"
+      },
+      {
+        "rank": 11,
+        "title": "就这样闯入短剧变装赛道",
+        "heat": "770万🔥",
+        "heat_raw": 7705662,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%B0%B1%E8%BF%99%E6%A0%B7%E9%97%AF%E5%85%A5%E7%9F%AD%E5%89%A7%E5%8F%98%E8%A3%85%E8%B5%9B%E9%81%93"
+      },
+      {
+        "rank": 12,
+        "title": "专访群星闪耀时主创",
+        "heat": "769万🔥",
+        "heat_raw": 7692803,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E4%B8%93%E8%AE%BF%E7%BE%A4%E6%98%9F%E9%97%AA%E8%80%80%E6%97%B6%E4%B8%BB%E5%88%9B"
+      },
+      {
+        "rank": 13,
+        "title": "东野圭吾遗作曝光",
+        "heat": "752万🔥",
+        "heat_raw": 7521939,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E8%91%A3%E4%BA%8B%E9%95%BF%E6%9C%B1%E4%B8%80%E6%98%8E%E8%BA%AB%E5%AE%B6%E5%A4%9A%E5%B0%91&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE%E9%81%97%E4%BD%9C%E6%9B%9D%E5%85%89&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 14,
+        "title": "佛得角门将签约时落泪 月薪2.7万美元",
+        "heat": "714万🔥",
+        "heat_raw": 7140051,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%BD%9B%E5%BE%97%E8%A7%92%E9%97%A8%E5%B0%86%E7%AD%BE%E7%BA%A6%E6%97%B6%E8%90%BD%E6%B3%AA+%E6%9C%88%E8%96%AA2.7%E4%B8%87%E7%BE%8E%E5%85%83&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 15,
+        "title": "隔夜西瓜吃1口有8400个细菌不属实",
+        "heat": "685万🔥",
+        "heat_raw": 6853112,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E9%9A%94%E5%A4%9C%E8%A5%BF%E7%93%9C%E5%90%831%E5%8F%A3%E6%9C%898400%E4%B8%AA%E7%BB%86%E8%8F%8C%E4%B8%8D%E5%B1%9E%E5%AE%9E&sa=fyb_news&rsv_dl=fyb_news"
+      }
+    ],
+    "e_edu": [
+      {
+        "rank": 1,
+        "title": "东野圭吾去世",
+        "heat": "2676万🔥",
+        "heat_raw": 26764619,
+        "platform": "微博",
+        "url": "https://s.weibo.com/weibo?q=%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE%E5%8E%BB%E4%B8%96"
+      },
+      {
+        "rank": 2,
+        "title": "长鑫科技中1签赚2万",
+        "heat": "1882万🔥",
+        "heat_raw": 18822139,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%AD1%E7%AD%BE%E8%B5%9A2%E4%B8%87"
+      },
+      {
+        "rank": 3,
+        "title": "10艘万吨大驱“齐聚”亮相",
+        "heat": "1261万🔥",
+        "heat_raw": 12616857,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=10%E8%89%98%E4%B8%87%E5%90%A8%E5%A4%A7%E9%A9%B1%E2%80%9C%E9%BD%90%E8%81%9A%E2%80%9D%E4%BA%AE%E7%9B%B8"
+      },
+      {
+        "rank": 4,
+        "title": "长鑫科技上市首日收涨465%",
+        "heat": "1200万🔥",
+        "heat_raw": 12007123,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82%E9%A6%96%E6%97%A5%E6%94%B6%E6%B6%A8465%25"
+      },
+      {
+        "rank": 5,
+        "title": "夏日复古风通勤穿搭来啦",
+        "heat": "1026万🔥",
+        "heat_raw": 10261121,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%A4%8F%E6%97%A5%E5%A4%8D%E5%8F%A4%E9%A3%8E%E9%80%9A%E5%8B%A4%E7%A9%BF%E6%90%AD%E6%9D%A5%E5%95%A6"
+      },
+      {
+        "rank": 6,
+        "title": "以总理：若伊朗攻击以色列将强力回应",
+        "heat": "845万🔥",
+        "heat_raw": 8457332,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E4%BB%A5%E6%80%BB%E7%90%86%EF%BC%9A%E8%8B%A5%E4%BC%8A%E6%9C%97%E6%94%BB%E5%87%BB%E4%BB%A5%E8%89%B2%E5%88%97%E5%B0%86%E5%BC%BA%E5%8A%9B%E5%9B%9E%E5%BA%94"
+      },
+      {
+        "rank": 7,
+        "title": "迪奥曼德加盟皇马",
+        "heat": "781万🔥",
+        "heat_raw": 7811568,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E8%BF%AA%E5%A5%A5%E6%9B%BC%E5%BE%B7%E5%8A%A0%E7%9B%9F%E7%9A%87%E9%A9%AC"
+      },
+      {
+        "rank": 8,
+        "title": "谁还没跳ACAI拖拉机舞",
+        "heat": "778万🔥",
+        "heat_raw": 7789396,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E8%B0%81%E8%BF%98%E6%B2%A1%E8%B7%B3ACAI%E6%8B%96%E6%8B%89%E6%9C%BA%E8%88%9E"
+      },
+      {
+        "rank": 9,
+        "title": "沧州一座被低估的宝藏旅游城市",
+        "heat": "773万🔥",
+        "heat_raw": 7735562,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%B2%A7%E5%B7%9E%E4%B8%80%E5%BA%A7%E8%A2%AB%E4%BD%8E%E4%BC%B0%E7%9A%84%E5%AE%9D%E8%97%8F%E6%97%85%E6%B8%B8%E5%9F%8E%E5%B8%82"
+      },
+      {
+        "rank": 10,
+        "title": "台湾爆发大规模抗议",
+        "heat": "771万🔥",
+        "heat_raw": 7713811,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E6%B9%BE%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 11,
+        "title": "悲天悯人眼神杀",
+        "heat": "769万🔥",
+        "heat_raw": 7699107,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E6%82%B2%E5%A4%A9%E6%82%AF%E4%BA%BA%E7%9C%BC%E7%A5%9E%E6%9D%80"
+      },
+      {
+        "rank": 12,
+        "title": "赵雷北京演唱会官宣",
+        "heat": "769万🔥",
+        "heat_raw": 7690411,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E8%B5%B5%E9%9B%B7%E5%8C%97%E4%BA%AC%E6%BC%94%E5%94%B1%E4%BC%9A%E5%AE%98%E5%AE%A3"
+      },
+      {
+        "rank": 13,
+        "title": "村民回应院里被洪水冲来一栋房子",
+        "heat": "742万🔥",
+        "heat_raw": 7427644,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E6%9D%91%E6%B0%91%E5%9B%9E%E5%BA%94%E9%99%A2%E9%87%8C%E8%A2%AB%E6%B4%AA%E6%B0%B4%E5%86%B2%E6%9D%A5%E4%B8%80%E6%A0%8B%E6%88%BF%E5%AD%90&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 14,
+        "title": "为何穿凉鞋的人越来越少",
+        "heat": "704万🔥",
+        "heat_raw": 7041905,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%BA%E4%BD%95%E7%A9%BF%E5%87%89%E9%9E%8B%E7%9A%84%E4%BA%BA%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%B0%91&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 15,
+        "title": "女警比邱淑贞女儿还像邱淑贞",
+        "heat": "675万🔥",
+        "heat_raw": 6757846,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E8%AD%A6%E6%AF%94%E9%82%B1%E6%B7%91%E8%B4%9E%E5%A5%B3%E5%84%BF%E8%BF%98%E5%83%8F%E9%82%B1%E6%B7%91%E8%B4%9E&sa=fyb_news&rsv_dl=fyb_news"
       }
     ],
     "books": [
       {
         "rank": 1,
-        "title": "网红峰哥开盘就把长鑫卖了",
-        "heat": "1887万🔥",
-        "heat_raw": 18872617,
+        "title": "全国规模以上工业企业利润增长18.7%",
+        "heat": "2540万🔥",
+        "heat_raw": 25407230,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E7%BD%91%E7%BA%A2%E5%B3%B0%E5%93%A5%E5%BC%80%E7%9B%98%E5%B0%B1%E6%8A%8A%E9%95%BF%E9%91%AB%E5%8D%96%E4%BA%86"
+        "url": "https://quark.sm.cn/s?q=%E5%85%A8%E5%9B%BD%E8%A7%84%E6%A8%A1%E4%BB%A5%E4%B8%8A%E5%B7%A5%E4%B8%9A%E4%BC%81%E4%B8%9A%E5%88%A9%E6%B6%A6%E5%A2%9E%E9%95%BF18.7%25"
       },
       {
         "rank": 2,
-        "title": "金正恩向毛岸英之墓献花",
-        "heat": "1265万🔥",
-        "heat_raw": 12650693,
+        "title": "东野圭吾原定下周出版最新小说",
+        "heat": "2298万🔥",
+        "heat_raw": 22989413,
         "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E9%87%91%E6%AD%A3%E6%81%A9%E5%90%91%E6%AF%9B%E5%B2%B8%E8%8B%B1%E4%B9%8B%E5%A2%93%E7%8C%AE%E8%8A%B1"
+        "url": "https://quark.sm.cn/s?q=%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE%E5%8E%9F%E5%AE%9A%E4%B8%8B%E5%91%A8%E5%87%BA%E7%89%88%E6%9C%80%E6%96%B0%E5%B0%8F%E8%AF%B4"
       },
       {
         "rank": 3,
-        "title": "课本里的天下第一泉我见到了",
-        "heat": "1160万🔥",
-        "heat_raw": 11604797,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E8%AF%BE%E6%9C%AC%E9%87%8C%E7%9A%84%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E6%B3%89%E6%88%91%E8%A7%81%E5%88%B0%E4%BA%86"
-      },
-      {
-        "rank": 4,
         "title": "重庆彭水发现失联中巴车残骸",
-        "heat": "948万🔥",
-        "heat_raw": 9487549,
+        "heat": "1156万🔥",
+        "heat_raw": 11562732,
         "platform": "抖音",
         "url": "https://www.douyin.com/search/%E9%87%8D%E5%BA%86%E5%BD%AD%E6%B0%B4%E5%8F%91%E7%8E%B0%E5%A4%B1%E8%81%94%E4%B8%AD%E5%B7%B4%E8%BD%A6%E6%AE%8B%E9%AA%B8"
       },
       {
-        "rank": 5,
-        "title": "甘肃发布暴雨黄色预警",
-        "heat": "931万🔥",
-        "heat_raw": 9313075,
+        "rank": 4,
+        "title": "电影成为全球观众爱上中国新窗口",
+        "heat": "1152万🔥",
+        "heat_raw": 11528241,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%94%98%E8%82%83%E5%8F%91%E5%B8%83%E6%9A%B4%E9%9B%A8%E9%BB%84%E8%89%B2%E9%A2%84%E8%AD%A6"
+        "url": "https://www.douyin.com/search/%E7%94%B5%E5%BD%B1%E6%88%90%E4%B8%BA%E5%85%A8%E7%90%83%E8%A7%82%E4%BC%97%E7%88%B1%E4%B8%8A%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%AA%97%E5%8F%A3"
+      },
+      {
+        "rank": 5,
+        "title": "医药股的最后一个“靴子”终于落地",
+        "heat": "934万🔥",
+        "heat_raw": 9346797,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%8C%BB%E8%8D%AF%E8%82%A1%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E2%80%9C%E9%9D%B4%E5%AD%90%E2%80%9D%E7%BB%88%E4%BA%8E%E8%90%BD%E5%9C%B0"
       },
       {
         "rank": 6,
-        "title": "佩德里寄语中国少年",
-        "heat": "809万🔥",
-        "heat_raw": 8096367,
+        "title": "一代人有一代人的美食人格",
+        "heat": "836万🔥",
+        "heat_raw": 8367303,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%BD%A9%E5%BE%B7%E9%87%8C%E5%AF%84%E8%AF%AD%E4%B8%AD%E5%9B%BD%E5%B0%91%E5%B9%B4"
+        "url": "https://www.douyin.com/search/%E4%B8%80%E4%BB%A3%E4%BA%BA%E6%9C%89%E4%B8%80%E4%BB%A3%E4%BA%BA%E7%9A%84%E7%BE%8E%E9%A3%9F%E4%BA%BA%E6%A0%BC"
       },
       {
         "rank": 7,
+        "title": "台风后海滩全是金鲳鱼 市民捡上百斤",
+        "heat": "780万🔥",
+        "heat_raw": 7808015,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E5%90%8E%E6%B5%B7%E6%BB%A9%E5%85%A8%E6%98%AF%E9%87%91%E9%B2%B3%E9%B1%BC+%E5%B8%82%E6%B0%91%E6%8D%A1%E4%B8%8A%E7%99%BE%E6%96%A4&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 8,
+        "title": "雷军称SUV做纯平地板很难",
+        "heat": "775万🔥",
+        "heat_raw": 7754090,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E9%9B%B7%E5%86%9B%E7%A7%B0SUV%E5%81%9A%E7%BA%AF%E5%B9%B3%E5%9C%B0%E6%9D%BF%E5%BE%88%E9%9A%BE"
+      },
+      {
+        "rank": 9,
+        "title": "射击蛋小黑你是什么等级",
+        "heat": "773万🔥",
+        "heat_raw": 7734622,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%B0%84%E5%87%BB%E8%9B%8B%E5%B0%8F%E9%BB%91%E4%BD%A0%E6%98%AF%E4%BB%80%E4%B9%88%E7%AD%89%E7%BA%A7"
+      },
+      {
+        "rank": 10,
         "title": "相信我们会像童话故事里",
-        "heat": "776万🔥",
-        "heat_raw": 7768612,
+        "heat": "771万🔥",
+        "heat_raw": 7713614,
         "platform": "抖音",
         "url": "https://www.douyin.com/search/%E7%9B%B8%E4%BF%A1%E6%88%91%E4%BB%AC%E4%BC%9A%E5%83%8F%E7%AB%A5%E8%AF%9D%E6%95%85%E4%BA%8B%E9%87%8C"
       },
       {
-        "rank": 8,
-        "title": "周星驰说我的青春也献给了你们",
-        "heat": "771万🔥",
-        "heat_raw": 7718247,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%91%A8%E6%98%9F%E9%A9%B0%E8%AF%B4%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E4%B9%9F%E7%8C%AE%E7%BB%99%E4%BA%86%E4%BD%A0%E4%BB%AC"
-      },
-      {
-        "rank": 9,
-        "title": "甘肃渭源山洪已致10死23伤",
-        "heat": "769万🔥",
-        "heat_raw": 7693075,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%94%98%E8%82%83%E6%B8%AD%E6%BA%90%E5%B1%B1%E6%B4%AA%E5%B7%B2%E8%87%B410%E6%AD%BB23%E4%BC%A4"
-      },
-      {
-        "rank": 10,
-        "title": "我曾心比天高志无穷",
-        "heat": "767万🔥",
-        "heat_raw": 7678946,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%88%91%E6%9B%BE%E5%BF%83%E6%AF%94%E5%A4%A9%E9%AB%98%E5%BF%97%E6%97%A0%E7%A9%B7"
-      },
-      {
         "rank": 11,
-        "title": "电影痴迷到底恐怖在哪里",
-        "heat": "767万🔥",
-        "heat_raw": 7676673,
+        "title": "我在草原上信号不太好",
+        "heat": "769万🔥",
+        "heat_raw": 7699096,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%94%B5%E5%BD%B1%E7%97%B4%E8%BF%B7%E5%88%B0%E5%BA%95%E6%81%90%E6%80%96%E5%9C%A8%E5%93%AA%E9%87%8C"
+        "url": "https://www.douyin.com/search/%E6%88%91%E5%9C%A8%E8%8D%89%E5%8E%9F%E4%B8%8A%E4%BF%A1%E5%8F%B7%E4%B8%8D%E5%A4%AA%E5%A5%BD"
       },
       {
         "rank": 12,
-        "title": "电影群星闪耀时撤档",
-        "heat": "767万🔥",
-        "heat_raw": 7672761,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%94%B5%E5%BD%B1%E7%BE%A4%E6%98%9F%E9%97%AA%E8%80%80%E6%97%B6%E6%92%A4%E6%A1%A3"
+        "title": "原来昆凌是昆凌的姓",
+        "heat": "765万🔥",
+        "heat_raw": 7652510,
+        "platform": "夸克",
+        "url": "https://quark.sm.cn/s?q=%E5%8E%9F%E6%9D%A5%E6%98%86%E5%87%8C%E6%98%AF%E6%98%86%E5%87%8C%E7%9A%84%E5%A7%93"
       },
       {
         "rank": 13,
-        "title": "为什么说“一年一影帝百年周星驰”",
-        "heat": "694万🔥",
-        "heat_raw": 6942848,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E2%80%9C%E4%B8%80%E5%B9%B4%E4%B8%80%E5%BD%B1%E5%B8%9D%E7%99%BE%E5%B9%B4%E5%91%A8%E6%98%9F%E9%A9%B0%E2%80%9D"
+        "title": "肠癌很多人发现就是中晚期",
+        "heat": "732万🔥",
+        "heat_raw": 7329347,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E8%82%A0%E7%99%8C%E5%BE%88%E5%A4%9A%E4%BA%BA%E5%8F%91%E7%8E%B0%E5%B0%B1%E6%98%AF%E4%B8%AD%E6%99%9A%E6%9C%9F&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 14,
-        "title": "艺人李权哲就乘高铁占座致歉",
-        "heat": "665万🔥",
-        "heat_raw": 6654940,
+        "title": "睡了八小时为啥却越来越累",
+        "heat": "695万🔥",
+        "heat_raw": 6952761,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%89%BA%E4%BA%BA%E6%9D%8E%E6%9D%83%E5%93%B2%E5%B0%B1%E4%B9%98%E9%AB%98%E9%93%81%E5%8D%A0%E5%BA%A7%E8%87%B4%E6%AD%89&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E7%9D%A1%E4%BA%86%E5%85%AB%E5%B0%8F%E6%97%B6%E4%B8%BA%E5%95%A5%E5%8D%B4%E8%B6%8A%E6%9D%A5%E8%B6%8A%E7%B4%AF&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 15,
-        "title": "日本机器人格斗赛没开打就撞门跑路",
-        "heat": "628万🔥",
-        "heat_raw": 6282148,
-        "platform": "夸克",
-        "url": "https://quark.sm.cn/s?q=%E6%97%A5%E6%9C%AC%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%A0%BC%E6%96%97%E8%B5%9B%E6%B2%A1%E5%BC%80%E6%89%93%E5%B0%B1%E6%92%9E%E9%97%A8%E8%B7%91%E8%B7%AF"
+        "title": "东野圭吾葬礼已由其家属低调举行",
+        "heat": "666万🔥",
+        "heat_raw": 6665102,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE%E8%91%AC%E7%A4%BC%E5%B7%B2%E7%94%B1%E5%85%B6%E5%AE%B6%E5%B1%9E%E4%BD%8E%E8%B0%83%E4%B8%BE%E8%A1%8C&sa=fyb_news&rsv_dl=fyb_news"
       }
     ]
   },
