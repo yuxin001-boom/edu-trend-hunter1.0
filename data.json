@@ -1074,5 +1074,12 @@
       }
     ]
   },
-  "douyin_hotspot": []
+  "douyin_hotspot": [
+    {
+      "name": "小时候读过的书给我回信了",
+      "date": "2026-08-26",
+      "status": "报名中",
+      "industry": "图书教育"
+    }
+  ]
 }
