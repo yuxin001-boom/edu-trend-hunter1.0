@@ -22,12 +22,13 @@ jobs:
           LARK_APP_ID: ${{ secrets.LARK_APP_ID }}
           LARK_APP_SECRET: ${{ secrets.LARK_APP_SECRET }}
         run: |
+          python3 -m pip install --quiet beautifulsoup4
           python3 << 'PYTHON_SCRIPT'
-          import json,os,time,random,sys,traceback
+          import json,os,time,random,sys,traceback,re
           from datetime import datetime
           from urllib.request import urlopen,Request
-          from urllib.parse import quote
-
+          from urllib.parse import quote,urlparse,parse_qs,urljoin
+          from bs4 import BeautifulSoup
           try:
               EDU_KW=['考研','高考','中考','公务员','考公','国考','省考','教师资格','四六级','雅思','托福','MBA','考博','保研','调剂','分数线','志愿填报','录取','招生','毕业','论文','考试','考证','教育','学校','老师','教师','学生','家长','学霸','课程','教育部','双减','学费','大学','高校','留学','幼儿园','小学','初中','高中','幼小衔接','学区房','兴趣班','补习','辅导','培训班','托管','研学','少儿编程','奥数','暑假','寒假','开学','自考','成考','专升本','学历','在职','职业培训','一建','二建','注会','法考','网课','在线教育','学习机','词典笔','点读笔','学习平板','AI教育','教材','教辅','课本','书单','绘本']
               def ua():return'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0.0.0 Safari/537.36'
@@ -37,6 +38,24 @@ jobs:
                       if ref:h['Referer']=ref
                       with urlopen(Request(url,headers=h),timeout=20) as r:return json.loads(r.read().decode('utf-8',errors='ignore'))
                   except:return None
+              def get_html(url,ref=''):
+                  try:
+                      h={'User-Agent':ua(),'Accept':'text/html,application/xhtml+xml'}
+                      if ref:h['Referer']=ref
+                      with urlopen(Request(url,headers=h),timeout=20) as r:
+                          return r.read().decode('utf-8',errors='ignore')
+                  except Exception as e:
+                      print(f'网页抓取失败:{url}|{e}')
+                      return ''
+              def parse_heat(text):
+                  text=text.replace(',','')
+                  matches=re.findall(r'(\d+(?:\.\d+)?)\s*(亿|万)',text)
+                  if matches:
+                      number,unit=matches[-1]
+                      multiplier=100000000 if unit=='亿' else 10000
+                      return int(float(number)*multiplier)
+                  match=re.search(r'(\d+)\s*热度',text)
+                  return int(match.group(1)) if match else 0
               def is_edu(t):return any(k in t for k in EDU_KW)
               def categorize(t):
                   if any(k in t for k in['考研','公务员','考公','国考','MBA','自考','成考','专升本','学历','在职','一建','二建','注会','法考','职业培训','留学','考博']):return'成人教育'
@@ -77,13 +96,65 @@ jobs:
                       t2=i.get('Title','').strip()
                       if t2 and len(t2)>=4:toutiao_items.append({'title':t2,'url':i.get('Url',''),'heat':int(i.get('HotValue',0)or 0)})
               print(f"微博{len(weibo_items)}|百度{len(baidu_items)}|抖音{len(douyin_items)}|头条{len(toutiao_items)}")
-              cross=toutiao_items+baidu_items+weibo_items
-              quark_items=[];so360_items=[];sq=set();ss=set()
-              for i in cross:
-                  t2=i['title']
-                  if t2 not in sq:sq.add(t2);quark_items.append({'title':t2,'url':'https://quark.sm.cn/s?q='+quote(t2),'heat':i.get('heat',0)})
-                  if t2 not in ss:ss.add(t2);so360_items.append({'title':t2,'url':'https://www.so.com/s?q='+quote(t2),'heat':i.get('heat',0)})
-              all_data={'weibo':weibo_items,'baidu':baidu_items,'douyin':douyin_items,'quark':quark_items,'so360':so360_items}
+              quark_items=[]
+              quark_html=get_html('https://tophub.today/n/n6YoVqDeZa','https://tophub.today/')
+              if quark_html:
+                  soup=BeautifulSoup(quark_html,'html.parser')
+                  seen_quark=set()
+                  for a in soup.select('a[href*="so.m.sm.cn/s?q="]'):
+                      href=urljoin('https://tophub.today/',a.get('href',''))
+                      title=a.get_text(' ',strip=True)
+                      if not title:
+                          title=parse_qs(urlparse(href).query).get('q',[''])[0].strip()
+                      if not title or title in seen_quark:
+                          continue
+                      row=a.find_parent('tr')
+                      row_text=row.get_text(' ',strip=True) if row else a.parent.get_text(' ',strip=True)
+                      seen_quark.add(title)
+                      quark_items.append({
+                          'title':title,
+                          'url':href,
+                          'heat':parse_heat(row_text)
+                      })
+                      if len(quark_items)>=50:
+                          break
+              print(f"夸克真实热榜:{len(quark_items)}条")
+              
+              so360_items=[]
+              so360=get_json(
+                  'https://ranks.hao.360.com/mbsug-api/hotnewsquery?type=news&realhot_limit=50&src=hao_ranklist_so',
+                  'https://ranks.hao.360.com/'
+              )
+              if isinstance(so360,list):
+                  seen_360=set()
+                  for item in so360:
+                      if not isinstance(item,dict):
+                          continue
+                      title=(item.get('title') or item.get('keyword') or '').strip()
+                      if not title or title in seen_360:
+                          continue
+                      href=item.get('url') or 'https://www.so.com/s?q='+quote(title)
+                      try:
+                          heat=int(float(item.get('score',0) or 0))
+                      except (TypeError,ValueError):
+                          heat=0
+                      seen_360.add(title)
+                      so360_items.append({
+                          'title':title,
+                          'url':href,
+                          'heat':heat
+                      })
+                      if len(so360_items)>=50:
+                          break
+              print(f"360真实热榜:{len(so360_items)}条")
+              
+              all_data={
+                  'weibo':weibo_items,
+                  'baidu':baidu_items,
+                  'douyin':douyin_items,
+                  'quark':quark_items,
+                  'so360':so360_items
+              }
               pnames={'weibo':'微博','baidu':'百度','douyin':'抖音','quark':'夸克','so360':'360'}
               hot_search={}
               for p,items in all_data.items():
