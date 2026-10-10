@@ -121,19 +121,23 @@ jobs:
               print(f"夸克真实热榜:{len(quark_items)}条")
               
               so360_items=[]
-              so360_html=get_html('https://ranks.hao.360.com/','https://hao.360.com/')
-              if so360_html:
-                  soup=BeautifulSoup(so360_html,'html.parser')
+              so360=get_json(
+                  'https://ranks.hao.360.com/mbsug-api/hotnewsquery?type=news&realhot_limit=50&src=hao_ranklist_so',
+                  'https://ranks.hao.360.com/'
+              )
+              if isinstance(so360,list):
                   seen_360=set()
-                  for a in soup.select('a[href*="src=hao_ranklist_so"]'):
-                      href=urljoin('https://ranks.hao.360.com/',a.get('href',''))
-                      title=parse_qs(urlparse(href).query).get('q',[''])[0].strip()
+                  for item in so360:
+                      if not isinstance(item,dict):
+                          continue
+                      title=(item.get('title') or item.get('keyword') or '').strip()
                       if not title or title in seen_360:
                           continue
-                      card=a.find_parent('li') or a
-                      card_text=card.get_text(' ',strip=True)
-                      heat_match=re.search(r'([\d,]+)\s*热度',card_text)
-                      heat=int(heat_match.group(1).replace(',','')) if heat_match else 0
+                      href=item.get('url') or 'https://www.so.com/s?q='+quote(title)
+                      try:
+                          heat=int(float(item.get('score',0) or 0))
+                      except (TypeError,ValueError):
+                          heat=0
                       seen_360.add(title)
                       so360_items.append({
                           'title':title,
