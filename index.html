@@ -361,7 +361,7 @@ body::after{
     <div>
       <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--edu-primary);margin-bottom:6px;font-weight:600">INSIGHT</div>
       <div style="font-size:14px;line-height:1.7;color:var(--ink)" id="search-insight">
-        今日教育行业热搜以<b>升学考试</b>相关内容占据核心流量位，考研/高考/公考三大考试热度居高；<b>AI教育</b>赛道持续升温，学习机/AI工具类话题跨平台共振明显；<b>暑期培训</b>相关需求开始集中释放。
+        正在根据今日教育热搜生成洞察…
       </div>
     </div>
   </div>
@@ -649,6 +649,7 @@ body::after{
 // ===== DATA LOADING =====
 let DATA = null;
 let VIDEO_DATA = null;
+let LIVE_DATA_LOADED = false;
 
 async function loadData() {
   try {
@@ -657,12 +658,14 @@ async function loadData() {
     const json = await resp.json();
     if (json && json.hot_search) {
       DATA = json;
+      LIVE_DATA_LOADED = true;
     } else {
       throw new Error('Invalid data format');
     }
   } catch(e) {
     console.log('使用内置数据 (外部data.json未找到或格式错误)');
     DATA = FALLBACK_DATA;
+    LIVE_DATA_LOADED = false;
   }
   renderAll();
   loadVideos();
@@ -1206,7 +1209,80 @@ function renderHotspotSection() {
 }
 
 // ===== RENDER HOT SEARCH =====
+function escapeSearchInsightHtml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function renderSearchInsight() {
+  const insight = document.getElementById('search-insight');
+  if (!insight) return;
+
+  if (!LIVE_DATA_LOADED) {
+    insight.textContent = '今日实时热搜数据暂未成功加载，暂不生成趋势判断，请稍后刷新页面。';
+    return;
+  }
+
+  const hotSearch = DATA && DATA.hot_search ? DATA.hot_search : {};
+  const platformOrder = ['weibo', 'baidu', 'quark', 'douyin', 'so360'];
+  const platformLists = platformOrder
+    .map(key => Array.isArray(hotSearch[key]) ? hotSearch[key] : [])
+    .filter(items => items.length > 0);
+  const items = platformLists
+    .flat()
+    .filter(item => item && typeof item.title === 'string' && item.title.trim());
+
+  if (items.length === 0) {
+    insight.textContent = '今日暂未监测到教育相关上榜项，因此不生成趋势判断。';
+    return;
+  }
+
+  const themes = [
+    { name: '升学与考试', pattern: /高考|中考|考研|考公|公务员|国考|省考|考试|雅思|托福|四六级|教师资格|法考|注会|保研|录取|招生|分数线|志愿|自考|成考|专升本|MBA/i },
+    { name: '校园与学生', pattern: /学生|大学生|小学生|中学生|学校|校园|中小学|高校|大学|小学|初中|高中|老师|教师|家长|开学|返校|毕业/i },
+    { name: '教育政策与服务', pattern: /教育部|教育政策|双减|课后服务|春秋假|学费|资助|家长轮值/i },
+    { name: 'AI与教育科技', pattern: /AI|人工智能|学习机|学习平板|词典笔|点读笔|在线教育|教育科技|少儿编程/i },
+    { name: '培训与素质教育', pattern: /培训|辅导|补习|兴趣班|托管|研学|职业技能|幼小衔接/i },
+    { name: '阅读与教辅', pattern: /教材|教辅|课本|书单|绘本|阅读|图书/i }
+  ];
+
+  const matchedThemes = themes
+    .map((theme, order) => ({
+      name: theme.name,
+      count: items.filter(item => theme.pattern.test(item.title)).length,
+      order
+    }))
+    .filter(theme => theme.count > 0)
+    .sort((a, b) => b.count - a.count || a.order - b.order)
+    .slice(0, 2);
+
+  const seenTitles = new Set();
+  const sampleTitles = [];
+  platformLists.flat().forEach(item => {
+    const title = item && typeof item.title === 'string' ? item.title.trim() : '';
+    const normalized = title.replace(/[\s，。！？、,.!?：:；;“”"'‘’（）()《》]/g, '').toLowerCase();
+    if (title && normalized && !seenTitles.has(normalized) && sampleTitles.length < 3) {
+      seenTitles.add(normalized);
+      sampleTitles.push(title);
+    }
+  });
+
+  const themeText = matchedThemes.length > 0
+    ? `从标题关键词看，内容主要涉及${matchedThemes.map(theme => `<b>${theme.name}</b>`).join('、')}。`
+    : '当日话题较为分散，暂不归纳单一主题。';
+  const titleText = sampleTitles.length > 0
+    ? `部分实际上榜标题包括${sampleTitles.map(title => `“${escapeSearchInsightHtml(title)}”`).join('、')}。`
+    : '';
+
+  insight.innerHTML = `今日共监测到<b>${items.length}条</b>教育相关上榜项，覆盖<b>${platformLists.length}个平台</b>。${themeText}${titleText}<span style="color:var(--muted)">本洞察仅由当日榜单自动归纳，不补充榜单之外的信息。</span>`;
+}
+
 function renderSearchSection() {
+  renderSearchInsight();
   const platforms = [
     { key: 'weibo', name: '微博热搜', icon: '🔥' },
     { key: 'baidu', name: '百度热搜', icon: '🔍' },
@@ -1522,4 +1598,3 @@ document.addEventListener('DOMContentLoaded', () => {
 <script>LA.init({id:"3QHUdJCs9ZoNCCgQ",ck:"3QHUdJCs9ZoNCCgQ"})</script>
 </body>
 </html>
-
