@@ -1,59 +1,55 @@
 {
-  "update_time": "2026-11-05 07:28",
-  "issue_no": 147,
+  "update_time": "2026-11-06 07:28",
+  "issue_no": 148,
   "hot_search": {
     "weibo": [
       {
-        "title": "人生中应该多点张泉灵这样的老师",
-        "url": "https://s.weibo.com/weibo?q=%E4%BA%BA%E7%94%9F%E4%B8%AD%E5%BA%94%E8%AF%A5%E5%A4%9A%E7%82%B9%E5%BC%A0%E6%B3%89%E7%81%B5%E8%BF%99%E6%A0%B7%E7%9A%84%E8%80%81%E5%B8%88",
-        "heat": 262323,
+        "title": "马天宇连何老师都回避那张萌算很特殊",
+        "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E8%BF%9E%E4%BD%95%E8%80%81%E5%B8%88%E9%83%BD%E5%9B%9E%E9%81%BF%E9%82%A3%E5%BC%A0%E8%90%8C%E7%AE%97%E5%BE%88%E7%89%B9%E6%AE%8A",
+        "heat": 301358,
         "rank": 1
       },
       {
-        "title": "武汉大学生烧伤案二审择期宣判",
-        "url": "https://s.weibo.com/weibo?q=%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%83%A7%E4%BC%A4%E6%A1%88%E4%BA%8C%E5%AE%A1%E6%8B%A9%E6%9C%9F%E5%AE%A3%E5%88%A4",
-        "heat": 199906,
+        "title": "教师招聘禁学历歧视新规",
+        "url": "https://s.weibo.com/weibo?q=%E6%95%99%E5%B8%88%E6%8B%9B%E8%81%98%E7%A6%81%E5%AD%A6%E5%8E%86%E6%AD%A7%E8%A7%86%E6%96%B0%E8%A7%84",
+        "heat": 244155,
         "rank": 2
-      },
-      {
-        "title": "大学生无偿代跑拒绝供出同学",
-        "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%97%A0%E5%81%BF%E4%BB%A3%E8%B7%91%E6%8B%92%E7%BB%9D%E4%BE%9B%E5%87%BA%E5%90%8C%E5%AD%A6",
-        "heat": 191296,
-        "rank": 3
       }
     ],
-    "baidu": [],
-    "douyin": [],
+    "baidu": [
+      {
+        "title": "无薪跟岗 教师招聘不带这么羞辱人的",
+        "url": "https://www.baidu.com/s?wd=%E6%97%A0%E8%96%AA%E8%B7%9F%E5%B2%97+%E6%95%99%E5%B8%88%E6%8B%9B%E8%81%98%E4%B8%8D%E5%B8%A6%E8%BF%99%E4%B9%88%E7%BE%9E%E8%BE%B1%E4%BA%BA%E7%9A%84&sa=fyb_news&rsv_dl=fyb_news",
+        "heat": 6367331,
+        "rank": 1
+      }
+    ],
+    "douyin": [
+      {
+        "title": "江苏多地高中推迟到校时间",
+        "url": "https://www.douyin.com/search/%E6%B1%9F%E8%8B%8F%E5%A4%9A%E5%9C%B0%E9%AB%98%E4%B8%AD%E6%8E%A8%E8%BF%9F%E5%88%B0%E6%A0%A1%E6%97%B6%E9%97%B4",
+        "heat": 8218556,
+        "rank": 1
+      }
+    ],
     "quark": [
       {
-        "title": "退休教师承包校印刷厂获刑10年",
-        "url": "https://so.m.sm.cn/s?q=%E9%80%80%E4%BC%91%E6%95%99%E5%B8%88%E6%89%BF%E5%8C%85%E6%A0%A1%E5%8D%B0%E5%88%B7%E5%8E%82%E8%8E%B7%E5%88%9110%E5%B9%B4",
-        "heat": 2065000,
+        "title": "清华毕业生留学遭电诈 当事人发声",
+        "url": "https://so.m.sm.cn/s?q=%E6%B8%85%E5%8D%8E%E6%AF%95%E4%B8%9A%E7%94%9F%E7%95%99%E5%AD%A6%E9%81%AD%E7%94%B5%E8%AF%88+%E5%BD%93%E4%BA%8B%E4%BA%BA%E5%8F%91%E5%A3%B0",
+        "heat": 2207000,
         "rank": 1
       },
       {
-        "title": "男子诈骗被抓后因无法考公崩溃",
-        "url": "https://so.m.sm.cn/s?q=%E7%94%B7%E5%AD%90%E8%AF%88%E9%AA%97%E8%A2%AB%E6%8A%93%E5%90%8E%E5%9B%A0%E6%97%A0%E6%B3%95%E8%80%83%E5%85%AC%E5%B4%A9%E6%BA%83",
-        "heat": 1896000,
+        "title": "4名少年与13岁学生打斗致对方死亡",
+        "url": "https://so.m.sm.cn/s?q=4%E5%90%8D%E5%B0%91%E5%B9%B4%E4%B8%8E13%E5%B2%81%E5%AD%A6%E7%94%9F%E6%89%93%E6%96%97%E8%87%B4%E5%AF%B9%E6%96%B9%E6%AD%BB%E4%BA%A1",
+        "heat": 2158000,
         "rank": 2
       },
       {
-        "title": "公众为何对\"大学抬头率\"这么敏感",
-        "url": "https://so.m.sm.cn/s?q=%E5%85%AC%E4%BC%97%E4%B8%BA%E4%BD%95%E5%AF%B9%22%E5%A4%A7%E5%AD%A6%E6%8A%AC%E5%A4%B4%E7%8E%87%22%E8%BF%99%E4%B9%88%E6%95%8F%E6%84%9F",
-        "heat": 1802000,
+        "title": "北京中小学将全部取消外送餐",
+        "url": "https://so.m.sm.cn/s?q=%E5%8C%97%E4%BA%AC%E4%B8%AD%E5%B0%8F%E5%AD%A6%E5%B0%86%E5%85%A8%E9%83%A8%E5%8F%96%E6%B6%88%E5%A4%96%E9%80%81%E9%A4%90",
+        "heat": 1722000,
         "rank": 3
-      },
-      {
-        "title": "女教师为10岁学生筹得首期治疗费",
-        "url": "https://so.m.sm.cn/s?q=%E5%A5%B3%E6%95%99%E5%B8%88%E4%B8%BA10%E5%B2%81%E5%AD%A6%E7%94%9F%E7%AD%B9%E5%BE%97%E9%A6%96%E6%9C%9F%E6%B2%BB%E7%96%97%E8%B4%B9",
-        "heat": 1780000,
-        "rank": 4
-      },
-      {
-        "title": "2027QS亚洲大学排名揭晓",
-        "url": "https://so.m.sm.cn/s?q=2027QS%E4%BA%9A%E6%B4%B2%E5%A4%A7%E5%AD%A6%E6%8E%92%E5%90%8D%E6%8F%AD%E6%99%93",
-        "heat": 1770000,
-        "rank": 5
       }
     ],
     "so360": []
@@ -309,39 +305,39 @@
   "top15_today": [
     {
       "rank": 1,
-      "title": "退休教师承包校印刷厂获刑10年",
-      "heat": 2065000,
-      "url": "https://so.m.sm.cn/s?q=%E9%80%80%E4%BC%91%E6%95%99%E5%B8%88%E6%89%BF%E5%8C%85%E6%A0%A1%E5%8D%B0%E5%88%B7%E5%8E%82%E8%8E%B7%E5%88%9110%E5%B9%B4",
+      "title": "江苏多地高中推迟到校时间",
+      "heat": 8218556,
+      "url": "https://www.douyin.com/search/%E6%B1%9F%E8%8B%8F%E5%A4%9A%E5%9C%B0%E9%AB%98%E4%B8%AD%E6%8E%A8%E8%BF%9F%E5%88%B0%E6%A0%A1%E6%97%B6%E9%97%B4",
       "platforms": [
-        "夸克"
+        "抖音"
       ],
       "category": "K12教育"
     },
     {
       "rank": 2,
-      "title": "男子诈骗被抓后因无法考公崩溃",
-      "heat": 1896000,
-      "url": "https://so.m.sm.cn/s?q=%E7%94%B7%E5%AD%90%E8%AF%88%E9%AA%97%E8%A2%AB%E6%8A%93%E5%90%8E%E5%9B%A0%E6%97%A0%E6%B3%95%E8%80%83%E5%85%AC%E5%B4%A9%E6%BA%83",
+      "title": "无薪跟岗 教师招聘不带这么羞辱人的",
+      "heat": 6367331,
+      "url": "https://www.baidu.com/s?wd=%E6%97%A0%E8%96%AA%E8%B7%9F%E5%B2%97+%E6%95%99%E5%B8%88%E6%8B%9B%E8%81%98%E4%B8%8D%E5%B8%A6%E8%BF%99%E4%B9%88%E7%BE%9E%E8%BE%B1%E4%BA%BA%E7%9A%84&sa=fyb_news&rsv_dl=fyb_news",
+      "platforms": [
+        "百度"
+      ],
+      "category": "K12教育"
+    },
+    {
+      "rank": 3,
+      "title": "清华毕业生留学遭电诈 当事人发声",
+      "heat": 2207000,
+      "url": "https://so.m.sm.cn/s?q=%E6%B8%85%E5%8D%8E%E6%AF%95%E4%B8%9A%E7%94%9F%E7%95%99%E5%AD%A6%E9%81%AD%E7%94%B5%E8%AF%88+%E5%BD%93%E4%BA%8B%E4%BA%BA%E5%8F%91%E5%A3%B0",
       "platforms": [
         "夸克"
       ],
       "category": "成人教育"
     },
     {
-      "rank": 3,
-      "title": "公众为何对\"大学抬头率\"这么敏感",
-      "heat": 1802000,
-      "url": "https://so.m.sm.cn/s?q=%E5%85%AC%E4%BC%97%E4%B8%BA%E4%BD%95%E5%AF%B9%22%E5%A4%A7%E5%AD%A6%E6%8A%AC%E5%A4%B4%E7%8E%87%22%E8%BF%99%E4%B9%88%E6%95%8F%E6%84%9F",
-      "platforms": [
-        "夸克"
-      ],
-      "category": "K12教育"
-    },
-    {
       "rank": 4,
-      "title": "女教师为10岁学生筹得首期治疗费",
-      "heat": 1780000,
-      "url": "https://so.m.sm.cn/s?q=%E5%A5%B3%E6%95%99%E5%B8%88%E4%B8%BA10%E5%B2%81%E5%AD%A6%E7%94%9F%E7%AD%B9%E5%BE%97%E9%A6%96%E6%9C%9F%E6%B2%BB%E7%96%97%E8%B4%B9",
+      "title": "4名少年与13岁学生打斗致对方死亡",
+      "heat": 2158000,
+      "url": "https://so.m.sm.cn/s?q=4%E5%90%8D%E5%B0%91%E5%B9%B4%E4%B8%8E13%E5%B2%81%E5%AD%A6%E7%94%9F%E6%89%93%E6%96%97%E8%87%B4%E5%AF%B9%E6%96%B9%E6%AD%BB%E4%BA%A1",
       "platforms": [
         "夸克"
       ],
@@ -349,9 +345,9 @@
     },
     {
       "rank": 5,
-      "title": "2027QS亚洲大学排名揭晓",
-      "heat": 1770000,
-      "url": "https://so.m.sm.cn/s?q=2027QS%E4%BA%9A%E6%B4%B2%E5%A4%A7%E5%AD%A6%E6%8E%92%E5%90%8D%E6%8F%AD%E6%99%93",
+      "title": "北京中小学将全部取消外送餐",
+      "heat": 1722000,
+      "url": "https://so.m.sm.cn/s?q=%E5%8C%97%E4%BA%AC%E4%B8%AD%E5%B0%8F%E5%AD%A6%E5%B0%86%E5%85%A8%E9%83%A8%E5%8F%96%E6%B6%88%E5%A4%96%E9%80%81%E9%A4%90",
       "platforms": [
         "夸克"
       ],
@@ -359,9 +355,9 @@
     },
     {
       "rank": 6,
-      "title": "人生中应该多点张泉灵这样的老师",
-      "heat": 262323,
-      "url": "https://s.weibo.com/weibo?q=%E4%BA%BA%E7%94%9F%E4%B8%AD%E5%BA%94%E8%AF%A5%E5%A4%9A%E7%82%B9%E5%BC%A0%E6%B3%89%E7%81%B5%E8%BF%99%E6%A0%B7%E7%9A%84%E8%80%81%E5%B8%88",
+      "title": "马天宇连何老师都回避那张萌算很特殊",
+      "heat": 301358,
+      "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E8%BF%9E%E4%BD%95%E8%80%81%E5%B8%88%E9%83%BD%E5%9B%9E%E9%81%BF%E9%82%A3%E5%BC%A0%E8%90%8C%E7%AE%97%E5%BE%88%E7%89%B9%E6%AE%8A",
       "platforms": [
         "微博"
       ],
@@ -369,23 +365,13 @@
     },
     {
       "rank": 7,
-      "title": "武汉大学生烧伤案二审择期宣判",
-      "heat": 199906,
-      "url": "https://s.weibo.com/weibo?q=%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%83%A7%E4%BC%A4%E6%A1%88%E4%BA%8C%E5%AE%A1%E6%8B%A9%E6%9C%9F%E5%AE%A3%E5%88%A4",
+      "title": "教师招聘禁学历歧视新规",
+      "heat": 244155,
+      "url": "https://s.weibo.com/weibo?q=%E6%95%99%E5%B8%88%E6%8B%9B%E8%81%98%E7%A6%81%E5%AD%A6%E5%8E%86%E6%AD%A7%E8%A7%86%E6%96%B0%E8%A7%84",
       "platforms": [
         "微博"
       ],
-      "category": "K12教育"
-    },
-    {
-      "rank": 8,
-      "title": "大学生无偿代跑拒绝供出同学",
-      "heat": 191296,
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%97%A0%E5%81%BF%E4%BB%A3%E8%B7%91%E6%8B%92%E7%BB%9D%E4%BE%9B%E5%87%BA%E5%90%8C%E5%AD%A6",
-      "platforms": [
-        "微博"
-      ],
-      "category": "K12教育"
+      "category": "成人教育"
     }
   ],
   "marketing_suggestions": [
@@ -474,489 +460,489 @@
     "k12": [
       {
         "rank": 1,
-        "title": "GEN战胜LYON挺进半决赛",
-        "heat": "1204万🔥",
-        "heat_raw": 12044004,
+        "title": "BLG战胜DK晋级半决赛",
+        "heat": "1187万🔥",
+        "heat_raw": 11878334,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/GEN%E6%88%98%E8%83%9CLYON%E6%8C%BA%E8%BF%9B%E5%8D%8A%E5%86%B3%E8%B5%9B"
+        "url": "https://www.douyin.com/search/BLG%E6%88%98%E8%83%9CDK%E6%99%8B%E7%BA%A7%E5%8D%8A%E5%86%B3%E8%B5%9B"
       },
       {
         "rank": 2,
-        "title": "一道热乎菜开启各地冬天",
-        "heat": "1048万🔥",
-        "heat_raw": 10485289,
+        "title": "你怎么舍得让有趣的知识流走",
+        "heat": "1026万🔥",
+        "heat_raw": 10268318,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%80%E9%81%93%E7%83%AD%E4%B9%8E%E8%8F%9C%E5%BC%80%E5%90%AF%E5%90%84%E5%9C%B0%E5%86%AC%E5%A4%A9"
+        "url": "https://www.douyin.com/search/%E4%BD%A0%E6%80%8E%E4%B9%88%E8%88%8D%E5%BE%97%E8%AE%A9%E6%9C%89%E8%B6%A3%E7%9A%84%E7%9F%A5%E8%AF%86%E6%B5%81%E8%B5%B0"
       },
       {
         "rank": 3,
-        "title": "一件单品穿两季穿搭技巧",
-        "heat": "918万🔥",
-        "heat_raw": 9188697,
+        "title": "黄金后市怎么走",
+        "heat": "881万🔥",
+        "heat_raw": 8813137,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%80%E4%BB%B6%E5%8D%95%E5%93%81%E7%A9%BF%E4%B8%A4%E5%AD%A3%E7%A9%BF%E6%90%AD%E6%8A%80%E5%B7%A7"
+        "url": "https://www.douyin.com/search/%E9%BB%84%E9%87%91%E5%90%8E%E5%B8%82%E6%80%8E%E4%B9%88%E8%B5%B0"
       },
       {
         "rank": 4,
-        "title": "三角洲新刀皮黑伤测评",
-        "heat": "854万🔥",
-        "heat_raw": 8540607,
+        "title": "为什么你越安慰孩子越有压力",
+        "heat": "792万🔥",
+        "heat_raw": 7927304,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%89%E8%A7%92%E6%B4%B2%E6%96%B0%E5%88%80%E7%9A%AE%E9%BB%91%E4%BC%A4%E6%B5%8B%E8%AF%84"
+        "url": "https://www.douyin.com/search/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E8%B6%8A%E5%AE%89%E6%85%B0%E5%AD%A9%E5%AD%90%E8%B6%8A%E6%9C%89%E5%8E%8B%E5%8A%9B"
       },
       {
         "rank": 5,
-        "title": "第一视角沉浸式体验天门山跑酷",
-        "heat": "819万🔥",
-        "heat_raw": 8192827,
+        "title": "BLG晋级四强后发文",
+        "heat": "777万🔥",
+        "heat_raw": 7777284,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BD%93%E9%AA%8C%E5%A4%A9%E9%97%A8%E5%B1%B1%E8%B7%91%E9%85%B7"
+        "url": "https://www.douyin.com/search/BLG%E6%99%8B%E7%BA%A7%E5%9B%9B%E5%BC%BA%E5%90%8E%E5%8F%91%E6%96%87"
       },
       {
         "rank": 6,
-        "title": "一半青涩一半纯真",
-        "heat": "777万🔥",
-        "heat_raw": 7778897,
+        "title": "一起来跳呲牙舞",
+        "heat": "776万🔥",
+        "heat_raw": 7767502,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%80%E5%8D%8A%E9%9D%92%E6%B6%A9%E4%B8%80%E5%8D%8A%E7%BA%AF%E7%9C%9F"
+        "url": "https://www.douyin.com/search/%E4%B8%80%E8%B5%B7%E6%9D%A5%E8%B7%B3%E5%91%B2%E7%89%99%E8%88%9E"
       },
       {
         "rank": 7,
-        "title": "特朗普中期选举失利后首露面",
-        "heat": "773万🔥",
-        "heat_raw": 7739710,
+        "title": "C罗宣布从葡萄牙国家队退役",
+        "heat": "774万🔥",
+        "heat_raw": 7746990,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%89%B9%E6%9C%97%E6%99%AE%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%E5%A4%B1%E5%88%A9%E5%90%8E%E9%A6%96%E9%9C%B2%E9%9D%A2"
+        "url": "https://www.douyin.com/search/C%E7%BD%97%E5%AE%A3%E5%B8%83%E4%BB%8E%E8%91%A1%E8%90%84%E7%89%99%E5%9B%BD%E5%AE%B6%E9%98%9F%E9%80%80%E5%BD%B9"
       },
       {
         "rank": 8,
-        "title": "深度复盘GEN vs LYON",
-        "heat": "772万🔥",
-        "heat_raw": 7720893,
+        "title": "WTT法兰克福温瑞博3:0王楚钦",
+        "heat": "773万🔥",
+        "heat_raw": 7739234,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98GEN%20vs%20LYON"
+        "url": "https://www.douyin.com/search/WTT%E6%B3%95%E5%85%B0%E5%85%8B%E7%A6%8F%E6%B8%A9%E7%91%9E%E5%8D%9A3%3A0%E7%8E%8B%E6%A5%9A%E9%92%A6"
       },
       {
         "rank": 9,
-        "title": "透过丰收景象看到“三个一”",
+        "title": "进博会如何让养老更舒适",
         "heat": "761万🔥",
-        "heat_raw": 7619033,
+        "heat_raw": 7615895,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%80%8F%E8%BF%87%E4%B8%B0%E6%94%B6%E6%99%AF%E8%B1%A1%E7%9C%8B%E5%88%B0%E2%80%9C%E4%B8%89%E4%B8%AA%E4%B8%80%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E8%BF%9B%E5%8D%9A%E4%BC%9A%E5%A6%82%E4%BD%95%E8%AE%A9%E5%85%BB%E8%80%81%E6%9B%B4%E8%88%92%E9%80%82&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 10,
-        "title": "文班亚马爆砍52分24篮板8盖帽",
+        "title": "换一袋盐 全球每年300万人因此得救",
         "heat": "713万🔥",
-        "heat_raw": 7135656,
+        "heat_raw": 7138038,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%96%87%E7%8F%AD%E4%BA%9A%E9%A9%AC%E7%88%86%E7%A0%8D52%E5%88%8624%E7%AF%AE%E6%9D%BF8%E7%9B%96%E5%B8%BD&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E6%8D%A2%E4%B8%80%E8%A2%8B%E7%9B%90+%E5%85%A8%E7%90%83%E6%AF%8F%E5%B9%B4300%E4%B8%87%E4%BA%BA%E5%9B%A0%E6%AD%A4%E5%BE%97%E6%95%91&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 11,
-        "title": "“偷拍黑产”调查：约14万女性被偷拍",
-        "heat": "675万🔥",
-        "heat_raw": 6755613,
+        "title": "为什么你越安慰 孩子越有压力",
+        "heat": "685万🔥",
+        "heat_raw": 6857244,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%81%B7%E6%8B%8D%E9%BB%91%E4%BA%A7%E2%80%9D%E8%B0%83%E6%9F%A5%EF%BC%9A%E7%BA%A614%E4%B8%87%E5%A5%B3%E6%80%A7%E8%A2%AB%E5%81%B7%E6%8B%8D&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E8%B6%8A%E5%AE%89%E6%85%B0+%E5%AD%A9%E5%AD%90%E8%B6%8A%E6%9C%89%E5%8E%8B%E5%8A%9B&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 12,
-        "title": "“易中天”股价集体重挫",
+        "title": "买了没几年的羽绒服 怎么就不保暖了",
         "heat": "646万🔥",
-        "heat_raw": 6464869,
+        "heat_raw": 6467729,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%98%93%E4%B8%AD%E5%A4%A9%E2%80%9D%E8%82%A1%E4%BB%B7%E9%9B%86%E4%BD%93%E9%87%8D%E6%8C%AB&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E4%B9%B0%E4%BA%86%E6%B2%A1%E5%87%A0%E5%B9%B4%E7%9A%84%E7%BE%BD%E7%BB%92%E6%9C%8D+%E6%80%8E%E4%B9%88%E5%B0%B1%E4%B8%8D%E4%BF%9D%E6%9A%96%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 13,
-        "title": "山姆卖起始祖鸟 要努力留下中产",
-        "heat": "608万🔥",
-        "heat_raw": 6084207,
+        "title": "10元快剪店把理发价格打下来了",
+        "heat": "609万🔥",
+        "heat_raw": 6096618,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%B1%B1%E5%A7%86%E5%8D%96%E8%B5%B7%E5%A7%8B%E7%A5%96%E9%B8%9F+%E8%A6%81%E5%8A%AA%E5%8A%9B%E7%95%99%E4%B8%8B%E4%B8%AD%E4%BA%A7&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=10%E5%85%83%E5%BF%AB%E5%89%AA%E5%BA%97%E6%8A%8A%E7%90%86%E5%8F%91%E4%BB%B7%E6%A0%BC%E6%89%93%E4%B8%8B%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 14,
-        "title": "抗癌博主夏夏去世 确诊后遭家人放弃",
-        "heat": "569万🔥",
-        "heat_raw": 5698809,
+        "title": "“大麦哥”凭啥让无数中年男人爆哭",
+        "heat": "571万🔥",
+        "heat_raw": 5712732,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%8A%97%E7%99%8C%E5%8D%9A%E4%B8%BB%E5%A4%8F%E5%A4%8F%E5%8E%BB%E4%B8%96+%E7%A1%AE%E8%AF%8A%E5%90%8E%E9%81%AD%E5%AE%B6%E4%BA%BA%E6%94%BE%E5%BC%83&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A4%A7%E9%BA%A6%E5%93%A5%E2%80%9D%E5%87%AD%E5%95%A5%E8%AE%A9%E6%97%A0%E6%95%B0%E4%B8%AD%E5%B9%B4%E7%94%B7%E4%BA%BA%E7%88%86%E5%93%AD&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 15,
-        "title": "父母去世分老宅养子分70%五姐妹各6%",
-        "heat": "531万🔥",
-        "heat_raw": 5314545,
+        "title": "皮肤碰就破女孩出生前产检一路绿灯",
+        "heat": "532万🔥",
+        "heat_raw": 5321379,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E5%8E%BB%E4%B8%96%E5%88%86%E8%80%81%E5%AE%85%E5%85%BB%E5%AD%90%E5%88%8670%25%E4%BA%94%E5%A7%90%E5%A6%B9%E5%90%846%25&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E7%9A%AE%E8%82%A4%E7%A2%B0%E5%B0%B1%E7%A0%B4%E5%A5%B3%E5%AD%A9%E5%87%BA%E7%94%9F%E5%89%8D%E4%BA%A7%E6%A3%80%E4%B8%80%E8%B7%AF%E7%BB%BF%E7%81%AF&sa=fyb_news&rsv_dl=fyb_news"
       }
     ],
     "adult_edu": [
       {
         "rank": 1,
-        "title": "你怎么舍得让有趣的知识流走",
-        "heat": "1110万🔥",
-        "heat_raw": 11104402,
+        "title": "降温了羽绒服先穿为敬",
+        "heat": "1136万🔥",
+        "heat_raw": 11368279,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%BD%A0%E6%80%8E%E4%B9%88%E8%88%8D%E5%BE%97%E8%AE%A9%E6%9C%89%E8%B6%A3%E7%9A%84%E7%9F%A5%E8%AF%86%E6%B5%81%E8%B5%B0"
+        "url": "https://www.douyin.com/search/%E9%99%8D%E6%B8%A9%E4%BA%86%E7%BE%BD%E7%BB%92%E6%9C%8D%E5%85%88%E7%A9%BF%E4%B8%BA%E6%95%AC"
       },
       {
         "rank": 2,
-        "title": "马刺险胜独行侠",
-        "heat": "1042万🔥",
-        "heat_raw": 10427411,
+        "title": "路漫漫终有归处",
+        "heat": "1022万🔥",
+        "heat_raw": 10227681,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%A9%AC%E5%88%BA%E9%99%A9%E8%83%9C%E7%8B%AC%E8%A1%8C%E4%BE%A0"
+        "url": "https://www.douyin.com/search/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E7%BB%88%E6%9C%89%E5%BD%92%E5%A4%84"
       },
       {
         "rank": 3,
-        "title": "森林狼力克火箭",
-        "heat": "917万🔥",
-        "heat_raw": 9176169,
+        "title": "范争一无缘国锦赛决赛",
+        "heat": "866万🔥",
+        "heat_raw": 8662369,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%A3%AE%E6%9E%97%E7%8B%BC%E5%8A%9B%E5%85%8B%E7%81%AB%E7%AE%AD"
+        "url": "https://www.douyin.com/search/%E8%8C%83%E4%BA%89%E4%B8%80%E6%97%A0%E7%BC%98%E5%9B%BD%E9%94%A6%E8%B5%9B%E5%86%B3%E8%B5%9B"
       },
       {
         "rank": 4,
-        "title": "Chovy：今年的我确实有些不一样",
-        "heat": "834万🔥",
-        "heat_raw": 8342452,
-        "platform": "抖音",
-        "url": "https://www.douyin.com/search/Chovy%EF%BC%9A%E4%BB%8A%E5%B9%B4%E7%9A%84%E6%88%91%E7%A1%AE%E5%AE%9E%E6%9C%89%E4%BA%9B%E4%B8%8D%E4%B8%80%E6%A0%B7"
+        "title": "存款利率拐点来了？有储户果断存500万",
+        "heat": "780万🔥",
+        "heat_raw": 7808752,
+        "platform": "百度",
+        "url": "https://www.baidu.com/s?wd=%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87%E6%8B%90%E7%82%B9%E6%9D%A5%E4%BA%86%EF%BC%9F%E6%9C%89%E5%82%A8%E6%88%B7%E6%9E%9C%E6%96%AD%E5%AD%98500%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 5,
-        "title": "假装没关系转身后眼泪就决堤",
-        "heat": "793万🔥",
-        "heat_raw": 7930825,
+        "title": "美股大跌特朗普甩锅民主党",
+        "heat": "777万🔥",
+        "heat_raw": 7776628,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%81%87%E8%A3%85%E6%B2%A1%E5%85%B3%E7%B3%BB%E8%BD%AC%E8%BA%AB%E5%90%8E%E7%9C%BC%E6%B3%AA%E5%B0%B1%E5%86%B3%E5%A0%A4"
+        "url": "https://www.douyin.com/search/%E7%BE%8E%E8%82%A1%E5%A4%A7%E8%B7%8C%E7%89%B9%E6%9C%97%E6%99%AE%E7%94%A9%E9%94%85%E6%B0%91%E4%B8%BB%E5%85%9A"
       },
       {
         "rank": 6,
-        "title": "毛茸茸的青稚有脾气",
+        "title": "今天是太阳雨开播",
         "heat": "776万🔥",
-        "heat_raw": 7765000,
+        "heat_raw": 7766756,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%AF%9B%E8%8C%B8%E8%8C%B8%E7%9A%84%E9%9D%92%E7%A8%9A%E6%9C%89%E8%84%BE%E6%B0%94"
+        "url": "https://www.douyin.com/search/%E4%BB%8A%E5%A4%A9%E6%98%AF%E5%A4%AA%E9%98%B3%E9%9B%A8%E5%BC%80%E6%92%AD"
       },
       {
         "rank": 7,
-        "title": "三角洲新赛季的n种打法",
-        "heat": "773万🔥",
-        "heat_raw": 7739227,
+        "title": "冬将至 我与你",
+        "heat": "774万🔥",
+        "heat_raw": 7745757,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E4%B8%89%E8%A7%92%E6%B4%B2%E6%96%B0%E8%B5%9B%E5%AD%A3%E7%9A%84n%E7%A7%8D%E6%89%93%E6%B3%95"
+        "url": "https://www.douyin.com/search/%E5%86%AC%E5%B0%86%E8%87%B3%20%E6%88%91%E4%B8%8E%E4%BD%A0"
       },
       {
         "rank": 8,
-        "title": "我家门口新开了一朵茉莉",
-        "heat": "772万🔥",
-        "heat_raw": 7720706,
+        "title": "肱二头肌比心模仿挑战",
+        "heat": "773万🔥",
+        "heat_raw": 7735728,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%88%91%E5%AE%B6%E9%97%A8%E5%8F%A3%E6%96%B0%E5%BC%80%E4%BA%86%E4%B8%80%E6%9C%B5%E8%8C%89%E8%8E%89"
+        "url": "https://www.douyin.com/search/%E8%82%B1%E4%BA%8C%E5%A4%B4%E8%82%8C%E6%AF%94%E5%BF%83%E6%A8%A1%E4%BB%BF%E6%8C%91%E6%88%98"
       },
       {
         "rank": 9,
-        "title": "999感冒灵被夸“有眼光”",
+        "title": "人都判缓刑了 还在住建局正常上班",
         "heat": "752万🔥",
-        "heat_raw": 7524344,
+        "heat_raw": 7520587,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=999%E6%84%9F%E5%86%92%E7%81%B5%E8%A2%AB%E5%A4%B8%E2%80%9C%E6%9C%89%E7%9C%BC%E5%85%89%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E9%83%BD%E5%88%A4%E7%BC%93%E5%88%91%E4%BA%86+%E8%BF%98%E5%9C%A8%E4%BD%8F%E5%BB%BA%E5%B1%80%E6%AD%A3%E5%B8%B8%E4%B8%8A%E7%8F%AD&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 10,
-        "title": "糖葫芦的名字比咒语还长",
-        "heat": "695万🔥",
-        "heat_raw": 6952870,
+        "title": "创业板指跌近4% 全市场超4700股下跌",
+        "heat": "723万🔥",
+        "heat_raw": 7235897,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%B3%96%E8%91%AB%E8%8A%A6%E7%9A%84%E5%90%8D%E5%AD%97%E6%AF%94%E5%92%92%E8%AF%AD%E8%BF%98%E9%95%BF&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%8C%87%E8%B7%8C%E8%BF%914%25+%E5%85%A8%E5%B8%82%E5%9C%BA%E8%B6%854700%E8%82%A1%E4%B8%8B%E8%B7%8C&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 11,
-        "title": "炖肉时出现的浮沫该不该撇",
-        "heat": "665万🔥",
-        "heat_raw": 6657192,
+        "title": "为啥身上总搓泥 洗完澡还能搓出一堆",
+        "heat": "676万🔥",
+        "heat_raw": 6763592,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%82%96%E8%82%89%E6%97%B6%E5%87%BA%E7%8E%B0%E7%9A%84%E6%B5%AE%E6%B2%AB%E8%AF%A5%E4%B8%8D%E8%AF%A5%E6%92%87&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E4%B8%BA%E5%95%A5%E8%BA%AB%E4%B8%8A%E6%80%BB%E6%90%93%E6%B3%A5+%E6%B4%97%E5%AE%8C%E6%BE%A1%E8%BF%98%E8%83%BD%E6%90%93%E5%87%BA%E4%B8%80%E5%A0%86&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 12,
-        "title": "红果短剧迎来新对手",
-        "heat": "637万🔥",
-        "heat_raw": 6371007,
+        "title": "无薪跟岗 教师招聘不带这么羞辱人的",
+        "heat": "636万🔥",
+        "heat_raw": 6367331,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%E8%BF%8E%E6%9D%A5%E6%96%B0%E5%AF%B9%E6%89%8B&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E6%97%A0%E8%96%AA%E8%B7%9F%E5%B2%97+%E6%95%99%E5%B8%88%E6%8B%9B%E8%81%98%E4%B8%8D%E5%B8%A6%E8%BF%99%E4%B9%88%E7%BE%9E%E8%BE%B1%E4%BA%BA%E7%9A%84&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 13,
-        "title": "芒果TV崩了",
-        "heat": "599万🔥",
-        "heat_raw": 5995881,
+        "title": "孙俪晒邓超五哈嘉年华后状态",
+        "heat": "598万🔥",
+        "heat_raw": 5989733,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E8%8A%92%E6%9E%9CTV%E5%B4%A9%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E5%AD%99%E4%BF%AA%E6%99%92%E9%82%93%E8%B6%85%E4%BA%94%E5%93%88%E5%98%89%E5%B9%B4%E5%8D%8E%E5%90%8E%E7%8A%B6%E6%80%81&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 14,
-        "title": "中国人最喜欢用的十大PC应用出炉",
+        "title": "美国股市为何暴跌",
         "heat": "560万🔥",
-        "heat_raw": 5604406,
+        "heat_raw": 5602289,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%9C%80%E5%96%9C%E6%AC%A2%E7%94%A8%E7%9A%84%E5%8D%81%E5%A4%A7PC%E5%BA%94%E7%94%A8%E5%87%BA%E7%82%89&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E8%82%A1%E5%B8%82%E4%B8%BA%E4%BD%95%E6%9A%B4%E8%B7%8C&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 15,
-        "title": "应聘医院岗位被要求“上交袜子”",
-        "heat": "513万🔥",
-        "heat_raw": 5135039,
+        "title": "被蛇缠脚 一个“闪身步”踩住蛇头",
+        "heat": "523万🔥",
+        "heat_raw": 5232655,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%BA%94%E8%81%98%E5%8C%BB%E9%99%A2%E5%B2%97%E4%BD%8D%E8%A2%AB%E8%A6%81%E6%B1%82%E2%80%9C%E4%B8%8A%E4%BA%A4%E8%A2%9C%E5%AD%90%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E8%A2%AB%E8%9B%87%E7%BC%A0%E8%84%9A+%E4%B8%80%E4%B8%AA%E2%80%9C%E9%97%AA%E8%BA%AB%E6%AD%A5%E2%80%9D%E8%B8%A9%E4%BD%8F%E8%9B%87%E5%A4%B4&sa=fyb_news&rsv_dl=fyb_news"
       }
     ],
     "e_edu": [
       {
         "rank": 1,
-        "title": "读懂31省份三季报三大看点",
-        "heat": "1106万🔥",
-        "heat_raw": 11065295,
+        "title": "进博会里的十五五脚步",
+        "heat": "1102万🔥",
+        "heat_raw": 11021351,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E8%AF%BB%E6%87%8231%E7%9C%81%E4%BB%BD%E4%B8%89%E5%AD%A3%E6%8A%A5%E4%B8%89%E5%A4%A7%E7%9C%8B%E7%82%B9"
+        "url": "https://www.douyin.com/search/%E8%BF%9B%E5%8D%9A%E4%BC%9A%E9%87%8C%E7%9A%84%E5%8D%81%E4%BA%94%E4%BA%94%E8%84%9A%E6%AD%A5"
       },
       {
         "rank": 2,
-        "title": "福建舰电磁弹射实战价值解析",
-        "heat": "926万🔥",
-        "heat_raw": 9268954,
+        "title": "库里升至历史得分榜第17位",
+        "heat": "905万🔥",
+        "heat_raw": 9057192,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%A6%8F%E5%BB%BA%E8%88%B0%E7%94%B5%E7%A3%81%E5%BC%B9%E5%B0%84%E5%AE%9E%E6%88%98%E4%BB%B7%E5%80%BC%E8%A7%A3%E6%9E%90"
+        "url": "https://www.douyin.com/search/%E5%BA%93%E9%87%8C%E5%8D%87%E8%87%B3%E5%8E%86%E5%8F%B2%E5%BE%97%E5%88%86%E6%A6%9C%E7%AC%AC17%E4%BD%8D"
       },
       {
         "rank": 3,
-        "title": "朗斯1:9不敌科莫",
-        "heat": "916万🔥",
-        "heat_raw": 9161860,
+        "title": "反跨境腐败法表决通过",
+        "heat": "849万🔥",
+        "heat_raw": 8492684,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%9C%97%E6%96%AF1%3A9%E4%B8%8D%E6%95%8C%E7%A7%91%E8%8E%AB"
+        "url": "https://www.douyin.com/search/%E5%8F%8D%E8%B7%A8%E5%A2%83%E8%85%90%E8%B4%A5%E6%B3%95%E8%A1%A8%E5%86%B3%E9%80%9A%E8%BF%87"
       },
       {
         "rank": 4,
-        "title": "76人战胜活塞迎五连胜",
-        "heat": "830万🔥",
-        "heat_raw": 8302957,
+        "title": "甲亢哥含泪弹琴致敬C罗",
+        "heat": "778万🔥",
+        "heat_raw": 7785998,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/76%E4%BA%BA%E6%88%98%E8%83%9C%E6%B4%BB%E5%A1%9E%E8%BF%8E%E4%BA%94%E8%BF%9E%E8%83%9C"
+        "url": "https://www.douyin.com/search/%E7%94%B2%E4%BA%A2%E5%93%A5%E5%90%AB%E6%B3%AA%E5%BC%B9%E7%90%B4%E8%87%B4%E6%95%ACC%E7%BD%97"
       },
       {
         "rank": 5,
-        "title": "谁懂影之刃零中华武术的含金量",
-        "heat": "784万🔥",
-        "heat_raw": 7845380,
+        "title": "后会友期第四期看点",
+        "heat": "777万🔥",
+        "heat_raw": 7775232,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E8%B0%81%E6%87%82%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6%E4%B8%AD%E5%8D%8E%E6%AD%A6%E6%9C%AF%E7%9A%84%E5%90%AB%E9%87%91%E9%87%8F"
+        "url": "https://www.douyin.com/search/%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E7%AC%AC%E5%9B%9B%E6%9C%9F%E7%9C%8B%E7%82%B9"
       },
       {
         "rank": 6,
-        "title": "我的第五人格磷光症手记",
-        "heat": "775万🔥",
-        "heat_raw": 7755550,
+        "title": "C罗告别信：交还7号的时候到了",
+        "heat": "776万🔥",
+        "heat_raw": 7765634,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%94%E4%BA%BA%E6%A0%BC%E7%A3%B7%E5%85%89%E7%97%87%E6%89%8B%E8%AE%B0"
+        "url": "https://www.douyin.com/search/C%E7%BD%97%E5%91%8A%E5%88%AB%E4%BF%A1%EF%BC%9A%E4%BA%A4%E8%BF%987%E5%8F%B7%E7%9A%84%E6%97%B6%E5%80%99%E5%88%B0%E4%BA%86"
       },
       {
         "rank": 7,
-        "title": "厉娜剪了个新短发",
-        "heat": "773万🔥",
-        "heat_raw": 7738159,
+        "title": "隔岸手势舞挑战",
+        "heat": "774万🔥",
+        "heat_raw": 7744993,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%8E%89%E5%A8%9C%E5%89%AA%E4%BA%86%E4%B8%AA%E6%96%B0%E7%9F%AD%E5%8F%91"
+        "url": "https://www.douyin.com/search/%E9%9A%94%E5%B2%B8%E6%89%8B%E5%8A%BF%E8%88%9E%E6%8C%91%E6%88%98"
       },
       {
         "rank": 8,
-        "title": "这一支舞我只为你一个人跳",
-        "heat": "771万🔥",
-        "heat_raw": 7714792,
+        "title": "考古许飞的采访太好品了",
+        "heat": "773万🔥",
+        "heat_raw": 7732021,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E8%BF%99%E4%B8%80%E6%94%AF%E8%88%9E%E6%88%91%E5%8F%AA%E4%B8%BA%E4%BD%A0%E4%B8%80%E4%B8%AA%E4%BA%BA%E8%B7%B3"
+        "url": "https://www.douyin.com/search/%E8%80%83%E5%8F%A4%E8%AE%B8%E9%A3%9E%E7%9A%84%E9%87%87%E8%AE%BF%E5%A4%AA%E5%A5%BD%E5%93%81%E4%BA%86"
       },
       {
         "rank": 9,
-        "title": "黄之锋再获刑10年",
+        "title": "涨至26万一只 谁在抢实验猴",
         "heat": "742万🔥",
-        "heat_raw": 7428917,
+        "heat_raw": 7426187,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%BB%84%E4%B9%8B%E9%94%8B%E5%86%8D%E8%8E%B7%E5%88%9110%E5%B9%B4&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E6%B6%A8%E8%87%B326%E4%B8%87%E4%B8%80%E5%8F%AA+%E8%B0%81%E5%9C%A8%E6%8A%A2%E5%AE%9E%E9%AA%8C%E7%8C%B4&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 10,
-        "title": "“短剧一姐”李柯以聊AI冲击",
-        "heat": "733万🔥",
-        "heat_raw": 7333232,
+        "title": "第一个拒绝吴磊拥抱的人出现了",
+        "heat": "704万🔥",
+        "heat_raw": 7045818,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E7%9F%AD%E5%89%A7%E4%B8%80%E5%A7%90%E2%80%9D%E6%9D%8E%E6%9F%AF%E4%BB%A5%E8%81%8AAI%E5%86%B2%E5%87%BB&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%8B%92%E7%BB%9D%E5%90%B4%E7%A3%8A%E6%8B%A5%E6%8A%B1%E7%9A%84%E4%BA%BA%E5%87%BA%E7%8E%B0%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 11,
-        "title": "《嫁金钗》忘删AI水印背后的真问题",
-        "heat": "704万🔥",
-        "heat_raw": 7046711,
+        "title": "两人共谋性侵11岁女童 其中一人13岁",
+        "heat": "665万🔥",
+        "heat_raw": 6656143,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E3%80%8A%E5%AB%81%E9%87%91%E9%92%97%E3%80%8B%E5%BF%98%E5%88%A0AI%E6%B0%B4%E5%8D%B0%E8%83%8C%E5%90%8E%E7%9A%84%E7%9C%9F%E9%97%AE%E9%A2%98&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E4%B8%A4%E4%BA%BA%E5%85%B1%E8%B0%8B%E6%80%A7%E4%BE%B511%E5%B2%81%E5%A5%B3%E7%AB%A5+%E5%85%B6%E4%B8%AD%E4%B8%80%E4%BA%BA13%E5%B2%81&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 12,
-        "title": "黄渤谈父母患老年痴呆",
+        "title": "南京“零元面馆”爆火",
         "heat": "628万🔥",
-        "heat_raw": 6287241,
+        "heat_raw": 6280649,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E9%BB%84%E6%B8%A4%E8%B0%88%E7%88%B6%E6%AF%8D%E6%82%A3%E8%80%81%E5%B9%B4%E7%97%B4%E5%91%86&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E5%8D%97%E4%BA%AC%E2%80%9C%E9%9B%B6%E5%85%83%E9%9D%A2%E9%A6%86%E2%80%9D%E7%88%86%E7%81%AB&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 13,
-        "title": "美国中期选举共和党败选引发震动",
-        "heat": "589万🔥",
-        "heat_raw": 5892662,
+        "title": "2026内娱最贵的两个字叫“厉娜”",
+        "heat": "588万🔥",
+        "heat_raw": 5887031,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%E5%85%B1%E5%92%8C%E5%85%9A%E8%B4%A5%E9%80%89%E5%BC%95%E5%8F%91%E9%9C%87%E5%8A%A8&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=2026%E5%86%85%E5%A8%B1%E6%9C%80%E8%B4%B5%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%AD%97%E5%8F%AB%E2%80%9C%E5%8E%89%E5%A8%9C%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 14,
-        "title": "大金镯子早买几天省出一部手机",
-        "heat": "550万🔥",
-        "heat_raw": 5509970,
+        "title": "BLG3比0横扫DK晋级半决赛",
+        "heat": "552万🔥",
+        "heat_raw": 5526842,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E9%87%91%E9%95%AF%E5%AD%90%E6%97%A9%E4%B9%B0%E5%87%A0%E5%A4%A9%E7%9C%81%E5%87%BA%E4%B8%80%E9%83%A8%E6%89%8B%E6%9C%BA&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=BLG3%E6%AF%940%E6%A8%AA%E6%89%ABDK%E6%99%8B%E7%BA%A7%E5%8D%8A%E5%86%B3%E8%B5%9B&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 15,
-        "title": "把手机掉在沙漠 一个月后失而复得",
-        "heat": "524万🔥",
-        "heat_raw": 5241860,
+        "title": "10元快剪店下午三点半后不剪女发",
+        "heat": "514万🔥",
+        "heat_raw": 5146374,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%8A%8A%E6%89%8B%E6%9C%BA%E6%8E%89%E5%9C%A8%E6%B2%99%E6%BC%A0+%E4%B8%80%E4%B8%AA%E6%9C%88%E5%90%8E%E5%A4%B1%E8%80%8C%E5%A4%8D%E5%BE%97&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=10%E5%85%83%E5%BF%AB%E5%89%AA%E5%BA%97%E4%B8%8B%E5%8D%88%E4%B8%89%E7%82%B9%E5%8D%8A%E5%90%8E%E4%B8%8D%E5%89%AA%E5%A5%B3%E5%8F%91&sa=fyb_news&rsv_dl=fyb_news"
       }
     ],
     "books": [
       {
         "rank": 1,
-        "title": "马兴瑞被提起公诉",
-        "heat": "1105万🔥",
-        "heat_raw": 11058449,
+        "title": "东风61已列装火箭军常态参训",
+        "heat": "1082万🔥",
+        "heat_raw": 10822667,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E9%A9%AC%E5%85%B4%E7%91%9E%E8%A2%AB%E6%8F%90%E8%B5%B7%E5%85%AC%E8%AF%89"
+        "url": "https://www.douyin.com/search/%E4%B8%9C%E9%A3%8E61%E5%B7%B2%E5%88%97%E8%A3%85%E7%81%AB%E7%AE%AD%E5%86%9B%E5%B8%B8%E6%80%81%E5%8F%82%E8%AE%AD"
       },
       {
         "rank": 2,
-        "title": "盘点影响2027经济走向的大事件",
-        "heat": "924万🔥",
-        "heat_raw": 9247509,
+        "title": "陕西商南命案嫌犯已死亡",
+        "heat": "882万🔥",
+        "heat_raw": 8825189,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%9B%98%E7%82%B9%E5%BD%B1%E5%93%8D2027%E7%BB%8F%E6%B5%8E%E8%B5%B0%E5%90%91%E7%9A%84%E5%A4%A7%E4%BA%8B%E4%BB%B6"
+        "url": "https://www.douyin.com/search/%E9%99%95%E8%A5%BF%E5%95%86%E5%8D%97%E5%91%BD%E6%A1%88%E5%AB%8C%E7%8A%AF%E5%B7%B2%E6%AD%BB%E4%BA%A1"
       },
       {
         "rank": 3,
-        "title": "常冰玉胜赵心童晋级国锦赛四强",
-        "heat": "914万🔥",
-        "heat_raw": 9142940,
+        "title": "江苏多地高中推迟到校时间",
+        "heat": "821万🔥",
+        "heat_raw": 8218556,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%B8%B8%E5%86%B0%E7%8E%89%E8%83%9C%E8%B5%B5%E5%BF%83%E7%AB%A5%E6%99%8B%E7%BA%A7%E5%9B%BD%E9%94%A6%E8%B5%9B%E5%9B%9B%E5%BC%BA"
+        "url": "https://www.douyin.com/search/%E6%B1%9F%E8%8B%8F%E5%A4%9A%E5%9C%B0%E9%AB%98%E4%B8%AD%E6%8E%A8%E8%BF%9F%E5%88%B0%E6%A0%A1%E6%97%B6%E9%97%B4"
       },
       {
         "rank": 4,
-        "title": "吴磊一天骑行100公里",
-        "heat": "824万🔥",
-        "heat_raw": 8248460,
+        "title": "向C罗和我的青春说再见",
+        "heat": "778万🔥",
+        "heat_raw": 7784873,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%90%B4%E7%A3%8A%E4%B8%80%E5%A4%A9%E9%AA%91%E8%A1%8C100%E5%85%AC%E9%87%8C"
+        "url": "https://www.douyin.com/search/%E5%90%91C%E7%BD%97%E5%92%8C%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E8%AF%B4%E5%86%8D%E8%A7%81"
       },
       {
         "rank": 5,
-        "title": "厕所偷拍者不乏高知人群、公司高管",
-        "heat": "780万🔥",
-        "heat_raw": 7809612,
-        "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%8E%95%E6%89%80%E5%81%B7%E6%8B%8D%E8%80%85%E4%B8%8D%E4%B9%8F%E9%AB%98%E7%9F%A5%E4%BA%BA%E7%BE%A4%E3%80%81%E5%85%AC%E5%8F%B8%E9%AB%98%E7%AE%A1&sa=fyb_news&rsv_dl=fyb_news"
+        "title": "姐感穿搭法则",
+        "heat": "777万🔥",
+        "heat_raw": 7773115,
+        "platform": "抖音",
+        "url": "https://www.douyin.com/search/%E5%A7%90%E6%84%9F%E7%A9%BF%E6%90%AD%E6%B3%95%E5%88%99"
       },
       {
         "rank": 6,
-        "title": "克莱30分8记三分准绝杀快船",
-        "heat": "774万🔥",
-        "heat_raw": 7740411,
+        "title": "贺炜发文致敬C罗国家队生涯",
+        "heat": "775万🔥",
+        "heat_raw": 7752045,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E5%85%8B%E8%8E%B130%E5%88%868%E8%AE%B0%E4%B8%89%E5%88%86%E5%87%86%E7%BB%9D%E6%9D%80%E5%BF%AB%E8%88%B9"
+        "url": "https://www.douyin.com/search/%E8%B4%BA%E7%82%9C%E5%8F%91%E6%96%87%E8%87%B4%E6%95%ACC%E7%BD%97%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%94%9F%E6%B6%AF"
       },
       {
         "rank": 7,
-        "title": "电视剧谷雨今日开播",
-        "heat": "772万🔥",
-        "heat_raw": 7725225,
+        "title": "深度复盘BLG战胜DK",
+        "heat": "774万🔥",
+        "heat_raw": 7743647,
         "platform": "抖音",
-        "url": "https://www.douyin.com/search/%E7%94%B5%E8%A7%86%E5%89%A7%E8%B0%B7%E9%9B%A8%E4%BB%8A%E6%97%A5%E5%BC%80%E6%92%AD"
+        "url": "https://www.douyin.com/search/%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98BLG%E6%88%98%E8%83%9CDK"
       },
       {
         "rank": 8,
-        "title": "38岁男子被骗到缅甸因太老卖不掉",
+        "title": "平板电脑卖不动了",
         "heat": "771万🔥",
-        "heat_raw": 7713568,
+        "heat_raw": 7714350,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=38%E5%B2%81%E7%94%B7%E5%AD%90%E8%A2%AB%E9%AA%97%E5%88%B0%E7%BC%85%E7%94%B8%E5%9B%A0%E5%A4%AA%E8%80%81%E5%8D%96%E4%B8%8D%E6%8E%89&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%84%91%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 9,
-        "title": "A股收盘：全市场超4800只个股上涨",
-        "heat": "723万🔥",
-        "heat_raw": 7231475,
+        "title": "警方通报：致3死2伤案嫌疑人自杀身亡",
+        "heat": "733万🔥",
+        "heat_raw": 7332121,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E5%85%A8%E5%B8%82%E5%9C%BA%E8%B6%854800%E5%8F%AA%E4%B8%AA%E8%82%A1%E4%B8%8A%E6%B6%A8&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%EF%BC%9A%E8%87%B43%E6%AD%BB2%E4%BC%A4%E6%A1%88%E5%AB%8C%E7%96%91%E4%BA%BA%E8%87%AA%E6%9D%80%E8%BA%AB%E4%BA%A1&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 10,
-        "title": "流量诚可贵守法价更高",
-        "heat": "684万🔥",
-        "heat_raw": 6847350,
+        "title": "年轻人最强嘴替是一位中年大叔",
+        "heat": "694万🔥",
+        "heat_raw": 6946053,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%B5%81%E9%87%8F%E8%AF%9A%E5%8F%AF%E8%B4%B5%E5%AE%88%E6%B3%95%E4%BB%B7%E6%9B%B4%E9%AB%98&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%9C%80%E5%BC%BA%E5%98%B4%E6%9B%BF%E6%98%AF%E4%B8%80%E4%BD%8D%E4%B8%AD%E5%B9%B4%E5%A4%A7%E5%8F%94&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 11,
-        "title": "女厕偷拍者中有女性甚至夫妻",
-        "heat": "656万🔥",
-        "heat_raw": 6569988,
+        "title": "下馆子后特别渴 是味精鸡精造成的吗",
+        "heat": "657万🔥",
+        "heat_raw": 6571328,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%8E%95%E5%81%B7%E6%8B%8D%E8%80%85%E4%B8%AD%E6%9C%89%E5%A5%B3%E6%80%A7%E7%94%9A%E8%87%B3%E5%A4%AB%E5%A6%BB&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E4%B8%8B%E9%A6%86%E5%AD%90%E5%90%8E%E7%89%B9%E5%88%AB%E6%B8%B4+%E6%98%AF%E5%91%B3%E7%B2%BE%E9%B8%A1%E7%B2%BE%E9%80%A0%E6%88%90%E7%9A%84%E5%90%97&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 12,
-        "title": "妻子受伤难自理 丈夫两次起诉要离婚",
-        "heat": "617万🔥",
-        "heat_raw": 6179182,
+        "title": "一天什么时间喝牛奶最好",
+        "heat": "618万🔥",
+        "heat_raw": 6180252,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E5%A6%BB%E5%AD%90%E5%8F%97%E4%BC%A4%E9%9A%BE%E8%87%AA%E7%90%86+%E4%B8%88%E5%A4%AB%E4%B8%A4%E6%AC%A1%E8%B5%B7%E8%AF%89%E8%A6%81%E7%A6%BB%E5%A9%9A&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E4%B8%80%E5%A4%A9%E4%BB%80%E4%B9%88%E6%97%B6%E9%97%B4%E5%96%9D%E7%89%9B%E5%A5%B6%E6%9C%80%E5%A5%BD&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 13,
-        "title": "沃尔沃XC70落地不到20万",
-        "heat": "579万🔥",
-        "heat_raw": 5797854,
+        "title": "老人花17570元配眼镜 家属退货遭拒",
+        "heat": "580万🔥",
+        "heat_raw": 5800141,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E6%B2%83%E5%B0%94%E6%B2%83XC70%E8%90%BD%E5%9C%B0%E4%B8%8D%E5%88%B020%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E8%8A%B117570%E5%85%83%E9%85%8D%E7%9C%BC%E9%95%9C+%E5%AE%B6%E5%B1%9E%E9%80%80%E8%B4%A7%E9%81%AD%E6%8B%92&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 14,
-        "title": "男子花光积蓄买7斤黄金亏了114万",
-        "heat": "540万🔥",
-        "heat_raw": 5407020,
+        "title": "喜欢看别人上厕所的人是什么心理",
+        "heat": "542万🔥",
+        "heat_raw": 5426608,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%8A%B1%E5%85%89%E7%A7%AF%E8%93%84%E4%B9%B07%E6%96%A4%E9%BB%84%E9%87%91%E4%BA%8F%E4%BA%86114%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=%E5%96%9C%E6%AC%A2%E7%9C%8B%E5%88%AB%E4%BA%BA%E4%B8%8A%E5%8E%95%E6%89%80%E7%9A%84%E4%BA%BA%E6%98%AF%E4%BB%80%E4%B9%88%E5%BF%83%E7%90%86&sa=fyb_news&rsv_dl=fyb_news"
       },
       {
         "rank": 15,
-        "title": "王菲一阵《季候风》把全网吹回老歌时代",
-        "heat": "504万🔥",
-        "heat_raw": 5047181,
+        "title": "Zeus：Bin用了我的皮肤",
+        "heat": "503万🔥",
+        "heat_raw": 5037004,
         "platform": "百度",
-        "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E8%8F%B2%E4%B8%80%E9%98%B5%E3%80%8A%E5%AD%A3%E5%80%99%E9%A3%8E%E3%80%8B%E6%8A%8A%E5%85%A8%E7%BD%91%E5%90%B9%E5%9B%9E%E8%80%81%E6%AD%8C%E6%97%B6%E4%BB%A3&sa=fyb_news&rsv_dl=fyb_news"
+        "url": "https://www.baidu.com/s?wd=Zeus%EF%BC%9ABin%E7%94%A8%E4%BA%86%E6%88%91%E7%9A%84%E7%9A%AE%E8%82%A4&sa=fyb_news&rsv_dl=fyb_news"
       }
     ]
   },
